@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./temp.css";
 
 function WebDesignBanner() {
@@ -33,11 +34,20 @@ function WebDesignBanner() {
           enhance your existing skills, this course is tailored to meet your
           aspirations.
         </p>
-        <div className="course-btn">
+        {/* <div className="course-btn">
           <a className="btn-get-started" href="/web-design-course">
             <span>Register Now</span>
             <i className="bi bi-arrow-right mx-2"></i>
           </a>
+        </div> */}
+        <div className="text-center text-lg-start">
+          <Link
+            to="/web-design-course"
+            className="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center"
+          >
+            <span>Register Now</span>
+            <i className="bi bi-arrow-right ml-2 " />
+          </Link>
         </div>
       </div>
     </div>

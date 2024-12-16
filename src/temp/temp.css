@@ -122,10 +122,10 @@
   .hero-description {
     font-size: 1rem;
   }
-  .btn-get-started {
+  /* .btn-get-started {
     padding: 0.6rem 1rem;
     font-size: 0.9rem;
-  }
+  } */
 }
 
 /* Responsive adjustments for small screens */
@@ -163,8 +163,8 @@
     font-size: 0.9rem;
   }
 
-  .btn-get-started {
+  /* .btn-get-started {
     padding: 0.5rem 0.8rem;
     font-size: 0.8rem;
-  }
+  } */
 }

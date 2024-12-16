@@ -9,7 +9,7 @@ const formatDate = (date) => {
     .replace(/\//g, "/");
 };
 
-const CertificatePage = ({ certificateData }) => {
+const CertificatePage = ({ certificateData, studentData }) => {
   const printRef = useRef(null);
   const reactToPrintFn = useReactToPrint({ contentRef: printRef });
 
@@ -20,8 +20,8 @@ const CertificatePage = ({ certificateData }) => {
   };
   return (
     <div
-      className="d-flex justify-content-center align-items-center"
-      style={{ padding: "0px 5rem", flexDirection: "column" }}
+      className="d-flex justify-content-center align-items-center mx-auto"
+      style={{ padding: "0px 5rem", flexDirection: "column", width: "80%" }}
     >
       <div className="d-flex justify-content-center py-4 align-items-center">
         <button
@@ -34,89 +34,101 @@ const CertificatePage = ({ certificateData }) => {
 
       <div
         ref={printRef}
-        className="d-flex flex-column  justify-content-between"
-        style={{ border: "1px solid gray", padding: "1rem", height: "auto" }}
+        className="d-flex flex-column justify-content-between"
+        style={{ border: "1px solid gray", padding: "2rem", height: "auto" }}
       >
-        {/* Header Image */}
-        <div>
-          <img
-            src={"/certificate-header.png"}
-            alt="Certificate Header"
-            className="w-100"
-            style={{ height: "16rem" }}
-          />
+        {/* Header Section */}
+        <div className="d-flex justify-content-between align-items-center mb-4">
+          {/* Logo */}
+          <div className="">
+            <img
+              src="/infoera.png"
+              alt="Company Logo"
+              style={{ height: "auto" }}
+            />
+            <div className="fs-4">
+              <h4 className="fw-bold fs-3 text-nowrap mb-1">
+                Info Era Software Services Pvt. Ltd.
+              </h4>
+              <p className="mb-1">ISO: 9001:2015, 27001:2013</p>
+              <p className="mb-1">CIN No: U72300BR20114PTC022956</p>
+              <p className="mb-1">Email: info@infoera.in</p>
+              <p className="mb-0">Website: www.infoera.in</p>
+            </div>
+          </div>
+
+          {/* Header Image */}
+          <div className="w-100 h-100">
+            <img
+              src="/certificate-header.png"
+              alt="Certificate Header"
+              style={{
+                width: "100%",
+                height: "100%",
+                margin: "0",
+                padding: "0",
+              }}
+            />
+          </div>
         </div>
 
         {/* Main Content */}
-        <div className="text-center" style={{ marginTop: "-3rem" }}>
+        <div className="text-center" style={{ marginTop: "-1rem" }}>
           <div className="mb-4">
-            <div className="d-flex justify-content-center mb-2">
-              <img
-                src={"/infoera.png"}
-                alt="Company Logo"
-                style={{ width: "20rem", height: "auto" }}
-              />
-            </div>
-            <h4 className="mt-n3 display-6 font-weight-bold">
-              Info Era Software Services Pvt. Ltd.
-            </h4>
+            <h3 className="fs-2 fw-bold">To Whom It May Concern</h3>
+          </div>
+          <div className="mb-4">
+            <h1 className=" fw-bold">CERTIFICATE OF COMPLETION</h1>
           </div>
 
-          <div className="mb-4">
-            <h1 className="display-4 font-weight-bold">CERTIFICATE</h1>
-            <h2 className="display-6">OF COMPLETION</h2>
+          <div className="text-justify mb-0 px-5">
+            <p className="fs-4 p-0 m-0">
+              This certificate is proudly awarded to{" "}
+              <b>{certificateData.studentName}</b> for the completion of the{" "}
+              <b>{certificateData.projectName}</b> on{" "}
+              <b>{studentData.trainingTopic}</b> with Info Era Software Services
+              Pvt. Ltd.
+            </p>
           </div>
 
-          <div className="mb-4">
-            <h3 className="display-6 font-weight-semibold">
-              To Whom It May Concern
-            </h3>
-          </div>
-
-          <div className="mb-4">
-            <p className="fs-3">
-              This is to certify that <b>{certificateData.studentName}</b>, a
-              student of <b>{certificateData.course}</b> Final Year from{" "}
-              <b>{certificateData.collegeName}</b>, has successfully completed
-              their internship at <b>Info Era Software Services Pvt. Ltd.</b>{" "}
-              Patna from <b>{formatDate(certificateData.fromDate)}</b> to{" "}
+          <div className="text-justify mb-0 px-5">
+            <p className="fs-4 m-0 mb-1 p-0 ">
+              We Congratulate you for your outstanding performance in this
+              training program, conducted from{" "}
+              <b>{formatDate(certificateData.fromDate)}</b> to{" "}
               <b>{formatDate(certificateData.toDate)}</b>.
             </p>
           </div>
 
-          <div className="mb-4">
-            <p className="fs-3">
-              This work entitled <b>{certificateData.projectName}</b> done by{" "}
-              <b>{certificateData.studentName}</b> was completed with excellent
-              conduct and performance.
+          <div className="text-justify mb-0 px-5">
+            <p className="fs-4 ">
+              During this period, the training undertaken by{" "}
+              <b>{certificateData.studentName}</b> was evaluated as excellent.
             </p>
           </div>
 
-          <div className="mb-4">
-            <p className="fs-3 font-italic">
-              &quot;We wish him all the best in his future endeavors&quot;
+          <div className="mb-0">
+            <p className="fs-4 font-italic">
+              &quot;We wish you all the best for your future endeavors&quot;
             </p>
-          </div>
-
-          <div className="mt-5">
-            <div className="d-flex justify-content-end">
-              <div className="w-50 border-top pt-2 text-center">
-                <h4 className="display-6">
-                  RAHUL RAJ
-                  <br />
-                  <span className="h5 font-weight-light">
-                    MANAGING DIRECTOR
-                  </span>
-                </h4>
-              </div>
-            </div>
           </div>
         </div>
 
-        {/* Footer Image */}
-        <div>
+        {/* Signature Section */}
+        <div className=" d-flex justify-content-start px-5">
+          <div className="w-50 border-top border-2 pt-2 text-center">
+            <h4 className="display-6">
+              RAHUL RAJ
+              <br />
+              <span className="h5 font-weight-light">MANAGING DIRECTOR</span>
+            </h4>
+          </div>
+        </div>
+
+        {/* Footer Section */}
+        <div className="mt-4">
           <img
-            src={"/certificate-footer.png"}
+            src="/certificate-footer.png"
             alt="Certificate Footer"
             className="w-100"
             style={{ height: "8rem" }}

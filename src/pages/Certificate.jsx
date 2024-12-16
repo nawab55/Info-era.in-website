@@ -1,9 +1,11 @@
 import { useState } from "react";
 import CertificatePage from "../components/CertificatePage";
+import toast from "react-hot-toast";
 
 function Certificate() {
   const [regNo, setRegNo] = useState("");
-  const [certificateData, setCerticateData] = useState("");
+  const [certificateData, setCertificateData] = useState("");
+  const [studentData, setStudentData] = useState("");
 
   async function getCertificate(e) {
     e.preventDefault();
@@ -16,9 +18,19 @@ function Certificate() {
       );
 
       const data = await res.json();
-      setCerticateData(data);
+      setCertificateData(data.data);
+      const studentRes = await fetch(
+        `${
+          import.meta.env.VITE_REACT_APP_BACKEND_BASEURL
+        }/api/student/get-student/${encodedRegNo}`
+      );
+      const studentData = await studentRes.json();
+      setStudentData(studentData.student);
+      toast.success("Certificate found successfully!");
     } catch (error) {
-      console.log(error);
+      toast.error("Certificate not Found for this Registration Number.");
+      console.error("Error fetching certificate", error);
+      setCertificateData(null);
     }
   }
 
@@ -90,7 +102,12 @@ function Certificate() {
         </div>
       </div>
 
-      {certificateData && <CertificatePage certificateData={certificateData} />}
+      {certificateData && (
+        <CertificatePage
+          certificateData={certificateData}
+          studentData={studentData}
+        />
+      )}
 
       <div className="container-fluid" style={{ marginTop: 40 }}>
         <div className="container">&nbsp;</div>
