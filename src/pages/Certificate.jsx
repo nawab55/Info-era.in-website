@@ -6,7 +6,6 @@ function Certificate() {
   const [regNo, setRegNo] = useState("");
   const [certificateData, setCertificateData] = useState("");
   const [studentData, setStudentData] = useState("");
-
   async function getCertificate(e) {
     e.preventDefault();
     try {
@@ -50,10 +49,10 @@ function Certificate() {
           </header>
           <div className="row">
             <div className="col-lg-12 d-flex flex-column justify-content-center bg">
-              <h3 style={{ color: "#0c219a", fontWeight: 700, fontSize: 50 }}>
+              {/* <h3 style={{ color: "#0c219a", fontWeight: 700, fontSize: 50 }}>
                 Certificate
                 <span style={{ color: "orange" }} />
-              </h3>
+              </h3> */}
             </div>
           </div>
         </div>
