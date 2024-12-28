@@ -1,8 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import toast from "react-hot-toast";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import uploadFile from "../lib/uploadFile";
 import Spinner from "../components/loader/Spinner";
+import axios from "axios";
 
 function Jobs() {
   const [jobData, setJobData] = useState({
@@ -25,14 +26,16 @@ function Jobs() {
   });
 
   const [jobs, setJobs] = useState([]);
-
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isLoadingJobs, setIsLoadingJobs] = useState(true);
   const [tempFile, setTempFile] = useState({
     file: null,
     fileType: null,
     fileName: null,
   });
 
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  const navigate = useNavigate();
+  const formRef = useRef(null); // Add a ref for the form section
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -40,53 +43,58 @@ function Jobs() {
   };
 
   const handleFileUpload = (e) => {
-    const file = e.target.file || e.target.files[0];
-    setTempFile({ file: file, fileType: file.type, fileName: file.name });
+    const file = e.target.files[0];
+    if(file){
+      setTempFile({ file: file, fileType: file.type, fileName: file.name });
+    }
+    else {
+      toast.error("Invalid file. Please upload a valid resume.");
+    }
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    try {
-      // handle more erros
-      if (!tempFile.file) return;
-
-      setIsSubmitting(true);
-
-      const { success, fileId } = await uploadFile(
-        tempFile.file,
-        tempFile.fileType
-      );
-
-      if (!success) {
-        toast.error("Error With Uploading File");
+      if (!tempFile.file){
+        toast.error("Please upload a resume");
         return;
       }
-
-      const data = {
-        ...jobData,
-        resume: {
-          src: fileId,
-          fileType: tempFile.fileType,
-          fileName: tempFile.fileName,
-        },
-      };
-
-      const response = await fetch(
-        `${
-          import.meta.env.VITE_REACT_APP_BACKEND_BASEURL
-        }/api/jobform/post-jobForm`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
+      setIsSubmitting(true);
+      try {
+        const { success, fileId } = await uploadFile(tempFile.file, tempFile.fileType);
+        if (!success) {
+          toast.error("Error uploading file.");
+          return;
+        }
+        const data = {
+          ...jobData,
+          resume: {
+            src: fileId,
+            fileType: tempFile.fileType,
+            fileName: tempFile.fileName,
           },
-          body: JSON.stringify(data),
+        };
+
+      // const response = await fetch(
+      //   `${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/jobform/post-jobForm`,
+      //   {
+      //     method: "POST",
+      //     headers: { "Content-Type": "application/json" },
+      //     body: JSON.stringify(data),
+      //   }
+      // );
+      // const resData = await response.json();
+
+      const response = await axios.post(
+        `${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/jobform/post-jobForm`,
+        data, // Body data (JSON automatically handled by Axios)
+        {
+          headers: {
+            "Content-Type": "application/json", // Optional, Axios sets this by default
+          },
         }
       );
-
-      const resData = await response.json();
-
+      const resData = response.data; // Extracting the response data
       if (resData.success) {
         toast.success(resData.message);
         setJobData({
@@ -106,29 +114,57 @@ function Jobs() {
             fileName: null,
             fileType: null,
           },
-        })
+        });
+        setTempFile(null);
       } else {
         toast.error(resData.message);
       }
-    } catch (error) {
-      console.log(error);
-    } finally {
-      setIsSubmitting(false);
-    }
+
+      } catch (error) {
+        toast.error("Error submitting job application.");
+        console.error(error);
+      }finally {
+        setIsSubmitting(false);
+      }
   };
 
   useEffect(() => {
     const getJobs = async () => {
-      const response = await fetch(
-        `${
-          import.meta.env.VITE_REACT_APP_BACKEND_BASEURL
-        }/api/jobs/get-all-jobs`
-      );
-      const data = await response.json();
-      setJobs(data);
+      try {
+        setIsLoadingJobs(true);
+        const response = await axios.get(
+          `${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/jobs/get-all-jobs`
+        );
+        setJobs(response.data.jobs || []);
+        // const response = await fetch(
+        //   `${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/jobs/get-all-jobs`
+        // );
+        // const data = await response.json();
+        // if (data.jobs) {
+        //   setJobs(data.jobs);
+        // }
+      } catch (error) {
+        toast.error("Error fetching job listings.");
+        console.error(error);
+      } finally {
+        setIsLoadingJobs(false);
+      }
     };
     getJobs();
   }, []);
+
+  // const handleViewDetails = (id) => {
+  //   navigate(`/view-details/${id}`);
+  // };
+
+  const handleViewDetails = (job) => {
+    navigate("/view-details", { state: { job } });
+  };
+  const handleApplyNow = () => {
+    // Scroll to the form section
+    formRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <>
       {/* ======= Hero Section ======= */}
@@ -152,16 +188,7 @@ function Jobs() {
                 We&apos;re<span style={{ color: "orange" }}> Hiring</span>
               </h3>
               <p>Info Era Software Services is hiring on various possitions.</p>
-              {/* <h1 data-aos="fade-up">Info Era Software Services Pvt. Ltd.</h1>
-    <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented designers making websites and Web based applications.</h2> */}
-              {/* <div data-aos="fade-up" data-aos-delay="600">
-      <div class="text-center text-lg-start">
-        <Link href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-          <span>Get Started</span>
-          <i class="bi bi-arrow-right"></i>
-        </Link>
-      </div>
-    </div> */}
+             
             </div>
             <div
               className="col-lg-6 hero-img aos-init aos-animate"
@@ -184,6 +211,12 @@ function Jobs() {
               >
                 Latest Jobs
               </h3>
+              {isLoadingJobs ? (
+              <Spinner />
+            ) : jobs.length === 0 ? (
+              <p>No job listings available.</p>
+            ) : (
+              <>
               {jobs.map((job) => (
                 <div key={job._id} className="col-lg-6 col-md-6 mb-3">
                   <div
@@ -211,28 +244,30 @@ function Jobs() {
                           {job.description.substring(0, 200)}
                         </span>
                       </p>
-                      <Link
-                        to="#section_1"
+                      <button
+                        onClick={handleApplyNow}
                         className="card-link btn btn-primary btn-sm"
                       >
                         Apply Now
-                      </Link>
-                      <Link
-                        to="view-detail?rstid=1"
+                      </button>
+                      <button
+                        onClick={() => handleViewDetails(job)}
                         className="card-link btn btn-secondary btn-sm"
                       >
                         View Details
-                      </Link>
+                      </button>
                     </div>
                   </div>
                 </div>
               ))}
+              </>
+            )}
             </div>
-          </div>{" "}
+          </div>
           {/* / row */}
         </section>
         {/* ======= Features Section ======= */}
-        <section id="features" className="features">
+        <section id="features" ref={formRef} className="features">
           <form
             onSubmit={handleSubmit}
             className="container aos-init aos-animate"
@@ -380,7 +415,6 @@ function Jobs() {
                   className="form-control"
                   placeholder="Enter Address..."
                   style={{ height: 124 }}
-                  defaultValue={""}
                 />
                 <span
                   id="ContentPlaceHolder1_RequiredFieldValidator3"
@@ -467,8 +501,7 @@ function Jobs() {
                   {isSubmitting ? <Spinner /> : "Submit"}
                 </button>
               </div>
-            </div>{" "}
-            {/* / row */}
+            </div>
           </form>
         </section>
       </main>

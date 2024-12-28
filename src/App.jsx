@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation, matchPath, } from "react-router-dom";
 import RestoreScroll from "./hooks/RestoreScroll";
 import { lazy, Suspense } from "react";
 import Navbar from "./components/Navbar";
@@ -27,6 +27,7 @@ const ClientQuery = lazy(() => import("./pages/ClientQuery"));
 const Activity = lazy(() => import("./pages/Activity"));
 const Team = lazy(() => import("./pages/Team"));
 const Jobs = lazy(() => import("./pages/Jobs"));
+const JobsViewDetails = lazy(() => import("./pages/JobsViewDetails")) ;
 const Training = lazy(() => import("./pages/Training"));
 const Certificate = lazy(() => import("./pages/Certificate"));
 const Shop = lazy(() => import("./pages/Shop"));
@@ -209,8 +210,10 @@ const Website_development_training_cerner_in_jehanabad = lazy(() =>
   import("./pages/Website_development_training_cerner_in_jehanabad")
 );
 
+
 function App() {
   const { pathname } = useLocation();
+  // console.log(pathname);
 
   const routes = [
     "/",
@@ -232,6 +235,7 @@ function App() {
     "/activity",
     "/team",
     "/jobs",
+    "/view-details",
     "/training",
     "/certificate",
     "/shop",
@@ -316,7 +320,11 @@ function App() {
     "/website_development_training_cerner_in_jehanabad",
     "/web-design-course",
   ];
-  const hidden = !routes.includes(pathname);
+  // const hidden = !routes.includes(pathname);
+  // console.log(hidden)
+
+  const hidden = !routes.some((route) => matchPath(route, pathname));
+// console.log(hidden);
 
   return (
     <>
@@ -472,6 +480,14 @@ function App() {
           element={
             <Suspense fallback={<SkeletonLoader />}>
               <Jobs />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/view-details"
+          element={
+            <Suspense fallback={<SkeletonLoader />}>
+              <JobsViewDetails />
             </Suspense>
           }
         />
