@@ -1,7 +1,6 @@
 import { Helmet } from "react-helmet";
 import HeroSection from "../components/home/HeroSection";
 import MainSection from "../components/home/MainSection";
-import WebDesignBanner from "../temp/WebDesignBanner";
 const Home = () => {
   return (
     <div>
@@ -27,7 +26,6 @@ const Home = () => {
         <meta name="Publisher" content="Info Era Software Services Pvt. Ltd" />
       </Helmet>
       <HeroSection />
-      <WebDesignBanner />
       <MainSection />
     </div>
   );

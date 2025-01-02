@@ -2,6 +2,7 @@ import { useState } from "react";
 import toast from "react-hot-toast";
 import uploadFile from "../lib/uploadFile";
 import Spinner from "../components/loader/Spinner";
+import WebDevelopmentBanner from "../courses/webDevelopmentCourse/WebDevelopmentBanner";
 
 function Training() {
   const [trainingFormData, setTrainingFormData] = useState({
@@ -31,14 +32,14 @@ function Training() {
     profilePhoto: {
       src: null, // File path or URL
       fileType: "", // e.g., "image/jpeg"
-      fileName: "", // e.g., "photo.jpg"
-    },
+      fileName: "" // e.g., "photo.jpg"
+    }
   });
 
   const [tempFile, setTempFile] = useState({
     file: null,
     fileType: null,
-    fileName: null,
+    fileName: null
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -77,8 +78,8 @@ function Training() {
         profilePhoto: {
           src: fileId,
           fileType: tempFile.fileType,
-          fileName: tempFile.fileName,
-        },
+          fileName: tempFile.fileName
+        }
       };
 
       const response = await fetch(
@@ -88,9 +89,9 @@ function Training() {
         {
           method: "POST",
           headers: {
-            "Content-Type": "application/json",
+            "Content-Type": "application/json"
           },
-          body: JSON.stringify(data),
+          body: JSON.stringify(data)
         }
       );
 
@@ -125,8 +126,8 @@ function Training() {
           profilePhoto: {
             src: null, // File path or URL
             fileType: "", // e.g., "image/jpeg"
-            fileName: "", // e.g., "photo.jpg"
-          },
+            fileName: "" // e.g., "photo.jpg"
+          }
         });
       } else {
         toast.error(resData.message);
@@ -155,16 +156,6 @@ function Training() {
                 Programming Languages like HTML/CSS, Bootstrap, JavaScript,
                 ASP.Net, Python, PHP etc. We have a high skilled experts.
               </p>
-              {/* <h1 data-aos="fade-up">Info Era Software Services Pvt. Ltd.</h1>
-    <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented designers making websites and Web based applications.</h2> */}
-              {/* <div data-aos="fade-up" data-aos-delay="600">
-      <div class="text-center text-lg-start">
-        <Link href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-          <span>Get Started</span>
-          <i class="bi bi-arrow-right"></i>
-        </Link>
-      </div>
-    </div> */}
             </div>
             <div
               className="col-lg-6 hero-img aos-init aos-animate"
@@ -176,6 +167,19 @@ function Training() {
         </div>
       </section>
       {/* End Hero */}
+
+      {/* Courses Section */}
+      <section id="courses" className="courses">
+        <div className="container aos-init aos-animate" data-aos="fade-up">
+          {/* <WebDesignBanner /> */}
+          <h3 style={{ color: "#0c219a", fontWeight: 700, marginBottom: "1rem" }}>
+           Our Upcoming Training Session.
+          </h3>
+          <WebDevelopmentBanner />
+        </div>
+      </section>
+      {/* End Courses Section */}
+
       <main id="main">
         {/* ======= Features Section ======= */}
         <form

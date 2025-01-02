@@ -7,7 +7,8 @@ import SkeletonLoader from "./components/loader/Loader";
 import BackToTopButton from "./components/BackToTopButton";
 import NotFound from "./pages/NotFound";
 
-const WebDesign = lazy(() => import("./temp/WebDesign"));
+// const WebDesign = lazy(() => import("./courses/webDesignCourse/WebDesign"));
+const WebDevelopment = lazy(() => import("./courses/webDevelopmentCourse/WebDevelopment"));
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
 const WebsiteDesign = lazy(() => import("./pages/WebsiteDesign"));
@@ -318,7 +319,8 @@ function App() {
     "/website_development_company_bhutan",
     "/website_development_company_gaya",
     "/website_development_training_cerner_in_jehanabad",
-    "/web-design-course",
+    // "/web-design-course",
+    "/mern-stack-workshop"
   ];
   // const hidden = !routes.includes(pathname);
   // console.log(hidden)
@@ -1148,11 +1150,19 @@ function App() {
             </Suspense>
           }
         />
-        <Route
+        {/* <Route
           path="/web-design-course"
           element={
             <Suspense fallback={<SkeletonLoader />}>
               <WebDesign />
+            </Suspense>
+          }
+        /> */}
+        <Route
+          path="/mern-stack-workshop"
+          element={
+            <Suspense fallback={<SkeletonLoader />}>
+              <WebDevelopment/>
             </Suspense>
           }
         />
