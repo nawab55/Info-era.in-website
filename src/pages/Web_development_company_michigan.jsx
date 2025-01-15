@@ -17,7 +17,7 @@ function Web_development_company_michigan() {
             content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
           />
           <title>
-            Leading Web and Digital Marketing in Michigan - info Era{" "}
+          WebFX | Detroit Web Design | Leading Michigan Web Design Firm
           </title>
           <meta
             name="description"
@@ -27,7 +27,28 @@ function Web_development_company_michigan() {
             name="keywords"
             content="web development companies in michigan, michigan web design company, top digital marketing agency in michigan, mobile application development software, top michigan web designers, michigan website designing companies, website design in michigan, michigan web design company, software development, ai app development, agil software development"
           />
-          <meta name="author" content="Info Era Software Servides Pvt Ltd" />
+          <link rel="canonical" href="https://infoera.in/web_development_company_michigan" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in Michigan" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Michigan"/>
+        <meta name="contactzipcode" content="48001"/>
+        <meta name="contactcity" content="Michigan"/>
+        <meta name="contactcountry" content="US"/>
+        <meta name="Geography" content="Michigan, US"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
           <meta
             name="Publisher"
             content="Info Era Software Services Pvt. Ltd"

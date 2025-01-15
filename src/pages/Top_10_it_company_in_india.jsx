@@ -22,8 +22,30 @@ function Top_10_it_company_in_india() {
           name="keywords"
           content="top 10 it company in india, best it company in india, top it company in india, india's top it company, software company in india, top software company in india, best software company in india, website development company in india, best website developer in india, ecommerce website developers in india "
         />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+        <link rel="canonical" href="https://infoera.in/top_10_it_company_in_india" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Top 10 IT Company in India." />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Saharsa"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Publisher" content="www.infoera.in"/>
+        <meta name="Product" content="Website Designing and Development in India, Software Development in India, Mobile App Development in India, Responsive Website Development in Saharsa, Web Hosting in India, E-Commerce in India, Search Engine Optimization SEO Services in India, Website Promotion in India, Bulk SMS and Voice Call Service in India, Graphic Designing in India, IT Company in India"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta>
       </Helmet>
       {/* ======= Hero Section ======= */}
       <section id="hero" className="hero d-flex align-items-center">

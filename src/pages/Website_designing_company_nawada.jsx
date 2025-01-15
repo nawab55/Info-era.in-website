@@ -12,17 +12,38 @@ function Website_designing_company_nawada() {
           content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
         />
         <title>
-          Website Development Company in Nawada,Bihar , Call: +917008411312
+        Management System Software Development Company in Nawada, Application Software in Nawada Bihar
         </title>
         <meta
           name="description"
-          content="Info Era Software Services Pvt. Ltd. is the top website development company in Nawada, offering premium web design, development, and IT training services."
+          content="GST Billing & Invoicing System Software in Nawada Bihar, Application Software Development Company in Nawada, Super Market Billing System Software Company in Nawada Bihar, Inventory Management Application Software in Nawada Bihar."
         />
-        <meta
-          name="keywords"
-          content="website designing company in nawada, website development company in nawada, web design and development company in nawada, it company in nawada, web development company in nawada bihar, best software company in nawada,top it company in nawada "
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
+        <meta name="keywords" content="GST Billing & Invoicing System Software Company in Nawada - Info Era Software Services, Inventory Management System Software in Nawada Bihar, Retailing and POS Software in Nawada, Customized Management System Software Development Company in Nawada" />
+        <meta name="keyphrases" content="Software Development in Nawada, GST Billing Software in Nawada Bihar, Super Market Billing System in Nawada Bihar, Customized Application Software Development in Nawada"/>
+        <link rel="canonical" href="https://infoera.in/website_designing_company_nawada" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Software Development Company in Nawada" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Nawada"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Nawada"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Nawada, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Product" content="Inventory Management Software in Nawada, Billing & Invoicing Software in Nawada, Counter Billing Software in Nawada, GST Billing Software in Nawada, Retailing and POS Software in Nawada, Super Market Billing Software in Nawada, Customized Billing Software in Nawada, IT Software Solutions in Nawada Bihar"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."/>
         <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
       </Helmet>
       {/* ======= Hero Section ======= */}

@@ -1,7 +1,42 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function PortalInsurance() {
   return (
+    <>
+     <Helmet>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <title>Best Insurance Web Services for Your Business  </title>
+        <meta
+          name="description"
+          content="Professional insurance shop services, online design, and development. We provide scalable solutions in the USA and India to help you expand your internet business with ease." />
+
+        <meta
+          name="keywords"
+          content="Best of industry website, Top Insurance Website, Best Insurance Website, Insurance news, Insurance Trends, Insurance Award Winners"
+        />
+        <link rel="canonical" href="https://www.infoera.in/portal-insurance" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Insurance Web Designing Service Provider" />
+        <meta name="Distribution" content="Global" />
+        
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta name="abstract" content="Insurance Web Designing Company in Patna, Insurance Website Development Company in Patna, Bihar,  IT Company,  Top Web Designing, Best Web Hosting Provider, SEO services provider in Patna Bihar India" />
+        <meta name="Publisher" content="www.infoera.in" />
+
+    </Helmet>
     <section
       id="hero"
       className="hero d-flex align-items-center"
@@ -121,6 +156,7 @@ function PortalInsurance() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

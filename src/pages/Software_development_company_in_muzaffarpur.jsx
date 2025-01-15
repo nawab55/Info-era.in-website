@@ -4,7 +4,7 @@ import ClientCrousel from "../components/home/ClientCrousel";
 function Software_development_company_in_muzaffarpur() {
   return (
     <>
-      <Helmet>
+     <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta
@@ -12,18 +12,39 @@ function Software_development_company_in_muzaffarpur() {
           content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
         />
         <title>
-          Software Developed Company in Muzaffarpur,bihar - Call: 7008411312
+          Software Company in Muzaffarpur | Website Development in Muzaffarpur Bihar | IT Company in Muzaffarpur Bihar
         </title>
         <meta
           name="description"
-          content="Discover the top software development and IT company in Muzaffarpur! Info Era offers premier website design and development services. Elevate your online presence today!"
+          content="Website Development Company in Muzaffarpur, SEO Company in Muzaffarpur, Android App Development Company in Muzaffarpur, GST Billing Software in Muzaffarpur, IT Solutions Providers in Muzaffarpur, Bihar, and Bulk SMS Service Provider in Muzaffarpur."
         />
-        <meta
-          name="keywords"
-          content="software development company in muzaffarpur, software company in muzaffarpur, website design company in muzaffarpur, website design muzaffarpur, website designing company in muzaffarpur, it company in muzaffarpur, top it company in muzaffarpur"
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+        <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Muzaffarpur, IT Service Provider Company in Muzaffarpur Bihar, SEO Service provider Company in Muzaffarpur, Website Promotion service provider in Muzaffarpur, SEO , SEM, PPC, SMM Services in Muzaffarpur Bihar " />
+        <meta name="keyphrases" content="Website development in Muzaffarpur, Web Designing in Muzaffarpur Bihar, Web Hosting Service in Muzaffarpur, E-Commerce Website Development in Muzaffarpur, Responsive website designing SEO in Muzaffarpur Bihar "/>
+        <link rel="canonical" href="https://infoera.in/software_development_company_in_muzaffarpur" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in Muzaffarpur" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Muzaffarpur"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Muzaffarpur"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Muzaffarpur, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Publisher" content="www.infoera.in"/>
+        <meta name="Product" content="Website Designing and Development in Muzaffarpur, Software Development in Muzaffarpur, Mobile App Development in Muzaffarpur, Responsive Website Development in Muzaffarpur, Web Hosting in Muzaffarpur, E-Commerce in Muzaffarpur, Search Engine Optimization SEO Services in Muzaffarpur, Website Promotion in Muzaffarpur, Bulk SMS and Voice Call Service in Muzaffarpur, Graphic Designing in Muzaffarpur, IT Company in Muzaffarpur"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta>
       </Helmet>
 
       {/* ======= Hero Section ======= */}

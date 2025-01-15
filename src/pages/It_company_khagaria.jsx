@@ -5,15 +5,42 @@ import ClientCrousel from "../components/home/ClientCrousel"
 function It_company_khagaria() {
   return (
     <>
-    <Helmet>
-    <meta charset="utf-8" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><meta name="google-site-verification" content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU" /><title>
-	TOP IT Company in Khagaria , Call : +917008411312
-</title>
-<meta name="description" content="Explore the best IT and software development companies in Khagaria. From web development to custom software solutions, these top companies provide comprehensive IT services." />
-<meta name="keywords" content="Top it company in khagaria, khagaria top it company, it company khagaria, software company in khagaria,software company Khagaria, khagaria software company, web development company in khagaria, website development company in khagaria, software development company in khagaria, best website design and development company in khagaria, best software company in khagaria" />
-<meta name="Author" content="Info Era Software Services Pvt. Ltd."/>
-<meta name="Publisher" content="Info Era Software Services pvt.Ltd. "/>
+     <Helmet>
+    
+    <title>Software Company in Khagaria | Website Development in Khagaria Bihar | IT Company in Khagaria Bihar</title>
+	     <meta name=" description" content="Website Development Company in Khagaria, SEO Company in Khagaria, Android App Development Company in Khagaria, GST Billing Software in Khagaria, IT Solutions Providers in Khagaria Bihar, and Bulk SMS Service Provider in Khagaria Bihar "/>
+        <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Khagaria, IT Service Provider Company in Khagaria Bihar, SEO Service provider Company in Khagaria, Website Promotion service provider in Khagaria, SEO , SEM, PPC, SMM Services in Khagaria Bihar " />
+        <meta name="keyphrases" content="Website development in Khagaria, Web Designing in Khagaria Bihar, Web Hosting Service in Khagaria, E-Commerce Website Development in Khagaria, Responsive website designing SEO in Khagaria Bihar "/>
+        <meta name="google-site-verification" content="Apjfqo5P6mJv3nxuJCd3S1j3o1GZjGcQjl5LbPwLIDM" /> 
+	    <meta httpEquiv="Content-Type" content="text/html; charset=ISO-8859-1" /> 	
+	    <meta charset="utf-8"/> 
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+        <link rel="canonical" href="https://www.infoera.in/it_company_khagaria" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in Khagaria" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Pvt. Ltd."/>
+        <meta name="contactstreetaddress" content="Khagaria"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Khagaria"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Khagaria, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 7008411312"/>
+        <meta name="Product" content="Website Designing and Development in Khagaria, Software Development in Khagaria, Mobile App Development in Khagaria, Responsive Website Development in Khagaria, Web Hosting in Khagaria, E-Commerce in Khagaria, Search Engine Optimization SEO Services in Khagaria, Website Promotion in Khagaria, Bulk SMS and Voice Call Service in Khagaria, Graphic Designing in Khagaria, IT Company in Khagaria"/>
+        <meta name="copyright" content="Copyright (c) 2013-23 by Info Era Software ServicesPvt. Ltd."/>
     </Helmet>
+
 
     
   <div>

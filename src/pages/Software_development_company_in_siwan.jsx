@@ -4,7 +4,7 @@ import ClientCrousel from "../components/home/ClientCrousel";
 function Software_development_company_in_siwan() {
   return (
     <>
-      <Helmet>
+    <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta
@@ -12,18 +12,40 @@ function Software_development_company_in_siwan() {
           content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
         />
         <title>
-          Software Developed Company in Siwan,bihar - Call: 7008411312
+            Management System Software Development Company in Siwan, Application Software in Siwan Bihar
         </title>
         <meta
           name="description"
-          content="Discover the top software development and IT company in siwan! Info Era offers premier website design and development services. Elevate your online presence today!"
+          content="Application Software Development Company in Siwan, GST Billing & Invoicing System Software in Siwan, Super Market Billing System Software Company in Siwan, and Inventory Management Application Software in Siwan"
         />
-        <meta
-          name="keywords"
-          content="software development company in siwan, software company in siwan, website design company in siwan, website design siwan, website designing company in siwan, it company in siwan, top it company in siwan"
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+        
+        <meta name="keywords" content="GST Billing & Invoicing System Software Company in Siwan - Info Era Software Services, Inventory Management System Software in Siwan Bihar, Retailing and POS Software in Siwan, Customized Management System Software Development Company in Siwan, website design siwan, website designing company in siwan, it company in siwan, top it company in siwan" />
+        <meta name="keyphrases" content="Software Development in Siwan, GST Billing Software in Siwan Bihar, Super Market Billing System in Siwan Bihar, Customized Application Software Development in Siwan,software development company in siwan, software company in siwan, website design company in siwan"/>
+        <link rel="canonical" href="https://infoera.in/software_development_company_in_siwan" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Software Development Company in Siwan" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Siwan"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Siwan"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Siwan, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Publisher" content="www.infoera.in"/>
+        <meta name="Product" content="Inventory Management Software in Siwan, Billing & Invoicing Software in Siwan, Counter Billing Software in Siwan, GST Billing Software in Siwan, Retailing and POS Software in Siwan, Super Market Billing Software in Siwan, Customized Billing Software in Siwan, IT Software Solutions in Siwan Bihar"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta>
       </Helmet>
 
       {/* ======= Hero Section ======= */}

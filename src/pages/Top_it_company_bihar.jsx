@@ -16,18 +16,41 @@ function Top_it_company_bihar() {
           <title>Top IT Company in Bihar | Software Company in India</title>
           <meta
             name="description"
-            content="Discover the website developer king of Bihar, a leader in delivering top-notch website design and development services in Patna."
+            content="Patna software company, Patna Bihar IT service provider, Patna Bihar Website Development Company, Patna IT Company, Patna SEO Services, and Patna IT Solutions."
           />
           <meta
             name="keywords"
-            content="top it company in bihar, top software company in bihar, top IT agency in Bihar, top it company in india, top IT company in bihar patna "
+            content="Info Era Software Services is a leading IT company in Patna, Bihar which focuses on Software, Website, Mobile App, GST Billing Software, CRM Development along with SEO Services "
           />
-          <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-          <meta
-            name="Publisher"
-            content="Info Era Software Services pvt.Ltd. "
-          />
+          <link rel="canonical" href="https://infoera.in/top_it_company_bihar" />
+    <meta name="content-language" content="EN" />
+    <meta name="search engines" content="ALL" />
+    <meta name="Robots" content="INDEX,ALL" />
+    <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+    <meta name="msnbot" content="INDEX, FOLLOW" />
+    <meta name="googlebot" content="INDEX, FOLLOW" />
+    <meta name="language" content="en-us" />
+    <meta name="Expires" content="never" />
+    <meta name="rating" content="General" />
+    <meta name="Resource-type" content="document" />
+    <meta name="Author" content="www.infoera.in" />
+    <meta name="document-classification" content="Software & Website development company" />
+    <meta name="Distribution" content="Global" />
+    <meta name="Product" content="Software Development, Web Development, SEO, GST Billing Software, Web Hosting, Graphic Designing, Mobile App, E-Learning, CRM, ERP, Bulk SMS, Internship, Jobs " />
+    <meta name="keywords" httpEquiv="www.infoera.in" content="Software Development, Web Development, Web Designing, Graphic Designing, Application Development, SEO, Logo Design, Bulk SMS, Voice Call, Internship company in Patna Bihar" />
+    <meta name="abstract" content="Software Development company in Patna, Website Development Company in Patna, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Patna Bihar India" />
+
+        <meta name="keyphrases" content="Software development in Patna, Web Design and Development Company in Patna, SEO, Bulk SMS, Customized GST Billing Software developer in Patna, Best IT Company"/>
+        <meta name="contactorganization" content="Info Era Software Services Pvt. Ltd."/>
+        <meta name="contactzipcode" content="800001"/>
+        <meta name="contactcity" content="Patna"/>
+        <meta name="contactcountry" content="india"/>
+        <meta name="Geography" content="Patna, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91-7008411312"/>
+   		<meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
       </Helmet>
+
 
       {/* ======= Hero Section ======= */}
       <section id="hero" className="hero d-flex align-items-center">

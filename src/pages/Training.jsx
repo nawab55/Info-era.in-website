@@ -3,6 +3,7 @@ import toast from "react-hot-toast";
 import uploadFile from "../lib/uploadFile";
 import Spinner from "../components/loader/Spinner";
 import WebDevelopmentBanner from "../courses/webDevelopmentCourse/WebDevelopmentBanner";
+import { Helmet } from "react-helmet";
 
 function Training() {
   const [trainingFormData, setTrainingFormData] = useState({
@@ -141,6 +142,41 @@ function Training() {
 
   return (
     <>
+    <Helmet>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <title>  IT Training Institute in Patna, IT Training Internship Company in Patna Bihar - Info Era Software Services</title>
+        <meta
+          name="description"
+          content="New Student Training Program in Patna, Php Oracle Training for BSc BE BTech BSC-IT BCA MCA BBA MBA Engineering Freshmen, Second, Third, and Final Year Students in Patna in MySQL C C++ C# Java JSP ASP Dot Net Python MVC Android SQL MySQL" />
+
+        <meta
+          name="keywords"
+          content="Two, three, four, six, nine, and ten weeks of training on real projects for new students in Patna, Training Program Providing Companies in Patna Bihar, Training Program for Second Third Final Year Students in Patna"
+        />
+        <link rel="canonical" href="http://infoera.in/training" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="E-Learning Solutions Service provider in Patna" />
+        <meta name="Distribution" content="Global" />
+        <meta name="document-classification" content="Info Era Software Services Pvt. Ltd. Contact_Number-7008411312 Email-infoerapvtltd@gmail.com Website-www.infoera.in" />
+        <meta name="Keyphrase" content ="Best Treaning Center in Patna Bihar, IT Treaning Center in Patna, Top IT Treaning Center in Bihar India, Website Designing Treaning Center in Patna Bihar, Top Treaning Institute in Patna "/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+
+        <meta name="Publisher" content="www.infoera.in" />
+
+
+      </Helmet>
       {/* ======= Hero Section ======= */}
       <section id="hero" className="hero d-flex align-items-center">
         <br />

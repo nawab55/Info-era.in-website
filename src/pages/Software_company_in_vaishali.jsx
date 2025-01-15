@@ -11,22 +11,36 @@ function Software_company_in_vaishali() {
           name="google-site-verification"
           content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
         />
-        <title>
-          Software Developed Company in Vaishali Bihar, Call: +917008411312
-        </title>
-        <meta
-          name="description"
-          content="Discover top software and web development companies in Vaishali. Get custom, innovative digital solutions for your business needs and enhance your online presence.
-
-"
-        />
-        <meta
-          name="keywords"
-          content="software development company in vaishali, software company in vaishali, top software company in vaishali, website development company in vaishali, web designing and development company company in vaishali, web development company in vaishali"
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+       <meta name="description" content="Application Software Development Company in Vaishali, GST Billing & Invoicing System Software in Vaishali, Super Market Billing System Software Company in Vaishali, and Inventory Management Application Software in Vaishali."/>
+        <meta name="keywords" content="GST Billing & Invoicing System Software Company in Vaishali - Info Era Software Services, Inventory Management System Software in Vaishali Bihar, Retailing and POS Software in Vaishali, Customized Management System Software Development Company in Vaishali" />
+        <meta name="keyphrases" content="Software Development in Vaishali, GST Billing Software in Vaishali Bihar, Super Market Billing System in Vaishali Bihar, Customized Application Software Development in Vaishali"/>
+        <link rel="canonical" href="https://infoera.in/software_company_in_vaishali" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Software Development Company in Vaishali" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Vaishali"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Vaishali"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Vaishali, Bihar, India"/>
+        <meta name="Publisher" content="www.infoera.in"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Product" content="Inventory Management Software in Vaishali, Billing & Invoicing Software in Vaishali, Counter Billing Software in Vaishali, GST Billing Software in Vaishali, Retailing and POS Software in Vaishali, Super Market Billing Software in Vaishali, Customized Billing Software in Vaishali, IT Software Solutions in Vaishali Bihar"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."/>
       </Helmet>
+
 
       {/* ======= Hero Section ======= */}
       <section

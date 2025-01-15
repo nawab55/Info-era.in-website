@@ -24,8 +24,29 @@ function Website_design_development_services_landon() {
           name="keywords"
           content="website design and development services, ecommerce website development agency, wordpress website development company, web design & development services, london web development agency, website design & web development in india, web design company in london, professional web design services"
         />
-        <meta name="author" content="Info Era Software Servides Pvt Ltd" />
-        <meta name="Publisher" content="Info Era Software Services Pvt. Ltd" />
+        <link rel="canonical" href="https://infoera.in/ website_design_development_services_landon" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in Landon" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Landon"/>
+        <meta name="contactzipcode" content="800008"/>
+        <meta name="contactcity" content="Landon"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Landon, England, UK"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Publisher" content="info" />
       </Helmet>
       <HeroSection />
       <MainSection />

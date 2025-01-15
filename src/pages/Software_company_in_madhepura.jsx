@@ -7,23 +7,40 @@ function Software_company_in_madhepura() {
       <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+       
         <title>
-          Software Company in Madhepura,Bihar | Call now: +91 7008411312
+        Software Company in Madhepura | Website Development in Madhepura Bihar | IT Company in Madhepura Bihar
         </title>
-        <meta
-          name="description"
-          content="Discover the leading software and website development company in Madhepura, Bihar. We offer top-notch web design, digital marketing, and custom software solutions."
-        />
-        <meta
-          name="keywords"
-          content="software company in madhepura bihar, software development company in madhepura, top software company in madhepura, website development company in madhepura, web designing company in madhepura, best website development company in madhepura, best website designing company in madhepura bihar, best digital marketing agency in madhepura bihar"
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+        <meta name=" description" content="Software Development Company in Madhepura, GST Billing Software in Madhepura, IT Solutions Providers in Madhepura Bihar, Website Development Company in Madhepura, SEO Company in Madhepura, Android App Development Company in Madhepura, Bulk SMS Service provider in Madhepura Bihar "/>
+        <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Madhepura, IT Service Provider Company in Madhepura Bihar, SEO Service provider Company in Madhepura, Website Promotion service provider in Madhepura, SEO , SEM, PPC, SMM Services in Madhepura Bihar " />
+        <meta name="keyphrases" content="Website development in Madhepura, Web Designing in Madhepura Bihar, Web Hosting Service in Madhepura, E-Commerce Website Development in Madhepura, Responsive website designing SEO in Madhepura Bihar "/>
+        
+	    
+        <link rel="canonical" href="https://infoera.in/software_company_in_madhepura" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in Madhepura" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Madhepura"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Madhepura"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Madhepura, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Publisher" content="www.infoera.in"/>
+        <meta name="Product" content="Website Designing and Development in Madhepura, Software Development in Madhepura, Mobile App Development in Madhepura, Responsive Website Development in Madhepura, Web Hosting in Madhepura, E-Commerce in Madhepura, Search Engine Optimization SEO Services in Madhepura, Website Promotion in Madhepura, Bulk SMS and Voice Call Service in Madhepura, Graphic Designing in Madhepura, IT Company in Madhepura"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."/>
       </Helmet>
       <div>
         {/* ======= Hero Section ======= */}

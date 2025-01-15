@@ -1,6 +1,7 @@
 import { useState } from "react";
 import CertificatePage from "../components/CertificatePage";
 import toast from "react-hot-toast";
+import { Helmet } from "react-helmet";
 
 function Certificate() {
   const [regNo, setRegNo] = useState("");
@@ -34,6 +35,33 @@ function Certificate() {
   }
 
   return (
+    <>
+    <Helmet>
+    <title>Info Era Certificate </title>
+    <meta
+          name="keywords"
+          content="Info Era Certificate, Info Era Certification, Download Certificate, Download Info Era Software Services Certificate, Info Era Treaning Certificate, Certificate of Info Era"
+        />
+    <meta name="description" content=" Students can easily download their certificates online, ensuring quick access to their achievements anytime, anywhere."/>
+    <link rel="canonical" href="https://infoera.in/certificate" />
+    <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Treaning and Internship Certificate" />
+        <meta name="Distribution" content="Global" />
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        
+        <meta name="Publisher" content="www.infoera.in" />
+        
+    </Helmet>
     <div style={{ minHeight: "100vh" }}>
       <section>
         <div className="container aos-init aos-animate" data-aos="fade-up">
@@ -113,6 +141,7 @@ function Certificate() {
       </div>
       {/* End Footer */}
     </div>
+    </>
   );
 }
 

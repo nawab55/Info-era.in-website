@@ -1,8 +1,59 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const WebApplication = () => {
   return (
     <>
+    <Helmet>
+        <>
+          <meta charSet="utf-8" />
+          <meta
+            content="width=device-width, initial-scale=1.0"
+            name="viewport"
+          />
+          <meta
+            name="google-site-verification"
+            content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
+          />
+          <title>
+          Web Application | Best Web Designing Company in patna, Bihar
+          </title>
+          <meta
+            name="description"
+            content="Info Era Software Services Pvt. Ltd. delivers innovative IT solutions across industries with a skilled team, driving growth in healthcare, e-commerce, banking & more."
+          />
+          <meta
+            name="keywords"
+            content="web development companies in india, Indian web design company, top digital marketing agency in India, mobile application development software in Patna Bihar, top india web designers, India website designing companies, website design in India, India web design company, software development, ai app development, agil software development"
+          />
+          <link rel="canonical" href="https://infoera.in/web-application" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in India" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Bihar"/>
+        <meta name="contactzipcode" content="800001"/>
+        <meta name="contactcity" content="Bihar"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+          <meta
+            name="Publisher"
+            content="Info Era Software Services Pvt. Ltd"
+          />
+        </>
+      </Helmet>
       {/* ======= Hero Section ======= */}
       <section id="hero" className="hero d-flex align-items-center">
         <div className="container aos-init aos-animate" data-aos="fade-up">

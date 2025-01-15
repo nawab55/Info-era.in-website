@@ -12,21 +12,36 @@ function Software_company_in_west_champaran() {
           content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
         />
         <title>
-          Software Company in West Champaran (Bettiah) Bihar, Call:
-          +917008411312
+        Software Company in West Champaran | Website Development in West Champaran Bihar | IT Company in West Champaran Bihar
         </title>
-        <meta
-          name="description"
-          content="Discover top software and web development companies in West Champaran (Bettiah). Get custom, innovative digital solutions for your business needs and enhance your online presence.
-
-"
-        />
-        <meta
-          name="keywords"
-          content="software company in west champaran, software company in Bettiah, it company in bettiah, it company in west champaran, top software company in west champaran ,top software company in bettiah, software company in west champaran, bettiah it company, website development company in west champaran , web designing and development company company in west champaran,  web development company in west champaran "
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+        <meta name=" description" content="Website development company in West Champaran, SEO company in West Champaran, Android app development company in West Champaran, GST billing software in West Champaran, IT solutions providers in West Champaran, Bihar, and bulk SMS service provider in West Champaran."/>
+        <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in West Champaran, IT Service Provider Company in West Champaran Bihar, SEO Service provider Company in West Champaran, Website Promotion service provider in West Champaran, SEO , SEM, PPC, SMM Services in West Champaran Bihar " />
+        <meta name="keyphrases" content="Website development in West Champaran, Web Designing in West Champaran Bihar, Web Hosting Service in West Champaran, E-Commerce Website Development in West Champaran, Responsive website designing SEO in West Champaran Bihar "/>
+        <link rel="canonical" href="https://infoera.in/software_company_in_west_champaran" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in West Champaran" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services  Private Limited"/>
+        <meta name="contactstreetaddress" content="West Champaran"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="West Champaran"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="West Champaran, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="Publisher" content="www.infoera.in"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Product" content="Website Designing and Development in West Champaran, Software Development in West Champaran, Mobile App Development in West Champaran, Responsive Website Development in West Champaran, Web Hosting in West Champaran, E-Commerce in West Champaran, Search Engine Optimization SEO Services in West Champaran, Website Promotion in West Champaran, Bulk SMS and Voice Call Service in West Champaran, Graphic Designing in West Champaran, IT Company in West Champaran"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta>
       </Helmet>
 
       {/* ======= Hero Section ======= */}

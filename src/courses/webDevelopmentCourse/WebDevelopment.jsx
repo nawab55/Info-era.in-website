@@ -2,6 +2,13 @@ import "./webdev.css";
 import { Link } from "react-router-dom";
 
 const WebDevelopment = () => {
+
+  const gridContainerStyle = {
+    display: 'grid',
+    placeItems: 'center', // Note the camelCase for CSS properties
+    padding: "1rem" 
+  };
+
   return (
     <>
       <div>
@@ -123,16 +130,16 @@ const WebDevelopment = () => {
                 Upon completion, participants will receive a certificate that demonstrates their expertise in the MERN stack. Showcase your skills to potential employers with confidence.
               </p>
             </div>
-            <div className="col-md-6">
-              <div style={{ height: "350px", width: "100%",  margin: "0 auto"}}>
-              <video
-                src="/assets/videos/mern_workshop.mp4"
-                alt="Certificate"
-                autoPlay
-                loop
-                muted
-                style={{  height: "100%", borderRadius: "10px", margin: "0 auto" }}
-              />
+            <div className="col-md-6" style={gridContainerStyle}>   
+              <div style={{ height: "350px", }}>
+                <video
+                  src="/assets/videos/mern_workshop.mp4"
+                  alt="Certificate"
+                  autoPlay
+                  loop
+                  muted
+                  style={{  height: "100%", borderRadius: "10px", margin: "0 auto" }}
+                />
               </div>
             </div>
           </div>

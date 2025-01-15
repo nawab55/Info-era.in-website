@@ -1,7 +1,42 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function PortalMlm() {
   return (
+    <>
+    <Helmet>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <title>Advanced MLM Solutions for Scalable Growth </title>
+        <meta
+          name="description"
+          content="Boost your MLM business with tools for network management, real-time tracking, and insights. Empower growth, maximize profits, and scale seamlessly." />
+
+        <meta
+          name="keywords"
+          content="MLM solutions, Multi Level Marketing, network management, MLM growth tools, real-time tracking, MLM platform, scalable business, MLM technology, maximize profits, network insights"
+        />
+        <link rel="canonical" href="https://www.infoera.in/portal-mlm" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Advanced MLM Solutions for Scalable Growth" />
+        <meta name="Distribution" content="Global" />
+        
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta name="abstract" content="MLM Web Designing Company in Patna, Website Development Company in Patna, Bihar,MLM Website Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Patna Bihar India" />
+        <meta name="Publisher" content="www.infoera.in" />
+
+    </Helmet>
     <section
       id="hero"
       className="hero d-flex align-items-center"
@@ -133,6 +168,7 @@ function PortalMlm() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

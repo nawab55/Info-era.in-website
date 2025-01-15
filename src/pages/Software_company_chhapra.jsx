@@ -4,26 +4,48 @@ import ClientCrousel from "../components/home/ClientCrousel";
 function Software_company_chhapra() {
   return (
     <>
-      <Helmet>
+     <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta
           name="google-site-verification"
           content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
         />
-        <title>Software Company in Chhapra,Bihar | Best Website Company</title>
+        <title>Software Company in Chhapra,Bihar | Best Website Company |Info Era </title>
         <meta
           name="description"
           content="Discover the leading software and website development company in Chhapra, Bihar. We offer top-notch web design, digital marketing, and custom software solutions."
         />
         <meta
           name="keywords"
-          content="software company in Chhapra bihar, software development company in Chhapra, top software company in Chhapra, website development company in Chhapra, web designing company in Chhapra, best website development company in Chhapra, best website designing company in Chhapra bihar, best digital marketing agency in Chhapra bihar"
+          content="software development company in chhapra, software companies in chhapra, software company in chhapra, software development companies in chhapra, software development services in chhapra, list of software companies in chhapra, software company names in chhapra, it software companies in chhapra, names of software companies in chhapra, software companies list in chhapra, software developing companies in chhapra, computer software companies in chhapra, software development firms in chhapra, software firms in chhapra, software companies address in chhapra, software company offices in chhapra"
         />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+        <link rel="canonical" href="https://infoera.in/software_company_chhapra" />
+	      <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Software Design and Development Company." />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Software Development Company."/>
+        <meta name="contactstreetaddress" content="Chhapra"/>
+        <meta name="contactzipcode" content="800001"/>
+        <meta name="contactcity" content="Chhapra"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Chhapra, Bihar, India"/>
+        <meta name="country" content="Bihar"/>
+        <meta name="contactmobilenumber" content="+91 7008411312"/>
+        
+        <meta name="Product" content="Website Designing and Development in Perth, Software Development in Perth, Mobile App Development in Perth, Responsive Website Development in Perth, Web Hosting in Perth, E-Commerce in Perth, Search Engine Optimization SEO Services in Perth, Website Promotion in Perth, Bulk SMS and Voice Call Service in Perth, Graphic Designing in Perth, IT Company in Perth"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."/>
       </Helmet>
-
       
   <div>
     

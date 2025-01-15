@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import uploadFile from "../lib/uploadFile";
 import Spinner from "../components/loader/Spinner";
 import axios from "axios";
+import { Helmet } from "react-helmet";
 
 function Jobs() {
   const [jobData, setJobData] = useState({
@@ -204,6 +205,26 @@ function Jobs() {
 
   return (
     <>
+    <Helmet>
+      <meta charSet="utf-8"/>
+      <title>IT Jobs in Patna bihar | Software Development Jobs in Patna Bihar </title>
+      <meta name="Keywords" content="it treaning center, it jobs, best it company in bihar, best it company treaning , Internship, Jobs, naukari, it jobs, website designing jobs in bihar, software jobs in patna bihar, best it company jobs in patna bihar, graphic designing jobs in patna bihar"/>
+      <link rel="canonical" href="https://infoera.in/jobs" />
+      <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company Perth" />
+        <meta name="Distribution" content="Global" />
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."/>
+    </Helmet>
       {/* ======= Hero Section ======= */}
       <section id="hero" className="hero d-flex align-items-center">
         <br />

@@ -11,16 +11,36 @@ const It_company_in_aurangabad = () => {
           content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
         />
         <title>IT Company in Aurangabad | Software development Company</title>
-        <meta
-          name="description"
-          content="Discover the top IT and software development companies in Aurangabad, Maharashtra. From innovative software solutions to cutting-edge web design, find the best digital services here."
-        />
-        <meta
-          name="keywords"
-          content="it company in aurangabad, top it companies in aurangabad, it companies in aurangabad maharashtra, software development company in aurangabad, website development company in aurangabad, web design company in aurangabad, aurangabad it companies list, website design aurangabad, website development in aurangabad"
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+              <meta name=" description" content="Software Development Company in Aurangabad, GST Billing Software in Aurangabad, IT Solutions Providers in Aurangabad Bihar, Website Development Company in Aurangabad, SEO Company in Aurangabad, Android App Development Company in Aurangabad, Bulk SMS Service provider in Aurangabad Bihar "/>
+              <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Aurangabad, IT Service Provider Company in Aurangabad Bihar, SEO Service provider Company in Aurangabad, Website Promotion service provider in Aurangabad, SEO , SEM, PPC, SMM Services in Aurangabad Bihar " />
+              <meta name="keyphrases" content="Website development in Aurangabad, Web Designing in Aurangabad Bihar, Web Hosting Service in Aurangabad, E-Commerce Website Development in Aurangabad, Responsive website designing SEO in Aurangabad Bihar "/>
+            <link rel="canonical" href="https://www.infoera.in/it_company_in_aurangabad" />
+            <meta name="content-language" content="EN" />
+            <meta name="search engines" content="ALL" />
+            <meta name="Robots" content="INDEX,ALL" />
+            <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+            <meta name="msnbot" content="INDEX, FOLLOW" />
+            <meta name="googlebot" content="INDEX, FOLLOW" />
+            <meta name="language" content="en-us" />
+            <meta name="Expires" content="never" />
+            <meta name="rating" content="General" />
+            <meta name="Resource-type" content="document" />
+            <meta name="Author" content="www.infoera.in" />
+            <meta name="document-classification" content="Software & Website development company" />
+            <meta name="Distribution" content="Global" />
+            <meta name="Product" content="Website Designing and Development in Aurangabad, Software Development in Aurangabad, Mobile App Development in Aurangabad, Responsive Website Development in Aurangabad, Web Hosting in Aurangabad, E-Commerce in Aurangabad, Search Engine Optimization SEO Services in Aurangabad, Website Promotion in Aurangabad, Bulk SMS and Voice Call Service in Aurangabad, Graphic Designing in Aurangabad, IT Company in Aurangabad"/>
+            <meta name="abstract" content="Software Development company in Aurangabad, Website Development Company in Aurangabad, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Aurangabad Bihar India" />
+
+            <meta name="contactorganization" content="Info Era Software Services Pvt. Ltd."/>
+            <meta name="contactzipcode" content="824101"/>
+            <meta name="contactcity" content="Aurangabad"/>
+            <meta name="contactcountry" content="india"/>
+            <meta name="Geography" content="Aurangabad, Bihar, India"/>
+            <meta name="country" content="INDIA"/>
+            <meta name="contactmobilenumber" content="+91-7008411312"/>
+            <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+
+            <meta name="Publisher" content="www.infoera.in" />
       </Helmet>
       <div>
         <section

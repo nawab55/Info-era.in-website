@@ -16,14 +16,35 @@ function Software_development_company_in_banka() {
         </title>
         <meta
           name="description"
-          content="Discover top software development, web design, and IT companies in Banka. Get innovative and customized digital solutions for your business needs."
+          content="IT solutions providers in Banka, Bihar, software development companies in Banka, GST billing software in Banka, website development companies in Banka, SEO companies in Banka, Android app development companies in Banka, and bulk SMS service providers in Banka Bihar."
         />
-        <meta
-          name="keywords"
-          content="software development company in banka, web designing company in banka, website development in banka bihar, software companies in banka, it company banka, best it company in banka, best banka it company"
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+        <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Banka, IT Service Provider Company in Banka Bihar, SEO Service provider Company in Banka, Website Promotion service provider in Banka, SEO , SEM, PPC, SMM Services in Banka Bihar " />
+        <meta name="keyphrases" content="Website development in Banka, Web Designing in Banka Bihar, Web Hosting Service in Banka, E-Commerce Website Development in Banka, Responsive website designing SEO in Banka Bihar "/>
+        <link rel="canonical" href="https://infoera.in/software_development_company_in_banka" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in Banka" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Banka"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Banka"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Banka, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Publisher" content="www.infoera.in"/>
+        <meta name="Product" content="Website Designing and Development in Banka, Software Development in Banka, Mobile App Development in Banka, Responsive Website Development in Banka, Web Hosting in Banka, E-Commerce in Banka, Search Engine Optimization SEO Services in Banka, Website Promotion in Banka, Bulk SMS and Voice Call Service in Banka, Graphic Designing in Banka, IT Company in Banka"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta>
       </Helmet>
       <div>
         {/* ======= Hero Section ======= */}

@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import toast from "react-hot-toast";
@@ -8,12 +9,13 @@ function Activity() {
 
   const fetchActivities = async () => {
     try {
-      const response = await fetch(
+      const response = await axios.get(
         `${
           import.meta.env.VITE_REACT_APP_BACKEND_BASEURL
         }/api/activities/get-all-activities`
       );
-      const { activities } = await response.json();
+      console.log(response);
+      const { activities } = response.data;
       if (Array.isArray(activities)) {
         setActivities(activities);
       } else {
@@ -34,7 +36,7 @@ function Activity() {
 
   return (
     <div className="activity">
-      <Helmet>
+        <Helmet>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta
           name="google-site-verification"
@@ -49,6 +51,25 @@ function Activity() {
           name="keywords"
           content="Info Era Software Services Pvt Ltd, Website Designing company, software company, industrial training "
         />
+        <link rel="canonical" href="https://infoera.in/activity" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Software & Website development company" />
+        <meta name="Distribution" content="Global" />
+        
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+
+        <meta name="Publisher" content="www.infoera.in" />
+
       </Helmet>
       <div className="container mb-4" style={{ marginTop: 100 }}>
         <div
@@ -78,21 +99,22 @@ function Activity() {
           style={{ borderRadius: 20, background: "#f3f6fc", paddingTop: 20 }}
         >
           {activities.map((activity) => (
-            <>
               <div
                 className="col-lg-4 mb-4 aos-init aos-animate"
                 data-aos="fade-up"
                 data-aos-duration={1200}
                 data-aos-once="true"
+                key={activity._id}
               >
                 <div className="single-academics-card">
                   <div className="card" style={{ borderRadius: 20 }}>
                     <div style={{ padding: 10 }}>
-                      <Link href="#" target="_blank">
+                      <Link to="#" target="_blank">
                         <img
                           id="ContentPlaceHolder1_listview1_image1_1"
                           src={activity.image}
                           style={{ height: 250, width: "100%" }}
+                          alt={activity.title}
                         />
                       </Link>
                       <br />
@@ -115,7 +137,6 @@ function Activity() {
                   </div>
                 </div>
               </div>
-            </>
           ))}
         </div>
       </div>

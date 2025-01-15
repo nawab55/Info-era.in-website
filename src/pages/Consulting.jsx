@@ -1,6 +1,7 @@
 import { useState } from "react";
 import toast from "react-hot-toast";
 import Spinner from "../components/loader/Spinner";
+import { Helmet } from "react-helmet";
 
 const Consulting = () => {
   const [formData, setFormData] = useState({
@@ -54,6 +55,39 @@ const Consulting = () => {
   };
   return (
     <>
+    <Helmet>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <title> Expert Web Development Consulting Services | Info Era  </title>
+        <meta
+          name="description"
+          content="Get expert web development consulting, responsive design, SEO strategies, and custom solutions. Enhance your web presence with Info Era's professional services." />
+
+        <meta
+          name="keywords"
+          content="Website Designing consulting Services, Best consulting Service Provider in Patna, Top consulting Services, Best Mobile Application consulting Services, Digital Marketing consulting Services, Software Designing and Development consulting Services in Patna, Bihar, India "
+        />
+        <link rel="canonical" href="https://infoera.in/consulting" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Software & Website development company" />
+        <meta name="Distribution" content="Global" />
+        <meta name="keyphrases" content="Software development in Patna, Web Design and Development Company in Patna, SEO, Bulk SMS, Customized GST Billing Software developer in Patna, Best IT Company"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta name="abstract" content="Software Development company in Patna, Website Development Company in Patna, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Patna Bihar India" />
+        <meta name="Publisher" content="www.infoera.in" />
+
+    </Helmet>
       <div>
         {/* ======= Hero Section ======= */}
         <section id="hero" className="hero d-flex align-items-center">

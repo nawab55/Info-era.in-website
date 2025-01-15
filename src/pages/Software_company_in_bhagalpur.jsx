@@ -4,24 +4,42 @@ import ClientCrousel from "../components/home/ClientCrousel";
 function Software_company_in_bhagalpur() {
   return (
     <>
-      <Helmet>
+     <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
-        <title>Software Company in Bhagalpur| Best Bhagalpur IT Company</title>
-        <meta
-          name="description"
-          content="Info Era Software Services Pvt. Ltd. - the top software company in Bhagalpur for custom solutions, mobile apps, and more."
-        />
-        <meta
-          name="keywords"
-          content="software company in bhagalpur, web development company in bhagalpur, best website designing and development company in bhagalpur, top website designing company in bhagalpur, software company in bhagalpur, best it company in bhagalpur"
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+        
+        <title>Software Company in Bhagalpur | Website Development in Bhagalpur Bihar | IT Company in Bhagalpur Bihar</title>
+	    
+        <meta name=" description" content="Software Development Company in Bhagalpur, GST Billing Software in Bhagalpur, IT Solutions Providers in Bhagalpur Bihar, Website Development Company in Bhagalpur, SEO Company in Bhagalpur, Android App Development Company in Bhagalpur, Bulk SMS Service provider in Bhagalpur Bihar "/>
+        <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Bhagalpur, IT Service Provider Company in Bhagalpur Bihar, SEO Service provider Company in Bhagalpur, Website Promotion service provider in Bhagalpur, SEO , SEM, PPC, SMM Services in Bhagalpur Bihar " />
+        <meta name="keyphrases" content="Website development in Bhagalpur, Web Designing in Bhagalpur Bihar, Web Hosting Service in Bhagalpur, E-Commerce Website Development in Bhagalpur, Responsive website designing SEO in Bhagalpur Bihar "/>
+       
+	     <link rel="canonical" href="https://infoera.in/software_company_in_bhagalpur" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in Bhagalpur" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Bhagalpur"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Bhagalpur"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Bhagalpur, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="Publisher" content="www.infoera.in"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Product" content="Website Designing and Development in Bhagalpur, Software Development in Bhagalpur, Mobile App Development in Bhagalpur, Responsive Website Development in Bhagalpur, Web Hosting in Bhagalpur, E-Commerce in Bhagalpur, Search Engine Optimization SEO Services in Bhagalpur, Website Promotion in Bhagalpur, Bulk SMS and Voice Call Service in Bhagalpur, Graphic Designing in Bhagalpur, IT Company in Bhagalpur"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Pvt. Ltd."/>
+        
       </Helmet>
       <div>
         {/* ======= Hero Section ======= */}

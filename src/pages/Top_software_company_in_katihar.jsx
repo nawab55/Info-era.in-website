@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 function Top_software_company_in_katihar() {
   return (
     <>
-      <Helmet>
+     <Helmet>
         <meta charSet="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta
@@ -11,18 +11,38 @@ function Top_software_company_in_katihar() {
           content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
         />
         <title>
-          Top Software Companies in Katihar | Best IT Company Katihar
+        Software Company in Katihar | Website Development in Katihar Bihar | IT Company in Katihar Bihar
         </title>
         <meta
           name="description"
-          content="Info Era Software Services Pvt. Ltd. offers top-notch software and web development services in Katihar. We specialize in custom software, mobile apps, and stunning web designs."
+          content="Website Development Company in Katihar, SEO Company in Katihar, Android App Development Company in Katihar, GST Billing Software in Katihar, IT Solutions Providers in Katihar, and Bulk SMS Service Provider in Katihar, Bihar."
         />
-        <meta
-          name="keywords"
-          content="top software companies in Katihar, top web designing company in katihar, best software company in katihar, software development companies in katihar, name of software companies in katihar, name of software company in katihar, web development company ub katihar, website designing company in katihar "
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+        <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Katihar, IT Service Provider Company in Katihar Bihar, SEO Service provider Company in Katihar, Website Promotion service provider in Katihar, SEO , SEM, PPC, SMM Services in Katihar Bihar " />
+        <meta name="keyphrases" content="Website development in Katihar, Web Designing in Katihar Bihar, Web Hosting Service in Katihar, E-Commerce Website Development in Katihar, Responsive website designing SEO in Katihar Bihar "/>
+        <link rel="canonical" href="https://infoera.in/top_software_company_in_katihar" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in Katihar" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Katihar"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Katihar"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Katihar, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Product" content="Website Designing and Development in Katihar, Software Development in Katihar, Mobile App Development in Katihar, Responsive Website Development in Katihar, Web Hosting in Katihar, E-Commerce in Katihar, Search Engine Optimization SEO Services in Katihar, Website Promotion in Katihar, Bulk SMS and Voice Call Service in Katihar, Graphic Designing in Katihar, IT Company in Katihar"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta>
       </Helmet>
       {/* ======= Hero Section ======= */}
       <section id="hero" className="rohit d-flex align-items-center">

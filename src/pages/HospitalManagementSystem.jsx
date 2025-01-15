@@ -1,8 +1,53 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const HospitalManagementSystem = () => {
   return (
     <>
+    <Helmet>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta
+          name="google-site-verification"
+          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
+        />
+
+        <title> Efficient Hospital Management System | Info Era</title>
+        <meta
+          name="description"
+          content="Streamline hospital operations with a web-based system to manage admissions, staff, schedules, billing, patient records, and improve overall efficiency." />
+
+        <meta
+          name="keywords"
+          content="hospital management system, healthcare administration, patient records management "
+        />
+        <link rel="canonical" href="https://infoera.in/hospital-management-system" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Efficient Hospital Management System" />
+        <meta name="Distribution" content="Global" />
+        <meta name="keyphrases" content="hospital software, staff management, hospital billing system, efficient healthcare"/>
+        <meta name="contactorganization" content="Info Era Software Services Pvt. Ltd."/>
+        <meta name="contactzipcode" content="800001"/>
+        <meta name="contactcity" content="Patna"/>
+        <meta name="contactcountry" content="india"/>
+        <meta name="Geography" content="Patna, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91-7008411312"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+
+        <meta name="Publisher" content="www.infoera.in" />
+      </Helmet>
+
       <section id="hero" className="hero d-flex align-items-center">
         <div className="container" data-aos="fade-up">
           <header className="section-header">

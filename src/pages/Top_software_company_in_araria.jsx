@@ -10,17 +10,38 @@ function Top_software_company_in_araria() {
           name="google-site-verification"
           content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
         />
-        <title>Top Software Company in Araria | Best Software Company</title>
+        <title>Software Company in Araria | Website Development in Araria Bihar | IT Company in Araria Bihar</title>
         <meta
           name="description"
-          content="Discover the top software and web design companies in Araria, Bihar. From innovative software solutions to stunning web designs, these companies lead the digital transformation in the region."
+          content="GST Billing Software in Araria, Software Development Company in Araria, Providers of IT Solutions in Araria, Bihar Araria SEO Company, Araria Website Development Company, Araria-Based Android App Development Company Provider of Bulk SMS Services in Araria, Bihar."
         />
-        <meta
-          name="keywords"
-          content="top software company in araria, list of top software company in araria, best software company in araria, best web design company in araria, website development in araria bihar, top it company in araria "
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+         <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Araria, IT Service Provider Company in Araria Bihar, SEO Service provider Company in Araria, Website Promotion service provider in Araria, SEO , SEM, PPC, SMM Services in Araria Bihar " />
+         <meta name="keyphrases" content="Website development in Araria, Web Designing in Araria Bihar, Web Hosting Service in Araria, E-Commerce Website Development in Araria, Responsive website designing SEO in Araria Bihar "/>
+         <link rel="canonical" href="https://infoera.in/top_software_company_in_araria" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in Araria" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Araria"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Araria"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Araria, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Publisher" content="www.infoera.in"/>
+        <meta name="Product" content="Website Designing and Development in Araria, Software Development in Araria, Mobile App Development in Araria, Responsive Website Development in Araria, Web Hosting in Araria, E-Commerce in Araria, Search Engine Optimization SEO Services in Araria, Website Promotion in Araria, Bulk SMS and Voice Call Service in Araria, Graphic Designing in Araria, IT Company in Araria"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta>
       </Helmet>
 
     {/* ======= Hero Section ======= */}

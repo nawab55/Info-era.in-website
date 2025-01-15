@@ -1,6 +1,7 @@
 import { useState } from "react";
 import toast from "react-hot-toast";
 import Spinner from "../components/loader/Spinner";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -57,6 +58,44 @@ const Contact = () => {
   };
   return (
     <>
+    <Helmet>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <title>  Info Era Patna, Top Software Development Company in Patna Biha </title>
+        <meta
+          name="description"
+          content="Main Office Address - Flat No. 604, 6th Floor
+Narain Plaza, Exhibition Road, Patna, (Bihar) 800001, Mobile – 7008411312, Email - infoerapvtltd@gmail.com, Website - www.infoera.in – Leading and Trustworthy Software Company in Patna Bihar" />
+
+        <meta
+          name="keywords"
+          content="Branch Office Address - VIP Road, Balbhadrapur, Laheriasarai, Darbhanga, (Bihar) 846001., 
+          Mobile – 7008411312, Email - infoerapvtltd@gmail.com, Website - www.infoera.in – Leading and Trustworthy 
+          Software Company in Darbhanga Bihar"
+        />
+        <link rel="canonical" href="https://infoera.in/contact" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Software & Website development company" />
+        <meta name="Distribution" content="Global" />
+        <meta name="document-classification" content="Info Era Software Services Pvt. Ltd. Contact_Number-7008411312 Email-infoerapvtltd@gmail.com Website-www.infoera.in" />
+        
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+
+        <meta name="Publisher" content="www.infoera.in" />
+
+
+      </Helmet>
       <div>
         <br />
         <br />

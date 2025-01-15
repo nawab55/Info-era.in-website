@@ -10,17 +10,38 @@ function Top_software_company_in_gopalganj() {
           name="google-site-verification"
           content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
         />
-        <title>Top Software Company in Gopalganj | Best Software Company</title>
+        <title>Software Company in Gopalganj | Website Development in Gopalganj Bihar | IT Company in Gopalganj Bihar</title>
         <meta
           name="description"
-          content="Discover the top software and web design companies in Gopalganj, Bihar. From innovative software solutions to stunning web designs, these companies lead the digital transformation in the region."
+          content="Website development company in Gopalganj, SEO company in Gopalganj, Android app development company in Gopalganj, GST billing software in Gopalganj, IT solutions providers in Gopalganj, Bihar, and bulk SMS service provider in Gopalganj."
         />
-        <meta
-          name="keywords"
-          content="list of top software companies in gopalganj, top software company in gopalganj, list of top software company in gopalganj, best software company in gopalganj, best web design company in gopalganj, website development in gopalganj bihar, top it company in gopalganj "
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+        <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Gopalganj, IT Service Provider Company in Gopalganj Bihar, SEO Service provider Company in Gopalganj, Website Promotion service provider in Gopalganj, SEO , SEM, PPC, SMM Services in Gopalganj Bihar " />
+        <meta name="keyphrases" content="Website development in Gopalganj, Web Designing in Gopalganj Bihar, Web Hosting Service in Gopalganj, E-Commerce Website Development in Gopalganj, Responsive website designing SEO in Gopalganj Bihar "/>
+        <link rel="canonical" href="https://infoera.in/top_software_company_in_gopalganj" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in Gopalganj" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Gopalganj"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Gopalganj"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Gopalganj, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Publisher" content="www.infoera.in"/>
+        <meta name="Product" content="Website Designing and Development in Gopalganj, Software Development in Gopalganj, Mobile App Development in Gopalganj, Responsive Website Development in Gopalganj, Web Hosting in Gopalganj, E-Commerce in Gopalganj, Search Engine Optimization SEO Services in Gopalganj, Website Promotion in Gopalganj, Bulk SMS and Voice Call Service in Gopalganj, Graphic Designing in Gopalganj, IT Company in Gopalganj"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta>
       </Helmet>
 
       {/* ======= Hero Section ======= */}

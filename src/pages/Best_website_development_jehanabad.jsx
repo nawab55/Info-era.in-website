@@ -21,8 +21,34 @@ const Best_website_development_jehanabad = () => {
           name="keywords"
           content="best website development training cerner in jehanabad, best web design company in jehanabad, it internship treaning center in jehanabad bihar, software development services, best software training institute in jehanabad "
         />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+         <link rel="canonical" href="https://infoera.in/best_website_development_jehanabad" />
+            <meta name="content-language" content="EN" />
+            <meta name="search engines" content="ALL" />
+            <meta name="Robots" content="INDEX,ALL" />
+            <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+            <meta name="msnbot" content="INDEX, FOLLOW" />
+            <meta name="googlebot" content="INDEX, FOLLOW" />
+            <meta name="language" content="en-us" />
+            <meta name="Expires" content="never" />
+            <meta name="rating" content="General" />
+            <meta name="Resource-type" content="document" />
+            <meta name="Author" content="www.infoera.in" />
+            <meta name="document-classification" content="Software & Website development company" />
+            <meta name="Distribution" content="Global" />
+            <meta name="Product" content="Software Development, Web Development, SEO, GST Billing Software, Web Hosting, Graphic Designing, Mobile App, E-Learning, CRM, ERP, Bulk SMS, Internship, Jobs " />
+            <meta name="abstract" content="Software Development company in Jehanabad, Website Development Company in Jehanabad, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Jehanabad Bihar India" />
+
+            <meta name="keyphrases" content="Software development in Jehanabad, Web Design and Development Company in Jehanabad, SEO, Bulk SMS, Customized GST Billing Software developer in Jehanabad, Top IT Company"/>
+            <meta name="contactorganization" content="Info Era Software Services Pvt. Ltd."/>
+            <meta name="contactzipcode" content="804408"/>
+            <meta name="contactcity" content="Jehanabad"/>
+            <meta name="contactcountry" content="india"/>
+            <meta name="Geography" content="Jehanabad, Bihar, India"/>
+            <meta name="country" content="INDIA"/>
+            <meta name="contactmobilenumber" content="+91-7008411312"/>
+            <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+
+            <meta name="Publisher" content="www.infoera.in" />
       </Helmet>
       {/* ======= Hero Section ======= */}
       <section

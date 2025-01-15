@@ -12,20 +12,36 @@ function Software_development_company_in_buxar() {
           content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
         />
         <title>
-          Software Developed Company in Buxar Bihar, Call: +917008411312
+          Software Company in Buxar | Website Development in Buxar Bihar | IT Company in Buxar Bihar
         </title>
-        <meta
-          name="description"
-          content="Discover top software and web development companies in Buxar. Get custom, innovative digital solutions for your business needs and enhance your online presence.
-
-"
-        />
-        <meta
-          name="keywords"
-          content="software development company in buxar, software company in buxar, top software company in buxar, website development company in buxar, web designing and development company company in buxar, website development company in buxar"
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+        <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Buxar, IT Service Provider Company in Buxar Bihar, SEO Service provider Company in Buxar, Website Promotion service provider in Buxar, SEO , SEM, PPC, SMM Services in Buxar Bihar " />
+        <meta name="keyphrases" content="Website development in Buxar, Web Designing in Buxar Bihar, Web Hosting Service in Buxar, E-Commerce Website Development in Buxar, Responsive website designing SEO in Buxar Bihar "/>
+        <link rel="canonical" href="https://infoera.in/software_development_company_in_buxar" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in Buxar" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Buxar"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Buxar"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Buxar, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Publisher" content="www.infoera.in"/>
+        <meta name="Product" content="Website Designing and Development in Buxar, Software Development in Buxar, Mobile App Development in Buxar, Responsive Website Development in Buxar, Web Hosting in Buxar, E-Commerce in Buxar, Search Engine Optimization SEO Services in Buxar, Website Promotion in Buxar, Bulk SMS and Voice Call Service in Buxar, Graphic Designing in Buxar, IT Company in Buxar"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta> 
+       
       </Helmet>
 
       {/* ======= Hero Section ======= */}

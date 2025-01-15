@@ -11,18 +11,41 @@ function Top_it_company_kishanganj() {
           content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
         />
         <title>
-          Top Software Company in Kishanganj | Best Software Company
+        Software Company in Kishanganj | Website Development in Kishanganj Bihar | IT Company in Kishanganj Bihar
         </title>
         <meta
           name="description"
-          content="Discover the top software and IT companies in Kishanganj, offering best web design company kishanganj innovative solutions for your business needs."
+          content="Website development company in Kishanganj, SEO company in Kishanganj, Android app development company in Kishanganj, GST billing software in Kishanganj, IT solutions providers in Kishanganj, Bihar, and bulk SMS service provider in Kishanganj."
         />
         <meta
           name="keywords"
-          content="top software company in kishanganj, list of top software company in kishanganj, best software company in kishanganj, best web design company in kishanganj, website development in kishanganj bihar, top it company in kishanganj "
+          content="Info Era Software Services, Customized Software Development Company in Kishanganj, IT Service Provider Company in Kishanganj Bihar, SEO Service provider Company in Kishanganj, Website Promotion service provider in Kishanganj, SEO , SEM, PPC, SMM Services in Kishanganj Bihar  "
         />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+        <meta name="keyphrases" content="Website development in Kishanganj, Web Designing in Kishanganj Bihar, Web Hosting Service in Kishanganj, E-Commerce Website Development in Kishanganj, Responsive website designing SEO in Kishanganj Bihar "/>
+        <link rel="canonical" href="https://infoera.in/top_it_company_kishanganj" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in Kishanganj" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Kishanganj"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Kishanganj"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Kishanganj, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Product" content="Website Designing and Development in Kishanganj, Software Development in Kishanganj, Mobile App Development in Kishanganj, Responsive Website Development in Kishanganj, Web Hosting in Kishanganj, E-Commerce in Kishanganj, Search Engine Optimization SEO Services in Kishanganj, Website Promotion in Kishanganj, Bulk SMS and Voice Call Service in Kishanganj, Graphic Designing in Kishanganj, IT Company in Kishanganj"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta>
       </Helmet>
 
       {/* ======= Hero Section ======= */}

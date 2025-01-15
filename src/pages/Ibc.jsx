@@ -1,6 +1,7 @@
 import { useState } from "react";
 import toast from "react-hot-toast";
 import Spinner from "../components/loader/Spinner";
+import { Helmet } from "react-helmet";
 
 function Ibc() {
   // State to manage form input values
@@ -111,6 +112,43 @@ function Ibc() {
 
   return (
     <>
+    <Helmet>
+            <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+            <meta
+              name="google-site-verification"
+              content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
+            />
+            <title>Become an Individual Business Consultant (IBC)</title>
+            <meta
+              name="description"
+              content="Join as an IBC with Info Era Software Services to grow businesses and careers by selling products & services. Work independently and earn commissions."
+            />
+            <meta
+              name="keywords"
+              content="IBC, Individual Business Consultant, Info Era Software Services, business consultant"
+            />
+            <link rel="canonical" href="https://www.infoera.in/ibc" />
+            <meta name="content-language" content="EN" />
+            <meta name="search engines" content="ALL" />
+            <meta name="Robots" content="INDEX,ALL" />
+            <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+            <meta name="msnbot" content="INDEX, FOLLOW" />
+            <meta name="googlebot" content="INDEX, FOLLOW" />
+            <meta name="language" content="en-us" />
+            <meta name="Expires" content="never" />
+            <meta name="rating" content="General" />
+            <meta name="Resource-type" content="document" />
+            <meta name="Author" content="www.infoera.in" />
+            <meta name="document-classification" content="Become an Individual Business Consultant" />
+            <meta name="Distribution" content="Global" />
+            <meta name="keyphrases" content="work from home, part-time business, earn commission, entrepreneurship, career growth"/>
+            <meta name="contactorganization" content="Info Era Software Services Pvt. Ltd."/>
+            <meta name="country" content="INDIA"/>
+            <meta name="contactmobilenumber" content="+91-7008411312"/>
+            <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+
+            <meta name="Publisher" content="www.infoera.in" />
+          </Helmet>
       <section id="hero" className="hero d-flex align-items-center">
         <br />
         <br />

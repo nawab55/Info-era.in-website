@@ -4,24 +4,45 @@ import ClientCrousel from "../components/home/ClientCrousel";
 function Software_company_in_bhojpur() {
   return (
     <>
-      <Helmet>
+       <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta
           name="google-site-verification"
           content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
         />
-        <title>Software Company in Bhojpur | website Development Company</title>
-        <meta
-          name="description"
-          content="Discover leading software and web development companies in Bhojpur. Get custom, innovative digital solutions for your business needs and enhance your online presence."
-        />
-        <meta
-          name="keywords"
-          content="software company in bhojpur, top it company in bhojpur, software development company in bhojpur, web development company in Bhojpur, website development company in bhojpur, top website designing company in bhojpur, top software development company in bhojpur "
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+        <title>SManagement System Software Development Company in Bhojpur, Application Software in Bhojpur Bihar</title>
+               
+        <meta name="description" content="Inventory Management Application Software in Bhojpur, Bihar; Super Market Billing System Software Company in Bhojpur, Bihar; GST Billing & Invoicing System Software in Bhojpur, Bihar; Application Software Development Company in Bhojpur"/>
+        <meta name="keywords" content="GST Billing & Invoicing System Software Company in Bhojpur - Info Era Software Services, Inventory Management System Software in Bhojpur Bihar, Retailing and POS Software in Bhojpur, Customized Management System Software Development Company in Bhojpur" />
+        <meta name="keyphrases" content="Software Development in Bhojpur, GST Billing Software in Bhojpur Bihar, Super Market Billing System in Bhojpur Bihar, Customized Application Software Development in Bhojpur"/>
+       	    
+        <link rel="canonical" href="https://infoera.in/software_company_in_bhojpur" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Software Development Company in Bhojpur" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Bhojpur"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Bhojpur"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Bhojpur, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="Publisher" content="www.infoera.in"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Product" content="Inventory Management Software in Bhojpur, Billing & Invoicing Software in Bhojpur, Counter Billing Software in Bhojpur, GST Billing Software in Bhojpur, Retailing and POS Software in Bhojpur, Super Market Billing Software in Bhojpur, Customized Billing Software in Bhojpur, IT Software Solutions in Bhojpur Bihar"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta>
+        
       </Helmet>
 
   <div>

@@ -24,6 +24,41 @@ function Software_company_in_sitamarhi() {
         />
         <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
         <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+      </Helmet><Helmet>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        
+        <title>
+        Software Company in Sitamarhi | Website Development in Sitamarhi Bihar | IT Company in Sitamarhi Bihar
+        </title>
+        <meta name=" description" content="Software Development Company in Sitamarhi, GST Billing Software in Sitamarhi, IT Solutions Providers in Sitamarhi Bihar, Website Development Company in Sitamarhi, SEO Company in Sitamarhi, Android App Development Company in Sitamarhi, Bulk SMS Service provider in Sitamarhi Bihar "/>
+        <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Sitamarhi, IT Service Provider Company in Sitamarhi Bihar, SEO Service provider Company in Sitamarhi, Website Promotion service provider in Sitamarhi, SEO , SEM, PPC, SMM Services in Sitamarhi Bihar " />
+        <meta name="keyphrases" content="Website development in Sitamarhi, Web Designing in Sitamarhi Bihar, Web Hosting Service in Sitamarhi, E-Commerce Website Development in Sitamarhi, Responsive website designing SEO in Sitamarhi Bihar "/>
+        <link rel="canonical" href="https://infoera.in/software_company_in_sitamarhi" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in Sitamarhi" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Sitamarhi"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Sitamarhi"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Sitamarhi, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="Publisher" content="www.infoera.in"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Product" content="Website Designing and Development in Sitamarhi, Software Development in Sitamarhi, Mobile App Development in Sitamarhi, Responsive Website Development in Sitamarhi, Web Hosting in Sitamarhi, E-Commerce in Sitamarhi, Search Engine Optimization SEO Services in Sitamarhi, Website Promotion in Sitamarhi, Bulk SMS and Voice Call Service in Sitamarhi, Graphic Designing in Sitamarhi, IT Company in Sitamarhi"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt.Ltd."></meta>
       </Helmet>
       <div>
         {/* ======= Hero Section ======= */}

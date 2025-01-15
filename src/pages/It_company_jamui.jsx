@@ -6,13 +6,39 @@ function It_company_jamui() {
   return (
     <>
     <Helmet>
-    <meta charset="utf-8" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><meta name="google-site-verification" content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU" /><title>
-	IT Company in Jamui , Call : +917008411312
-</title>
-<meta name="description" content="Discover top IT and software companies in Khagaria offering exceptional services from development to web design, enhancing your business's digital presence." />
-<meta name="keywords" content="it company in jamui, it company jamui, software company in jamui,software company jamui, jamui software company, web development company in jamui, website development company in jamui, software development company in Jamui, best website design and development company in jamui, best software company in jamui" />
-<meta name="Author" content="Info Era Software Services Pvt. Ltd."/>
-<meta name="Publisher" content="Info Era Software Services pvt.Ltd. "/>
+    <meta charset="utf-8" /><meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="google-site-verification" content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU" />
+    <title>
+    Software Company in Jamui | Website Development in Jamui Bihar | IT Company in Jamui Bihar</title>
+        <meta name="description" content="Find leading software and IT firms in Khagaria that provide outstanding services ranging from web design to development, boosting the online visibility of your company." />
+        <meta name="keywords" content="it company in jamui, it company jamui, software company in jamui,software company jamui, jamui software company, web development company in jamui, website development company in jamui, software development company in Jamui, best website design and development company in jamui, best software company in jamui" />
+        <link rel="canonical" href="https://infoera.in/it_company_jamui" />
+        
+        <meta name="keyphrases" content="Website development in Jamui, Web Designing in Jamui Bihar, Web Hosting Service in Jamui, E-Commerce Website Development in Jamui, Responsive website designing SEO in Jamui Bihar "/>
+        
+	      <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in Jamui" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Jamui"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Jamui"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Jamui, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 7008411312"/>
+        <meta name="Product" content="Website Designing and Development in Jamui, Software Development in Jamui, Mobile App Development in Jamui, Responsive Website Development in Jamui, Web Hosting in Jamui, E-Commerce in Jamui, Search Engine Optimization SEO Services in Jamui, Website Promotion in Jamui, Bulk SMS and Voice Call Service in Jamui, Graphic Designing in Jamui, IT Company in Jamui"/>
+        <meta name="copyright" content="Copyright (c) 20214 by Info Era Software Services Pvt. Ltd."/>
     </Helmet>
 
     

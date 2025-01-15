@@ -4,7 +4,7 @@ import ClientCrousel from "../components/home/ClientCrousel";
 function It_company_near_me() {
   return (
     <>
-      <Helmet>
+     <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta
@@ -12,8 +12,7 @@ function It_company_near_me() {
           content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
         />
         <title>
-          Finding the Best Managed IT Services Provider Near You | IT
-          Consultancies
+          Finding the Best Managed IT Services Provider Near You | IT Consultancies
         </title>
         <meta
           name="description"
@@ -23,10 +22,33 @@ function It_company_near_me() {
           name="keywords"
           content="managed it services provider near me, near by it company, it company near me, it companies in near me, it companies around me, it consultancies near me, best it company near me"
         />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
-      </Helmet>
+        
+        <link rel="canonical" href="https://www.infoera.in/it_company_near_me" />
+	      <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company Near me" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="It Company Near Me."/>
+        <meta name="contactstreetaddress" content="Patna"/>
+        <meta name="contactzipcode" content="800001"/>
+        <meta name="contactcity" content="Patna"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Patna, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 7008411312"/>
+        <meta name="Product" content="Website Designing and Development in Jamui, Software Development in Jamui, Mobile App Development in Jamui, Responsive Website Development in Jamui, Web Hosting in Jamui, E-Commerce in Jamui, Search Engine Optimization SEO Services in Jamui, Website Promotion in Jamui, Bulk SMS and Voice Call Service in Jamui, Graphic Designing in Jamui, IT Company in Jamui"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."/>
 
+      </Helmet>
       {/* ======= Hero Section =======  */}
       <section
         id="hero"

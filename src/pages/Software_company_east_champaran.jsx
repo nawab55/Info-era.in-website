@@ -4,15 +4,43 @@ import ClientCrousel from "../components/home/ClientCrousel"
 function Software_company_east_champaran() {
   return (
     <>
-    <Helmet>
-    <meta charset="utf-8" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><meta name="google-site-verification" content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU" /><title>
-	Software Company in East Champaran| Best Champaran IT Company
-</title>
-<meta name="description" content="Info Era Software Services Pvt. Ltd. offers top-notch software development and web design services in East Champaran. We deliver customized, high-quality solutions for businesses."/>
-<meta name="keywords" content="software company in east champaran, website development company in east champaran, website development in east champaran bihar, website development company in east champaran, web design and development company in east champaran, web development company in east champaran bihar, best software company in east champaran" />
-<meta name="Author" content="Info Era Software Services Pvt. Ltd."/>
-<meta name="Publisher" content="Info Era Software Services pvt.Ltd. "/>
+   <Helmet>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        
+       <title>Management System Software Development Company in East Champaran, Application Software in East Champaran Bihar</title>
+	    
+        <meta name="description" content="GST Billing & Invoicing System Software in East Champaran Bihar, Application Software Development Company in East Champaran, Super Market Billing System Software Company in East Champaran Bihar, Inventory Management Application Software in East Champaran Bihar"/>
+        <meta name="keywords" content="GST Billing & Invoicing System Software Company in East Champaran - Info Era Software Services, Inventory Management System Software in East Champaran Bihar, Retailing and POS Software in East Champaran, Customized Management System Software Development Company in East Champaran" />
+        <meta name="keyphrases" content="Software Development in East Champaran, GST Billing Software in East Champaran Bihar, Super Market Billing System in East Champaran Bihar, Customized Application Software Development in East Champaran"/>
+                
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+        <link rel="canonical" href="https://infoera.in/software_company_east_champaran"/>
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Software Development Company in East Champaran" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="East Champaran"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="East Champaran"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="East Champaran, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Product" content="Inventory Management Software in East Champaran, Billing & Invoicing Software in East Champaran, Counter Billing Software in East Champaran, GST Billing Software in East Champaran, Retailing and POS Software in East Champaran, Super Market Billing Software in East Champaran, Customized Billing Software in East Champaran, IT Software Solutions in East Champaran Bihar"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."/>
     </Helmet>
+
 
     
   <div>

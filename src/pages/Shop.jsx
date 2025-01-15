@@ -1,8 +1,33 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function Shop() {
   return (
     <>
+     <Helmet>
+    <title>Software Development Company in Patna, Info Era Software Services</title>
+
+<meta name="description" content="Top Web design and development, Best Website Development Company in Patna, Very Low cost Website Design Company, Low cost Website Development, Fully Responsive Web Designing Company in Patna" />	
+<meta name="keywords" content="The top website design and development firm in Patna, Bihar, India is Info Era Software Services. With SEO services, we create the most excellent and reasonably priced responsive websites." />
+
+<meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="canonical" href="https://infoera.in/shop" />
+<meta name="content-language" content="EN" />
+<meta name="search engines" content="ALL" />
+<meta name="Robots" content="INDEX,ALL" /> 
+<meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+<meta name="msnbot" content="INDEX, FOLLOW" /> 
+<meta name="googlebot" content="INDEX, FOLLOW" /> 
+<meta name="language" content="en-us" />
+<meta name="Expires" content="never" />
+<meta name="rating" content="General" />
+<meta name="Resource-type" content="document" />
+<meta name="Author" content="www.infoera.in" />
+<meta name="document-classification" content="Shop Management System" />
+<meta name="Distribution" content="Global" />
+</Helmet>   
       {/* ======= Portfolio Section ======= */}
       <section id="portfolio" className="portfolio">
         <div className="container">

@@ -1,8 +1,43 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function CollegeManagementSystem() {
   return (
     <>
+    <Helmet>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <title> Efficient School Management System | Info Era  </title>
+        <meta
+          name="description"
+          content="Simplify school operations with Info Era's web-based school management system. Manage admissions, fees, timetables, attendance, and staff evaluations seamlessly." />
+
+        <meta
+          name="keywords"
+          content="School management system, Info Era school software, school administration, web-based school software, student management "
+        />
+        <link rel="canonical" href="https://infoera.in/school-management-system" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Software & Website development company" />
+        <meta name="Distribution" content="Global" />
+        <meta name="keyphrases" content=" fee management system, timetable management, attendance tracking, staff evaluation, efficient school operations, university management system, educational software"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+
+        <meta name="Publisher" content="www.infoera.in" />
+
+
+      </Helmet>
       <section id="hero" className="hero d-flex align-items-center">
         <div data-aos="fade-up" className="container">
           <header className="section-header">

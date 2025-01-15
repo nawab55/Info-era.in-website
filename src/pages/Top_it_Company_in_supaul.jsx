@@ -11,18 +11,38 @@ function Top_it_Company_in_supaul() {
           content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
         />
         <title>
-          Top IT Company in Supaul | Best Software Company,Call: 7008411312
+        Software Company in Supaul | Website Development in Supaul Bihar | IT Company in Supaul Bihar
         </title>
         <meta
           name="description"
-          content="Discover the top software and IT companies in Supaul, offering best web design company Supaul innovative solutions for your business needs."
+          content="Website development company in Supaul, SEO company in Supaul, Android app development company in Supaul, GST billing software in Supaul, IT solutions providers in Supaul, Bihar, and bulk SMS service provider in Supaul ."
         />
-        <meta
-          name="keywords"
-          content="top it company in supaul,top it solution in supaul, list of top software company in supaul, best software company in supaul, best web design company in supaul, website development in supaul bihar, top it company in supaul "
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+        <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Supaul, IT Service Provider Company in Supaul Bihar, SEO Service provider Company in Supaul, Website Promotion service provider in Supaul, SEO , SEM, PPC, SMM Services in Supaul Bihar " />
+        <meta name="keyphrases" content="Website development in Supaul, Web Designing in Supaul Bihar, top it company in supaul,top it solution in supaul, list of top software company in supaul, Web Hosting Service in Supaul, E-Commerce Website Development in Supaul, Responsive website designing SEO in Supaul Bihar "/>
+        <link rel="canonical" href="https://infoera.in/top_it_Company_in_supaul" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in Supaul" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Supaul"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Supaul"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Supaul, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Product" content="Website Designing and Development in Supaul, Software Development in Supaul, Mobile App Development in Supaul, Responsive Website Development in Supaul, Web Hosting in Supaul, E-Commerce in Supaul, Search Engine Optimization SEO Services in Supaul, Website Promotion in Supaul, Bulk SMS and Voice Call Service in Supaul, Graphic Designing in Supaul, IT Company in Supaul"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta>
       </Helmet>
 
     {/* ======= Hero Section ======= */}

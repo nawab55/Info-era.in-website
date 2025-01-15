@@ -12,19 +12,42 @@ function Software_development_company_in_arwal() {
           content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
         />
         <title>
-          Software Developed Company in Arwal,bihar | Treaning Center
+            Info Era Software Services Patna | Software Company in Patna | IT Company Bihar
         </title>
         <meta
           name="description"
           content="Best IT company in Arwal, Bihar. Offering top software development, web design, and training services. Boost your digital presence with Info Era Software Services."
         />
-        <meta
-          name="keywords"
-          content="software development company in arwal, website development company in arwal bihar, best software treaning company in arwal bihar, best web designing company in arwal bihar, IT company in arwal bihar, software company in arwal"
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+        <meta name="description" content="Patna software company, Patna Bihar IT service provider, Patna Bihar Website Development Company, Patna IT Company, Patna SEO Services, and Patna IT Solutions."/>
+        <meta name="keywords" content="Info Era Software Services is a leading IT company in Patna, Bihar which focuses on Software, Website, Mobile App, GST Billing Software, CRM Development along with SEO Services" />
+        <meta name="keyphrases" content="software development company in arwal, website development company in arwal bihar, best software treaning company in arwal bihar, best web designing company in arwal bihar, IT company in arwal bihar, software company in arwal "/>
+        <link rel="canonical" href="https://infoera.in/software_development_company_in_arwal" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in West Champaran" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services  Private Limited"/>
+        <meta name="contactstreetaddress" content="Arwal"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Arwal"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Arwal, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Publisher" content="www.infoera.in"/>
+        <meta name="Product" content="Software Development, Web Development, SEO, GST Billing Software, Web Hosting, Graphic Designing, Mobile App, E-Learning, CRM, ERP, Bulk SMS, Internship, Jobs " />
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta>
       </Helmet>
+
 
       {/* ======= Hero Section ======= */}
       <section

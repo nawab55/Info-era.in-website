@@ -4,7 +4,7 @@ import ClientCrousel from "../components/home/ClientCrousel";
 function Software_company_in_begusarai() {
   return (
     <>
-      <Helmet>
+     <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta
@@ -12,18 +12,36 @@ function Software_company_in_begusarai() {
           content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
         />
         <title>
-          Software Company in Begusarai | website Development Company
+        Software Company in Begusarai | Website Development in Begusarai Bihar | IT Company in Begusarai Bihar
         </title>
-        <meta
-          name="description"
-          content="Discover leading software and web development companies in Begusarai. Get custom, innovative digital solutions for your business needs and enhance your online presence."
-        />
-        <meta
-          name="keywords"
-          content="software company in begusari, software development company in begusarai, web development company in begusarai, website development company in begusarai, top website designing company in begusarai, top software development company in begusarai "
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+        <meta name=" description" content="Software Development Company in Begusarai, GST Billing Software in Begusarai, IT Solutions Providers in Begusarai Bihar, Website Development Company in Begusarai, SEO Company in Begusarai, Android App Development Company in Begusarai, Bulk SMS Service provider in Begusarai Bihar "/>
+        <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Begusarai, IT Service Provider Company in Begusarai Bihar, SEO Service provider Company in Begusarai, Website Promotion service provider in Begusarai, SEO , SEM, PPC, SMM Services in Begusarai Bihar " />
+        <meta name="keyphrases" content="Website development in Begusarai, Web Designing in Begusarai Bihar, Web Hosting Service in Begusarai, E-Commerce Website Development in Begusarai, Responsive website designing SEO in Begusarai Bihar "/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+        <link rel="canonical" href="https://infoera.in/software_company_in_begusarai"/>
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in Begusara" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Begusarai"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Begusarai"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Begusarai, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Product" content="Website Designing and Development in Begusarai, Software Development in Begusarai, Mobile App Development in Begusarai, Responsive Website Development in Begusarai, Web Hosting in Begusarai, E-Commerce in Begusarai, Search Engine Optimization SEO Services in Begusarai, Website Promotion in Begusarai, Bulk SMS and Voice Call Service in Begusarai, Graphic Designing in Begusarai, IT Company in Begusarai"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."/>
       </Helmet>
       <div>
         {/* ======= Hero Section ======= */}

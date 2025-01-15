@@ -1,7 +1,42 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const RealEstateManaementSystem = () => {
   return (
+    <>
+    <Helmet>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <title>Top eCommerce Web Services for Your Business  </title>
+        <meta
+          name="description"
+          content="Since 2014, Info Era Software Services has been a leading provider of real estate web development services, offering top-notch web design services to over thirty prominent real estate firms." />
+
+        <meta
+          name="keywords"
+          content="real estate web development company, real estate portal development company, real estate web design company"
+        />
+        <link rel="canonical" href="https://www.infoera.in/real-estate-manaement-system" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Real Web Service Provider" />
+        <meta name="Distribution" content="Global" />
+        
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta name="abstract" content="Realestate Web Designing Company in Patna, Website Development Company in Patna, Bihar, GST Billing Software, Internship, Realestate Development, Top RealEstate IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Patna Bihar India" />
+        <meta name="Publisher" content="www.infoera.in" />
+
+    </Helmet>
     <div>
       <section id="hero" className="hero d-flex align-items-center">
         <div className="container" data-aos="fade-up">
@@ -128,6 +163,7 @@ const RealEstateManaementSystem = () => {
       </section>
       {/* End Hero */}
     </div>
+    </>
   );
 };
 

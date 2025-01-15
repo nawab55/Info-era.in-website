@@ -1,8 +1,28 @@
 import TeamSlider from "../components/TeamSlider";
+import { Helmet } from "react-helmet";
 
 function Team() {
   return (
     <>
+    <Helmet>
+      <title> Info Era Software Services Teams </title>
+      <meta name="Keywords" content="Info Era Teams, Era Teams, Teams, It Company, Website Designing Teams, Best Software Service Provider, Top Digital Platform Providers, Website Designing Company in Patna bihar, Gaurav Kumar Info Era, Rohit Kumar Info Era, Samir ansari info Era, CEO"/>
+      <meta name="Discription" content="Our dedicated team at Info Era Software Services has been driving innovation since 2014, revolutionizing IT in Bihar, Odisha, and across India with passion and expertise."/>
+      <link rel="canonical" href="https://infoera.in/team" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Info Era Software Services Teams" />
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta>
+    </Helmet>
       <div>
         {/* ======= Hero Section ======= */}
         <section

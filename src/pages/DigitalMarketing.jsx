@@ -1,6 +1,40 @@
+import { Helmet } from "react-helmet";
 const DigitalMarketing = () => {
   return (
     <>
+    <Helmet>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <title> SEO Services in Patna, SEO SEM PPC SMM Company Patna Bihar - Info Era Patna  </title>
+        <meta
+          name="description"
+          content="Patna's top search engine marketing company, pay-per-click (PPC) marketing firm, search engine optimization (SEO) firm, social media marketing agency, search engine marketing services (SEM), and advertising firm" />
+
+        <meta
+          name="keywords"
+          content="Info Era is the best Search Engine Optimization SEO Services provider in Patna Bihar India. We provide affordable On Page, Off Page SEO Services for websites"
+        />
+        <link rel="canonical" href="https://infoera.in/digital-marketing" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="SEO Company in Patna" />
+        <meta name="Distribution" content="Global" />
+        <meta name="keyphrases" content="Software development in Patna, Web Design and Development Company in Patna, SEO, Bulk SMS, Customized GST Billing Software developer in Patna, Best IT Company"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta name="abstract" content="Software Development company in Patna, Website Development Company in Patna, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Patna Bihar India" />
+        <meta name="Publisher" content="www.infoera.in" />
+
+    </Helmet>
       <div>
         {/* ======= Hero Section ======= */}
         <section id="hero" className="hero d-flex align-items-center">

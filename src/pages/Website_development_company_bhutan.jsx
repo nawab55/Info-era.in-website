@@ -24,8 +24,31 @@ function Website_development_company_bhutan() {
           name="keywords"
           content="best online marketing company, digital marketing agency in bhutan, digital marketing ecommerce, web design for construction company, top online marketing companies, responsive web development"
         />
-        <meta name="author" content="Info Era Software Servides Pvt Ltd" />
-        <meta name="Publisher" content="Info Era Software Services Pvt. Ltd" />
+        <link rel="canonical" href="https://infoera.in/website_development_company_bhutan" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Software Development Company in Bhutan" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Bhutan"/>
+        <meta name="contactzipcode" content="1100s1"/>
+        <meta name="contactcity" content="Thimphu"/>
+        <meta name="contactcountry" content="South Asia"/>
+        <meta name="Geography" content="Bhutan, Thimphu, South Asia"/>
+        <meta name="country" content="South Asia"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Product" content="Inventory Management Software in Bhutan, Billing & Invoicing Software in Bhutan, Counter Billing Software in Bhutan, GST Billing Software in Bhutan, Retailing and POS Software in Bhutan, Super Market Billing Software in Bhutan, Customized Billing Software in Bhutan, IT Software Solutions in Bhutan Bihar"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta>
+        <meta name="Publisher" content="infoera.in" />
       </Helmet>
       <HeroSection/>
       <MainSection/>

@@ -12,20 +12,36 @@ function Software_company_in_siwan() {
           content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
         />
         <title>
-          Software Developed Company in Siwan Bihar, Call: +917008411312
+        Management System Software Development Company in Siwan, Application Software in Siwan Bihar
         </title>
-        <meta
-          name="description"
-          content="Discover top software and web development companies in Siwan. Get custom, innovative digital solutions for your business needs and enhance your online presence.
-
-"
-        />
-        <meta
-          name="keywords"
-          content="software development company in siwan, software company in siwan, top software company in siwan, website development company in siwan, web designing and development company company in siwan, web development company in siwan"
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+        <meta name="description" content="GST Billing & Invoicing System Software in Siwan Bihar, Application Software Development Company in Siwan, Super Market Billing System Software Company in Siwan Bihar, Inventory Management Application Software in Siwan Bihar"/>
+        <meta name="keywords" content="GST Billing & Invoicing System Software Company in Siwan - Info Era Software Services, Inventory Management System Software in Siwan Bihar, Retailing and POS Software in Siwan, Customized Management System Software Development Company in Siwan" />
+        <meta name="keyphrases" content="Software Development in Siwan, GST Billing Software in Siwan Bihar, Super Market Billing System in Siwan Bihar, Customized Application Software Development in Siwan"/>
+        <link rel="canonical" href="https://infoera.in/software_company_in_siwan" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Software Development Company in Siwan" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Siwan"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Siwan"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Siwan, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Publisher" content="www.infoera.in"/>
+        <meta name="Product" content="Inventory Management Software in Siwan, Billing & Invoicing Software in Siwan, Counter Billing Software in Siwan, GST Billing Software in Siwan, Retailing and POS Software in Siwan, Super Market Billing Software in Siwan, Customized Billing Software in Siwan, IT Software Solutions in Siwan Bihar"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta>
       </Helmet>
       {/* ======= Hero Section ======= */}
       <section

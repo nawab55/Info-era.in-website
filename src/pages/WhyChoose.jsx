@@ -1,6 +1,31 @@
+import { Helmet } from "react-helmet";
 const WhyChoose = () => {
   return (
     <>
+    <Helmet>
+    <title>Best Software Designing And Development Company in Patna, Bihar | Low Cost Website Development Company</title>
+        
+<meta name="description" content="Software design and development, Software Development Company in Patna, Low cost Software Design Company, Low cost Software Development, Responsive Web Designing Company in Patna" />	
+<meta name="keywords" content="Info Era Software Services is the best Software Design and Development Company in Patna Bihar India. We develop the best and affordable Responsive Websites with SEO services" />
+
+<meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="canonical" href="https://infoera.in/why-choose" />
+<meta name="content-language" content="EN" />
+<meta name="search engines" content="ALL" />
+<meta name="Robots" content="INDEX,ALL" /> 
+<meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+<meta name="msnbot" content="INDEX, FOLLOW" /> 
+<meta name="googlebot" content="INDEX, FOLLOW" /> 
+<meta name="language" content="en-us" />
+<meta name="Expires" content="never" />
+<meta name="rating" content="General" />
+<meta name="Resource-type" content="document" />
+<meta name="Author" content="www.infoera.in" />
+<meta name="document-classification" content="Website Development in Patna" />
+<meta name="Distribution" content="Global" />
+    </Helmet>
       <>
         {/* ======= Hero Section ======= */}
         <section id="hero" className="hero d-flex align-items-center">

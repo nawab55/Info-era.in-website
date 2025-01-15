@@ -24,6 +24,47 @@ function Software_development_company_saharsa() {
         />
         <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
         <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+      </Helmet> <Helmet>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta
+          name="google-site-verification"
+          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
+        />
+        <title>
+            Software Company in Saharsa | Website Development in Saharsa Bihar | IT Company in Saharsa Bihar
+        </title>
+        <meta
+          name="description"
+          content="Website Development Company in Saharsa, SEO Company in Saharsa, Android App Development Company in Saharsa, GST Billing Software in Saharsa, IT Solutions Providers in Saharsa Bihar, and Bulk SMS Service Provider in Saharsa Bihar. "
+        />
+        <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Saharsa, IT Service Provider Company in Saharsa Bihar, SEO Service provider Company in Saharsa, Website Promotion service provider in Saharsa, SEO , SEM, PPC, SMM Services in Saharsa Bihar " />
+        <meta name="keyphrases" content="Website development in Saharsa, Web Designing in Saharsa Bihar, Web Hosting Service in Saharsa, E-Commerce Website Development in Saharsa, Responsive website designing SEO in Saharsa Bihar "/>
+        <link rel="canonical" href="https://infoera.in/software_development_company_saharsa" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in Saharsa" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Saharsa"/>
+        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactcity" content="Saharsa"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Saharsa, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Publisher" content="www.infoera.in"/>
+        <meta name="Product" content="Website Designing and Development in Saharsa, Software Development in Saharsa, Mobile App Development in Saharsa, Responsive Website Development in Saharsa, Web Hosting in Saharsa, E-Commerce in Saharsa, Search Engine Optimization SEO Services in Saharsa, Website Promotion in Saharsa, Bulk SMS and Voice Call Service in Saharsa, Graphic Designing in Saharsa, IT Company in Saharsa"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta>
       </Helmet>
 
       {/* ======= Hero Section ======= */}

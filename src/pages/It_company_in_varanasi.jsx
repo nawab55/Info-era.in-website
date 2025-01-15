@@ -20,8 +20,34 @@ function It_company_in_varanasi() {
           name="keywords"
           content="it company in varanasi, software development company in varanasi, website company in varanasi, web design company in varanasi, web development company in varanasi,software development company in varanasi, website development in varanasi"
         />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+         <link rel="canonical" href="https://infoera.in/it_company_in_varanasi" />
+            <meta name="content-language" content="EN" />
+            <meta name="search engines" content="ALL" />
+            <meta name="Robots" content="INDEX,ALL" />
+            <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+            <meta name="msnbot" content="INDEX, FOLLOW" />
+            <meta name="googlebot" content="INDEX, FOLLOW" />
+            <meta name="language" content="en-us" />
+            <meta name="Expires" content="never" />
+            <meta name="rating" content="General" />
+            <meta name="Resource-type" content="document" />
+            <meta name="Author" content="www.infoera.in" />
+            <meta name="document-classification" content="Software & Website development company" />
+            <meta name="Distribution" content="Global" />
+            <meta name="Product" content="Software Development, Web Development, SEO, GST Billing Software, Web Hosting, Graphic Designing, Mobile App, E-Learning, CRM, ERP, Bulk SMS, Internship, Jobs " />
+            <meta name="abstract" content="Software Development company in Varanasi, Website Development Company in Varanasi, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Varanasi Bihar India" />
+
+            <meta name="keyphrases" content="Software development in Varanasi, Web Design and Development Company in Varanasi, SEO, Bulk SMS, Customized GST Billing Software developer in Varanasi, Top IT Company"/>
+            <meta name="contactorganization" content="Info Era Software Services Pvt. Ltd."/>
+            <meta name="contactzipcode" content="212011"/>
+            <meta name="contactcity" content="Varanasi"/>
+            <meta name="contactcountry" content="india"/>
+            <meta name="Geography" content="Varanasi, Uttar Pradesh, India"/>
+            <meta name="country" content="INDIA"/>
+            <meta name="contactmobilenumber" content="+91-7008411312"/>
+            <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+
+            <meta name="Publisher" content="www.infoera.in" />
       </Helmet>
       {/* ======= Hero Section ======= */}
       <section

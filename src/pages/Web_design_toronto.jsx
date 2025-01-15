@@ -5,7 +5,7 @@ import MainSection from "../components/home/MainSection";
 function Web_design_toronto() {
   return (
     <>
-      <Helmet>
+     <Helmet>
         <>
           <meta charSet="utf-8" />
           <meta
@@ -25,11 +25,34 @@ function Web_design_toronto() {
             name="keywords"
             content="web design in toronto, web design and web development agency, web developer toronto, website developer toronto, web design company toronto, social media in marketing, mobile application and development, responsive web development, best search engine optimization agency, web design an web development, mobile application and development mobile phone application development"
           />
-          <meta name="author" content="Info Era Software Servides Pvt Ltd" />
           <meta
             name="Publisher"
-            content="Info Era Software Services Pvt. Ltd"
+            content="www.infoera.in"
           />
+          <link rel="canonical" href="https://infoera.in/web_design_toronto" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Website Designing and Development Company in Toronto" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Toronto"/>
+        <meta name="contactzipcode" content="43964"/>
+        <meta name="contactcity" content="Toronto"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Toronto, Canada"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Product" content="Website Designing and Development in Toronto, Software Development in Toronto, Mobile App Development in Toronto, Responsive Website Development in Toronto, Web Hosting in Toronto, E-Commerce in Toronto, Search Engine Optimization SEO Services in Toronto, Website Promotion in Toronto, Bulk SMS and Voice Call Service in Toronto, Graphic Designing in Toronto, IT Company in Toronto"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta>
         </>
       </Helmet>
       <HeroSection />

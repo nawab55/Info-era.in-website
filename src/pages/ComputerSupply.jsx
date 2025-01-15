@@ -1,6 +1,41 @@
+import { Helmet } from "react-helmet";
 const ComputerSupply = () => {
   return (
     <>
+    <Helmet>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <title> Computer Supply: Expert Sales & Service Solutions </title>
+        <meta
+          name="description"
+          content="Reliable computer sales, repair, and IT services by certified technicians. Trusted for quality and excellence in all your PC needs." />
+
+        <meta
+          name="keywords"
+          content="computer supply, PC sales, computer service, IT support"
+        />
+        <link rel="canonical" href="https://infoera.in/computer-supply" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="NoINDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="NOINDEX, FOLLOW" />
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Best It Company in India" />
+        <meta name="Distribution" content="Global" />
+        <meta name="keyphrases" content=" computer sales and service, certified technicians, computer repair experts, IT solutions"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+
+        <meta name="Publisher" content="www.infoera.in" />
+
+
+      </Helmet>
       <div>
         <main id="main">
           {/* ======= Features Section ======= */}

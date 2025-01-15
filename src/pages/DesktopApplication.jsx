@@ -1,6 +1,40 @@
+import { Helmet } from "react-helmet";
 const DesktopApplication = () => {
   return (
     <>
+    <Helmet>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <title> Expert Web Development Consulting Services | Info Era  </title>
+        <meta
+          name="description"
+          content="CRM System Development, ERP Software Development, CRM Application Developer, GST Billing Software company, Inventory Software Development company in Patna" />
+
+        <meta
+          name="keywords"
+          content="Info Era is the best Software Development Company in Patna Bihar India. We develop affordable GST billing software, CRM, ERP software, Inventory software"
+        />
+        <link rel="canonical" href="https://infoera.in/desktop-application" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Software Development in Patna" />
+        <meta name="Distribution" content="Global" />
+        
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta name="abstract" content="Software Development company in Patna, Website Development Company in Patna, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Patna Bihar India" />
+        <meta name="Publisher" content="www.infoera.in" />
+
+    </Helmet>
       <div>
         {/* ======= Hero Section ======= */}
         <section id="hero" className="hero d-flex align-items-center">

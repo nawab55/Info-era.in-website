@@ -6,6 +6,8 @@ import Footer from "./components/Footer";
 import SkeletonLoader from "./components/loader/Loader";
 import BackToTopButton from "./components/BackToTopButton";
 import NotFound from "./pages/NotFound";
+import StudentDetails from "./components/assessmentTest/StudentDetails";
+import AssessmentTest from "./components/assessmentTest/AssessmentTest";
 
 // const WebDesign = lazy(() => import("./courses/webDesignCourse/WebDesign"));
 const WebDevelopment = lazy(() => import("./courses/webDevelopmentCourse/WebDevelopment"));
@@ -319,8 +321,9 @@ function App() {
     "/website_development_company_bhutan",
     "/website_development_company_gaya",
     "/website_development_training_cerner_in_jehanabad",
-    // "/web-design-course",
-    "/mern-stack-workshop"
+    "/web-design-course",
+    "/mern-stack-workshop",
+    "/exam",
   ];
   // const hidden = !routes.includes(pathname);
   // console.log(hidden)
@@ -338,6 +341,22 @@ function App() {
           element={
             <Suspense fallback={<SkeletonLoader />}>
               <Home />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/exam"
+          element={
+            <Suspense fallback={<SkeletonLoader />}>
+              <StudentDetails />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/assessment-test"
+          element={
+            <Suspense fallback={<SkeletonLoader />}>
+              <AssessmentTest />
             </Suspense>
           }
         />

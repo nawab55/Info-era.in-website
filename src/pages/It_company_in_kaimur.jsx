@@ -10,17 +10,36 @@ const It_company_in_kaimur = () => {
           name="google-site-verification"
           content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
         />
-        <title>IT Company in Kaimur(Bhabua) , Call : +917008411312</title>
-        <meta
-          name="description"
-          content="Discover the top IT companies in Kaimur and Bhabua, offering exceptional services from software development to web design. Find the best IT solutions for your business."
-        />
-        <meta
-          name="keywords"
-          content="it company in Kaimur,it company in bhabua, it company kaimur, software company in kaimur,software company kaimur, kaimur software company, web development company in kaimur, website development company in kaimur, software development company in kaimur, best website design and development company in kaimur, best software company in kaimur"
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+        <title>Top Software Development Company in Kaimur | Info Era Software</title>
+        <meta name=" description" content="Software Development Company in Kaimur, GST Billing Software in Kaimur, IT Solutions Providers in Kaimur Bihar, Website Development Company in Kaimur, SEO Company in Kaimur, Android App Development Company in Kaimur, Bulk SMS Service provider in Kaimur Bihar "/>
+        <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Kaimur, IT Service Provider Company in Kaimur Bihar, SEO Service provider Company in Kaimur, Website Promotion service provider in Kaimur, SEO , SEM, PPC, SMM Services in Kaimur Bihar " />
+        <meta name="keyphrases" content="Website development in Kaimur, Web Designing in Kaimur Bihar, Web Hosting Service in Kaimur, E-Commerce Website Development in Kaimur, Responsive website designing SEO in Kaimur Bihar "/>
+         <link rel="canonical" href="https://infoera.in/it_company_in_kaimur" />
+            <meta name="content-language" content="EN" />
+            <meta name="search engines" content="ALL" />
+            <meta name="Robots" content="INDEX,ALL" />
+            <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+            <meta name="msnbot" content="INDEX, FOLLOW" />
+            <meta name="googlebot" content="INDEX, FOLLOW" />
+            <meta name="language" content="en-us" />
+            <meta name="Expires" content="never" />
+            <meta name="rating" content="General" />
+            <meta name="Resource-type" content="document" />
+            <meta name="Author" content="www.infoera.in" />
+            <meta name="document-classification" content="Software & Website development company" />
+            <meta name="Distribution" content="Global" />
+            <meta name="Product" content="Website Designing and Development in Kaimur, Software Development in Kaimur, Mobile App Development in Kaimur, Responsive Website Development in Kaimur, Web Hosting in Kaimur, E-Commerce in Kaimur, Search Engine Optimization SEO Services in Kaimur, Website Promotion in Kaimur, Bulk SMS and Voice Call Service in Kaimur, Graphic Designing in Kaimur, IT Company in Kaimur"/>
+            <meta name="abstract" content="Software Development company in Kaimur, Website Development Company in Kaimur, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Kaimur Bihar India" />
+            <meta name="contactorganization" content="Info Era Software Services Pvt. Ltd."/>
+            <meta name="contactzipcode" content="811310"/>
+            <meta name="contactcity" content="Kaimur"/>
+            <meta name="contactcountry" content="india"/>
+            <meta name="Geography" content="Kaimur, Bihar, India"/>
+            <meta name="country" content="INDIA"/>
+            <meta name="contactmobilenumber" content="+91-7008411312"/>
+            <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+
+            <meta name="Publisher" content="www.infoera.in" />
       </Helmet>
       <div >
         {/* ======= Hero Section ======= */}
