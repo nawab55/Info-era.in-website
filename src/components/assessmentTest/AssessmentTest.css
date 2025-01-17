@@ -1,63 +1,114 @@
-.assessment-test {
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .question-type-title h3 {
-    color: #343a40;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  
-  .question-card {
-    background-color: #fff;
-    border-radius: 5px;
-    border: 1px solid #dee2e6;
-  }
-  
-  .question-card h5 {
-    font-weight: bold;
-  }
-  
-  .options .form-check-label {
-    font-size: 1rem;
-    color: #495057;
-  }
-  
-  .btn-primary {
-    background-color: #007bff;
-    border: none;
-  }
-  
-  .btn-primary:hover {
-    background-color: #0056b3;
-  }
-  
-  .btn-secondary {
-    background-color: #6c757d;
-    border: none;
-  }
-  
-  .btn-secondary:hover {
-    background-color: #5a6268;
-  }
-  
-  .btn-success {
-    background-color: #28a745;
-    border: none;
-  }
-  
-  .btn-success:hover {
-    background-color: #218838;
-  }
-  
-  .btn-danger {
-    background-color: #dc3545;
-    border: none;
-  }
-  
-  .btn-danger:hover {
-    background-color: #c82333;
-  }
-  
+/* General Styles */
+/* body {
+  font-family: "Inter", sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+} */
+
+/* Container */
+/* .exam-form {
+  max-width: 800px;
+  margin: auto;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+} */
+
+/* Timer */
+/* .timer {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1e3a8a;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: #dbeafe;
+} */
+
+/* Selected Answer */
+.selected-answer {
+  background-color: #f0fdf4;
+  color: #065f46;
+  border: none;
+  padding: 6px 8px;
+  border-radius: 6px;
+}
+
+
+/* General Styles */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.exam-form {
+  max-width: 800px;
+  margin: auto;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Timer */
+.timer {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1e3a8a;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: #dbeafe;
+}
+
+/* Thank You Message */
+.thank-you-message {
+  background: #e6ffed;
+  padding: 20px;
+  border-radius: 8px;
+  color: #065f46;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you-message h4 {
+  font-size: 1.5rem;
+}
+
+.thank-you-message p {
+  font-size: 1rem;
+}
+
+/* Submit Button */
+.btn-submit {
+  background-color: #1e3a8a;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #3749b7;
+}
+
+/* Student Details */
+.student-details {
+  font-size: 1.2rem;
+  color: #444;
+  text-align: center;
+}
+
+.student-details .icon {
+  color: #1e3a8a;
+  margin-right: 8px;
+}

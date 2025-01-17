@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-// import toast from "react-hot-toast";
+import toast from "react-hot-toast";
 import axios from "axios";
 
 const StudentDetails = () => {
@@ -49,7 +49,7 @@ const StudentDetails = () => {
       // toast.success("Details saved successfully!");
       navigate("/assessment-test");
     } catch (error) {
-      // toast.error("Failed to save details. Please try again.");
+      toast.error(error.response?.data?.message || "Failed to save details. Please try again.");
       console.error(error);
     }
   };
