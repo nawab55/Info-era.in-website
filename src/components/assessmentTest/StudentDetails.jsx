@@ -45,7 +45,7 @@ const StudentDetails = () => {
         student,
         { withCredentials: true}
       );
-      console.log(response)
+      console.log(response.data)
       // toast.success("Details saved successfully!");
       navigate("/assessment-test");
     } catch (error) {

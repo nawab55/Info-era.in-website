@@ -15,9 +15,7 @@ const AssessmentTest = () => {
   const [answers, setAnswers] = useState({}); // Store answers with question IDs
   const [currentTypeIndex, setCurrentTypeIndex] = useState(0); // For pagination
   const [isSubmitted, setIsSubmitted] = useState(false); // Track submission status
-  const [redirectTimer, setRedirectTimer] = useState(30); // Timer for redirect
-  // const [courseData, setCourseData] = useState(null);
-  // const [backgroundData, setBackgroundData] = useState(null);
+  const [redirectTimer, setRedirectTimer] = useState(5); // Timer for redirect
 
   const navigate = useNavigate();
 
@@ -31,14 +29,13 @@ const AssessmentTest = () => {
 
   // Initialize the timer with a deadline saved in localStorage or a default value
   const timerDeadline = new Date(
-    parseInt(localStorage.getItem("assessmentDeadline") || Date.now() + 3 * 60 * 1000)
+    parseInt(localStorage.getItem("assessmentDeadline") || Date.now() + 60 * 60 * 1000)
   );
 
   const { seconds, minutes, hours, restart } = useTimer({
     expiryTimestamp: timerDeadline,
     onExpire: handleAutoSubmit
   });
-
 
   // Fetch student details from cookies and questions
   useEffect(() => {
@@ -51,13 +48,9 @@ const AssessmentTest = () => {
           { withCredentials: true }
         );
         const response = data?.data;
-        console.log("Student Details:", response);
-        setStudentDetails({
-          name: response?.name,
-          mobile: response?.mobile
-        });
+        // console.log("Student Details:", response);
+        setStudentDetails({ name: response?.name, mobile: response?.mobile });
         if (response?.course) {
-          // setCourseData(response?.course);
           fetchCourseData(response?.course);
         } else {
           toast.error("Course not found in student details.");
@@ -71,7 +64,6 @@ const AssessmentTest = () => {
     };
 
     const fetchCourseData = async (courseName) => {
-      console.log(courseName);
       try {
         const { data } = await axios.get(
           `${
@@ -79,10 +71,9 @@ const AssessmentTest = () => {
           }/api/assessment/course/${courseName}`,
           { withCredentials: true }
         );
-        console.log("Course Data:", data);
+        // console.log("Course Data:", data);
         const course = data?.course;
         if (course?.background) {
-          // setBackgroundData(course?.background);
           fetchQuestions(course?.background);
         } else {
           toast.error("Background not found for the course.");
@@ -111,7 +102,7 @@ const AssessmentTest = () => {
 
      // Save the deadline to localStorage if not already set
      if (!localStorage.getItem("assessmentDeadline")) {
-      const newDeadline = Date.now() + 3 * 60 * 1000; // 60 minutes
+      const newDeadline = Date.now() + 60 * 60 * 1000; // 60 minutes
       localStorage.setItem("assessmentDeadline", newDeadline.toString());
       restart(new Date(newDeadline));
     }
@@ -122,10 +113,10 @@ const AssessmentTest = () => {
   }, [restart]);
 
   // Handle answer selection
-  const handleAnswerChange = (questionId, option) => {
+  const handleAnswerChange = (questionId, key) => {
     setAnswers((prev) => ({
       ...prev,
-      [questionId]: option
+      [questionId]: key  // Store the key (A, B, C, or D)
     }));
   };
 
@@ -149,10 +140,22 @@ const AssessmentTest = () => {
 
   const submitAnswers = async () => {
     if (isSubmitted) return; // Prevent duplicate submissions
+    const responses = questionsByType.flatMap((type) =>
+      type.questions.map((question) => ({
+        questionTypeId: type._id, // Associate the questionTypeId
+        questionId: question._id,
+        selectedOption: answers[question._id], // Store the selected option
+      }))
+    );
     const payload = {
       studentDetails,
-      answers,
+      responses, // Updated to include questionTypeId and questionId for each question
     };
+    // const payload = {
+    //   studentDetails,
+    //   questionTypeId: questionsByType[currentTypeIndex]?._id, // Question type ID
+    //   answers,
+    // };
     try {
       console.log(payload);
       const response = await axios.post(
@@ -182,100 +185,100 @@ const AssessmentTest = () => {
 
   return (
     <div className="container exam-form mt-5 p-4">
-    <div className="d-flex justify-content-between align-items-center mb-4">
-      <h3>Assessment Test</h3>
-      {!isSubmitted && (
-        <div className="timer">
-          <strong>
-            Time Left: {hours.toString().padStart(2, "0")}:
-            {minutes.toString().padStart(2, "0")}:
-            {seconds.toString().padStart(2, "0")}
-          </strong>
-        </div>
-      )}
-    </div>
-    {isSubmitted ? (
-      <div className="thank-you-message text-center">
-        <h4>Thank you for completing the assessment!</h4>
-        <p>Redirecting to the home page in {redirectTimer} seconds...</p>
+      <div className="d-flex justify-content-between align-items-center mb-4">
+        <h3>Assessment Test</h3>
+        {!isSubmitted && (
+          <div className="timer">
+            <strong>
+              Time Left: {hours.toString().padStart(2, "0")}:
+              {minutes.toString().padStart(2, "0")}:
+              {seconds.toString().padStart(2, "0")}
+            </strong>
+          </div>
+        )}
       </div>
-    ) : (
-      <>
-        <div className="student-details mb-5">
-          <p>
-            <FaUser className="icon" /> <strong>{studentDetails.name}</strong>
-            <span> | </span>
-            <FaPhone className="icon" /> <strong>{studentDetails.mobile}</strong>
-          </p>
+      {isSubmitted ? (
+        <div className="thank-you-message text-center">
+          <h4>Thank you for completing the assessment!</h4>
+          <p>Redirecting to the home page in {redirectTimer} seconds...</p>
         </div>
-        <form onSubmit={handleSubmit}>
-          {questionsByType.length > 0 && (
-            <div>
-              <h4 className="mb-4 text-secondary">
-                {questionsByType[currentTypeIndex]?.questionType} Questions
-              </h4>
-              {questionsByType[currentTypeIndex]?.questions.map((question) => (
-                <div key={question._id} className="card mb-3">
-                  <div className="card-body">
-                    <h5>{question.question}</h5>
-                    <div>
-                      {Object.entries(question.options).map(([key, option]) => (
-                        <div
-                          key={key}
-                          className={`form-check ${
-                            answers[question._id] === option ? "selected-answer" : ""
-                          }`}
-                        >
-                          <input
-                            type="radio"
-                            id={`${question._id}-${key}`}
-                            name={question._id}
-                            value={option}
-                            className="form-check-input"
-                            onChange={() => handleAnswerChange(question._id, option)}
-                            checked={answers[question._id] === option}
-                            required
-                          />
-                          <label htmlFor={`${question._id}-${key}`} className="form-check-label">
-                            {option}
-                          </label>
-                        </div>
-                      ))}
+      ) : (
+        <>
+          <div className="student-details mb-5">
+            <p>
+              <FaUser className="icon" /> <strong>{studentDetails.name}</strong>
+              <span> | </span>
+              <FaPhone className="icon" /> <strong>{studentDetails.mobile}</strong>
+            </p>
+          </div>
+          <form onSubmit={handleSubmit}>
+            {questionsByType.length > 0 && (
+              <div>
+                <h4 className="mb-4 text-secondary">
+                  {questionsByType[currentTypeIndex]?.questionType} Questions
+                </h4>
+                {questionsByType[currentTypeIndex]?.questions.map((question) => (
+                  <div key={question._id} className="card mb-3">
+                    <div className="card-body">
+                      <h5>{question.question}</h5>
+                      <div>
+                        {Object.entries(question.options).map(([key, value]) => (
+                          <div
+                            key={key}
+                            className={`form-check ${
+                              answers[question._id] === key ? "selected-answer" : ""
+                            }`}
+                          >
+                            <label htmlFor={`${question._id}-${key}`} className="form-check-label">
+                              <input
+                                type="radio"
+                                id={`${question._id}-${key}`}
+                                name={question._id}
+                                value={key}
+                                className="form-check-input"
+                                onChange={() => handleAnswerChange(question._id, key)}
+                                checked={answers[question._id] === key}
+                                required
+                              />
+                               {value}
+                            </label>
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
-            </div>
-          )}
-          <div className="d-flex justify-content-between mt-4">
-            <button
-              type="button"
-              className="btn btn-secondary"
-              onClick={handlePrevious}
-              disabled={currentTypeIndex === 0}
-            >
-              Previous
-            </button>
-            <button
-              type="button"
-              className="btn btn-primary"
-              onClick={handleNext}
-              disabled={currentTypeIndex === questionsByType.length - 1}
-            >
-              Next
-            </button>
-          </div>
-          {currentTypeIndex === questionsByType.length - 1 && (
-            <div className="text-center mt-4">
-              <button type="submit" className=" btn-submit">
-                Submit Assessment
+                ))}
+              </div>
+            )}
+            <div className="d-flex justify-content-between mt-4">
+              <button
+                type="button"
+                className="btn btn-secondary"
+                onClick={handlePrevious}
+                disabled={currentTypeIndex === 0}
+              >
+                Previous
+              </button>
+              <button
+                type="button"
+                className="btn btn-primary"
+                onClick={handleNext}
+                disabled={currentTypeIndex === questionsByType.length - 1}
+              >
+                Next
               </button>
             </div>
-          )}
-        </form>
-      </>
-    )}
-  </div>
+            {currentTypeIndex === questionsByType.length - 1 && (
+              <div className="text-center mt-4">
+                <button type="submit" className=" btn-submit">
+                  Submit Assessment
+                </button>
+              </div>
+            )}
+          </form>
+        </>
+      )}
+    </div>
   );
 };
 

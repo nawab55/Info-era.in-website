@@ -207,7 +207,7 @@ const ClientQuery = () => {
                     id="ContentPlaceHolder1_requirefield1"
                     style={{ color: "red", visibility: "hidden" }}
                   >
-                    Father&apos;s name is require
+                    Business name is require
                   </span>
                   <br />
                   <div id="ContentPlaceHolder1_UpdatePanel1">
