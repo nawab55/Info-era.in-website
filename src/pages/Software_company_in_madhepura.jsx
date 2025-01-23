@@ -14,9 +14,11 @@ function Software_company_in_madhepura() {
         <meta name=" description" content="Software Development Company in Madhepura, GST Billing Software in Madhepura, IT Solutions Providers in Madhepura Bihar, Website Development Company in Madhepura, SEO Company in Madhepura, Android App Development Company in Madhepura, Bulk SMS Service provider in Madhepura Bihar "/>
         <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Madhepura, IT Service Provider Company in Madhepura Bihar, SEO Service provider Company in Madhepura, Website Promotion service provider in Madhepura, SEO , SEM, PPC, SMM Services in Madhepura Bihar " />
         <meta name="keyphrases" content="Website development in Madhepura, Web Designing in Madhepura Bihar, Web Hosting Service in Madhepura, E-Commerce Website Development in Madhepura, Responsive website designing SEO in Madhepura Bihar "/>
-        
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
 	    
-        <link rel="canonical" href="https://infoera.in/software_company_in_madhepura" />
+        <link rel="canonical" href="https://infoera.in/software_company_in_madhepura" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -178,7 +180,7 @@ function Software_company_in_madhepura() {
                     Hospital Management System.
                   </p>
                   <a
-                    href="http://hospital.infoerasoftware.com/login.aspx"
+                    href="http://hospital.infoerasoftware.com/login.aspx" aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                     target="_blank"
                     type="button"
                     className="btn btn-outline-primary"
@@ -197,6 +199,7 @@ function Software_company_in_madhepura() {
                     src="assets/img/hotel-management.png"
                     className="img-fluid"
                     alt="Hotel Management System - Info Era Software Services"
+                    title="Hotel Management System - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>
                     Hotel Management System
@@ -210,7 +213,7 @@ function Software_company_in_madhepura() {
                     <br />
                   </p>
                   <a
-                    href="http://hotel.infoerasoftware.com"
+                    href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 24 }}
@@ -272,7 +275,7 @@ function Software_company_in_madhepura() {
                     the client and is not an off-the-shelf solution.
                   </p>
                   <a
-                    href="about.aspx"
+                    href="about.aspx" aria-label="about - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 48 }}
@@ -303,6 +306,7 @@ function Software_company_in_madhepura() {
                     src="assets/img/ecommerce.png"
                     className="img-fluid"
                     alt="E-commerce"
+                    title="E-commerce"
                   />
                   <h3 style={{ textAlign: "center" }}>E-commerce</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -325,6 +329,7 @@ function Software_company_in_madhepura() {
                     src="assets/img/news.png"
                     className="img-fluid"
                     alt="News/Magazine"
+                    title="News - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>News/Magazine</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -633,7 +638,7 @@ function Software_company_in_madhepura() {
 </header> */}
           <div className="row">
             <div className="col-lg-6">
-              <img src="assets/img/webpic.png" className="img-fluid" alt="" />
+              <img src="assets/img/webpic.png" className="img-fluid" alt="Web Pic - Info Era" title="Web Pic - Info Era" />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">

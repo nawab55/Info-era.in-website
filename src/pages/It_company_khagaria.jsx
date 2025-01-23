@@ -11,11 +11,11 @@ function It_company_khagaria() {
 	     <meta name=" description" content="Website Development Company in Khagaria, SEO Company in Khagaria, Android App Development Company in Khagaria, GST Billing Software in Khagaria, IT Solutions Providers in Khagaria Bihar, and Bulk SMS Service Provider in Khagaria Bihar "/>
         <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Khagaria, IT Service Provider Company in Khagaria Bihar, SEO Service provider Company in Khagaria, Website Promotion service provider in Khagaria, SEO , SEM, PPC, SMM Services in Khagaria Bihar " />
         <meta name="keyphrases" content="Website development in Khagaria, Web Designing in Khagaria Bihar, Web Hosting Service in Khagaria, E-Commerce Website Development in Khagaria, Responsive website designing SEO in Khagaria Bihar "/>
-        <meta name="google-site-verification" content="Apjfqo5P6mJv3nxuJCd3S1j3o1GZjGcQjl5LbPwLIDM" /> 
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
 	    <meta httpEquiv="Content-Type" content="text/html; charset=ISO-8859-1" /> 	
 	    <meta charset="utf-8"/> 
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
-        <link rel="canonical" href="https://www.infoera.in/it_company_khagaria" />
+        <link rel="canonical" href="https://www.infoera.in/it_company_khagaria"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -246,7 +246,7 @@ function It_company_khagaria() {
                     Hospital Management System.
                   </p>
                   <a
-                    href="http://hospital.infoerasoftware.com/login.aspx"
+                    href="http://hospital.infoerasoftware.com/login.aspx" aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                     target="_blank"
                     type="button"
                     className="btn btn-outline-primary"
@@ -265,6 +265,7 @@ function It_company_khagaria() {
                     src="assets/img/hotel-management.png"
                     className="img-fluid"
                     alt="Hotel Management System - Info Era Software Services"
+                    title="Hotel Management System - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>
                     Hotel Management System
@@ -278,7 +279,7 @@ function It_company_khagaria() {
                     <br />
                   </p>
                   <a
-                    href="http://hotel.infoerasoftware.com"
+                    href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 24 }}
@@ -340,7 +341,7 @@ function It_company_khagaria() {
                     the client and is not an off-the-shelf solution.
                   </p>
                   <a
-                    href="about.aspx"
+                    href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 48 }}
@@ -371,6 +372,7 @@ function It_company_khagaria() {
                     src="assets/img/ecommerce.png"
                     className="img-fluid"
                     alt="E-commerce"
+                    title="E-commerce"
                   />
                   <h3 style={{ textAlign: "center" }}>E-commerce</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -393,6 +395,7 @@ function It_company_khagaria() {
                     src="assets/img/news.png"
                     className="img-fluid"
                     alt="News/Magazine"
+                    title="News - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>News/Magazine</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -420,6 +423,7 @@ function It_company_khagaria() {
                     src="assets/img/values-3.png"
                     className="img-fluid"
                     alt="MLM"
+                    title="MLM - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>MLM</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -473,7 +477,7 @@ function It_company_khagaria() {
                       <img
                         src="assets/img/features.png"
                         className="img-fluid"
-                        alt=""
+                        alt="Features - Info Era"
                       />
                     </div>
                     <div className="col-lg-6 mt-5 mt-lg-0 d-flex order-md-1">
@@ -660,7 +664,7 @@ function It_company_khagaria() {
 </header> */}
         <div className="row">
           <div className="col-lg-6">
-            <img src="assets/img/webpic.png" className="img-fluid" alt="" />
+            <img src="assets/img/webpic.png" className="img-fluid" alt="Webpic - Info Era" title="Web pic - Info Era" />
           </div>
           <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
             <div className="row align-self-center gy-4">

@@ -8,10 +8,9 @@ function It_consulting_solution_perth() {
     <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
 
         <title>
           {" "}
@@ -27,7 +26,7 @@ function It_consulting_solution_perth() {
           name="keywords"
           content="it consulting solution perth, website development perth, digital marketing agency perth, website design and development services, best website design and seo company, web design companies perth, digital marketing and website development agency, software development experts web app development company"
         />
-         <link rel="canonical" href="https://www.infoera.in/it_consulting_solution_perth" />
+         <link rel="canonical" href="https://www.infoera.in/it_consulting_solution_perth" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
 	      <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 

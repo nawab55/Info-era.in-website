@@ -7,15 +7,15 @@ function It_company_jamui() {
     <>
     <Helmet>
     <meta charset="utf-8" /><meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta name="google-site-verification" content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU" />
+    
     <title>
     Software Company in Jamui | Website Development in Jamui Bihar | IT Company in Jamui Bihar</title>
         <meta name="description" content="Find leading software and IT firms in Khagaria that provide outstanding services ranging from web design to development, boosting the online visibility of your company." />
         <meta name="keywords" content="it company in jamui, it company jamui, software company in jamui,software company jamui, jamui software company, web development company in jamui, website development company in jamui, software development company in Jamui, best website design and development company in jamui, best software company in jamui" />
-        <link rel="canonical" href="https://infoera.in/it_company_jamui" />
+        <link rel="canonical" href="https://infoera.in/it_company_jamui" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
         
         <meta name="keyphrases" content="Website development in Jamui, Web Designing in Jamui Bihar, Web Hosting Service in Jamui, E-Commerce Website Development in Jamui, Responsive website designing SEO in Jamui Bihar "/>
-        
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
 	      <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -244,7 +244,7 @@ function It_company_jamui() {
                     Hospital Management System.
                   </p>
                   <a
-                    href="http://hospital.infoerasoftware.com/login.aspx"
+                    href="http://hospital.infoerasoftware.com/login.aspx" aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                     target="_blank"
                     type="button"
                     className="btn btn-outline-primary"
@@ -263,6 +263,7 @@ function It_company_jamui() {
                     src="assets/img/hotel-management.png"
                     className="img-fluid"
                     alt="Hotel Management System - Info Era Software Services"
+                    title="Hotel Management System - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>
                     Hotel Management System
@@ -276,7 +277,7 @@ function It_company_jamui() {
                     <br />
                   </p>
                   <a
-                    href="http://hotel.infoerasoftware.com"
+                    href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 24 }}
@@ -338,7 +339,7 @@ function It_company_jamui() {
                     the client and is not an off-the-shelf solution.
                   </p>
                   <a
-                    href="about.aspx"
+                    href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 48 }}
@@ -369,6 +370,7 @@ function It_company_jamui() {
                     src="assets/img/ecommerce.png"
                     className="img-fluid"
                     alt="E-commerce"
+                    title="E-commerce"
                   />
                   <h3 style={{ textAlign: "center" }}>E-commerce</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -418,6 +420,7 @@ function It_company_jamui() {
                     src="assets/img/values-3.png"
                     className="img-fluid"
                     alt="MLM"
+                    title="MLM - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>MLM</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -471,7 +474,8 @@ function It_company_jamui() {
                       <img
                         src="assets/img/features.png"
                         className="img-fluid"
-                        alt=""
+                        alt="Features - Info Era"
+                        title="Features - Info Era"
                       />
                     </div>
                     <div className="col-lg-6 mt-5 mt-lg-0 d-flex order-md-1">
@@ -658,7 +662,7 @@ function It_company_jamui() {
 </header> */}
         <div className="row">
           <div className="col-lg-6">
-            <img src="assets/img/webpic.png" className="img-fluid" alt="" />
+            <img src="assets/img/webpic.png" className="img-fluid" alt="Web Pic - Info Era" title="web pic - Info Era" />
           </div>
           <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
             <div className="row align-self-center gy-4">

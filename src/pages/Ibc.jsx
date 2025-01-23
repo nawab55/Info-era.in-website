@@ -114,10 +114,7 @@ function Ibc() {
     <>
     <Helmet>
             <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-            <meta
-              name="google-site-verification"
-              content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-            />
+            <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
             <title>Become an Individual Business Consultant (IBC)</title>
             <meta
               name="description"
@@ -127,7 +124,7 @@ function Ibc() {
               name="keywords"
               content="IBC, Individual Business Consultant, Info Era Software Services, business consultant"
             />
-            <link rel="canonical" href="https://www.infoera.in/ibc" />
+            <link rel="canonical" href="https://www.infoera.in/ibc"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
             <meta name="content-language" content="EN" />
             <meta name="search engines" content="ALL" />
             <meta name="Robots" content="INDEX,ALL" />
@@ -213,6 +210,7 @@ function Ibc() {
                 src="assets/img/ibc-1.gif"
                 className="img-fluid"
                 alt="info era software services"
+                title="info Era"
               />
             </div>
           </div>
@@ -423,6 +421,7 @@ function Ibc() {
                 src="assets/img/ibc-2.gif"
                 className="img-fluid"
                 alt="best software company in bihar"
+                title="Best Software Company"
               />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">

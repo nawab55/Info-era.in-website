@@ -7,10 +7,11 @@ function It_company_mirzapur() {
       <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+        
+      {/* Google site Verification  Start */}
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
+
         <title>IT Company in Mirzapru | Software Company in Mirzapur</title>
         <meta
           name="description"
@@ -20,7 +21,7 @@ function It_company_mirzapur() {
           name="keywords"
           content="it company in mirzapur, software company in mirzapur, web development company in mirzapur, website development company in mirzapur, software development company in mirzapur, best website design and development company in mirzapur"
         />
-         <link rel="canonical" href="https://infoera.in/it_company_mirzapur" />
+         <link rel="canonical" href="https://infoera.in/it_company_mirzapur" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
             <meta name="content-language" content="EN" />
             <meta name="search engines" content="ALL" />
             <meta name="Robots" content="INDEX,ALL" />
@@ -204,7 +205,7 @@ function It_company_mirzapur() {
                     Hospital Management System.
                   </p>
                   <a
-                    href="http://hospital.infoerasoftware.com/login.aspx"
+                    href="http://hospital.infoerasoftware.com/login.aspx" aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                     target="_blank"
                     type="button"
                     className="btn btn-outline-primary"
@@ -223,6 +224,7 @@ function It_company_mirzapur() {
                     src="assets/img/hotel-management.png"
                     className="img-fluid"
                     alt="Hotel Management System - Info Era Software Services"
+                    title="Hotel Management System - info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>
                     Hotel Management System
@@ -236,7 +238,7 @@ function It_company_mirzapur() {
                     <br />
                   </p>
                   <a
-                    href="http://hotel.infoerasoftware.com"
+                    href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 24 }}
@@ -268,7 +270,7 @@ function It_company_mirzapur() {
                     agencies, agents, clients and financial transactions.
                   </p>
                   <a
-                    href="about.aspx"
+                    href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                   >
@@ -298,7 +300,7 @@ function It_company_mirzapur() {
                     the client and is not an off-the-shelf solution.
                   </p>
                   <a
-                    href="about.aspx"
+                    href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 48 }}
@@ -329,6 +331,7 @@ function It_company_mirzapur() {
                     src="assets/img/ecommerce.png"
                     className="img-fluid"
                     alt="E-commerce"
+                    title="E-commerce"
                   />
                   <h3 style={{ textAlign: "center" }}>E-commerce</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -351,6 +354,7 @@ function It_company_mirzapur() {
                     src="assets/img/news.png"
                     className="img-fluid"
                     alt="News/Magazine"
+                    title="News - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>News/Magazine</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -378,6 +382,7 @@ function It_company_mirzapur() {
                     src="assets/img/values-3.png"
                     className="img-fluid"
                     alt="MLM"
+                    title="MLM - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>MLM</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -431,7 +436,8 @@ function It_company_mirzapur() {
                       <img
                         src="assets/img/features.png"
                         className="img-fluid"
-                        alt=""
+                        alt="Features - Info Era"
+                        title="Features - Info Era"
                       />
                     </div>
                     <div className="col-lg-6 mt-5 mt-lg-0 d-flex order-md-1">

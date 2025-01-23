@@ -38,12 +38,14 @@ function Certificate() {
     <>
     <Helmet>
     <title>Info Era Certificate </title>
+    <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+
     <meta
           name="keywords"
           content="Info Era Certificate, Info Era Certification, Download Certificate, Download Info Era Software Services Certificate, Info Era Treaning Certificate, Certificate of Info Era"
         />
     <meta name="description" content=" Students can easily download their certificates online, ensuring quick access to their achievements anytime, anywhere."/>
-    <link rel="canonical" href="https://infoera.in/certificate" />
+    <link rel="canonical" href="https://infoera.in/certificate"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
     <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />

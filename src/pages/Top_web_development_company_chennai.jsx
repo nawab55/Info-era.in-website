@@ -8,12 +8,13 @@ function Top_web_development_company_chennai() {
       <Helmet>
         <meta charSet="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+        
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
+
         <title>
-           Chennai's Top Web Design Firms: November 2024 Rankings | DesignRush
+           Chennai Top Web Design Firms: November 2024 Rankings | DesignRush
         </title>
         <meta
           name="description"
@@ -23,7 +24,7 @@ function Top_web_development_company_chennai() {
           name="keywords"
           content="top web development companies in chennai, top web development company in chennai, top digital marketing agencies chennai, best wordpress company i chennai, best digital marketing company in chennai, website creation company in chennai, web app development company in chennai, web designing company in chennai, web developers in chennai, web development services in chennai "
         />
-        <link rel="canonical" href="https://infoera.in/top_web_development_company_chennai" />
+        <link rel="canonical" href="https://infoera.in/top_web_development_company_chennai" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 

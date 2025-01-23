@@ -7,10 +7,11 @@ function Software_company_chhapra() {
      <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+        
+ {/* Google site Verification  Start */}
+ <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
+
         <title>Software Company in Chhapra,Bihar | Best Website Company |Info Era </title>
         <meta
           name="description"
@@ -20,7 +21,7 @@ function Software_company_chhapra() {
           name="keywords"
           content="software development company in chhapra, software companies in chhapra, software company in chhapra, software development companies in chhapra, software development services in chhapra, list of software companies in chhapra, software company names in chhapra, it software companies in chhapra, names of software companies in chhapra, software companies list in chhapra, software developing companies in chhapra, computer software companies in chhapra, software development firms in chhapra, software firms in chhapra, software companies address in chhapra, software company offices in chhapra"
         />
-        <link rel="canonical" href="https://infoera.in/software_company_chhapra" />
+        <link rel="canonical" href="https://infoera.in/software_company_chhapra" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
 	      <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -178,7 +179,7 @@ function Software_company_chhapra() {
                 Hospital Management System.
               </p>
               <a
-                href="http://hospital.infoerasoftware.com/login.aspx"
+                href="http://hospital.infoerasoftware.com/login.aspx" aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                 target="_blank"
                 type="button"
                 className="btn btn-outline-primary"
@@ -197,6 +198,7 @@ function Software_company_chhapra() {
                 src="assets/img/hotel-management.png"
                 className="img-fluid"
                 alt="Hotel Management System - Info Era Software Services"
+                title="Hotel Management System - Info Era"
               />
               <h3 style={{ textAlign: "center" }}>Hotel Management System</h3>
               <p style={{ textAlign: "justify" }}>
@@ -207,7 +209,7 @@ function Software_company_chhapra() {
                 <br />
               </p>
               <a
-                href="http://hotel.infoerasoftware.com"
+                href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                 type="button"
                 className="btn btn-outline-primary"
                 style={{ marginTop: 24 }}
@@ -267,7 +269,7 @@ function Software_company_chhapra() {
                 client and is not an off-the-shelf solution.
               </p>
               <a
-                href="about.aspx"
+                href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
                 type="button"
                 className="btn btn-outline-primary"
                 style={{ marginTop: 48 }}
@@ -298,6 +300,7 @@ function Software_company_chhapra() {
                 src="assets/img/ecommerce.png"
                 className="img-fluid"
                 alt="E-commerce"
+                title="E-commerce - Info Era"
               />
               <h3 style={{ textAlign: "center" }}>E-commerce</h3>
               <p style={{ textAlign: "justify" }}>
@@ -320,6 +323,7 @@ function Software_company_chhapra() {
                 src="assets/img/news.png"
                 className="img-fluid"
                 alt="News/Magazine"
+                title="News - Info Era"
               />
               <h3 style={{ textAlign: "center" }}>News/Magazine</h3>
               <p style={{ textAlign: "justify" }}>
@@ -347,6 +351,7 @@ function Software_company_chhapra() {
                 src="assets/img/values-3.png"
                 className="img-fluid"
                 alt="MLM"
+                title="MLM - Info Era"
               />
               <h3 style={{ textAlign: "center" }}>MLM</h3>
               <p style={{ textAlign: "justify" }}>
@@ -619,7 +624,7 @@ function Software_company_chhapra() {
 </header> */}
       <div className="row">
         <div className="col-lg-6">
-          <img src="assets/img/webpic.png" className="img-fluid" alt="" />
+          <img src="assets/img/webpic.png" className="img-fluid" alt="Web Pic - Info Era" title="Web Pic - Info Era" />
         </div>
         <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
           <div className="row align-self-center gy-4">

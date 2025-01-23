@@ -11,10 +11,7 @@ const WebApplication = () => {
             content="width=device-width, initial-scale=1.0"
             name="viewport"
           />
-          <meta
-            name="google-site-verification"
-            content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-          />
+          
           <title>
           Web Application | Best Web Designing Company in patna, Bihar
           </title>
@@ -22,11 +19,16 @@ const WebApplication = () => {
             name="description"
             content="Info Era Software Services Pvt. Ltd. delivers innovative IT solutions across industries with a skilled team, driving growth in healthcare, e-commerce, banking & more."
           />
+
+           {/* Google site Verification  Start */}
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
+
           <meta
             name="keywords"
             content="web development companies in india, Indian web design company, top digital marketing agency in India, mobile application development software in Patna Bihar, top india web designers, India website designing companies, website design in India, India web design company, software development, ai app development, agil software development"
           />
-          <link rel="canonical" href="https://infoera.in/web-application" />
+          <link rel="canonical" href="https://infoera.in/web-application" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 

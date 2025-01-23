@@ -7,14 +7,14 @@ function Software_company_in_nalanda() {
       <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification" content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
         <title>Software Company in Nalanda | Website Development in Nalanda Bihar | IT Company in Nalanda Bihar</title>
         <meta name=" description" content="IT solutions providers in Nalanda, Bihar, software development company in Nalanda, GST billing software in Nalanda, Bulk SMS Service Provider in Nalanda, Bihar; Website Development Company in Nalanda; SEO Company in Nalanda; Android App Development Company in Nalanda "/>
         <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Nalanda, IT Service Provider Company in Nalanda Bihar, SEO Service provider Company in Nalanda, Website Promotion service provider in Nalanda, SEO , SEM, PPC, SMM Services in Nalanda Bihar " />
         <meta name="keyphrases" content="Website development in Nalanda, Web Designing in Nalanda Bihar, Web Hosting Service in Nalanda, E-Commerce Website Development in Nalanda, Responsive website designing SEO in Nalanda Bihar "/>
-        <link rel="canonical" href="https://infoera.in/software_company_in_nalanda" />
+        <link rel="canonical" href="https://infoera.in/software_company_in_nalanda"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -132,7 +132,7 @@ function Software_company_in_nalanda() {
               >
                 <div className="box">
                   <img
-                    src="assets/img/college-management.png"
+                    src="assets/img/college-management.png" aria-label="College Management System - Info Era Software Services Pvt. Ltd."
                     className="img-fluid"
                     alt="College Automation System"
                     title="College Automation System - Info Era"
@@ -195,6 +195,7 @@ function Software_company_in_nalanda() {
                     src="assets/img/hotel-management.png"
                     className="img-fluid"
                     alt="Hotel Management System - Info Era Software Services"
+                    title="Hotel Management System - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>
                     Hotel Management System
@@ -208,7 +209,7 @@ function Software_company_in_nalanda() {
                     <br />
                   </p>
                   <a
-                    href="http://hotel.infoerasoftware.com"
+                    href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 24 }}
@@ -240,7 +241,7 @@ function Software_company_in_nalanda() {
                     agencies, agents, clients and financial transactions.
                   </p>
                   <a
-                    href="about.aspx"
+                    href="about.aspx" aria-label="About Us  - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                   >
@@ -270,7 +271,7 @@ function Software_company_in_nalanda() {
                     the client and is not an off-the-shelf solution.
                   </p>
                   <a
-                    href="about.aspx"
+                    href="about.aspx" aria-label="About Us - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 48 }}
@@ -301,6 +302,7 @@ function Software_company_in_nalanda() {
                     src="assets/img/ecommerce.png"
                     className="img-fluid"
                     alt="E-commerce"
+                    title="E-commerce"
                   />
                   <h3 style={{ textAlign: "center" }}>E-commerce</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -323,6 +325,7 @@ function Software_company_in_nalanda() {
                     src="assets/img/news.png"
                     className="img-fluid"
                     alt="News/Magazine"
+                    title="News - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>News/Magazine</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -350,6 +353,7 @@ function Software_company_in_nalanda() {
                     src="assets/img/values-3.png"
                     className="img-fluid"
                     alt="MLM"
+                    title="MLM - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>MLM</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -629,7 +633,7 @@ function Software_company_in_nalanda() {
 </header> */}
           <div className="row">
             <div className="col-lg-6">
-              <img src="assets/img/webpic.png" className="img-fluid" alt="" />
+              <img src="assets/img/webpic.png" className="img-fluid" alt="Web Pic - Info Era" title="Web Pic- Info Era" />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">

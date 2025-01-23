@@ -6,10 +6,7 @@ const Best_website_development_jehanabad = () => {
     <>
       <Helmet>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
         <title>
           Best Website Developement Training Center in Jehanabad,bihar
         </title>
@@ -21,7 +18,7 @@ const Best_website_development_jehanabad = () => {
           name="keywords"
           content="best website development training cerner in jehanabad, best web design company in jehanabad, it internship treaning center in jehanabad bihar, software development services, best software training institute in jehanabad "
         />
-         <link rel="canonical" href="https://infoera.in/best_website_development_jehanabad" />
+         <link rel="canonical" href="https://infoera.in/best_website_development_jehanabad"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
             <meta name="content-language" content="EN" />
             <meta name="search engines" content="ALL" />
             <meta name="Robots" content="INDEX,ALL" />
@@ -88,6 +85,7 @@ const Best_website_development_jehanabad = () => {
                 width="80%"
                 height="100%"
                 alt="Web Application"
+                title="Web Application - Info Era"
               />
             </div>
           </div>

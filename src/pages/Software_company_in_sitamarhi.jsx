@@ -7,34 +7,16 @@ function Software_company_in_sitamarhi() {
       <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
-        <title>
-          Software Company in Sitamarhi,Bihar | Best Website Company
-        </title>
-        <meta
-          name="description"
-          content="Discover the leading software and website development company in Sitamarhi, Bihar. We offer top-notch web design, digital marketing, and custom software solutions."
-        />
-        <meta
-          name="keywords"
-          content="software company in sitamarhi bihar, software development company in sitamarhi, top software company in sitamarhi, website development company in sitamarhi, web designing company in sitamarhi, best website development company in sitamarhi, best website designing company in sitamarhi bihar, best digital marketing agency in sitamarhi bihar"
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
-      </Helmet><Helmet>
-        <meta charset="utf-8" />
-        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
         <title>
         Software Company in Sitamarhi | Website Development in Sitamarhi Bihar | IT Company in Sitamarhi Bihar
         </title>
         <meta name=" description" content="Software Development Company in Sitamarhi, GST Billing Software in Sitamarhi, IT Solutions Providers in Sitamarhi Bihar, Website Development Company in Sitamarhi, SEO Company in Sitamarhi, Android App Development Company in Sitamarhi, Bulk SMS Service provider in Sitamarhi Bihar "/>
         <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Sitamarhi, IT Service Provider Company in Sitamarhi Bihar, SEO Service provider Company in Sitamarhi, Website Promotion service provider in Sitamarhi, SEO , SEM, PPC, SMM Services in Sitamarhi Bihar " />
         <meta name="keyphrases" content="Website development in Sitamarhi, Web Designing in Sitamarhi Bihar, Web Hosting Service in Sitamarhi, E-Commerce Website Development in Sitamarhi, Responsive website designing SEO in Sitamarhi Bihar "/>
-        <link rel="canonical" href="https://infoera.in/software_company_in_sitamarhi" />
+        <link rel="canonical" href="https://infoera.in/software_company_in_sitamarhi"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -195,7 +177,7 @@ function Software_company_in_sitamarhi() {
                     Hospital Management System.
                   </p>
                   <a
-                    href="http://hospital.infoerasoftware.com/login.aspx"
+                    href="http://hospital.infoerasoftware.com/login.aspx"  aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                     target="_blank"
                     type="button"
                     className="btn btn-outline-primary"
@@ -227,7 +209,7 @@ function Software_company_in_sitamarhi() {
                     <br />
                   </p>
                   <a
-                    href="http://hotel.infoerasoftware.com"
+                    href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 24 }}
@@ -259,7 +241,7 @@ function Software_company_in_sitamarhi() {
                     agencies, agents, clients and financial transactions.
                   </p>
                   <a
-                    href="about.aspx"
+                    href="about.aspx" aria-label="About Page - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                   >
@@ -289,7 +271,7 @@ function Software_company_in_sitamarhi() {
                     the client and is not an off-the-shelf solution.
                   </p>
                   <a
-                    href="about.aspx"
+                    href="about.aspx" aria-label="About Page - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 48 }}
@@ -320,6 +302,7 @@ function Software_company_in_sitamarhi() {
                     src="assets/img/ecommerce.png"
                     className="img-fluid"
                     alt="E-commerce"
+                    title="E-commerce"
                   />
                   <h3 style={{ textAlign: "center" }}>E-commerce</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -342,6 +325,7 @@ function Software_company_in_sitamarhi() {
                     src="assets/img/news.png"
                     className="img-fluid"
                     alt="News/Magazine"
+                    title="News - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>News/Magazine</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -369,6 +353,7 @@ function Software_company_in_sitamarhi() {
                     src="assets/img/values-3.png"
                     className="img-fluid"
                     alt="MLM"
+                    title="MLM - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>MLM</h3>
                   <p style={{ textAlign: "justify" }}>

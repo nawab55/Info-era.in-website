@@ -7,16 +7,15 @@ function Software_development_company_in_buxar() {
       <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
         <title>
           Software Company in Buxar | Website Development in Buxar Bihar | IT Company in Buxar Bihar
         </title>
         <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Buxar, IT Service Provider Company in Buxar Bihar, SEO Service provider Company in Buxar, Website Promotion service provider in Buxar, SEO , SEM, PPC, SMM Services in Buxar Bihar " />
         <meta name="keyphrases" content="Website development in Buxar, Web Designing in Buxar Bihar, Web Hosting Service in Buxar, E-Commerce Website Development in Buxar, Responsive website designing SEO in Buxar Bihar "/>
-        <link rel="canonical" href="https://infoera.in/software_development_company_in_buxar" />
+        <link rel="canonical" href="https://infoera.in/software_development_company_in_buxar" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -251,7 +250,7 @@ function Software_development_company_in_buxar() {
                                   benefits of a Hospital Management System.
                                 </p>
                                 <a
-                                  href="http://hospital.infoerasoftware.com/login.aspx"
+                                  href="http://hospital.infoerasoftware.com/login.aspx" aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                                   target="_blank"
                                   type="button"
                                   className="btn btn-outline-primary"
@@ -267,9 +266,10 @@ function Software_development_company_in_buxar() {
                             >
                               <div className="box">
                                 <img
-                                  src="assets/img/hotel-management.png"
+                                  src="assets/img/hotel-management.png" 
                                   className="img-fluid"
                                   alt="Hotel Management System - Info Era Software Services"
+                                  title="Hotel Management System - info Era"
                                 />
                                 <h3 style={{ textAlign: "center" }}>
                                   Hotel Management System
@@ -284,7 +284,7 @@ function Software_development_company_in_buxar() {
                                   <br />
                                 </p>
                                 <a
-                                  href="http://hotel.infoerasoftware.com"
+                                  href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                                   type="button"
                                   className="btn btn-outline-primary"
                                   style={{ marginTop: 24 }}
@@ -350,7 +350,7 @@ function Software_development_company_in_buxar() {
                                   off-the-shelf solution.
                                 </p>
                                 <a
-                                  href="about.aspx"
+                                  href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
                                   type="button"
                                   className="btn btn-outline-primary"
                                   style={{ marginTop: 48 }}
@@ -445,7 +445,7 @@ function Software_development_company_in_buxar() {
 </header> */}
           <div className="row">
             <div className="col-lg-6">
-              <img src="assets/img/webpic.png" className="img-fluid" alt="" />
+              <img src="assets/img/webpic.png" className="img-fluid" alt="Web Pic - Info Era" title="Web Pic - Info Era" />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">

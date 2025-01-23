@@ -14,6 +14,7 @@ const About = () => {
        <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
         
         <title> About Info Era | Growing IT company that provides holistic IT solutions</title>
         <meta
@@ -24,7 +25,7 @@ const About = () => {
           name="keywords"
           content="info era vision, info era mission, info era aim, Next-Generation Software Services provider, IT Consulting "
         />
-        <link rel="canonical" href="https://infoera.in/about" />
+        <link rel="canonical" href="https://infoera.in/about" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />

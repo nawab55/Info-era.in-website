@@ -58,7 +58,7 @@ const Consulting = () => {
     <Helmet>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
         <title> Expert Web Development Consulting Services | Info Era  </title>
         <meta
           name="description"
@@ -68,7 +68,7 @@ const Consulting = () => {
           name="keywords"
           content="Website Designing consulting Services, Best consulting Service Provider in Patna, Top consulting Services, Best Mobile Application consulting Services, Digital Marketing consulting Services, Software Designing and Development consulting Services in Patna, Bihar, India "
         />
-        <link rel="canonical" href="https://infoera.in/consulting" />
+        <link rel="canonical" href="https://infoera.in/consulting"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -134,7 +134,7 @@ const Consulting = () => {
                 className="col-lg-6 hero-img aos-init aos-animate"
                 data-aos="zoom-out"
               >
-                <img src="assets/img/consul.png" className="img-fluid" alt="" />
+                <img src="assets/img/consul.png" className="img-fluid" alt="Consul - Info Era" />
               </div>
             </div>
           </div>

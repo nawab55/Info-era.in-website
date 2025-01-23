@@ -4,33 +4,13 @@ import ClientCrousel from "../components/home/ClientCrousel";
 function Software_development_company_saharsa() {
   return (
     <>
-      <Helmet>
+      
+       <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
-        <title>
-          Software Developed Company in Saharsa,bihar - Call: 7008411312
-        </title>
-        <meta
-          name="description"
-          content="Discover the top software development and IT company in Saharsa! Info Era offers premier website design and development services. Elevate your online presence today!"
-        />
-        <meta
-          name="keywords"
-          content="software development company in saharsa, software company in saharsa, website design company in saharsa, website design saharsa, website desigers saharsa,  website designing company in saharsa, it company in saharsa, top it company in saharsa"
-        />
-        <meta name="Author" content="Info Era Software Services Pvt. Ltd." />
-        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
-      </Helmet> <Helmet>
-        <meta charset="utf-8" />
-        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
         <title>
             Software Company in Saharsa | Website Development in Saharsa Bihar | IT Company in Saharsa Bihar
         </title>
@@ -39,8 +19,8 @@ function Software_development_company_saharsa() {
           content="Website Development Company in Saharsa, SEO Company in Saharsa, Android App Development Company in Saharsa, GST Billing Software in Saharsa, IT Solutions Providers in Saharsa Bihar, and Bulk SMS Service Provider in Saharsa Bihar. "
         />
         <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Saharsa, IT Service Provider Company in Saharsa Bihar, SEO Service provider Company in Saharsa, Website Promotion service provider in Saharsa, SEO , SEM, PPC, SMM Services in Saharsa Bihar " />
-        <meta name="keyphrases" content="Website development in Saharsa, Web Designing in Saharsa Bihar, Web Hosting Service in Saharsa, E-Commerce Website Development in Saharsa, Responsive website designing SEO in Saharsa Bihar "/>
-        <link rel="canonical" href="https://infoera.in/software_development_company_saharsa" />
+        <meta name="keyphrases" content="Website development in Saharsa, Web Designing in Saharsa Bihar, Web Hosting Service in Saharsa, E-Commerce Website Development in Saharsa, Responsive website designing SEO in Saharsa Bihar, software development company in saharsa, software company in saharsa, website design company in saharsa, website design saharsa, website desigers saharsa,  website designing company in saharsa, it company in saharsa, top it company in saharsa"/>
+        <link rel="canonical" href="https://infoera.in/software_development_company_saharsa"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -213,7 +193,7 @@ function Software_development_company_saharsa() {
 </header> */}
           <div className="row">
             <div className="col-lg-6">
-              <img src="assets/img/webpic.png" className="img-fluid" alt="" />
+              <img src="assets/img/webpic.png" className="img-fluid" alt="WebPic" title="Webpic - Info Era" />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">

@@ -9,14 +9,14 @@ function It_companies_ranchi() {
      <Helmet>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta name="google-site-verification" content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU" />
+    <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
 
     <title>Top IT & Software Development Company in Ranchi - Info Era </title>
 
     <meta name="description" content=" Info Era Software Services Pvt. Ltd. is the leading IT and software development company in Ranchi, Jharkhand, offering website design and development solutions." />
 
     <meta name="keywords" content="itcompanies in ranchi jharkhand, top software development company in ranchi, software company in ranchi jharkhand,it company in ranchi,software development company in ranchi,website development in ranchi jharkhand,it companies in ranchi for internship, it infotech online solution ranchi, best it company in ranchi, , Website Designing company in ranchi, software development agency in ranchi " />
-    <link rel="canonical" href="https://www.infoera.in/it_companies_ranchi" />
+    <link rel="canonical" href="https://www.infoera.in/it_companies_ranchi"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
             <meta name="content-language" content="EN" />
             <meta name="search engines" content="ALL" />
             <meta name="Robots" content="INDEX,ALL" />

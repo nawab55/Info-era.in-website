@@ -5,7 +5,7 @@ const ComputerSupply = () => {
     <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
         <title> Computer Supply: Expert Sales & Service Solutions </title>
         <meta
           name="description"
@@ -15,7 +15,7 @@ const ComputerSupply = () => {
           name="keywords"
           content="computer supply, PC sales, computer service, IT support"
         />
-        <link rel="canonical" href="https://infoera.in/computer-supply" />
+        <link rel="canonical" href="https://infoera.in/computer-supply"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />

@@ -8,10 +8,11 @@ function Website_design_development_services_landon() {
       <Helmet>
         <meta charSet="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+        {/* Google site Verification  Start */}
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
+
+        
         <title>
           {" "}
           Professional Web Design and Development Services - Info Era{" "}
@@ -24,7 +25,7 @@ function Website_design_development_services_landon() {
           name="keywords"
           content="website design and development services, ecommerce website development agency, wordpress website development company, web design & development services, london web development agency, website design & web development in india, web design company in london, professional web design services"
         />
-        <link rel="canonical" href="https://infoera.in/ website_design_development_services_landon" />
+        <link rel="canonical" href="https://infoera.in/ website_design_development_services_landon" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 

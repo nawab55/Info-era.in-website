@@ -7,10 +7,9 @@ function It_company_near_me() {
      <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
         <title>
           Finding the Best Managed IT Services Provider Near You | IT Consultancies
         </title>
@@ -23,7 +22,7 @@ function It_company_near_me() {
           content="managed it services provider near me, near by it company, it company near me, it companies in near me, it companies around me, it consultancies near me, best it company near me"
         />
         
-        <link rel="canonical" href="https://www.infoera.in/it_company_near_me" />
+        <link rel="canonical" href="https://www.infoera.in/it_company_near_me" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
 	      <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -223,6 +222,7 @@ function It_company_near_me() {
                   src="assets/img/hotel-management.png"
                   className="img-fluid"
                   alt="Hotel Management System - Info Era Software Services"
+                  title="Hotel Management System - Info Era"
                 />
                 <h3 style={{ textAlign: "center" }}>Hotel Management System</h3>
                 <p style={{ textAlign: "justify" }}>
@@ -234,7 +234,7 @@ function It_company_near_me() {
                   <br />
                 </p>
                 <a
-                  href="http://hotel.infoerasoftware.com"
+                  href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                   type="button"
                   className="btn btn-outline-primary"
                   style={{ marginTop: 24 }}
@@ -266,7 +266,7 @@ function It_company_near_me() {
                   clients and financial transactions.
                 </p>
                 <a
-                  href="about.aspx"
+                  href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
                   type="button"
                   className="btn btn-outline-primary"
                 >
@@ -296,7 +296,7 @@ function It_company_near_me() {
                   the client and is not an off-the-shelf solution.
                 </p>
                 <a
-                  href="about.aspx"
+                  href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
                   type="button"
                   className="btn btn-outline-primary"
                   style={{ marginTop: 48 }}
@@ -327,6 +327,7 @@ function It_company_near_me() {
                   src="assets/img/ecommerce.png"
                   className="img-fluid"
                   alt="E-commerce"
+                  title="E-commerce"
                 />
                 <h3 style={{ textAlign: "center" }}>E-commerce</h3>
                 <p style={{ textAlign: "justify" }}>
@@ -349,6 +350,7 @@ function It_company_near_me() {
                   src="assets/img/news.png"
                   className="img-fluid"
                   alt="News/Magazine"
+                  title="News - Info Era"
                 />
                 <h3 style={{ textAlign: "center" }}>News/Magazine</h3>
                 <p style={{ textAlign: "justify" }}>
@@ -376,6 +378,7 @@ function It_company_near_me() {
                   src="assets/img/values-3.png"
                   className="img-fluid"
                   alt="MLM"
+                  title="MLM - Info Era"
                 />
                 <h3 style={{ textAlign: "center" }}>MLM</h3>
                 <p style={{ textAlign: "justify" }}>
@@ -429,7 +432,8 @@ function It_company_near_me() {
                     <img
                       src="assets/img/features.png"
                       className="img-fluid"
-                      alt=""
+                      alt="Features - Info Era"
+                      title="Features - Info Era"
                     />
                   </div>
                   <div className="col-lg-6 mt-5 mt-lg-0 d-flex order-md-1">
@@ -612,7 +616,7 @@ function It_company_near_me() {
 </header> */}
           <div className="row">
             <div className="col-lg-6">
-              <img src="assets/img/webpic.png" className="img-fluid" alt="" />
+              <img src="assets/img/webpic.png" className="img-fluid" alt="Web Pic - Info Era" title="Web Pic -Info Era" />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">

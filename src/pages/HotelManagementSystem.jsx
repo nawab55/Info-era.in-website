@@ -7,10 +7,7 @@ const HotelManagementSystem = () => {
       <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
 
         <title> Efficient Hotel Management System | Info Era</title>
         <meta
@@ -21,7 +18,7 @@ const HotelManagementSystem = () => {
           name="keywords"
           content="hotel management system, Web-based Hotel System, Guest Check-in and Check-out Management,Staff Scheduling System, Billing and Invoice Management "
         />
-        <link rel="canonical" href="https://infoera.in/hotel-management-system" />
+        <link rel="canonical" href="https://infoera.in/hotel-management-system"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -89,7 +86,8 @@ const HotelManagementSystem = () => {
                   <img
                     src="assets/img/services/HOTEL MANAGEMENT SYSTEM.png"
                     className="img-fluid"
-                    alt="school manaement system"
+                    alt="school management system"
+                    title="School Management System"
                   />
                 </div>
               </div>
@@ -130,6 +128,7 @@ const HotelManagementSystem = () => {
                       src="assets/img/hotel-management.png"
                       style={{ width: 50, height: 50 }}
                       alt="Hotel Management System - Info Era Software Services"
+                      title="Hotel Management System - info Era"
                     />
                     <Link href="hotel-management-system">
                       {" "}

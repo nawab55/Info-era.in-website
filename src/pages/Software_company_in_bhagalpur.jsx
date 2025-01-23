@@ -9,12 +9,14 @@ function Software_company_in_bhagalpur() {
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         
         <title>Software Company in Bhagalpur | Website Development in Bhagalpur Bihar | IT Company in Bhagalpur Bihar</title>
-	    
+     {/* Google site Verification  Start */}
+     <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
         <meta name=" description" content="Software Development Company in Bhagalpur, GST Billing Software in Bhagalpur, IT Solutions Providers in Bhagalpur Bihar, Website Development Company in Bhagalpur, SEO Company in Bhagalpur, Android App Development Company in Bhagalpur, Bulk SMS Service provider in Bhagalpur Bihar "/>
         <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Bhagalpur, IT Service Provider Company in Bhagalpur Bihar, SEO Service provider Company in Bhagalpur, Website Promotion service provider in Bhagalpur, SEO , SEM, PPC, SMM Services in Bhagalpur Bihar " />
         <meta name="keyphrases" content="Website development in Bhagalpur, Web Designing in Bhagalpur Bihar, Web Hosting Service in Bhagalpur, E-Commerce Website Development in Bhagalpur, Responsive website designing SEO in Bhagalpur Bihar "/>
        
-	     <link rel="canonical" href="https://infoera.in/software_company_in_bhagalpur" />
+	     <link rel="canonical" href="https://infoera.in/software_company_in_bhagalpur" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -221,7 +223,7 @@ function Software_company_in_bhagalpur() {
                     <br />
                   </p>
                   <a
-                    href="http://hotel.infoerasoftware.com"
+                    href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 24 }}
@@ -253,7 +255,7 @@ function Software_company_in_bhagalpur() {
                     agencies, agents, clients and financial transactions.
                   </p>
                   <a
-                    href="about.aspx"
+                    href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                   >
@@ -283,7 +285,7 @@ function Software_company_in_bhagalpur() {
                     the client and is not an off-the-shelf solution.
                   </p>
                   <a
-                    href="about.aspx"
+                    href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 48 }}
@@ -314,6 +316,7 @@ function Software_company_in_bhagalpur() {
                     src="assets/img/ecommerce.png"
                     className="img-fluid"
                     alt="E-commerce"
+                    title="E-commerce"
                   />
                   <h3 style={{ textAlign: "center" }}>E-commerce</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -336,6 +339,7 @@ function Software_company_in_bhagalpur() {
                     src="assets/img/news.png"
                     className="img-fluid"
                     alt="News/Magazine"
+                    title="News - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>News/Magazine</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -363,6 +367,7 @@ function Software_company_in_bhagalpur() {
                     src="assets/img/values-3.png"
                     className="img-fluid"
                     alt="MLM"
+                    title="MLM - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>MLM</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -416,7 +421,8 @@ function Software_company_in_bhagalpur() {
                       <img
                         src="assets/img/features.png"
                         className="img-fluid"
-                        alt=""
+                        alt="Features - Info Era"
+                        title="Features - Info Era"
                       />
                     </div>
                     <div className="col-lg-6 mt-5 mt-lg-0 d-flex order-md-1">
@@ -602,7 +608,7 @@ function Software_company_in_bhagalpur() {
 </header> */}
           <div className="row">
             <div className="col-lg-6">
-              <img src="assets/img/webpic.png" className="img-fluid" alt="" />
+              <img src="assets/img/webpic.png" className="img-fluid" alt="Web Pic - info Era" />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">

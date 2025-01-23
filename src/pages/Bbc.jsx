@@ -111,10 +111,9 @@ function Bbc() {
     <>
        <Helmet>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+       
         <title>Info Era Software Services Pvt. Ltd. | Software Company</title>
         <meta
           name="description"
@@ -124,7 +123,7 @@ function Bbc() {
           name="keywords"
           content="Info Era Software Services Pvt Ltd, Website Designing company, software company, industrial training "
         />
-        <link rel="canonical" href="https://infoera.in/bbc" />
+        <link rel="canonical" href="https://infoera.in/bbc" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -205,6 +204,7 @@ function Bbc() {
                 src="assets/img/bbc-1.gif"
                 className="img-fluid"
                 alt="best software company in Patna"
+                title="Best Software Company - Info Era"
               />
             </div>
           </div>
@@ -425,6 +425,7 @@ function Bbc() {
                 src="assets/img/bbc-3.gif"
                 className="img-fluid"
                 alt="best software company in bihar"
+                title="Best Software Company - Info Era"
               />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">

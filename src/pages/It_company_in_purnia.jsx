@@ -7,10 +7,7 @@ function It_company_in_purnia() {
       <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
         <title>IT Company in Purnia | Top IT Company, Call: 7008411312</title>
         <meta
           name="description"
@@ -20,7 +17,7 @@ function It_company_in_purnia() {
           name="keywords"
           content="it company in purnia, software development company in purnia, website company in purnia, web design company in purnia, web development company in purnia,software development company in purnia, website development in purnia"
         />
-         <link rel="canonical" href="https://infoera.in/it_company_in_purnia" />
+         <link rel="canonical" href="https://infoera.in/it_company_in_purnia" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
             <meta name="content-language" content="EN" />
             <meta name="search engines" content="ALL" />
             <meta name="Robots" content="INDEX,ALL" />
@@ -195,7 +192,7 @@ function It_company_in_purnia() {
                     Hospital Management System.
                   </p>
                   <a
-                    href="http://hospital.infoerasoftware.com/login.aspx"
+                    href="http://hospital.infoerasoftware.com/login.aspx" aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                     target="_blank"
                     type="button"
                     className="btn btn-outline-primary"
@@ -214,6 +211,7 @@ function It_company_in_purnia() {
                     src="assets/img/hotel-management.png"
                     className="img-fluid"
                     alt="Hotel Management System - Info Era Software Services"
+                    title="Hotel Management System"
                   />
                   <h3 style={{ textAlign: "center" }}>
                     Hotel Management System
@@ -227,7 +225,7 @@ function It_company_in_purnia() {
                     <br />
                   </p>
                   <a
-                    href="http://hotel.infoerasoftware.com"
+                    href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 24 }}
@@ -259,7 +257,7 @@ function It_company_in_purnia() {
                     agencies, agents, clients and financial transactions.
                   </p>
                   <a
-                    href="about.aspx"
+                    href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                   >
@@ -289,7 +287,7 @@ function It_company_in_purnia() {
                     the client and is not an off-the-shelf solution.
                   </p>
                   <a
-                    href="about.aspx"
+                    href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 48 }}
@@ -320,6 +318,7 @@ function It_company_in_purnia() {
                     src="assets/img/ecommerce.png"
                     className="img-fluid"
                     alt="E-commerce"
+                    title="E-commerce - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>E-commerce</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -413,7 +412,7 @@ function It_company_in_purnia() {
                       <img
                         src="assets/img/features.png"
                         className="img-fluid"
-                        alt=""
+                        alt="Features - Info Era"
                       />
                     </div>
                     <div className="col-lg-6 mt-5 mt-lg-0 d-flex order-md-1">
@@ -595,7 +594,7 @@ function It_company_in_purnia() {
         <div className="container aos-init" data-aos="fade-up">
           <div className="row">
             <div className="col-lg-6">
-              <img src="assets/img/webpic.png" className="img-fluid" alt="" />
+              <img src="assets/img/webpic.png" className="img-fluid" alt="Web Pic - Info Era" title="Web Pic - Info Era" />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">

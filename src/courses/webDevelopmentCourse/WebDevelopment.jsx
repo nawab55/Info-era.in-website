@@ -1,5 +1,6 @@
 import "./webdev.css";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const WebDevelopment = () => {
 
@@ -11,6 +12,36 @@ const WebDevelopment = () => {
 
   return (
     <>
+    <Helmet>
+      <title>Best MERN Stack Development Center in Patna Bihar</title>
+      <meta name="keywords" content="Best MERN Stack Development Treaning Center in Patna, Best Web Designing Treaning Center in Patna, It Treaning Center in Patna Bihar, Website Designing course in Patna, MongoDB, ReactJS, ExpressJs, NodeJS, Top Treaning Company in Patna, IT Company, Website Designing"></meta>
+      <meta name="discription" content="Join the best MERN Stack and Web Designing courses in Patna at the top IT training center. Learn from experts and build your career in web development today!"/>
+      <link rel="canonical" href="" />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" /> 
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+        <meta name="msnbot" content="INDEX, FOLLOW" /> 
+        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta name="document-classification" content="Web Designing Treaning Center Bihar" />
+        <meta name="Distribution" content="Global" />
+        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
+        <meta name="contactstreetaddress" content="Patna"/>
+        <meta name="contactzipcode" content="800001"/>
+        <meta name="contactcity" content="Patna"/>
+        <meta name="contactcountry" content="India"/>
+        <meta name="Geography" content="Patna, Bihar, India"/>
+        <meta name="country" content="INDIA"/>
+        <meta name="contactmobilenumber" content="+91 -7008411312"/>
+        <meta name="Product" content="Inventory Management Software in Jehanabad, Billing & Invoicing Software in Jehanabad, Counter Billing Software in Jehanabad, GST Billing Software in Jehanabad, Retailing and POS Software in Jehanabad, Super Market Billing Software in Jehanabad, Customized Billing Software in Jehanabad, IT Software Solutions in Jehanabad Bihar"/>
+        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta>
+        <meta name="Publisher" content="Info Era Software Services pvt.Ltd. " />
+    </Helmet>
       <div>
         {/* ======= Hero Section ======= */}
         <section
@@ -43,7 +74,7 @@ const WebDevelopment = () => {
               <Link
                 style={{ padding: ".8rem 1.4rem" }}
                 className="btn-get-started"
-                to="https://docs.google.com/forms/d/e/1FAIpQLSeKCvXXxhKUQPTgFAjVUeHVCAlHdt5GSWb-H88Z0nbavZg6xg/viewform"
+                to="https://docs.google.com/forms/d/e/1FAIpQLSeKCvXXxhKUQPTgFAjVUeHVCAlHdt5GSWb-H88Z0nbavZg6xg/viewform" alt="Student's Registation Form-Info Era" title="Student's Registation Form-Info Era"
               >
                 <span>Apply Now</span>
                 <i className="bi bi-arrow-right"></i>
@@ -63,7 +94,7 @@ const WebDevelopment = () => {
                   height: "15rem",
                   borderRadius: "10px",
                 }}
-                src="assets/videos/infoera.mp4"
+                src="assets/videos/infoera.mp4" alt="About Info Era Video" title="About-Info Era Software Services"
               ></video>
             </div>
             <div className="col-md-6 d-flex flex-column justify-content-center">
@@ -102,7 +133,7 @@ const WebDevelopment = () => {
             <div className="col-md-6">
               <img
                 src="assets/img/course/mernStackDevelopmentCourse.jpg"
-                alt="MERN Stack Workshop"
+                alt="MERN Stack Workshop" title="MERN Stack Workshop - Info Era Software Sesrvices"
                 style={{
                   width: "100%",
                   height: "370px",
@@ -134,7 +165,7 @@ const WebDevelopment = () => {
               <div style={{ height: "350px", }}>
                 <video
                   src="/assets/videos/mern_workshop.mp4"
-                  alt="Certificate"
+                  alt="Certificate" title="Certificate - Info Era Software Services"
                   autoPlay
                   loop
                   muted
@@ -158,13 +189,13 @@ const WebDevelopment = () => {
             </header>
             <div className="row">
               <div className="col-md-12">
-                <img src="image/training08.jpeg" style={{ width: "100%" }} />
+                <img src="image/training08.jpeg" alt="MERN Stack Training-Info Era Software Services" title="MERN Stack Training-Info Era Software Services" style={{ width: "100%" }} />
               </div>
             </div>
             <br />
             <p className="text-center">
               <Link
-                to="https://docs.google.com/forms/d/e/1FAIpQLSeKCvXXxhKUQPTgFAjVUeHVCAlHdt5GSWb-H88Z0nbavZg6xg/viewform"
+                to="https://docs.google.com/forms/d/e/1FAIpQLSeKCvXXxhKUQPTgFAjVUeHVCAlHdt5GSWb-H88Z0nbavZg6xg/viewform" title="Student Registation Form - Info Era Software Services" aria-label="Google Form for Student's Registation"
                 className="btn btn-dark"
               >
                 Apply Now
@@ -190,7 +221,7 @@ const WebDevelopment = () => {
             <Link
               style={{ padding: "1.4rem" }}
               className="btn-get-started"
-              to="https://docs.google.com/forms/d/e/1FAIpQLSeKCvXXxhKUQPTgFAjVUeHVCAlHdt5GSWb-H88Z0nbavZg6xg/viewform"
+              to="https://docs.google.com/forms/d/e/1FAIpQLSeKCvXXxhKUQPTgFAjVUeHVCAlHdt5GSWb-H88Z0nbavZg6xg/viewform" title="Student Registation Form-Info Era Software Services" aria-label="Google Form for Student's Registation"
             >
               <span>Apply Now</span>
             </Link>

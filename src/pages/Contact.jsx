@@ -61,7 +61,7 @@ const Contact = () => {
     <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
         <title>  Info Era Patna, Top Software Development Company in Patna Biha </title>
         <meta
           name="description"
@@ -74,7 +74,7 @@ Narain Plaza, Exhibition Road, Patna, (Bihar) 800001, Mobile – 7008411312, Ema
           Mobile – 7008411312, Email - infoerapvtltd@gmail.com, Website - www.infoera.in – Leading and Trustworthy 
           Software Company in Darbhanga Bihar"
         />
-        <link rel="canonical" href="https://infoera.in/contact" />
+        <link rel="canonical" href="https://infoera.in/contact"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />

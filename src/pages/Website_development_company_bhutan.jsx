@@ -8,10 +8,11 @@ function Website_development_company_bhutan() {
       <Helmet>
         <meta charSet="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+       
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
+
         <title>
           {" "}
           Top Digital Marketing and Web Development in Bhutan - Info Era{" "}
@@ -24,7 +25,7 @@ function Website_development_company_bhutan() {
           name="keywords"
           content="best online marketing company, digital marketing agency in bhutan, digital marketing ecommerce, web design for construction company, top online marketing companies, responsive web development"
         />
-        <link rel="canonical" href="https://infoera.in/website_development_company_bhutan" />
+        <link rel="canonical" href="https://infoera.in/website_development_company_bhutan" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 

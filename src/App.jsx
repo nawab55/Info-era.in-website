@@ -1,6 +1,6 @@
+import { lazy, Suspense, useEffect, useState } from "react";
 import { Routes, Route, useLocation, matchPath, } from "react-router-dom";
 import RestoreScroll from "./hooks/RestoreScroll";
-import { lazy, Suspense } from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import SkeletonLoader from "./components/loader/Loader";
@@ -8,6 +8,7 @@ import BackToTopButton from "./components/BackToTopButton";
 import NotFound from "./pages/NotFound";
 import StudentDetails from "./components/assessmentTest/StudentDetails";
 import AssessmentTest from "./components/assessmentTest/AssessmentTest";
+import axios from "axios";
 
 // const WebDesign = lazy(() => import("./courses/webDesignCourse/WebDesign"));
 const WebDevelopment = lazy(() => import("./courses/webDevelopmentCourse/WebDevelopment"));
@@ -217,6 +218,27 @@ const Website_development_training_cerner_in_jehanabad = lazy(() =>
 function App() {
   const { pathname } = useLocation();
   // console.log(pathname);
+  const [assessmentStatus, setAssessmentStatus] = useState("Inactive");
+
+  // Fetch assessmentStatus from dashboard.infoera.in
+  useEffect(() => {
+    const fetchAssessmentStatus = async () => {
+      try {
+        const response = await axios.get(
+          `${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/assessment-status/get-status`
+        );
+        if (response.status === 200 && response.data.success) {
+          setAssessmentStatus(response.data.data.status || "Inactive");
+        } else {
+          console.warn("Failed to fetch assessment status. Defaulting to Inactive.");
+        }
+      } catch (error) {
+        console.error("Error fetching assessment status:", error);
+      }
+    };
+
+    fetchAssessmentStatus();
+  }, []);
 
   const routes = [
     "/",
@@ -323,8 +345,12 @@ function App() {
     "/website_development_training_cerner_in_jehanabad",
     "/web-design-course",
     "/mern-stack-workshop",
-    "/exam",
+    // "/exam",
   ];
+  // Conditionally include "/exam" route based on assessmentStatus
+  if (assessmentStatus === "Active") {
+    routes.push("/exam");
+  }
   // const hidden = !routes.includes(pathname);
   // console.log(hidden)
 
@@ -344,14 +370,16 @@ function App() {
             </Suspense>
           }
         />
-        <Route
-          path="/exam"
-          element={
-            <Suspense fallback={<SkeletonLoader />}>
-              <StudentDetails />
-            </Suspense>
-          }
-        />
+        {assessmentStatus === "Active" && (
+          <Route
+            path="/exam"
+            element={
+              <Suspense fallback={<SkeletonLoader />}>
+                <StudentDetails />
+              </Suspense>
+            }
+          />
+        )}
         <Route
           path="/assessment-test"
           element={

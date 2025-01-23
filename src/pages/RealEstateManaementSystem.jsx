@@ -7,7 +7,9 @@ const RealEstateManaementSystem = () => {
     <Helmet>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
         <title>Top eCommerce Web Services for Your Business  </title>
         <meta
           name="description"
@@ -17,7 +19,7 @@ const RealEstateManaementSystem = () => {
           name="keywords"
           content="real estate web development company, real estate portal development company, real estate web design company"
         />
-        <link rel="canonical" href="https://www.infoera.in/real-estate-manaement-system" />
+        <link rel="canonical" href="https://www.infoera.in/real-estate-manaement-system" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -82,6 +84,7 @@ const RealEstateManaementSystem = () => {
                     src="assets/img/services/Real estate Management System.png"
                     className="img-fluid"
                     alt="school manaement system"
+                    title="School Management System - Info Era"
                   />
                 </div>
               </div>

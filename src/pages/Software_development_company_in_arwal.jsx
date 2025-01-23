@@ -7,10 +7,9 @@ function Software_development_company_in_arwal() {
       <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
         <title>
             Info Era Software Services Patna | Software Company in Patna | IT Company Bihar
         </title>
@@ -21,7 +20,7 @@ function Software_development_company_in_arwal() {
         <meta name="description" content="Patna software company, Patna Bihar IT service provider, Patna Bihar Website Development Company, Patna IT Company, Patna SEO Services, and Patna IT Solutions."/>
         <meta name="keywords" content="Info Era Software Services is a leading IT company in Patna, Bihar which focuses on Software, Website, Mobile App, GST Billing Software, CRM Development along with SEO Services" />
         <meta name="keyphrases" content="software development company in arwal, website development company in arwal bihar, best software treaning company in arwal bihar, best web designing company in arwal bihar, IT company in arwal bihar, software company in arwal "/>
-        <link rel="canonical" href="https://infoera.in/software_development_company_in_arwal" />
+        <link rel="canonical" href="https://infoera.in/software_development_company_in_arwal" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 

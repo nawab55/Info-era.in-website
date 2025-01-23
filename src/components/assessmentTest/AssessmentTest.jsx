@@ -110,6 +110,19 @@ const AssessmentTest = () => {
     fetchStudentDetails();
     // fetchCourseData(courseData);
     // fetchQuestions(backgroundData);
+    // Disable right-click and text selection for the page
+    const disableCopying = () => {
+      document.addEventListener("contextmenu", (e) => e.preventDefault()); // Disable right-click menu
+      document.addEventListener("copy", (e) => e.preventDefault()); // Disable copying
+      document.addEventListener("selectstart", (e) => e.preventDefault()); // Disable text selection
+    };
+
+    disableCopying(); // Call the disable function on component mount
+    return () => {
+      document.removeEventListener("contextmenu", (e) => e.preventDefault());
+      document.removeEventListener("copy", (e) => e.preventDefault());
+      document.removeEventListener("selectstart", (e) => e.preventDefault());
+    };
   }, [restart]);
 
   // Handle answer selection
@@ -225,10 +238,13 @@ const AssessmentTest = () => {
                         {Object.entries(question.options).map(([key, value]) => (
                           <div
                             key={key}
-                            className={`form-check ${
+                            className={`form-check d-flex ${
                               answers[question._id] === key ? "selected-answer" : ""
                             }`}
-                          >
+                          > 
+                           <div className="mr-1"><span>{key}.</span></div>
+                           <div className="ml-4">
+
                             <label htmlFor={`${question._id}-${key}`} className="form-check-label">
                               <input
                                 type="radio"
@@ -238,10 +254,10 @@ const AssessmentTest = () => {
                                 className="form-check-input"
                                 onChange={() => handleAnswerChange(question._id, key)}
                                 checked={answers[question._id] === key}
-                                required
                               />
-                               {value}
+                                {value}
                             </label>
+                           </div>
                           </div>
                         ))}
                       </div>

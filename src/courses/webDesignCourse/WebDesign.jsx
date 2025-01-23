@@ -66,7 +66,7 @@ const WebDesign = () => {
                   height: "15rem",
                   borderRadius: "10px",
                 }}
-                src="assets/videos/infoera.mp4"
+                src="assets/videos/infoera.mp4" title="Web Designing Video-Info Era"
               ></video>
             </div>
             <div className="col-md-6 d-flex flex-column justify-content-center">
@@ -112,8 +112,8 @@ const WebDesign = () => {
             </div>
             <div className="col-md-6">
               <img
-                src="assets/img/web-design-session.jpg"
-                alt="Training Session"
+                src="assets/img/web-design-session.jpg" 
+                alt="Training Session" title="Web Designing Training Session-Info Era Software Services"
                 style={{
                   width: "100%",
                   borderRadius: "10px",
@@ -144,7 +144,7 @@ const WebDesign = () => {
             <div className="col-md-6">
               <video
                 src="/assets/videos/infoera-gif.mp4"
-                alt="Certificate"
+                alt="Certificate" title="Certificate - Info Era Software Services"
                 autoPlay
                 loop
                 muted
@@ -167,7 +167,7 @@ const WebDesign = () => {
             </header>
             <div className="row">
               <div className="col-md-12">
-                <img src="image/training08.jpeg" style={{ width: "100%" }} />
+                <img src="image/training08.jpeg" alt="Web Designing Training - Info Era Software services" title="Web Designing Training - Info Era Software services" style={{ width: "100%" }} />
               </div>
             </div>
             <br />

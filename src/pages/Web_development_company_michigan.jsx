@@ -12,10 +12,11 @@ function Web_development_company_michigan() {
             content="width=device-width, initial-scale=1.0"
             name="viewport"
           />
-          <meta
-            name="google-site-verification"
-            content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-          />
+          
+           {/* Google site Verification  Start */}
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
+
           <title>
           WebFX | Detroit Web Design | Leading Michigan Web Design Firm
           </title>
@@ -27,7 +28,7 @@ function Web_development_company_michigan() {
             name="keywords"
             content="web development companies in michigan, michigan web design company, top digital marketing agency in michigan, mobile application development software, top michigan web designers, michigan website designing companies, website design in michigan, michigan web design company, software development, ai app development, agil software development"
           />
-          <link rel="canonical" href="https://infoera.in/web_development_company_michigan" />
+          <link rel="canonical" href="https://infoera.in/web_development_company_michigan" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 

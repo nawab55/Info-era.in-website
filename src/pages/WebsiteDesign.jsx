@@ -6,14 +6,18 @@ const WebsiteDesign = () => {
     <>
      <Helmet>
     <title>Web Development, Website Design Company in Patna, Info Era Software Services Patna</title>
+
+     {/* Google site Verification  Start */}
+     <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
         
 <meta name="description" content="Web design and development, Website Development Company in Patna, Low cost Website Design Company, Low cost Website Development, Responsive Web Designing Company in Patna" />	
 <meta name="keywords" content="Info Era Software Services is the best Website Design and Web Development Company in Patna Bihar India. We develop the best and affordable Responsive Websites with SEO services" />
 
 <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link rel="canonical" href="https://infoera.in/website-design" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="canonical" href="https://infoera.in/website-design" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
 <meta name="content-language" content="EN" />
 <meta name="search engines" content="ALL" />
 <meta name="Robots" content="INDEX,ALL" /> 
@@ -70,7 +74,7 @@ const WebsiteDesign = () => {
               className="col-lg-6 hero-img aos-init aos-animate"
               data-aos="zoom-out"
             >
-              <img src="assets/img/webimg.png" className="img-fluid" alt="" />
+              <img src="assets/img/webimg.png" className="img-fluid" alt="Web Designing - Info Era" title="Web Designing - Info Era" />
             </div>
           </div>
         </div>
@@ -107,6 +111,7 @@ const WebsiteDesign = () => {
                     src="assets/img/pricing-starter.png"
                     className="img-fluid"
                     alt="basic package"
+                    title="Basic Package - Info Era"
                   />
                   <div className="row">
                     <div className="col-md-10 d-flex  justify-content-between">
@@ -186,7 +191,7 @@ const WebsiteDesign = () => {
                   <img
                     src="assets/img/pricing-business.png"
                     className="img-fluid"
-                    alt="economy package"
+                    alt="economy package" title="Economy Package - Info Era"
                   />
                   <div className="row">
                     <div className="col-md-10 d-flex  justify-content-between">
@@ -264,7 +269,7 @@ const WebsiteDesign = () => {
                   <img
                     src="assets/img/pricing-ultimate.png"
                     className="img-fluid"
-                    alt="Elite Package"
+                    alt="Elite Package" title="Elite Package - Info Era"
                   />
                   <div className="row">
                     <div className="col-md-10 d-flex  justify-content-between">
@@ -354,7 +359,7 @@ const WebsiteDesign = () => {
                   <img
                     src="assets/img/pricing-starter.png"
                     className="img-fluid"
-                    alt=""
+                    alt="Pricing Starter - Info Era"
                   />
                   <div className="row">
                     <div className="col-md-10 d-flex  justify-content-between">
@@ -433,7 +438,7 @@ const WebsiteDesign = () => {
                   <img
                     src="assets/img/pricing-business.png"
                     className="img-fluid"
-                    alt=""
+                    alt="Pricing Business - Info Era" title="Pricing Business - Info Era"
                   />
                   <div className="row">
                     <div className="col-md-10 d-flex  justify-content-between">
@@ -512,7 +517,7 @@ const WebsiteDesign = () => {
                   <img
                     src="assets/img/pricing-ultimate.png"
                     className="img-fluid"
-                    alt=""
+                    alt="Pricing Ultimate - Info Era" title="Pricing Ultimate - Info Era"
                   />
                   <div className="row">
                     <div className="col-md-10 d-flex  justify-content-between">

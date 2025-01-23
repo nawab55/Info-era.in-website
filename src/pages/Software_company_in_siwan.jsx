@@ -7,17 +7,16 @@ function Software_company_in_siwan() {
       <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
         <title>
         Management System Software Development Company in Siwan, Application Software in Siwan Bihar
         </title>
         <meta name="description" content="GST Billing & Invoicing System Software in Siwan Bihar, Application Software Development Company in Siwan, Super Market Billing System Software Company in Siwan Bihar, Inventory Management Application Software in Siwan Bihar"/>
         <meta name="keywords" content="GST Billing & Invoicing System Software Company in Siwan - Info Era Software Services, Inventory Management System Software in Siwan Bihar, Retailing and POS Software in Siwan, Customized Management System Software Development Company in Siwan" />
         <meta name="keyphrases" content="Software Development in Siwan, GST Billing Software in Siwan Bihar, Super Market Billing System in Siwan Bihar, Customized Application Software Development in Siwan"/>
-        <link rel="canonical" href="https://infoera.in/software_company_in_siwan" />
+        <link rel="canonical" href="https://infoera.in/software_company_in_siwan"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -250,7 +249,7 @@ function Software_company_in_siwan() {
                                   benefits of a Hospital Management System.
                                 </p>
                                 <a
-                                  href="http://hospital.infoerasoftware.com/login.aspx"
+                                  href="http://hospital.infoerasoftware.com/login.aspx"  aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                                   target="_blank"
                                   type="button"
                                   className="btn btn-outline-primary"
@@ -269,6 +268,7 @@ function Software_company_in_siwan() {
                                   src="assets/img/hotel-management.png"
                                   className="img-fluid"
                                   alt="Hotel Management System - Info Era Software Services"
+                                  title="Hotel Management System - Info Era"
                                 />
                                 <h3 style={{ textAlign: "center" }}>
                                   Hotel Management System
@@ -283,7 +283,7 @@ function Software_company_in_siwan() {
                                   <br />
                                 </p>
                                 <a
-                                  href="http://hotel.infoerasoftware.com"
+                                  href="http://hotel.infoerasoftware.com"  aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                                   type="button"
                                   className="btn btn-outline-primary"
                                   style={{ marginTop: 24 }}
@@ -317,7 +317,7 @@ function Software_company_in_siwan() {
                                   transactions.
                                 </p>
                                 <a
-                                  href="about.aspx"
+                                  href="about.aspx"  aria-label="About Us - Info Era Software Services Pvt. Ltd."
                                   type="button"
                                   className="btn btn-outline-primary"
                                 >
@@ -444,7 +444,7 @@ function Software_company_in_siwan() {
 </header> */}
           <div className="row">
             <div className="col-lg-6">
-              <img src="assets/img/webpic.png" className="img-fluid" alt="" />
+              <img src="assets/img/webpic.png" className="img-fluid" alt="Web pic - Info Era" />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">

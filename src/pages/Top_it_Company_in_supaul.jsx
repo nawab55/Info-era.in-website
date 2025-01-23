@@ -6,10 +6,11 @@ function Top_it_Company_in_supaul() {
       <Helmet>
         <meta charSet="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+        
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
+
         <title>
         Software Company in Supaul | Website Development in Supaul Bihar | IT Company in Supaul Bihar
         </title>
@@ -19,7 +20,7 @@ function Top_it_Company_in_supaul() {
         />
         <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Supaul, IT Service Provider Company in Supaul Bihar, SEO Service provider Company in Supaul, Website Promotion service provider in Supaul, SEO , SEM, PPC, SMM Services in Supaul Bihar " />
         <meta name="keyphrases" content="Website development in Supaul, Web Designing in Supaul Bihar, top it company in supaul,top it solution in supaul, list of top software company in supaul, Web Hosting Service in Supaul, E-Commerce Website Development in Supaul, Responsive website designing SEO in Supaul Bihar "/>
-        <link rel="canonical" href="https://infoera.in/top_it_Company_in_supaul" />
+        <link rel="canonical" href="https://infoera.in/top_it_Company_in_supaul"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -165,7 +166,7 @@ function Top_it_Company_in_supaul() {
                 Hospital Management System.
               </p>
               <a
-                href="http://hospital.infoerasoftware.com/login.aspx"
+                href="http://hospital.infoerasoftware.com/login.aspx"  aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                 target="_blank"
                 type="button"
                 className="btn btn-outline-primary"
@@ -184,6 +185,7 @@ function Top_it_Company_in_supaul() {
                 src="assets/img/hotel-management.png"
                 className="img-fluid"
                 alt="Hotel Management System - Info Era Software Services"
+                title="Hotel Management System - Info Era"
               />
               <h3 style={{ textAlign: "center" }}>Hotel Management System</h3>
               <p style={{ textAlign: "justify" }}>
@@ -194,7 +196,7 @@ function Top_it_Company_in_supaul() {
                 <br />
               </p>
               <a
-                href="http://hotel.infoerasoftware.com"
+                href="http://hotel.infoerasoftware.com"  aria-label="Hostel Management System - Info Era Software Services Pvt. Ltd."
                 type="button"
                 className="btn btn-outline-primary"
                 style={{ marginTop: 24 }}
@@ -285,6 +287,7 @@ function Top_it_Company_in_supaul() {
                 src="assets/img/ecommerce.png"
                 className="img-fluid"
                 alt="E-commerce"
+                title="E-commerce-Info Era"
               />
               <h3 style={{ textAlign: "center" }}>E-commerce</h3>
               <p style={{ textAlign: "justify" }}>
@@ -307,6 +310,7 @@ function Top_it_Company_in_supaul() {
                 src="assets/img/news.png"
                 className="img-fluid"
                 alt="News/Magazine"
+                title="News - Info Era"
               />
               <h3 style={{ textAlign: "center" }}>News/Magazine</h3>
               <p style={{ textAlign: "justify" }}>
@@ -334,6 +338,7 @@ function Top_it_Company_in_supaul() {
                 src="assets/img/values-3.png"
                 className="img-fluid"
                 alt="MLM"
+                title="MLM - Info Era"
               />
               <h3 style={{ textAlign: "center" }}>MLM</h3>
               <p style={{ textAlign: "justify" }}>
@@ -372,7 +377,7 @@ function Top_it_Company_in_supaul() {
                 <div className="feature-box d-flex align-items-center">
                   <i className="bi bi-check" />
                   <div className="col-lg-2">
-                    <a href="https://www.infoerasoftware.com/">
+                    <a href="https://www.infoerasoftware.com/"  aria-label="URL - Info Era Software Services Pvt. Ltd.">
                       {" "}
                       <img
                         src="assets/img/infoera.png"
@@ -383,7 +388,7 @@ function Top_it_Company_in_supaul() {
                     </a>
                   </div>
                   <div className="col-lg-10">
-                    <a href="https://www.infoerasoftware.com/">
+                    <a href="https://www.infoerasoftware.com/"  aria-label="URL - Info Era Software Services Pvt. Ltd.">
                       {" "}
                       <h3>Info Era Software Services Pvt. Ltd.</h3>
                     </a>
@@ -404,13 +409,13 @@ function Top_it_Company_in_supaul() {
                       roof.
                     </p>
                     <p>
-                      <a href="http://www.infoeraservices.com">
+                      <a href="http://www.infoeraservices.com"  aria-label="URL - Info Era Software Services Pvt. Ltd.">
                         www.infoeraservices.com
                       </a>
                     </p>
                     <p>
                       Email:{" "}
-                      <a href="mailto:contact@infoeraservices.com">
+                      <a href="mailto:contact@infoeraservices.com" aria-label="Info ERa Email - Info Era Software Services Pvt. Ltd.">
                         contact@infoeraservices.com
                       </a>
                     </p>
@@ -433,7 +438,7 @@ function Top_it_Company_in_supaul() {
                     />
                   </div>
                   <div className="col-lg-10">
-                    <a href="https://www.wipro.com/contact-wipro/">
+                    <a href="https://www.wipro.com/contact-wipro/"aria-label="Wipro - Info Era Software Services Pvt. Ltd.">
                       {" "}
                       <h3>Wipro</h3>
                     </a>
@@ -446,10 +451,10 @@ function Top_it_Company_in_supaul() {
                       priorities may shift based on client demands.
                     </p>
                     <p>
-                      <a href="http://www.wipro.com">www.wipro.com</a>
+                      <a href="http://www.wipro.com" aria-label="Wipro - Info Era Software Services Pvt. Ltd.">www.wipro.com</a>
                     </p>
                     <p>
-                      Email: <a href="mailto:info@wipro.com">info@wipro.com</a>
+                      Email: <a href="mailto:info@wipro.com" aria-label="Wipro Email - Info Era Software Services Pvt. Ltd.">info@wipro.com</a>
                     </p>
                   </div>
                 </div>
@@ -470,7 +475,7 @@ function Top_it_Company_in_supaul() {
                     />
                   </div>
                   <div className="col-lg-10">
-                    <a href="https://www.tcs.com/home-page">
+                    <a href="https://www.tcs.com/home-page"  aria-label="TCS - Info Era Software Services Pvt. Ltd.">
                       {" "}
                       <h3>Tata Consultancy Services (TCS)</h3>
                     </a>
@@ -481,10 +486,10 @@ function Top_it_Company_in_supaul() {
                       and whatever we mentioned in resume.
                     </p>
                     <p>
-                      <a href="http://www.tcs.com">www.tcs.com</a>
+                      <a href="http://www.tcs.com"  aria-label="TCS - Info Era Software Services Pvt. Ltd.">www.tcs.com</a>
                     </p>
                     <p>
-                      Email: <a href="mailto:info@tcs.com">info@tcs.com</a>
+                      Email: <a href="mailto:info@tcs.com"  aria-label="TCS Email - Info Era Software Services Pvt. Ltd.">info@tcs.com</a>
                     </p>
                   </div>
                 </div>
@@ -505,7 +510,7 @@ function Top_it_Company_in_supaul() {
                     />
                   </div>
                   <div className="col-lg-10">
-                    <a href="https://www.cognizant.com/in/en">
+                    <a href="https://www.cognizant.com/in/en" aria-label="Cognizant - Info Era Software Services Pvt. Ltd.">
                       <h3>Cognizant Technology Solutions</h3>
                     </a>
                     <p>
@@ -515,11 +520,11 @@ function Top_it_Company_in_supaul() {
                       has to overtake in a Full Night Shift Promotion
                     </p>
                     <p>
-                      <a href="http://www.infosys.com">www.infosys.com</a>
+                      <a href="http://www.infosys.com" aria-label="Infosys - Info Era Software Services Pvt. Ltd.">www.infosys.com</a>
                     </p>
                     <p>
                       Email:{" "}
-                      <a href="mailto:contact@infosys.com">
+                      <a href="mailto:contact@infosys.com"aria-label="Infosys Email - Info Era Software Services Pvt. Ltd.">
                         contact@infosys.com
                       </a>
                     </p>
@@ -542,7 +547,7 @@ function Top_it_Company_in_supaul() {
                     />
                   </div>
                   <div className="col-lg-10">
-                    <a href="https://www.amazon.jobs/en/teams/global-it-services">
+                    <a href="https://www.amazon.jobs/en/teams/global-it-services" aria-label="Amazon - Info Era Software Services Pvt. Ltd.">
                       <h3>Amazon</h3>
                     </a>
                     <p>
@@ -564,13 +569,13 @@ function Top_it_Company_in_supaul() {
                       customers.
                     </p>
                     <p>
-                      <a href="https://www.amazon.jobs/en/teams/global-it-services">
+                      <a href="https://www.amazon.jobs/en/teams/global-it-services" aria-label="Amazon - Info Era Software Services Pvt. Ltd.">
                         www.infosys.com
                       </a>
                     </p>
                     <p>
                       Email:{" "}
-                      <a href="mailto:cs-reply@amazon.in">cs-reply@amazon.in</a>
+                      <a href="mailto:cs-reply@amazon.in" aria-label="Amazon Email - Info Era Software Services Pvt. Ltd.">cs-reply@amazon.in</a>
                     </p>
                   </div>
                 </div>
@@ -591,7 +596,7 @@ function Top_it_Company_in_supaul() {
                     />
                   </div>
                   <div className="col-lg-10">
-                    <a href="https://www.hcltech.com/">
+                    <a href="https://www.hcltech.com/" aria-label="HCL - Info Era Software Services Pvt. Ltd.">
                       <h3>HCL TECH</h3>
                     </a>
                     <p>
@@ -602,11 +607,11 @@ function Top_it_Company_in_supaul() {
                       objectives.
                     </p>
                     <p>
-                      <a href="https://www.hcltech.com/">www.hcltech.com</a>
+                      <a href="https://www.hcltech.com/" aria-label="HCL - Info Era Software Services Pvt. Ltd.">www.hcltech.com</a>
                     </p>
                     <p>
                       Email:{" "}
-                      <a href="mailto:investors@hcl.com">investors@hcl.com</a>
+                      <a href="mailto:investors@hcl.com" aria-label="HCL Email - Info Era Software Services Pvt. Ltd.">investors@hcl.com</a>
                     </p>
                   </div>
                 </div>
@@ -627,7 +632,7 @@ function Top_it_Company_in_supaul() {
                     />
                   </div>
                   <div className="col-lg-10">
-                    <a href="https://ficuslot.com/">
+                    <a href="https://ficuslot.com/" aria-label="Ficuslot - Info Era Software Services Pvt. Ltd.">
                       <h3>Ficuslot Innovation Pvt. Ltd</h3>
                     </a>
                     <p>
@@ -639,11 +644,11 @@ function Top_it_Company_in_supaul() {
                       advancement.
                     </p>
                     <p>
-                      <a href="https://ficuslot.com/">www.ficuslot.com</a>
+                      <a href="https://ficuslot.com/" aria-label="Ficuslot - Info Era Software Services Pvt. Ltd.">www.ficuslot.com</a>
                     </p>
                     <p>
                       Email:{" "}
-                      <a href="contact@ficuslot.com">contact@ficuslot.com</a>
+                      <a href="contact@ficuslot.com" aria-label="Ficuslot Email - Info Era Software Services Pvt. Ltd.">contact@ficuslot.com</a>
                     </p>
                   </div>
                 </div>
@@ -664,7 +669,7 @@ function Top_it_Company_in_supaul() {
                     />
                   </div>
                   <div className="col-lg-10">
-                    <a href="https://www.techasoft.com/">
+                    <a href="https://www.techasoft.com/" aria-label="Techasoft - Info Era Software Services Pvt. Ltd.">
                       <h3>Techasoft</h3>
                     </a>
                     <p>
@@ -677,11 +682,11 @@ function Top_it_Company_in_supaul() {
                       Patna, then Techasoft is for you.
                     </p>
                     <p>
-                      <a href="https://www.techasoft.com/">www.hcltech.com</a>
+                      <a href="https://www.techasoft.com/" aria-label="Techasoft - Info Era Software Services Pvt. Ltd.">www.hcltech.com</a>
                     </p>
                     <p>
                       Email:{" "}
-                      <a href="mailto:info@techasoft.com">info@techasoft.com</a>
+                      <a href="mailto:info@techasoft.com" aria-label="Techasoft - Info Era Software Services Pvt. Ltd.">info@techasoft.com</a>
                     </p>
                   </div>
                 </div>
@@ -702,7 +707,7 @@ function Top_it_Company_in_supaul() {
                     />
                   </div>
                   <div className="col-lg-10">
-                    <a href="https://filliptechnologies.com/">
+                    <a href="https://filliptechnologies.com/" aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd.">
                       <h3>Fillip Technologies</h3>
                     </a>
                     <p>
@@ -715,13 +720,13 @@ function Top_it_Company_in_supaul() {
                       and charity trusts.
                     </p>
                     <p>
-                      <a href="https://filliptechnologies.com/">
+                      <a href="https://filliptechnologies.com/" aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd.">
                         www.hcltech.com
                       </a>
                     </p>
                     <p>
                       Email:{" "}
-                      <a href="mailto:infoerapvtltd@gmail.com">
+                      <a href="mailto:infoerapvtltd@gmail.com" aria-label="Fillip Technologies Email - Info Era Software Services Pvt. Ltd.">
                         info@filliptechnologies.com
                       </a>
                     </p>
@@ -745,7 +750,7 @@ function Top_it_Company_in_supaul() {
                     />
                   </div>
                   <div className="col-lg-10">
-                    <a href="https://filliptechnologies.com/">
+                    <a href="https://filliptechnologies.com/" aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd.">
                       <h3>Fillip Software </h3>
                     </a>
                     <p>
@@ -757,13 +762,13 @@ function Top_it_Company_in_supaul() {
                       environment.
                     </p>
                     <p>
-                      <a href="https://www.infoerasoftware.com/">
+                      <a href="https://www.infoerasoftware.com/" aria-label="URL - Info Era Software Services Pvt. Ltd.">
                         www.filliptechnologies.com
                       </a>
                     </p>
                     <p>
                       Email:{" "}
-                      <a href="mailto:infoerapvtltd@gmail.com">
+                      <a href="mailto:infoerapvtltd@gmail.com" aria-label="Info Era Email - Info Era Software Services Pvt. Ltd.">
                         info@filliptechnologies.com
                       </a>
                     </p>

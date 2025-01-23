@@ -9,14 +9,14 @@ function Best_website_designing_hydrabad() {
      <Helmet>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta name="google-site-verification" content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU" />
-
+   
+    <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
     <title>  Best Web Development and Marketing Services - Info Era </title>
 
     <meta name="description" content="Info Era Software Services Pvt. Ltd offers top web development, ecommerce design, and digital marketing services in Bangladesh. Expert solutions for retail and online businesses." />
 
     <meta name="keywords" content="best web development services company, ecommerce website design in bangladesh, retail website development agency, digital marketing services in bangladesh, the website design company, digital marketing agency in bangladesh, online website development company" />
-    <link rel="canonical" href="https://infoera.in/best_web_development_services_company_bangladesh" />
+    <link rel="canonical" href="https://infoera.in/best_web_development_services_company_bangladesh"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
             <meta name="content-language" content="EN" />
             <meta name="search engines" content="ALL" />
             <meta name="Robots" content="INDEX,ALL" />

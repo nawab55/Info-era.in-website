@@ -6,10 +6,9 @@ function SeoSearch({ city }) {
     <>
        <Helmet>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+        {/* Google site Verification  Start */}
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
         <title>Best Software Company in {city} | Global IT Solution</title>
         <meta
           name="description"
@@ -19,7 +18,7 @@ function SeoSearch({ city }) {
           name="keywords"
           content="search engine optimization company in patna,seo services,seo agency in patna,seo companies in patna,best seo marketing companies,website seo services in patna,search engine optimization services,best seo agency,top seo agency,best search engine optimization company,best search engine optimization services in patna,best seo provider in patna,search engine marketing agency in patna,best seo firm "
         />
-        <link rel="canonical" href="https://www.infoera.in/school-management-system" />
+        <link rel="canonical" href="https://www.infoera.in/school-management-system" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
             <meta name="content-language" content="EN" />
             <meta name="search engines" content="ALL" />
             <meta name="Robots" content="INDEX,ALL" />
@@ -102,7 +101,7 @@ function SeoSearch({ city }) {
                   <div className="feature-box d-flex align-items-center">
                     <i className="bi bi-check" />
                     <div className="col-md-2">
-                      <a href="https://www.infoerasoftware.com/">
+                      <a href="https://www.infoerasoftware.com/" aria-label="URL - Info Era Software Services Pvt. Ltd.">
                         {" "}
                         <img
                           src="assets/img/infoera.png"
@@ -113,7 +112,7 @@ function SeoSearch({ city }) {
                       </a>
                     </div>
                     <div className="col-md-10">
-                      <a href="https://www.infoerasoftware.com/">
+                      <a href="https://www.infoerasoftware.com/" aria-label="URL - Info Era Software Services Pvt. Ltd.">
                         {" "}
                         <h3>Info Era Software Services Pvt. Ltd.</h3>
                       </a>
@@ -126,13 +125,13 @@ function SeoSearch({ city }) {
                         Consulting, Industrial Training, Franchise.
                       </p>
                       <p>
-                        <a href="http://www.infoeraservices.com">
+                        <a href="http://www.infoeraservices.com" aria-label="URL - Info Era Software Services Pvt. Ltd.">
                           www.infoeraservices.com
                         </a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:contact@infoeraservices.com">
+                        <a href="mailto:contact@infoeraservices.com" aria-label="Email - Info Era Software Services Pvt. Ltd.">
                           contact@infoeraservices.com
                         </a>
                       </p>
@@ -155,7 +154,7 @@ function SeoSearch({ city }) {
                       />
                     </div>
                     <div className="col-md-10">
-                      <a href="https://www.wipro.com/contact-wipro/">
+                      <a href="https://www.wipro.com/contact-wipro/" aria-label="Wipro - Info Era Software Services Pvt. Ltd.">
                         {" "}
                         <h3>Wipro</h3>
                       </a>
@@ -169,11 +168,11 @@ function SeoSearch({ city }) {
                         demands.
                       </p>
                       <p>
-                        <a href="http://www.wipro.com">www.wipro.com</a>
+                        <a href="http://www.wipro.com" aria-label="Wipro - Info Era Software Services Pvt. Ltd.">www.wipro.com</a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:info@wipro.com">info@wipro.com</a>
+                        <a href="mailto:info@wipro.com" aria-label="Wipro Email - Info Era Software Services Pvt. Ltd.">info@wipro.com</a>
                       </p>
                     </div>
                   </div>
@@ -194,7 +193,7 @@ function SeoSearch({ city }) {
                       />
                     </div>
                     <div className="col-md-10">
-                      <a href="https://www.tcs.com/home-page">
+                      <a href="https://www.tcs.com/home-page" aria-label="TCS - Info Era Software Services Pvt. Ltd.">
                         {" "}
                         <h3>Tata Consultancy Services (TCS)</h3>
                       </a>
@@ -206,10 +205,10 @@ function SeoSearch({ city }) {
                           experience and whatever we mentioned in resume.
                         </p>
                         <p>
-                          <a href="http://www.tcs.com">www.tcs.com</a>
+                          <a href="http://www.tcs.com" aria-label="TCS - Info Era Software Services Pvt. Ltd.">www.tcs.com</a>
                         </p>
                         <p>
-                          Email: <a href="mailto:info@tcs.com">info@tcs.com</a>
+                          Email: <a href="mailto:info@tcs.com"  aria-label="TCS Email - Info Era Software Services Pvt. Ltd.">info@tcs.com</a>
                         </p>
                       </div>
                     </div>
@@ -229,7 +228,7 @@ function SeoSearch({ city }) {
                       title="Logo of Infosys"
                     />
                     <div className="col-md-2">
-                      <a href="https://www.cognizant.com/in/en">
+                      <a href="https://www.cognizant.com/in/en"  aria-label="Cognizant - Info Era Software Services Pvt. Ltd.">
                         <h3>Cognizant Technology Solutions</h3>
                       </a>
                     </div>
@@ -242,11 +241,11 @@ function SeoSearch({ city }) {
                         Promotion
                       </p>
                       <p>
-                        <a href="http://www.infosys.com">www.infosys.com</a>
+                        <a href="http://www.infosys.com" aria-label="Infosys - Info Era Software Services Pvt. Ltd.">www.infosys.com</a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:contact@infosys.com">
+                        <a href="mailto:contact@infosys.com" aria-label="Infosys Email - Info Era Software Services Pvt. Ltd.">
                           contact@infosys.com
                         </a>
                       </p>
@@ -269,7 +268,7 @@ function SeoSearch({ city }) {
                       />
                     </div>
                     <div className="col-md-10">
-                      <a href="https://www.amazon.jobs/en/teams/global-it-services">
+                      <a href="https://www.amazon.jobs/en/teams/global-it-services"aria-label="Amazon - Info Era Software Services Pvt. Ltd.">
                         <h3>Amazon</h3>
                       </a>
                       <p>
@@ -291,13 +290,13 @@ function SeoSearch({ city }) {
                         their attention on their jobs and their customers.
                       </p>
                       <p>
-                        <a href="https://www.amazon.jobs/en/teams/global-it-services">
+                        <a href="https://www.amazon.jobs/en/teams/global-it-services" aria-label="Amazon - Info Era Software Services Pvt. Ltd.">
                           www.infosys.com
                         </a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:cs-reply@amazon.in">
+                        <a href="mailto:cs-reply@amazon.in" aria-label="Amazon Email - Info Era Software Services Pvt. Ltd.">
                           cs-reply@amazon.in
                         </a>
                       </p>

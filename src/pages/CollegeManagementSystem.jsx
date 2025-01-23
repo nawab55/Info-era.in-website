@@ -7,7 +7,7 @@ function CollegeManagementSystem() {
     <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
         <title> Efficient School Management System | Info Era  </title>
         <meta
           name="description"
@@ -17,7 +17,7 @@ function CollegeManagementSystem() {
           name="keywords"
           content="School management system, Info Era school software, school administration, web-based school software, student management "
         />
-        <link rel="canonical" href="https://infoera.in/school-management-system" />
+        <link rel="canonical" href="https://infoera.in/school-management-system"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -76,6 +76,7 @@ function CollegeManagementSystem() {
                     src="assets/img/services/college-management-system.jpeg"
                     className="img-fluid"
                     alt="College Management System"
+                    title="College Management System-Info Era"
                   />
                 </div>
               </div>
@@ -114,6 +115,7 @@ function CollegeManagementSystem() {
                       src="assets/img/hotel-management.png"
                       style={{ width: 50, height: 50 }}
                       alt="Hotel Management System - Info Era Software Services"
+                      title="Hotel Management System  - Info Era"
                     />
                     <Link to="/hotel-management-system">
                       <b> Hotel Management System</b>

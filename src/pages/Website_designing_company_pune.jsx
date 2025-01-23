@@ -8,10 +8,11 @@ function Website_designing_company_pune() {
        <Helmet>
         <meta charSet="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
+
+        
         <title>Top Web Design and Digital Marketing in Pune - Info Era </title>
         <meta
           name="description"
@@ -21,7 +22,7 @@ function Website_designing_company_pune() {
           name="keywords"
           content="top website design company in pune, best website design and development company in pune, web development agency pune,online marketing companies in pune, digital marketing agency in pune india, best web development company in pune, software company in pune, it companies in viman nagar, pune top software companies, good software companies in pune "
         />
-        <link rel="canonical" href="https://infoera.in/website_designing_company_pune" />
+        <link rel="canonical" href="https://infoera.in/website_designing_company_pune" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 

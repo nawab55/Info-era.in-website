@@ -8,10 +8,11 @@ function Top_web_designing_company_california() {
        <Helmet>
         <meta charSet="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+        
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
+
         <title>
           Top Web Design and Digital Marketing in California - Info Era{" "}
         </title>
@@ -23,7 +24,7 @@ function Top_web_designing_company_california() {
           name="keywords"
           content="top web designing company in california, web design company ios angeles ca, internet marketing in sandiego, web designing company in san francisco, top software companies in ios angeles, digital marketing companies in california, digital marketing companies in orange country, sacramento web design companies, sacramento digital marketing agency"
         />
-        <link rel="canonical" href="https://infoera.in/top_web_designing_company_california" />
+        <link rel="canonical" href="https://infoera.in/top_web_designing_company_california" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 

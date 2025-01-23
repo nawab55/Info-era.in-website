@@ -7,10 +7,7 @@ function It_company_in_varanasi() {
       <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
         <title>IT Company in Varanasi | Software Development Company</title>
         <meta
           name="description"
@@ -20,7 +17,7 @@ function It_company_in_varanasi() {
           name="keywords"
           content="it company in varanasi, software development company in varanasi, website company in varanasi, web design company in varanasi, web development company in varanasi,software development company in varanasi, website development in varanasi"
         />
-         <link rel="canonical" href="https://infoera.in/it_company_in_varanasi" />
+         <link rel="canonical" href="https://infoera.in/it_company_in_varanasi" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
             <meta name="content-language" content="EN" />
             <meta name="search engines" content="ALL" />
             <meta name="Robots" content="INDEX,ALL" />
@@ -200,7 +197,7 @@ function It_company_in_varanasi() {
                   Hospital Management System.
                 </p>
                 <a
-                  href="http://hospital.infoerasoftware.com/login.aspx"
+                  href="http://hospital.infoerasoftware.com/login.aspx" aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                   target="_blank"
                   type="button"
                   className="btn btn-outline-primary"
@@ -230,7 +227,7 @@ function It_company_in_varanasi() {
                   <br />
                 </p>
                 <a
-                  href="http://hotel.infoerasoftware.com"
+                  href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                   type="button"
                   className="btn btn-outline-primary"
                   style={{ marginTop: 24 }}
@@ -292,7 +289,7 @@ function It_company_in_varanasi() {
                   the client and is not an off-the-shelf solution.
                 </p>
                 <a
-                  href="about.aspx"
+                  href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
                   type="button"
                   className="btn btn-outline-primary"
                   style={{ marginTop: 48 }}
@@ -323,6 +320,7 @@ function It_company_in_varanasi() {
                   src="assets/img/ecommerce.png"
                   className="img-fluid"
                   alt="E-commerce"
+                  title="E-commerce"
                 />
                 <h3 style={{ textAlign: "center" }}>E-commerce</h3>
                 <p style={{ textAlign: "justify" }}>
@@ -345,6 +343,7 @@ function It_company_in_varanasi() {
                   src="assets/img/news.png"
                   className="img-fluid"
                   alt="News/Magazine"
+                  title="News - Info Era"
                 />
                 <h3 style={{ textAlign: "center" }}>News/Magazine</h3>
                 <p style={{ textAlign: "justify" }}>

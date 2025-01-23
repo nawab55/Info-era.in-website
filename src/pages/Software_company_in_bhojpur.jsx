@@ -7,17 +7,16 @@ function Software_company_in_bhojpur() {
        <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+        
         <title>SManagement System Software Development Company in Bhojpur, Application Software in Bhojpur Bihar</title>
                
         <meta name="description" content="Inventory Management Application Software in Bhojpur, Bihar; Super Market Billing System Software Company in Bhojpur, Bihar; GST Billing & Invoicing System Software in Bhojpur, Bihar; Application Software Development Company in Bhojpur"/>
         <meta name="keywords" content="GST Billing & Invoicing System Software Company in Bhojpur - Info Era Software Services, Inventory Management System Software in Bhojpur Bihar, Retailing and POS Software in Bhojpur, Customized Management System Software Development Company in Bhojpur" />
         <meta name="keyphrases" content="Software Development in Bhojpur, GST Billing Software in Bhojpur Bihar, Super Market Billing System in Bhojpur Bihar, Customized Application Software Development in Bhojpur"/>
-       	    
-        <link rel="canonical" href="https://infoera.in/software_company_in_bhojpur" />
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */} 	    
+        <link rel="canonical" href="https://infoera.in/software_company_in_bhojpur" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -289,7 +288,7 @@ function Software_company_in_bhojpur() {
                 Hospital Management System.
               </p>
               <a
-                href="http://hospital.infoerasoftware.com/login.aspx"
+                href="http://hospital.infoerasoftware.com/login.aspx" aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                 target="_blank"
                 type="button"
                 className="btn btn-outline-primary"
@@ -318,7 +317,7 @@ function Software_company_in_bhojpur() {
                 <br />
               </p>
               <a
-                href="http://hotel.infoerasoftware.com"
+                href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                 type="button"
                 className="btn btn-outline-primary"
                 style={{ marginTop: 24 }}
@@ -409,6 +408,7 @@ function Software_company_in_bhojpur() {
                 src="assets/img/ecommerce.png"
                 className="img-fluid"
                 alt="E-commerce"
+                title="E-commerce - Info Era"
               />
               <h3 style={{ textAlign: "center" }}>E-commerce</h3>
               <p style={{ textAlign: "justify" }}>
@@ -458,6 +458,7 @@ function Software_company_in_bhojpur() {
                 src="assets/img/values-3.png"
                 className="img-fluid"
                 alt="MLM"
+                title="MLM - Info Era"
               />
               <h3 style={{ textAlign: "center" }}>MLM</h3>
               <p style={{ textAlign: "justify" }}>
@@ -510,7 +511,7 @@ function Software_company_in_bhojpur() {
                   <img
                     src="assets/img/features.png"
                     className="img-fluid"
-                    alt=""
+                    alt="Features - Info Era"
                   />
                 </div>
                 <div className="col-lg-6 mt-5 mt-lg-0 d-flex order-md-1">
@@ -691,7 +692,7 @@ function Software_company_in_bhojpur() {
 </header> */}
       <div className="row">
         <div className="col-lg-6">
-          <img src="assets/img/webpic.png" className="img-fluid" alt="" />
+          <img src="assets/img/webpic.png" className="img-fluid" alt="Web Pic - Info Era" title="Wib Pic - Info Era" />
         </div>
         <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
           <div className="row align-self-center gy-4">

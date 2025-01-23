@@ -6,10 +6,7 @@ export default function SchoolManagementSystem() {
     <>
     <Helmet>
             <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-            <meta
-              name="google-site-verification"
-              content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-            />
+           
             <title>Info Era Software Services Patna | Software Company in Patna | School | College Management System</title>
             <meta
               name="description"
@@ -19,7 +16,10 @@ export default function SchoolManagementSystem() {
               name="keywords"
               content="Info Era Software Services, School Management System, College Management System, School/College ERP Development in Patna Bihar"
             />
-            <link rel="canonical" href="https://www.infoera.in/school-management-system" />
+            <link rel="canonical" href="https://www.infoera.in/school-management-system" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
+             {/* Google site Verification  Start */}
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
             <meta name="content-language" content="EN" />
             <meta name="search engines" content="ALL" />
             <meta name="Robots" content="INDEX,ALL" />
@@ -87,6 +87,7 @@ export default function SchoolManagementSystem() {
                       src="assets/img/services/SchoolManagementsystem.png"
                       className="img-fluid"
                       alt="school manaement system"
+                      title="School Management System - Info Era"
                     />
                   </div>
                 </div>

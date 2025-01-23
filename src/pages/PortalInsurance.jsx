@@ -7,7 +7,9 @@ function PortalInsurance() {
      <Helmet>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
         <title>Best Insurance Web Services for Your Business  </title>
         <meta
           name="description"
@@ -17,7 +19,7 @@ function PortalInsurance() {
           name="keywords"
           content="Best of industry website, Top Insurance Website, Best Insurance Website, Insurance news, Insurance Trends, Insurance Award Winners"
         />
-        <link rel="canonical" href="https://www.infoera.in/portal-insurance" />
+        <link rel="canonical" href="https://www.infoera.in/portal-insurance" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -81,6 +83,7 @@ function PortalInsurance() {
                   src="assets/img/services/Insurance.png"
                   className="img-fluid"
                   alt="insurance solutions"
+                  title="Insurance Solution - Info Era"
                 />
               </div>
             </div>
@@ -119,6 +122,7 @@ function PortalInsurance() {
                     src="assets/img/hotel-management.png"
                     style={{ width: 50, height: 50 }}
                     alt="Hotel Management System - Info Era Software Services"
+                    title="Hotel Management System - Info Era"
                   />
                   <Link to="/hotel-management-system">
                     <b> Hotel Management System</b>

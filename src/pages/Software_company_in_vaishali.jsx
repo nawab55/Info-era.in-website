@@ -7,14 +7,13 @@ function Software_company_in_vaishali() {
       <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
        <meta name="description" content="Application Software Development Company in Vaishali, GST Billing & Invoicing System Software in Vaishali, Super Market Billing System Software Company in Vaishali, and Inventory Management Application Software in Vaishali."/>
         <meta name="keywords" content="GST Billing & Invoicing System Software Company in Vaishali - Info Era Software Services, Inventory Management System Software in Vaishali Bihar, Retailing and POS Software in Vaishali, Customized Management System Software Development Company in Vaishali" />
         <meta name="keyphrases" content="Software Development in Vaishali, GST Billing Software in Vaishali Bihar, Super Market Billing System in Vaishali Bihar, Customized Application Software Development in Vaishali"/>
-        <link rel="canonical" href="https://infoera.in/software_company_in_vaishali" />
+        <link rel="canonical" href="https://infoera.in/software_company_in_vaishali"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -253,7 +252,7 @@ function Software_company_in_vaishali() {
                                   benefits of a Hospital Management System.
                                 </p>
                                 <a
-                                  href="http://hospital.infoerasoftware.com/login.aspx"
+                                  href="http://hospital.infoerasoftware.com/login.aspx"  aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                                   target="_blank"
                                   type="button"
                                   className="btn btn-outline-primary"
@@ -272,6 +271,7 @@ function Software_company_in_vaishali() {
                                   src="assets/img/hotel-management.png"
                                   className="img-fluid"
                                   alt="Hotel Management System - Info Era Software Services"
+                                  title="Hotel Management System - Info Era"
                                 />
                                 <h3 style={{ textAlign: "center" }}>
                                   Hotel Management System
@@ -286,7 +286,7 @@ function Software_company_in_vaishali() {
                                   <br />
                                 </p>
                                 <a
-                                  href="http://hotel.infoerasoftware.com"
+                                  href="http://hotel.infoerasoftware.com"  aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                                   type="button"
                                   className="btn btn-outline-primary"
                                   style={{ marginTop: 24 }}
@@ -320,7 +320,7 @@ function Software_company_in_vaishali() {
                                   transactions.
                                 </p>
                                 <a
-                                  href="about.aspx"
+                                  href="about.aspx"  aria-label="Aoout Us - Info Era Software Services Pvt. Ltd."
                                   type="button"
                                   className="btn btn-outline-primary"
                                 >
@@ -449,7 +449,7 @@ function Software_company_in_vaishali() {
 </header> */}
           <div className="row">
             <div className="col-lg-6">
-              <img src="assets/img/webpic.png" className="img-fluid" alt="" />
+              <img src="assets/img/webpic.png" className="img-fluid" alt="Web Pic - Info Era" />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">

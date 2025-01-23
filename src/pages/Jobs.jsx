@@ -208,8 +208,12 @@ function Jobs() {
     <Helmet>
       <meta charSet="utf-8"/>
       <title>IT Jobs in Patna bihar | Software Development Jobs in Patna Bihar </title>
+       {/* Google site Verification  Start */}
+       <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
+      <meta name="discription" content="Join the best IT training center in Bihar offering internships, IT jobs, website designing, graphic designing, and software jobs in Patna. Build your career with us!"/>
       <meta name="Keywords" content="it treaning center, it jobs, best it company in bihar, best it company treaning , Internship, Jobs, naukari, it jobs, website designing jobs in bihar, software jobs in patna bihar, best it company jobs in patna bihar, graphic designing jobs in patna bihar"/>
-      <link rel="canonical" href="https://infoera.in/jobs" />
+      <link rel="canonical" href="https://infoera.in/jobs" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
       <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -251,7 +255,7 @@ function Jobs() {
               className="col-lg-6 hero-img aos-init aos-animate"
               data-aos="zoom-out"
             >
-              <img src="assets/img/hiring.png" className="img-fluid" alt="" />
+              <img src="assets/img/hiring.png" className="img-fluid" alt="Hiring -Info Era" title="Hiring - Info Era" />
             </div>
           </div>
         </div>

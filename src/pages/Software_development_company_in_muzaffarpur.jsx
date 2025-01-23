@@ -7,10 +7,9 @@ function Software_development_company_in_muzaffarpur() {
      <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
         <title>
           Software Company in Muzaffarpur | Website Development in Muzaffarpur Bihar | IT Company in Muzaffarpur Bihar
         </title>
@@ -20,7 +19,7 @@ function Software_development_company_in_muzaffarpur() {
         />
         <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Muzaffarpur, IT Service Provider Company in Muzaffarpur Bihar, SEO Service provider Company in Muzaffarpur, Website Promotion service provider in Muzaffarpur, SEO , SEM, PPC, SMM Services in Muzaffarpur Bihar " />
         <meta name="keyphrases" content="Website development in Muzaffarpur, Web Designing in Muzaffarpur Bihar, Web Hosting Service in Muzaffarpur, E-Commerce Website Development in Muzaffarpur, Responsive website designing SEO in Muzaffarpur Bihar "/>
-        <link rel="canonical" href="https://infoera.in/software_development_company_in_muzaffarpur" />
+        <link rel="canonical" href="https://infoera.in/software_development_company_in_muzaffarpur"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -178,7 +177,7 @@ function Software_development_company_in_muzaffarpur() {
                   Hospital Management System.
                 </p>
                 <a
-                  href="http://hospital.infoerasoftware.com/login.aspx"
+                  href="http://hospital.infoerasoftware.com/login.aspx"  aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                   target="_blank"
                   type="button"
                   className="btn btn-outline-primary"
@@ -197,6 +196,7 @@ function Software_development_company_in_muzaffarpur() {
                   src="assets/img/hotel-management.png"
                   className="img-fluid"
                   alt="Hotel Management System - Info Era Software Services"
+                  title="Hostel Management System"
                 />
                 <h3 style={{ textAlign: "center" }}>Hotel Management System</h3>
                 <p style={{ textAlign: "justify" }}>
@@ -208,7 +208,7 @@ function Software_development_company_in_muzaffarpur() {
                   <br />
                 </p>
                 <a
-                  href="http://hotel.infoerasoftware.com"
+                  href="http://hotel.infoerasoftware.com"  aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                   type="button"
                   className="btn btn-outline-primary"
                   style={{ marginTop: 24 }}
@@ -240,7 +240,7 @@ function Software_development_company_in_muzaffarpur() {
                   clients and financial transactions.
                 </p>
                 <a
-                  href="about.aspx"
+                  href="about.aspx"  aria-label="About Page - Info Era Software Services Pvt. Ltd."
                   type="button"
                   className="btn btn-outline-primary"
                 >
@@ -270,7 +270,7 @@ function Software_development_company_in_muzaffarpur() {
                   the client and is not an off-the-shelf solution.
                 </p>
                 <a
-                  href="about.aspx"
+                  href="about.aspx" aria-label="About Page - Info Era Software Services Pvt. Ltd."
                   type="button"
                   className="btn btn-outline-primary"
                   style={{ marginTop: 48 }}
@@ -301,6 +301,7 @@ function Software_development_company_in_muzaffarpur() {
                   src="assets/img/ecommerce.png"
                   className="img-fluid"
                   alt="E-commerce"
+                  title="E-commerce"
                 />
                 <h3 style={{ textAlign: "center" }}>E-commerce</h3>
                 <p style={{ textAlign: "justify" }}>
@@ -323,6 +324,7 @@ function Software_development_company_in_muzaffarpur() {
                   src="assets/img/news.png"
                   className="img-fluid"
                   alt="News/Magazine"
+                  title="News - Info Era"
                 />
                 <h3 style={{ textAlign: "center" }}>News/Magazine</h3>
                 <p style={{ textAlign: "justify" }}>
@@ -350,6 +352,7 @@ function Software_development_company_in_muzaffarpur() {
                   src="assets/img/values-3.png"
                   className="img-fluid"
                   alt="MLM"
+                  title="MLM - info Era"
                 />
                 <h3 style={{ textAlign: "center" }}>MLM</h3>
                 <p style={{ textAlign: "justify" }}>
@@ -469,7 +472,7 @@ function Software_development_company_in_muzaffarpur() {
 </header> */}
           <div className="row">
             <div className="col-lg-6">
-              <img src="assets/img/webpic.png" className="img-fluid" alt="" />
+              <img src="assets/img/webpic.png" className="img-fluid" alt="Web Pic - Info Era" title="Web Pic" />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">

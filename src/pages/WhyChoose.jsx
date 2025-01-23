@@ -7,6 +7,10 @@ const WhyChoose = () => {
         
 <meta name="description" content="Software design and development, Software Development Company in Patna, Low cost Software Design Company, Low cost Software Development, Responsive Web Designing Company in Patna" />	
 <meta name="keywords" content="Info Era Software Services is the best Software Design and Development Company in Patna Bihar India. We develop the best and affordable Responsive Websites with SEO services" />
+ {/* Google site Verification  Start */}
+ <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
+
 
 <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta charset="utf-8"/>
@@ -77,7 +81,7 @@ const WhyChoose = () => {
                 <img
                   src="assets/img/features.png"
                   className="img-fluid"
-                  alt=""
+                  alt="Features - Info Era " title="Features Info Era"
                 />
               </div>
             </div>
@@ -97,7 +101,7 @@ const WhyChoose = () => {
                   <img
                     src="assets/img/features.png"
                     className="img-fluid"
-                    alt=""
+                    alt="Features - Info Era" title="Features - Info Era"
                   />
                 </div>
                 <div className="col-lg-6 mt-5 mt-lg-0 d-flex order-md-1">

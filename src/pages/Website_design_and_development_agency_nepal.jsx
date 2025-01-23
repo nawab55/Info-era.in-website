@@ -8,10 +8,10 @@ function Website_design_and_development_agency_nepal() {
       <Helmet>
         <meta charSet="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
+        
         <title> Top Web Design and Development Agency - Nepal </title>
         <meta
           name="description"
@@ -21,7 +21,7 @@ function Website_design_and_development_agency_nepal() {
           name="keywords"
           content="website design and development agency, drupal web agency, best website designing and seo company, web design and software development company, online website development company, australian web development companies, professional web development company, b2b web development company, best web development agencies in the world, online marketing company in nepal, social media marketing in nepal, social media marketing company in nepal, website design company services"
         />
-        <link rel="canonical" href="https://infoera.in/website_design_and_development_agency_nepal" />
+        <link rel="canonical" href="https://infoera.in/website_design_and_development_agency_nepal" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 

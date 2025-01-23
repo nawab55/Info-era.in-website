@@ -9,10 +9,9 @@ function Top_it_company_bihar() {
             content="width=device-width, initial-scale=1.0"
             name="viewport"
           />
-          <meta
-            name="google-site-verification"
-            content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-          />
+           {/* Google site Verification  Start */}
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
           <title>Top IT Company in Bihar | Software Company in India</title>
           <meta
             name="description"
@@ -22,7 +21,7 @@ function Top_it_company_bihar() {
             name="keywords"
             content="Info Era Software Services is a leading IT company in Patna, Bihar which focuses on Software, Website, Mobile App, GST Billing Software, CRM Development along with SEO Services "
           />
-          <link rel="canonical" href="https://infoera.in/top_it_company_bihar" />
+          <link rel="canonical" href="https://infoera.in/top_it_company_bihar"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
     <meta name="content-language" content="EN" />
     <meta name="search engines" content="ALL" />
     <meta name="Robots" content="INDEX,ALL" />
@@ -109,7 +108,7 @@ function Top_it_company_bihar() {
                   <div className="feature-box d-flex align-items-center">
                     <i className="bi bi-check" />
                     <div className="col-lg-2">
-                      <a href="https://www.infoerasoftware.com/">
+                      <a href="https://www.infoerasoftware.com/" aria-label="URL - Info Era Software Services Pvt. Ltd.">
                         {" "}
                         <img
                           src="assets/img/infoera.png"
@@ -120,7 +119,7 @@ function Top_it_company_bihar() {
                       </a>
                     </div>
                     <div className="col-lg-10">
-                      <a href="https://www.infoerasoftware.com/">
+                      <a href="https://www.infoerasoftware.com/" aria-label="URL - Info Era Software Services Pvt. Ltd.">
                         {" "}
                         <h3>Info Era Software Services Pvt. Ltd.</h3>
                       </a>
@@ -135,13 +134,13 @@ function Top_it_company_bihar() {
                           Franchise.
                         </p>
                         <p>
-                          <a href="http://www.infoeraservices.com">
+                          <a href="http://www.infoeraservices.com" aria-label="URL - Info Era Software Services Pvt. Ltd.">
                             www.infoeraservices.com
                           </a>
                         </p>
                         <p>
                           Email:{" "}
-                          <a href="mailto:contact@infoeraservices.com">
+                          <a href="mailto:contact@infoeraservices.com" aria-label="Email - Info Era Software Services Pvt. Ltd.">
                             contact@infoeraservices.com
                           </a>
                         </p>
@@ -165,7 +164,7 @@ function Top_it_company_bihar() {
                       />
                     </div>
                     <div className="col-lg-10">
-                      <a href="https://www.wipro.com/contact-wipro/">
+                      <a href="https://www.wipro.com/contact-wipro/" aria-label="Wipro - Info Era Software Services Pvt. Ltd.">
                         {" "}
                         <h3>Wipro</h3>
                       </a>
@@ -179,11 +178,11 @@ function Top_it_company_bihar() {
                         demands.
                       </p>
                       <p>
-                        <a href="http://www.wipro.com">www.wipro.com</a>
+                        <a href="http://www.wipro.com" aria-label="Wipro - Info Era Software Services Pvt. Ltd.">www.wipro.com</a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:info@wipro.com">info@wipro.com</a>
+                        <a href="mailto:info@wipro.com" aria-label="Wipro Email - Info Era Software Services Pvt. Ltd.">info@wipro.com</a>
                       </p>
                     </div>
                   </div>
@@ -204,7 +203,7 @@ function Top_it_company_bihar() {
                       />
                     </div>
                     <div>
-                      <a href="https://www.tcs.com/home-page">
+                      <a href="https://www.tcs.com/home-page" aria-label="TCS - Info Era Software Services Pvt. Ltd.">
                         {" "}
                         <h3>Tata Consultancy Services (TCS)</h3>
                       </a>
@@ -215,10 +214,10 @@ function Top_it_company_bihar() {
                         experience and whatever we mentioned in resume.
                       </p>
                       <p>
-                        <a href="http://www.tcs.com">www.tcs.com</a>
+                        <a href="http://www.tcs.com"  aria-label="TCS - Info Era Software Services Pvt. Ltd.">www.tcs.com</a>
                       </p>
                       <p>
-                        Email: <a href="mailto:info@tcs.com">info@tcs.com</a>
+                        Email: <a href="mailto:info@tcs.com"  aria-label="TCS Email - Info Era Software Services Pvt. Ltd.">info@tcs.com</a>
                       </p>
                     </div>
                   </div>
@@ -239,7 +238,7 @@ function Top_it_company_bihar() {
                       />
                     </div>
                     <div className="col-lg-10">
-                      <a href="https://www.cognizant.com/in/en">
+                      <a href="https://www.cognizant.com/in/en" aria-label="Cognizant - Info Era Software Services Pvt. Ltd.">
                         <h3>Cognizant Technology Solutions</h3>
                       </a>
                       <p>
@@ -250,11 +249,11 @@ function Top_it_company_bihar() {
                         Promotion
                       </p>
                       <p>
-                        <a href="http://www.infosys.com">www.infosys.com</a>
+                        <a href="http://www.infosys.com" aria-label="Infosys - Info Era Software Services Pvt. Ltd.">www.infosys.com</a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:contact@infosys.com">
+                        <a href="mailto:contact@infosys.com" aria-label="Infosys Email - Info Era Software Services Pvt. Ltd.">
                           contact@infosys.com
                         </a>
                       </p>
@@ -277,7 +276,7 @@ function Top_it_company_bihar() {
                       />
                     </div>
                     <div className="col-lg-10">
-                      <a href="https://www.amazon.jobs/en/teams/global-it-services">
+                      <a href="https://www.amazon.jobs/en/teams/global-it-services" aria-label="Amazon - Info Era Software Services Pvt. Ltd.">
                         <h3>Amazon</h3>
                       </a>
                       <p>
@@ -299,13 +298,13 @@ function Top_it_company_bihar() {
                         their attention on their jobs and their customers.
                       </p>
                       <p>
-                        <a href="https://www.amazon.jobs/en/teams/global-it-services">
+                        <a href="https://www.amazon.jobs/en/teams/global-it-services" aria-label="Amazon - Info Era Software Services Pvt. Ltd.">
                           www.infosys.com
                         </a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:cs-reply@amazon.in">
+                        <a href="mailto:cs-reply@amazon.in" aria-label="Amazon Email - Info Era Software Services Pvt. Ltd.">
                           cs-reply@amazon.in
                         </a>
                       </p>

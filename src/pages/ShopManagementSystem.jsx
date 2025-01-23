@@ -1,8 +1,39 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const ShopManagementSystem = () => {
   return (
+    <>
+    <Helmet>
+    <title>Best Ecommerce Website Designing Company in Patna</title>
+
+<meta name="description" content="Top Ecommerce Web design and development, Best Ecommerce Website Development Company in Patna, Very Low cost Ecommerce Website Design Company, Low cost Ecommerce Website Development, Fully Responsive Ecommerce Web Designing Company in Patna" />	
+<meta name="keywords" content="The top E-commercewebsite design and development firm in Patna, Bihar, India is Info Era Software Services. With SEO services, we create the most excellent and reasonably priced responsive websites." />
+
+ {/* Google site Verification  Start */}
+ <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
+
+<meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="canonical" href="https://infoera.in/shop" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
+<meta name="content-language" content="EN" />
+<meta name="search engines" content="ALL" />
+<meta name="Robots" content="INDEX,ALL" /> 
+<meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
+<meta name="msnbot" content="INDEX, FOLLOW" /> 
+<meta name="googlebot" content="INDEX, FOLLOW" /> 
+<meta name="language" content="en-us" />
+<meta name="Expires" content="never" />
+<meta name="rating" content="General" />
+<meta name="Resource-type" content="document" />
+<meta name="Author" content="www.infoera.in" />
+<meta name="document-classification" content="Shop Management System" />
+<meta name="Distribution" content="Global" />
+</Helmet>   
     <div>
+            
       <section id="hero" className="hero d-flex align-items-center">
         <div className="container" data-aos="fade-up">
           <header className="section-header">
@@ -88,6 +119,7 @@ const ShopManagementSystem = () => {
                       src="assets/img/hotel-management.png"
                       style={{ width: 50, height: 50 }}
                       alt="Hotel Management System - Info Era Software Services"
+                      title="Hotel Management System - Info Era"
                     />
                     <Link to="/hotel-management-system">
                       {" "}
@@ -129,6 +161,7 @@ const ShopManagementSystem = () => {
       </section>
       {/* End Hero */}
     </div>
+    </>
   );
 };
 

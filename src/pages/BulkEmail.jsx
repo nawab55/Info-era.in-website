@@ -5,7 +5,7 @@ const BulkEmail = () => {
      <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
         <title>Effective Email Marketing Services | Info Era  </title>
         <meta
           name="description"
@@ -15,7 +15,7 @@ const BulkEmail = () => {
           name="keywords"
           content="Email marketing, Best Email Service Provider in Patna, India, Info Era email services, professional email campaigns, customer engagement, email tracking, product announcement emails, direct marketing "
         />
-        <link rel="canonical" href="https://infoera.in/bulk-email" />
+        <link rel="canonical" href="https://infoera.in/bulk-email"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -88,7 +88,7 @@ const BulkEmail = () => {
                 <img
                   src="assets/img/bulkemail.png"
                   className="img-fluid"
-                  alt=""
+                  alt="Bulk Email - Info Era"
                 />
               </div>
             </div>

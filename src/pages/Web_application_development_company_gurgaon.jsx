@@ -8,10 +8,11 @@ function Web_application_development_company_gurgaon() {
        <Helmet>
         <meta charSet="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
+        
         <title>
         Website Development Company in Gurgaon | Top Web Development Agency Gurugram
         </title>
@@ -25,7 +26,7 @@ function Web_application_development_company_gurgaon() {
           name="keyphrases"
           content="web application development company in gurgaon, web application development company in gurgaon, mobile app development company in gurugram, software company in gurgaon, best website developer in gurgaon, web designing and development company in gurgaon, web designing & development company in gurgaon, software company in gurgaon, website designing company in gurgaon, content marketing agency gurgaon, top digital marketing agency gurgaon, gurgaon digital marketing company, best digital marketing company in gurugram "
         />
-        <link rel="canonical" href="https://infoera.in/web_application_development_company_gurgaon" />
+        <link rel="canonical" href="https://infoera.in/web_application_development_company_gurgaon" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 

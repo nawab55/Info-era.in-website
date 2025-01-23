@@ -6,15 +6,17 @@ function Software_company_in_madhubani() {
     <>
     <Helmet>
         <meta charset="utf-8" /><meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta name="google-site-verification" content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU" />
+        
         <title>
         Software Company in Madhubani | Website Development in Madhubani Bihar | IT Company in Madhubani Bihar
         </title>
         <meta name=" description" content="Website development company in Madhubani, SEO company in Madhubani, Android app development company in Madhubani, bulk SMS service provider in Madhubani, Bihar, software development company in Madhubani, GST billing software in Madhubani, and IT solutions providers in Madhubani "/>
         <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Madhubani, IT Service Provider Company in Madhubani Bihar, SEO Service provider Company in Madhubani, Website Promotion service provider in Madhubani, SEO , SEM, PPC, SMM Services in Madhubani Bihar " />
         <meta name="keyphrases" content="Website development in Madhubani, Web Designing in Madhubani Bihar, Web Hosting Service in Madhubani, E-Commerce Website Development in Madhubani, Responsive website designing SEO in Madhubani Bihar "/>
-       	    
-        <link rel="canonical" href="https://infoera.in/software_company_in_madhubani" />
+       	    {/* Google site Verification  Start */}
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */} 
+        <link rel="canonical" href="https://infoera.in/software_company_in_madhubani" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -175,7 +177,7 @@ function Software_company_in_madhubani() {
                 Hospital Management System.
               </p>
               <a
-                href="http://hospital.infoerasoftware.com/login.aspx"
+                href="http://hospital.infoerasoftware.com/login.aspx" aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                 target="_blank"
                 type="button"
                 className="btn btn-outline-primary"
@@ -194,6 +196,7 @@ function Software_company_in_madhubani() {
                 src="assets/img/hotel-management.png"
                 className="img-fluid"
                 alt="Hotel Management System - Info Era Software Services"
+                title="Hotel Management System - Info Era"
               />
               <h3 style={{ textAlign: "center" }}>Hotel Management System</h3>
               <p style={{ textAlign: "justify" }}>
@@ -204,7 +207,7 @@ function Software_company_in_madhubani() {
                 <br />
               </p>
               <a
-                href="http://hotel.infoerasoftware.com"
+                href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                 type="button"
                 className="btn btn-outline-primary"
                 style={{ marginTop: 24 }}
@@ -236,7 +239,7 @@ function Software_company_in_madhubani() {
                 clients and financial transactions.
               </p>
               <a
-                href="about.aspx"
+                href="about.aspx" aria-label="About Us - Info Era Software Services Pvt. Ltd."
                 type="button"
                 className="btn btn-outline-primary"
               >
@@ -264,7 +267,7 @@ function Software_company_in_madhubani() {
                 client and is not an off-the-shelf solution.
               </p>
               <a
-                href="about.aspx"
+                href="about.aspx" aria-label="About Us - Info Era Software Services Pvt. Ltd."
                 type="button"
                 className="btn btn-outline-primary"
                 style={{ marginTop: 48 }}
@@ -295,6 +298,7 @@ function Software_company_in_madhubani() {
                 src="assets/img/ecommerce.png"
                 className="img-fluid"
                 alt="E-commerce"
+                title="E-commerce"
               />
               <h3 style={{ textAlign: "center" }}>E-commerce</h3>
               <p style={{ textAlign: "justify" }}>
@@ -317,6 +321,7 @@ function Software_company_in_madhubani() {
                 src="assets/img/news.png"
                 className="img-fluid"
                 alt="News/Magazine"
+                title="News - Info Era"
               />
               <h3 style={{ textAlign: "center" }}>News/Magazine</h3>
               <p style={{ textAlign: "justify" }}>
@@ -344,6 +349,7 @@ function Software_company_in_madhubani() {
                 src="assets/img/values-3.png"
                 className="img-fluid"
                 alt="MLM"
+                title="MLM - Info Era"
               />
               <h3 style={{ textAlign: "center" }}>MLM</h3>
               <p style={{ textAlign: "justify" }}>
@@ -618,7 +624,7 @@ function Software_company_in_madhubani() {
 </header> */}
       <div className="row">
         <div className="col-lg-6">
-          <img src="assets/img/webpic.png" className="img-fluid" alt="" />
+          <img src="assets/img/webpic.png" className="img-fluid" alt="Web Pic -Info Era" />
         </div>
         <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
           <div className="row align-self-center gy-4">

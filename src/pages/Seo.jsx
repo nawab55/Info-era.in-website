@@ -4,10 +4,9 @@ const Seo = () => {
     <>
     <Helmet>
             <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-            <meta
-              name="google-site-verification"
-              content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-            />
+             {/* Google site Verification  Start */}
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
             <title>SEO Services in Patna, SEO SEM PPC SMM Company Patna Bihar - Info Era Software Services Patna</title>
             <meta
               name="description"
@@ -17,7 +16,7 @@ const Seo = () => {
               name="keywords"
               content="Info Era Software Services is the best Search Engine Optimization SEO Services provider in Patna Bihar India. We provide affordable On Page, Off Page SEO Services for websites"
             />
-            <link rel="canonical" href="https://www.infoera.in/seo" />
+            <link rel="canonical" href="https://www.infoera.in/seo"aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
             <meta name="content-language" content="EN" />
             <meta name="search engines" content="ALL" />
             <meta name="Robots" content="INDEX,ALL" />
@@ -81,7 +80,7 @@ const Seo = () => {
                 className="col-lg-6 hero-img aos-init aos-animate"
                 data-aos="zoom-out"
               >
-                <img src="assets/img/seo.png" className="img-fluid" alt="" />
+                <img src="assets/img/seo.png" className="img-fluid" alt="SEO - Info Era" title="SEO - Info Era" />
               </div>
             </div>
           </div>

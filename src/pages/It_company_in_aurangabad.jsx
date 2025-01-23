@@ -6,15 +6,12 @@ const It_company_in_aurangabad = () => {
     <>
       <Helmet>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
         <title>IT Company in Aurangabad | Software development Company</title>
               <meta name=" description" content="Software Development Company in Aurangabad, GST Billing Software in Aurangabad, IT Solutions Providers in Aurangabad Bihar, Website Development Company in Aurangabad, SEO Company in Aurangabad, Android App Development Company in Aurangabad, Bulk SMS Service provider in Aurangabad Bihar "/>
               <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Aurangabad, IT Service Provider Company in Aurangabad Bihar, SEO Service provider Company in Aurangabad, Website Promotion service provider in Aurangabad, SEO , SEM, PPC, SMM Services in Aurangabad Bihar " />
               <meta name="keyphrases" content="Website development in Aurangabad, Web Designing in Aurangabad Bihar, Web Hosting Service in Aurangabad, E-Commerce Website Development in Aurangabad, Responsive website designing SEO in Aurangabad Bihar "/>
-            <link rel="canonical" href="https://www.infoera.in/it_company_in_aurangabad" />
+            <link rel="canonical" href="https://www.infoera.in/it_company_in_aurangabad" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
             <meta name="content-language" content="EN" />
             <meta name="search engines" content="ALL" />
             <meta name="Robots" content="INDEX,ALL" />
@@ -194,7 +191,7 @@ const It_company_in_aurangabad = () => {
                     Hospital Management System.
                   </p>
                   <a
-                    href="http://hospital.infoerasoftware.com/login.aspx"
+                    href="http://hospital.infoerasoftware.com/login.aspx" aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                     target="_blank"
                     type="button"
                     className="btn btn-outline-primary"
@@ -213,6 +210,7 @@ const It_company_in_aurangabad = () => {
                     src="assets/img/hotel-management.png"
                     className="img-fluid"
                     alt="Hotel Management System - Info Era Software Services"
+                    title="Hotel Management System - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>
                     Hotel Management System
@@ -226,7 +224,7 @@ const It_company_in_aurangabad = () => {
                     <br />
                   </p>
                   <a
-                    href="http://hotel.infoerasoftware.com"
+                    href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System  - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 24 }}
@@ -258,7 +256,7 @@ const It_company_in_aurangabad = () => {
                     agencies, agents, clients and financial transactions.
                   </p>
                   <a
-                    href="about.aspx"
+                    href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                   >
@@ -288,7 +286,7 @@ const It_company_in_aurangabad = () => {
                     the client and is not an off-the-shelf solution.
                   </p>
                   <a
-                    href="about.aspx"
+                    href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 48 }}
@@ -319,6 +317,7 @@ const It_company_in_aurangabad = () => {
                     src="assets/img/ecommerce.png"
                     className="img-fluid"
                     alt="E-commerce"
+                    title="E-commerce - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>E-commerce</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -341,6 +340,7 @@ const It_company_in_aurangabad = () => {
                     src="assets/img/news.png"
                     className="img-fluid"
                     alt="News/Magazine"
+                    title="News - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>News/Magazine</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -368,6 +368,7 @@ const It_company_in_aurangabad = () => {
                     src="assets/img/values-3.png"
                     className="img-fluid"
                     alt="MLM"
+                    title="MLM - Info Era"
                   />
                   <h3 style={{ textAlign: "center" }}>MLM</h3>
                   <p style={{ textAlign: "justify" }}>
@@ -502,7 +503,7 @@ const It_company_in_aurangabad = () => {
                         <div className="feature-box d-flex align-items-center">
                           <i className="bi bi-check" />
                           <div className="col-lg-2">
-                            <a href="https://www.infoerasoftware.com/">
+                            <a href="https://www.infoerasoftware.com/ " aria-label="URL - Info Era Software Services Pvt. Ltd.">
                               {" "}
                               <img
                                 src="assets/img/infoera.png"
@@ -513,7 +514,7 @@ const It_company_in_aurangabad = () => {
                             </a>
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://www.infoerasoftware.com/">
+                            <a href="https://www.infoerasoftware.com/" aria-label="URL - Info Era Software Services Pvt. Ltd.">
                               {" "}
                               <h3>Info Era Software Services Pvt. Ltd.</h3>
                             </a>
@@ -535,13 +536,13 @@ const It_company_in_aurangabad = () => {
                               digital services under one roof.
                             </p>
                             <p>
-                              <a href="http://www.infoeraservices.com">
+                              <a href="http://www.infoeraservices.com" aria-label="URL - Info Era Software Services Pvt. Ltd.">
                                 www.infoeraservices.com
                               </a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="mailto:contact@infoeraservices.com">
+                              <a href="mailto:contact@infoeraservices.com" aria-label="Email- Info Era Software Services Pvt. Ltd.">
                                 contact@infoeraservices.com
                               </a>
                             </p>
@@ -564,7 +565,7 @@ const It_company_in_aurangabad = () => {
                             />
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://www.wipro.com/contact-wipro/">
+                            <a href="https://www.wipro.com/contact-wipro/" aria-label="Wipro - Info Era Software Services Pvt. Ltd.">
                               {" "}
                               <h3>Wipro</h3>
                             </a>
@@ -578,11 +579,11 @@ const It_company_in_aurangabad = () => {
                               based on client demands.
                             </p>
                             <p>
-                              <a href="http://www.wipro.com">www.wipro.com</a>
+                              <a href="http://www.wipro.com" aria-label="Wipro - Info Era Software Services Pvt. Ltd.">www.wipro.com</a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="mailto:info@wipro.com">info@wipro.com</a>
+                              <a href="mailto:info@wipro.com" aria-label="Wipro Email - Info Era Software Services Pvt. Ltd.">info@wipro.com</a>
                             </p>
                           </div>
                         </div>
@@ -603,7 +604,7 @@ const It_company_in_aurangabad = () => {
                             />
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://www.tcs.com/home-page">
+                            <a href="https://www.tcs.com/home-page" aria-label="TCS - Info Era Software Services Pvt. Ltd.">
                               {" "}
                               <h3>Tata Consultancy Services (TCS)</h3>
                             </a>
@@ -615,11 +616,11 @@ const It_company_in_aurangabad = () => {
                               in resume.
                             </p>
                             <p>
-                              <a href="http://www.tcs.com">www.tcs.com</a>
+                              <a href="http://www.tcs.com"  aria-label="TCS - Info Era Software Services Pvt. Ltd.">www.tcs.com</a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="mailto:info@tcs.com">info@tcs.com</a>
+                              <a href="mailto:info@tcs.com"  aria-label="TCS Email - Info Era Software Services Pvt. Ltd.">info@tcs.com</a>
                             </p>
                           </div>
                         </div>
@@ -640,7 +641,7 @@ const It_company_in_aurangabad = () => {
                             />
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://www.cognizant.com/in/en">
+                            <a href="https://www.cognizant.com/in/en" aria-label="Cognizant - Info Era Software Services Pvt. Ltd.">
                               <h3>Cognizant Technology Solutions</h3>
                             </a>
                             <p>
@@ -651,13 +652,13 @@ const It_company_in_aurangabad = () => {
                               Night Shift Promotion
                             </p>
                             <p>
-                              <a href="http://www.infosys.com">
+                              <a href="http://www.infosys.com" aria-label="Cognizant - Info Era Software Services Pvt. Ltd.">
                                 www.infosys.com
                               </a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="mailto:contact@infosys.com">
+                              <a href="mailto:contact@infosys.com" aria-label="Cognizant Email - Info Era Software Services Pvt. Ltd.">
                                 contact@infosys.com
                               </a>
                             </p>
@@ -680,7 +681,7 @@ const It_company_in_aurangabad = () => {
                             />
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://www.amazon.jobs/en/teams/global-it-services">
+                            <a href="https://www.amazon.jobs/en/teams/global-it-services" aria-label="Amazon - Info Era Software Services Pvt. Ltd.">
                               <h3>Amazon</h3>
                             </a>
                             <p>
@@ -704,13 +705,13 @@ const It_company_in_aurangabad = () => {
                               customers.
                             </p>
                             <p>
-                              <a href="https://www.amazon.jobs/en/teams/global-it-services">
+                              <a href="https://www.amazon.jobs/en/teams/global-it-services" aria-label="Amazon - Info Era Software Services Pvt. Ltd.">
                                 www.infosys.com
                               </a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="mailto:cs-reply@amazon.in">
+                              <a href="mailto:cs-reply@amazon.in" aria-label="Amazon Email - Info Era Software Services Pvt. Ltd.">
                                 cs-reply@amazon.in
                               </a>
                             </p>
@@ -733,7 +734,7 @@ const It_company_in_aurangabad = () => {
                             />
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://www.hcltech.com/">
+                            <a href="https://www.hcltech.com/" aria-label="HCL - Info Era Software Services Pvt. Ltd.">
                               <h3>HCL TECH</h3>
                             </a>
                             <p>
@@ -744,13 +745,13 @@ const It_company_in_aurangabad = () => {
                               on five strategic objectives.
                             </p>
                             <p>
-                              <a href="https://www.hcltech.com/">
+                              <a href="https://www.hcltech.com/" aria-label="HCL - Info Era Software Services Pvt. Ltd.">
                                 www.hcltech.com
                               </a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="mailto:investors@hcl.com">
+                              <a href="mailto:investors@hcl.com"aria-label="HCL Email - Info Era Software Services Pvt. Ltd.">
                                 investors@hcl.com
                               </a>
                             </p>
@@ -773,7 +774,7 @@ const It_company_in_aurangabad = () => {
                             />
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://ficuslot.com/">
+                            <a href="https://ficuslot.com/" aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd.">
                               <h3>Ficuslot Innovation Pvt. Ltd</h3>
                             </a>
                             <p>
@@ -785,13 +786,13 @@ const It_company_in_aurangabad = () => {
                               Ficuslot is at the forefront of this advancement.
                             </p>
                             <p>
-                              <a href="https://ficuslot.com/">
+                              <a href="https://ficuslot.com/" aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd.">
                                 www.ficuslot.com
                               </a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="contact@ficuslot.com">
+                              <a href="contact@ficuslot.com" aria-label="Fillip Technologies Email - Info Era Software Services Pvt. Ltd.">
                                 contact@ficuslot.com
                               </a>
                             </p>
@@ -814,7 +815,7 @@ const It_company_in_aurangabad = () => {
                             />
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://www.techasoft.com/">
+                            <a href="https://www.techasoft.com/" aria-label="TechSoft - Info Era Software Services Pvt. Ltd.">
                               <h3>Techasoft</h3>
                             </a>
                             <p>
@@ -828,13 +829,13 @@ const It_company_in_aurangabad = () => {
                               Patna, then Techasoft is for you.
                             </p>
                             <p>
-                              <a href="https://www.techasoft.com/">
+                              <a href="https://www.techasoft.com/" aria-label="TechSoft - Info Era Software Services Pvt. Ltd.">
                                 www.hcltech.com
                               </a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="mailto:info@techasoft.com">
+                              <a href="mailto:info@techasoft.com" aria-label="TechSoft - Info Era Software Services Pvt. Ltd.">
                                 info@techasoft.com
                               </a>
                             </p>
@@ -857,7 +858,7 @@ const It_company_in_aurangabad = () => {
                             />
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://filliptechnologies.com/">
+                            <a href="https://filliptechnologies.com/" aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd.">
                               <h3>Fillip Technologies</h3>
                             </a>
                             <p>
@@ -871,13 +872,13 @@ const It_company_in_aurangabad = () => {
                               trusts.
                             </p>
                             <p>
-                              <a href="https://filliptechnologies.com/">
+                              <a href="https://filliptechnologies.com/" aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd.">
                                 www.hcltech.com
                               </a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="mailto:infoerapvtltd@gmail.com">
+                              <a href="mailto:infoerapvtltd@gmail.com" aria-label="Fillip Technologies Email - Info Era Software Services Pvt. Ltd.">
                                 info@filliptechnologies.com
                               </a>
                             </p>
@@ -901,7 +902,7 @@ const It_company_in_aurangabad = () => {
                             />
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://filliptechnologies.com/">
+                            <a href="https://filliptechnologies.com/" aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd.">
                               <h3>Fillip Software </h3>
                             </a>
                             <p>
@@ -914,13 +915,13 @@ const It_company_in_aurangabad = () => {
                               environment.
                             </p>
                             <p>
-                              <a href="https://www.infoerasoftware.com/">
+                              <a href="https://www.infoerasoftware.com/"aria-label="URL - Info Era Software Services Pvt. Ltd.">
                                 www.filliptechnologies.com
                               </a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="mailto:infoerapvtltd@gmail.com">
+                              <a href="mailto:infoerapvtltd@gmail.com" aria-label="Email - Info Era Software Services Pvt. Ltd.">
                                 info@filliptechnologies.com
                               </a>
                             </p>
@@ -1175,7 +1176,7 @@ const It_company_in_aurangabad = () => {
 </header> */}
           <div className="row">
             <div className="col-lg-6">
-              <img src="assets/img/webpic.png" className="img-fluid" alt="" />
+              <img src="assets/img/webpic.png" className="img-fluid" alt="Web Pic - Info Era" />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">

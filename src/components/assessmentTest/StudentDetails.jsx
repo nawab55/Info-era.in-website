@@ -18,7 +18,8 @@ const StudentDetails = () => {
     const fetchCourses = async () => {
       try {
         const response = await axios.get(
-          `${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/assessment/course`
+          `${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/assessment/course`,
+          { withCredentials: true}
         );
         setCourses(response.data);
       } catch (error) {

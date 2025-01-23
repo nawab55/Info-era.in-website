@@ -1,12 +1,10 @@
+import { Helmet } from "react-helmet";
 export default function Best_it_company_in_lakhisarai(){
     return (
         <>
           <Helmet>
             <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-            <meta
-              name="google-site-verification"
-              content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-            />
+            <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
             <title>Best Software Company in Lakhisarai | Global IT Solution</title>
             <meta
               name="description"
@@ -16,7 +14,7 @@ export default function Best_it_company_in_lakhisarai(){
               name="keywords"
               content="best software company in lakhisarai, software company in lakhisarai, global it solutions lakhisarai, software development company in lakhisarai, website maker in lakhisarai, website designing company in lakhisarai"
             />
-            <link rel="canonical" href="https://infoera.in/best_it_company_in_lakhisarai" />
+            <link rel="canonical" href="https://infoera.in/best_it_company_in_lakhisarai"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
             <meta name="content-language" content="EN" />
             <meta name="search engines" content="ALL" />
             <meta name="Robots" content="INDEX,ALL" />
@@ -51,7 +49,7 @@ export default function Best_it_company_in_lakhisarai(){
               <div className="col-lg-12 d-flex flex-column justify-content-center ">
                 <h1 data-aos="fade-up">
                   {" "}
-                  The Best Software Company in {city} : Leading the Digital
+                  The Best Software Company in Lakhisarai : Leading the Digital
                   Transformation
                 </h1>
                 <p
@@ -59,7 +57,7 @@ export default function Best_it_company_in_lakhisarai(){
                   data-aos="fade-up"
                   data-aos-delay={400}
                 >
-                  In the heart of {city}, a revolution in digital transformation is
+                  In the heart of Lakhisarai, a revolution in digital transformation is
                   being spearheaded by the best software company in the region.
                   Esteemed for its innovative solutions and unparalleled service,
                   this company has become a beacon for businesses seeking to elevate
@@ -88,7 +86,7 @@ export default function Best_it_company_in_lakhisarai(){
             <div className="container" data-aos="fade-up">
               <header className="section-header">
                 <h2>Overview</h2>
-                <p>Top IT Companies in {city}: A Comparative Overview</p>
+                <p>Top IT Companies in Lakhisarai: A Comparative Overview</p>
               </header>
               <div className="row">
                 <div className="col-lg-12 mt-5 mt-lg-0 d-flex">
@@ -101,7 +99,7 @@ export default function Best_it_company_in_lakhisarai(){
                       <div className="feature-box d-flex align-items-center">
                         <i className="bi bi-check" />
                         <div className="col-md-2">
-                          <a href="https://www.infoerasoftware.com/">
+                          <a href="https://www.infoerasoftware.com/"  aria-label="URL - Info Era Software Services Pvt. Ltd.">
                             {" "}
                             <img
                               src="assets/img/infoera.png"
@@ -112,7 +110,7 @@ export default function Best_it_company_in_lakhisarai(){
                           </a>
                         </div>
                         <div className="col-md-10">
-                          <a href="https://www.infoerasoftware.com/">
+                          <a href="https://www.infoerasoftware.com/"  aria-label="URL - Info Era Software Services Pvt. Ltd.">
                             {" "}
                             <h3>Info Era Software Services Pvt. Ltd.</h3>
                           </a>
@@ -125,13 +123,13 @@ export default function Best_it_company_in_lakhisarai(){
                             Consulting, Industrial Training, Franchise.
                           </p>
                           <p>
-                            <a href="http://www.infoeraservices.com">
+                            <a href="http://www.infoeraservices.com"  aria-label="URL - Info Era Software Services Pvt. Ltd.">
                               www.infoeraservices.com
                             </a>
                           </p>
                           <p>
                             Email:{" "}
-                            <a href="mailto:contact@infoeraservices.com">
+                            <a href="mailto:contact@infoeraservices.com"  aria-label="Email - Info Era Software Services Pvt. Ltd.">
                               contact@infoeraservices.com
                             </a>
                           </p>
@@ -154,7 +152,7 @@ export default function Best_it_company_in_lakhisarai(){
                           />
                         </div>
                         <div className="col-md-10">
-                          <a href="https://www.wipro.com/contact-wipro/">
+                          <a href="https://www.wipro.com/contact-wipro/" aria-label="Wipro - Info Era Software Services Pvt. Ltd.">
                             {" "}
                             <h3>Wipro</h3>
                           </a>
@@ -168,11 +166,11 @@ export default function Best_it_company_in_lakhisarai(){
                             demands.
                           </p>
                           <p>
-                            <a href="http://www.wipro.com">www.wipro.com</a>
+                            <a href="http://www.wipro.com" aria-label="Wipro - Info Era Software Services Pvt. Ltd.">www.wipro.com</a>
                           </p>
                           <p>
                             Email:{" "}
-                            <a href="mailto:info@wipro.com">info@wipro.com</a>
+                            <a href="mailto:info@wipro.com" aria-label="Wipro Email - Info Era Software Services Pvt. Ltd.">info@wipro.com</a>
                           </p>
                         </div>
                       </div>
@@ -193,7 +191,7 @@ export default function Best_it_company_in_lakhisarai(){
                           />
                         </div>
                         <div className="col-md-10">
-                          <a href="https://www.tcs.com/home-page">
+                          <a href="https://www.tcs.com/home-page"  aria-label="TCS - Info Era Software Services Pvt. Ltd.">
                             {" "}
                             <h3>Tata Consultancy Services (TCS)</h3>
                           </a>
@@ -205,10 +203,10 @@ export default function Best_it_company_in_lakhisarai(){
                               experience and whatever we mentioned in resume.
                             </p>
                             <p>
-                              <a href="http://www.tcs.com">www.tcs.com</a>
+                              <a href="http://www.tcs.com"  aria-label="TCS - Info Era Software Services Pvt. Ltd.">www.tcs.com</a>
                             </p>
                             <p>
-                              Email: <a href="mailto:info@tcs.com">info@tcs.com</a>
+                              Email: <a href="mailto:info@tcs.com"  aria-label="TCS Email - Info Era Software Services Pvt. Ltd.">info@tcs.com</a>
                             </p>
                           </div>
                         </div>
@@ -228,7 +226,7 @@ export default function Best_it_company_in_lakhisarai(){
                           title="Logo of Infosys"
                         />
                         <div className="col-md-2">
-                          <a href="https://www.cognizant.com/in/en">
+                          <a href="https://www.cognizant.com/in/en" aria-label="Cognizant - Info Era Software Services Pvt. Ltd.">
                             <h3>Cognizant Technology Solutions</h3>
                           </a>
                         </div>
@@ -241,11 +239,11 @@ export default function Best_it_company_in_lakhisarai(){
                             Promotion
                           </p>
                           <p>
-                            <a href="http://www.infosys.com">www.infosys.com</a>
+                            <a href="http://www.infosys.com" aria-label="Infosys - Info Era Software Services Pvt. Ltd.">www.infosys.com</a>
                           </p>
                           <p>
                             Email:{" "}
-                            <a href="mailto:contact@infosys.com">
+                            <a href="mailto:contact@infosys.com" aria-label="Infosys Email - Info Era Software Services Pvt. Ltd.">
                               contact@infosys.com
                             </a>
                           </p>
@@ -268,7 +266,7 @@ export default function Best_it_company_in_lakhisarai(){
                           />
                         </div>
                         <div className="col-md-10">
-                          <a href="https://www.amazon.jobs/en/teams/global-it-services">
+                          <a href="https://www.amazon.jobs/en/teams/global-it-services" aria-label="Amazon - Info Era Software Services Pvt. Ltd.">
                             <h3>Amazon</h3>
                           </a>
                           <p>
@@ -290,13 +288,13 @@ export default function Best_it_company_in_lakhisarai(){
                             their attention on their jobs and their customers.
                           </p>
                           <p>
-                            <a href="https://www.amazon.jobs/en/teams/global-it-services">
+                            <a href="https://www.amazon.jobs/en/teams/global-it-services" aria-label="Amazon - Info Era Software Services Pvt. Ltd.">
                               www.infosys.com
                             </a>
                           </p>
                           <p>
                             Email:{" "}
-                            <a href="mailto:cs-reply@amazon.in">
+                            <a href="mailto:cs-reply@amazon.in" aria-label="Amazon Email - Info Era Software Services Pvt. Ltd.">
                               cs-reply@amazon.in
                             </a>
                           </p>

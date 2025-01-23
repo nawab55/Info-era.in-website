@@ -6,9 +6,12 @@ function Team() {
     <>
     <Helmet>
       <title> Info Era Software Services Teams </title>
+       {/* Google site Verification  Start */}
+       <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
       <meta name="Keywords" content="Info Era Teams, Era Teams, Teams, It Company, Website Designing Teams, Best Software Service Provider, Top Digital Platform Providers, Website Designing Company in Patna bihar, Gaurav Kumar Info Era, Rohit Kumar Info Era, Samir ansari info Era, CEO"/>
       <meta name="Discription" content="Our dedicated team at Info Era Software Services has been driving innovation since 2014, revolutionizing IT in Bihar, Odisha, and across India with passion and expertise."/>
-      <link rel="canonical" href="https://infoera.in/team" />
+      <link rel="canonical" href="https://infoera.in/team"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -63,6 +66,7 @@ function Team() {
                       src="assets/img/ceo.png"
                       className="img-fluid"
                       alt="ceo image"
+                      title="CEO Image - Info Era"
                       style={{ width: 300 }}
                     />
                   </div>
@@ -73,12 +77,16 @@ function Team() {
                   <div className="col-md-4">
                     <img
                       src="assets/teamSlider/img-02-ceo.png"
+                      alt="Niraj Vinod Sinha- Info Era"
                       className="img-fluid"
+                      title="Niraj Vinod Sinha - Info Era"
                       style={{ padding: 5, borderRadius: 10 }}
                     />
                     <img
                       src="assets/teamSlider/img-04-ceo.png"
                       className="img-fluid"
+                      alt="Mr. P. K. Rao - Info Era"
+                      title="Mr. P. K. Rao - Info Era"
                       style={{ padding: 5, borderRadius: 10 }}
                     />
                   </div>
@@ -86,6 +94,8 @@ function Team() {
                     <img
                       src="assets/teamSlider/img-01-ceo.png"
                       className="img-fluid"
+                      alt="Ambar Kumar"
+                      title="Ambar Kumar"
                       style={{ padding: 1, borderRadius: 10 }}
                     />
                   </div>
@@ -93,12 +103,16 @@ function Team() {
                     <img
                       src="assets/teamSlider/img-03-ceo.png"
                       className="img-fluid"
+                      alt="Ayush Dev"
+                      title="Ayush Dev"
                       style={{ padding: 5, borderRadius: 10 }}
                     />
                     <br />
                     <img
                       src="assets/teamSlider/img-05-ceo.png"
                       className="img-fluid"
+                      alt="Ridhima Srivastava"
+                      title="Ridhima Srivastava"
                       style={{ padding: 5, borderRadius: 10 }}
                     />
                   </div>
@@ -172,6 +186,8 @@ function Team() {
                     <img
                       src="assets/teamSlider/ambar_kumar.png"
                       className="card-img"
+                      alt="Amber Kumar - Info Era"
+                      title="Amber Kumar - Info Era"
                     />
                   </div>
                 </div>
@@ -196,6 +212,8 @@ function Team() {
                   <div className="card-image">
                     <img
                       src="assets/teamSlider/ayush_dev.png"
+                      alt="ayush Dev - Info Era"
+                      title="Ayush Dev - Info Era"
                       className="card-img"
                     />
                   </div>
@@ -224,6 +242,8 @@ function Team() {
                   <div className="card-image">
                     <img
                       src="assets/teamSlider/ridhima-madam.png"
+                      title="Ridima Madam - Info Era"
+                      alt="Ridima Madam - Info Era"
                       className="card-img"
                     />
                   </div>
@@ -257,6 +277,8 @@ function Team() {
                   <div className="card-image">
                     <img
                       src="assets/teamSlider/shubham.png"
+                      alt="Shubham - Info Era"
+                      title="Shubham - Info Era"
                       className="card-img"
                     />
                   </div>
@@ -282,6 +304,8 @@ function Team() {
                   <div className="card-image">
                     <img
                       src="assets/teamSlider/HR-InfoEra.png"
+                      alt="Anjali - Info Era"
+                      title="Anjali Kumari - Info Era"
                       className="card-img"
                     />
                   </div>
@@ -321,7 +345,8 @@ function Team() {
                   <img
                     src="assets/img/team-img.png"
                     className="img-fluid"
-                    alt=""
+                    alt="Successfully - Info Era"
+                    title="Successfully - Info Era"
                   />
                 </div>
                 <div className="col-lg-6 mt-5 mt-lg-0 d-flex order-md-1">

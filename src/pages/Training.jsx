@@ -145,6 +145,10 @@ function Training() {
     <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
         
         <title>  IT Training Institute in Patna, IT Training Internship Company in Patna Bihar - Info Era Software Services</title>
         <meta
@@ -155,7 +159,7 @@ function Training() {
           name="keywords"
           content="Two, three, four, six, nine, and ten weeks of training on real projects for new students in Patna, Training Program Providing Companies in Patna Bihar, Training Program for Second Third Final Year Students in Patna"
         />
-        <link rel="canonical" href="http://infoera.in/training" />
+        <link rel="canonical" href="http://infoera.in/training" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -197,7 +201,7 @@ function Training() {
               className="col-lg-6 hero-img aos-init aos-animate"
               data-aos="zoom-out"
             >
-              <img src="assets/img/training.png" className="img-fluid" alt="" />
+              <img src="assets/img/training.png" className="img-fluid" alt="It Training - Info Era" title="It Training - Info Era" />
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ const DesktopApplication = () => {
     <Helmet>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
         <title> Expert Web Development Consulting Services | Info Era  </title>
         <meta
           name="description"
@@ -15,7 +15,7 @@ const DesktopApplication = () => {
           name="keywords"
           content="Info Era is the best Software Development Company in Patna Bihar India. We develop affordable GST billing software, CRM, ERP software, Inventory software"
         />
-        <link rel="canonical" href="https://infoera.in/desktop-application" />
+        <link rel="canonical" href="https://infoera.in/desktop-application"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -81,7 +81,7 @@ const DesktopApplication = () => {
                 <img
                   src="assets/img/desktop1.png"
                   className="img-fluid"
-                  alt=""
+                  alt="Desktop Application - Info Era"
                 />
               </div>
             </div>
@@ -101,7 +101,8 @@ const DesktopApplication = () => {
                   <img
                     src="assets/img/desktop2.png"
                     className="img-fluid"
-                    alt=""
+                    alt="Destop Application - Info Era"
+                    title="Destop Application - Info Era"
                   />
                 </div>
                 <div className="col-lg-6 mt-5 mt-lg-0 d-flex order-md-1">

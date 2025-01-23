@@ -7,17 +7,16 @@ function Software_company_in_west_champaran() {
       <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
         <title>
         Software Company in West Champaran | Website Development in West Champaran Bihar | IT Company in West Champaran Bihar
         </title>
         <meta name=" description" content="Website development company in West Champaran, SEO company in West Champaran, Android app development company in West Champaran, GST billing software in West Champaran, IT solutions providers in West Champaran, Bihar, and bulk SMS service provider in West Champaran."/>
         <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in West Champaran, IT Service Provider Company in West Champaran Bihar, SEO Service provider Company in West Champaran, Website Promotion service provider in West Champaran, SEO , SEM, PPC, SMM Services in West Champaran Bihar " />
         <meta name="keyphrases" content="Website development in West Champaran, Web Designing in West Champaran Bihar, Web Hosting Service in West Champaran, E-Commerce Website Development in West Champaran, Responsive website designing SEO in West Champaran Bihar "/>
-        <link rel="canonical" href="https://infoera.in/software_company_in_west_champaran" />
+        <link rel="canonical" href="https://infoera.in/software_company_in_west_champaran" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -260,7 +259,7 @@ function Software_company_in_west_champaran() {
                                   benefits of a Hospital Management System.
                                 </p>
                                 <a
-                                  href="http://hospital.infoerasoftware.com/login.aspx"
+                                  href="http://hospital.infoerasoftware.com/login.aspx" aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                                   target="_blank"
                                   type="button"
                                   className="btn btn-outline-primary"
@@ -279,6 +278,7 @@ function Software_company_in_west_champaran() {
                                   src="assets/img/hotel-management.png"
                                   className="img-fluid"
                                   alt="Hotel Management System - Info Era Software Services"
+                                  title="Hotel Management System - Info Era"
                                 />
                                 <h3 style={{ textAlign: "center" }}>
                                   Hotel Management System
@@ -293,7 +293,7 @@ function Software_company_in_west_champaran() {
                                   <br />
                                 </p>
                                 <a
-                                  href="http://hotel.infoerasoftware.com"
+                                  href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                                   type="button"
                                   className="btn btn-outline-primary"
                                   style={{ marginTop: 24 }}
@@ -327,7 +327,7 @@ function Software_company_in_west_champaran() {
                                   transactions.
                                 </p>
                                 <a
-                                  href="about.aspx"
+                                  href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
                                   type="button"
                                   className="btn btn-outline-primary"
                                 >
@@ -359,7 +359,7 @@ function Software_company_in_west_champaran() {
                                   off-the-shelf solution.
                                 </p>
                                 <a
-                                  href="about.aspx"
+                                  href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
                                   type="button"
                                   className="btn btn-outline-primary"
                                   style={{ marginTop: 48 }}

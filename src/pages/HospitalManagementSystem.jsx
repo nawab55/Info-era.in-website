@@ -7,10 +7,7 @@ const HospitalManagementSystem = () => {
     <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
 
         <title> Efficient Hospital Management System | Info Era</title>
         <meta
@@ -21,7 +18,7 @@ const HospitalManagementSystem = () => {
           name="keywords"
           content="hospital management system, healthcare administration, patient records management "
         />
-        <link rel="canonical" href="https://infoera.in/hospital-management-system" />
+        <link rel="canonical" href="https://infoera.in/hospital-management-system"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -84,7 +81,8 @@ const HospitalManagementSystem = () => {
                   <img
                     src="assets/img/services/hospital-management-system.jpeg"
                     className="img-fluid"
-                    alt="school manaement system"
+                    alt="school Management System - Info Era"
+                    title="School Management System - Info Era"
                   />
                 </div>
               </div>
@@ -127,6 +125,7 @@ const HospitalManagementSystem = () => {
                       src="assets/img/hotel-management.png"
                       style={{ width: 50, height: 50 }}
                       alt="Hotel Management System - Info Era Software Services"
+                      title="Hotel Management System - Info Era"
                     />
                     <Link to="/hotel-management-system">
                       {" "}

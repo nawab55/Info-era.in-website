@@ -8,11 +8,9 @@ function Best_digital_marketing_agencys_egypt() {
        <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
 
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        
         <title>
           {" "}
           Custom Ecommerce and Web Development Services - Info Era{" "}
@@ -27,7 +25,7 @@ function Best_digital_marketing_agencys_egypt() {
           name="keywords"
           content="custom ecommerce website development services, ecommerce website design company near me, top indian web development companies, website design company services, best digital marketing agencies in egypt, digital marketing companies in egypt, ecommerce website development company near me"
         />
-        <link rel="canonical" href="https://infoera.in/best_digital_marketing_agencys_egypt" />
+        <link rel="canonical" href="https://infoera.in/best_digital_marketing_agencys_egypt" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />

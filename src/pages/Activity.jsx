@@ -1,4 +1,3 @@
-import axios from "axios";
 import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import toast from "react-hot-toast";
@@ -9,13 +8,12 @@ function Activity() {
 
   const fetchActivities = async () => {
     try {
-      const response = await axios.get(
+      const response = await fetch(
         `${
           import.meta.env.VITE_REACT_APP_BACKEND_BASEURL
         }/api/activities/get-all-activities`
       );
-      console.log(response);
-      const { activities } = response.data;
+      const { activities } = await response.json();
       if (Array.isArray(activities)) {
         setActivities(activities);
       } else {
@@ -38,10 +36,9 @@ function Activity() {
     <div className="activity">
         <Helmet>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        
         <title>Info Era Software Services Pvt. Ltd. | Software Company</title>
         <meta
           name="description"
@@ -51,7 +48,7 @@ function Activity() {
           name="keywords"
           content="Info Era Software Services Pvt Ltd, Website Designing company, software company, industrial training "
         />
-        <link rel="canonical" href="https://infoera.in/activity" />
+        <link rel="canonical" href="https://infoera.in/activity" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -99,22 +96,21 @@ function Activity() {
           style={{ borderRadius: 20, background: "#f3f6fc", paddingTop: 20 }}
         >
           {activities.map((activity) => (
+            <>
               <div
                 className="col-lg-4 mb-4 aos-init aos-animate"
                 data-aos="fade-up"
                 data-aos-duration={1200}
                 data-aos-once="true"
-                key={activity._id}
               >
                 <div className="single-academics-card">
                   <div className="card" style={{ borderRadius: 20 }}>
                     <div style={{ padding: 10 }}>
-                      <Link to="#" target="_blank">
+                      <Link href="#" target="_blank">
                         <img
                           id="ContentPlaceHolder1_listview1_image1_1"
                           src={activity.image}
                           style={{ height: 250, width: "100%" }}
-                          alt={activity.title}
                         />
                       </Link>
                       <br />
@@ -137,6 +133,7 @@ function Activity() {
                   </div>
                 </div>
               </div>
+            </>
           ))}
         </div>
       </div>

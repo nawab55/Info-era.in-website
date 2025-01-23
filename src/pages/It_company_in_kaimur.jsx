@@ -6,15 +6,12 @@ const It_company_in_kaimur = () => {
     <>
       <Helmet>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
         <title>Top Software Development Company in Kaimur | Info Era Software</title>
         <meta name=" description" content="Software Development Company in Kaimur, GST Billing Software in Kaimur, IT Solutions Providers in Kaimur Bihar, Website Development Company in Kaimur, SEO Company in Kaimur, Android App Development Company in Kaimur, Bulk SMS Service provider in Kaimur Bihar "/>
         <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Kaimur, IT Service Provider Company in Kaimur Bihar, SEO Service provider Company in Kaimur, Website Promotion service provider in Kaimur, SEO , SEM, PPC, SMM Services in Kaimur Bihar " />
         <meta name="keyphrases" content="Website development in Kaimur, Web Designing in Kaimur Bihar, Web Hosting Service in Kaimur, E-Commerce Website Development in Kaimur, Responsive website designing SEO in Kaimur Bihar "/>
-         <link rel="canonical" href="https://infoera.in/it_company_in_kaimur" />
+         <link rel="canonical" href="https://infoera.in/it_company_in_kaimur" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
             <meta name="content-language" content="EN" />
             <meta name="search engines" content="ALL" />
             <meta name="Robots" content="INDEX,ALL" />
@@ -255,7 +252,7 @@ const It_company_in_kaimur = () => {
                         System.
                       </p>
                       <a
-                        href="http://hospital.infoerasoftware.com/login.aspx"
+                        href="http://hospital.infoerasoftware.com/login.aspx" aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                         target="_blank"
                         type="button"
                         className="btn btn-outline-primary"
@@ -274,6 +271,7 @@ const It_company_in_kaimur = () => {
                         src="assets/img/hotel-management.png"
                         className="img-fluid"
                         alt="Hotel Management System - Info Era Software Services"
+                        title="Hotel Management System - Info Era"
                       />
                       <h3 style={{ textAlign: "center" }}>
                         Hotel Management System
@@ -287,7 +285,7 @@ const It_company_in_kaimur = () => {
                         <br />
                       </p>
                       <a
-                        href="http://hotel.infoerasoftware.com"
+                        href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                         type="button"
                         className="btn btn-outline-primary"
                         style={{ marginTop: 24 }}
@@ -351,7 +349,7 @@ const It_company_in_kaimur = () => {
                         solution.
                       </p>
                       <a
-                        href="about.aspx"
+                        href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
                         type="button"
                         className="btn btn-outline-primary"
                         style={{ marginTop: 48 }}
@@ -385,6 +383,7 @@ const It_company_in_kaimur = () => {
                         src="assets/img/ecommerce.png"
                         className="img-fluid"
                         alt="E-commerce"
+                        title="E-commerce"
                       />
                       <h3 style={{ textAlign: "center" }}>E-commerce</h3>
                       <p style={{ textAlign: "justify" }}>
@@ -411,6 +410,7 @@ const It_company_in_kaimur = () => {
                         src="assets/img/news.png"
                         className="img-fluid"
                         alt="News/Magazine"
+                        title="News - Info Era"
                       />
                       <h3 style={{ textAlign: "center" }}>News/Magazine</h3>
                       <p style={{ textAlign: "justify" }}>
@@ -438,6 +438,7 @@ const It_company_in_kaimur = () => {
                         src="assets/img/values-3.png"
                         className="img-fluid"
                         alt="MLM"
+                        title="MLM - Info Era"
                       />
                       <h3 style={{ textAlign: "center" }}>MLM</h3>
                       <p style={{ textAlign: "justify" }}>
@@ -495,7 +496,8 @@ const It_company_in_kaimur = () => {
                           <img
                             src="assets/img/features.png"
                             className="img-fluid"
-                            alt=""
+                            alt="Features - Info Era"
+                            title="Features - Info Era"
                           />
                         </div>
                         <div className="col-lg-6 mt-5 mt-lg-0 d-flex order-md-1">

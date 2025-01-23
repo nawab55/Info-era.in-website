@@ -10,9 +10,9 @@ const BulkSms = () => {
         <meta
           name="description"
           content="Info Era offers scalable, reliable Bulk SMS services to enhance communication, marketing, and customer engagement across distributed networks." />
-
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
         <meta name="keywords" content="Info Era Software is the best Bulk SMS Service provider in Patna Bihar India. We provide Promotional and Transactional Bulk SMS and Bulk Voice Call Services" />
-        <link rel="canonical" href="https://infoera.in/bulk-sms" />
+        <link rel="canonical" href="https://infoera.in/bulk-sms"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -78,7 +78,7 @@ const BulkSms = () => {
                 <img
                   src="assets/img/bulksms.png"
                   className="img-fluid"
-                  alt=""
+                  alt="Bulk SMS - Info Era"
                 />
               </div>
             </div>

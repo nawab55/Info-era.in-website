@@ -5,7 +5,7 @@ const Biometric = () => {
      <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
         <title> Advanced Biometric System Installation | Info Era  </title>
         <meta
           name="description"
@@ -15,7 +15,7 @@ const Biometric = () => {
           name="keywords"
           content="Top Biometric installation company in Patna, Best Biometric Company in Patna, Biometric Service Provider near me, Best Biometric Service Provider near me, Biometric installation, advanced biometric system, secure biometric platform, biometric data processing, biometric management "
         />
-        <link rel="canonical" href="https://infoera.in/biometric" />
+        <link rel="canonical" href="https://infoera.in/biometric"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />

@@ -6,6 +6,8 @@ const Cctv = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+
         <title> Reliable CCTV Installation Services | Info Era  </title>
         <meta
           name="description"
@@ -15,7 +17,7 @@ const Cctv = () => {
           name="keywords"
           content="CCTV installation, Info Era CCTV services, Best CCTV Service Provider in Patna, Bihar, Top CCTV Services, CCTV Service Provider near me, Best CCTV Service Provicer Near Me, Cheap and Best CCTV Service Provider in Patna, Reating, Patna Service Provider company, Best Service Provider in Patna, surveillance systems, security solutions, business monitoring, employee productivity"
         />
-        <link rel="canonical" href="https://infoera.in/cctv" />
+        <link rel="canonical" href="https://infoera.in/cctv"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />

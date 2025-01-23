@@ -6,10 +6,11 @@ function Website_development_training_cerner_in_jehanabad() {
        <Helmet>
         <meta charSet="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta
-          name="google-site-verification"
-          content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-        />
+
+         {/* Google site Verification  Start */}
+         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
+       
         <title>
         Management System Software Development Company in Jehanabad, Application Software in Jehanabad Bihar
         </title>
@@ -35,7 +36,7 @@ function Website_development_training_cerner_in_jehanabad() {
         <meta name="Distribution" content="Global" />
         <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
         <meta name="contactstreetaddress" content="Jehanabad"/>
-        <meta name="contactzipcode" content="800011"/>
+        <meta name="contactzipcode" content="804408"/>
         <meta name="contactcity" content="Jehanabad"/>
         <meta name="contactcountry" content="India"/>
         <meta name="Geography" content="Jehanabad, Bihar, India"/>
@@ -169,7 +170,7 @@ function Website_development_training_cerner_in_jehanabad() {
                   <div className="feature-box d-flex align-items-center">
                     <i className="bi bi-check" />
                     <div className="col-lg-2">
-                      <a href="https://www.infoerasoftware.com/">
+                      <a href="https://www.infoerasoftware.com/" aria-label="Website URL - Info Era Software Services Pvt. Ltd.">
                         {" "}
                         <img
                           src="assets/img/infoera.png"
@@ -180,7 +181,7 @@ function Website_development_training_cerner_in_jehanabad() {
                       </a>
                     </div>
                     <div className="col-lg-10">
-                      <a href="https://www.infoerasoftware.com/">
+                      <a href="https://www.infoerasoftware.com/" aria-label="Website URL - Info Era Software Services Pvt. Ltd.">
                         {" "}
                         <h3>Info Era Software Services Pvt. Ltd.</h3>
                       </a>
@@ -201,13 +202,13 @@ function Website_development_training_cerner_in_jehanabad() {
                         under one roof.
                       </p>
                       <p>
-                        <a href="http://www.infoeraservices.com">
+                        <a href="http://www.infoeraservices.com" aria-label="Website URL - Info Era Software Services Pvt. Ltd.">
                           www.infoeraservices.com
                         </a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:contact@infoeraservices.com">
+                        <a href="mailto:contact@infoeraservices.com" aria-label="Email Id - Info Era Software Services Pvt. Ltd.">
                           contact@infoeraservices.com
                         </a>
                       </p>
@@ -230,7 +231,7 @@ function Website_development_training_cerner_in_jehanabad() {
                       />
                     </div>
                     <div className="col-lg-10">
-                      <a href="https://www.wipro.com/contact-wipro/">
+                      <a href="https://www.wipro.com/contact-wipro/" aria-label="Wipro - Info Era Software Services Pvt. Ltd.">
                         {" "}
                         <h3>Wipro</h3>
                       </a>
@@ -244,11 +245,11 @@ function Website_development_training_cerner_in_jehanabad() {
                         demands.
                       </p>
                       <p>
-                        <a href="http://www.wipro.com">www.wipro.com</a>
+                        <a href="http://www.wipro.com" aria-label="Wipro - Info Era Software Services Pvt. Ltd.">www.wipro.com</a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:info@wipro.com">info@wipro.com</a>
+                        <a href="mailto:info@wipro.com" aria-label="Wipro Email Id - Info Era Software Services Pvt. Ltd.">info@wipro.com</a>
                       </p>
                     </div>
                   </div>
@@ -269,7 +270,7 @@ function Website_development_training_cerner_in_jehanabad() {
                       />
                     </div>
                     <div className="col-lg-10">
-                      <a href="https://www.tcs.com/home-page">
+                      <a href="https://www.tcs.com/home-page"aria-label="TCS - Info Era Software Services Pvt. Ltd.">
                         {" "}
                         <h3>Tata Consultancy Services (TCS)</h3>
                       </a>
@@ -280,10 +281,10 @@ function Website_development_training_cerner_in_jehanabad() {
                         experience and whatever we mentioned in resume.
                       </p>
                       <p>
-                        <a href="http://www.tcs.com">www.tcs.com</a>
+                        <a href="http://www.tcs.com"aria-label="TCS - Info Era Software Services Pvt. Ltd." >www.tcs.com</a>
                       </p>
                       <p>
-                        Email: <a href="mailto:info@tcs.com">info@tcs.com</a>
+                        Email: <a href="mailto:info@tcs.com" aria-label="Email Id - Info Era Software Services Pvt. Ltd.">info@tcs.com</a>
                       </p>
                     </div>
                   </div>
@@ -304,7 +305,7 @@ function Website_development_training_cerner_in_jehanabad() {
                       />
                     </div>
                     <div className="col-lg-10">
-                      <a href="https://www.cognizant.com/in/en">
+                      <a href="https://www.cognizant.com/in/en" aria-label="Cognizant- Info Era Software Services Pvt. Ltd.">
                         <h3>Cognizant Technology Solutions</h3>
                       </a>
                       <p>
@@ -315,11 +316,11 @@ function Website_development_training_cerner_in_jehanabad() {
                         Promotion
                       </p>
                       <p>
-                        <a href="http://www.infosys.com">www.infosys.com</a>
+                        <a href="http://www.infosys.com" aria-label="Cognizant - Info Era Software Services Pvt. Ltd.">www.infosys.com</a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:contact@infosys.com">
+                        <a href="mailto:contact@infosys.com" aria-label="Cognizant Email Id - Info Era Software Services Pvt. Ltd.">
                           contact@infosys.com
                         </a>
                       </p>
@@ -342,7 +343,7 @@ function Website_development_training_cerner_in_jehanabad() {
                       />
                     </div>
                     <div className="col-lg-10">
-                      <a href="https://www.amazon.jobs/en/teams/global-it-services">
+                      <a href="https://www.amazon.jobs/en/teams/global-it-services" aria-label="Amazon - Info Era Software Services Pvt. Ltd.">
                         <h3>Amazon</h3>
                       </a>
                       <p>
@@ -364,13 +365,13 @@ function Website_development_training_cerner_in_jehanabad() {
                         their attention on their jobs and their customers.
                       </p>
                       <p>
-                        <a href="https://www.amazon.jobs/en/teams/global-it-services">
+                        <a href="https://www.amazon.jobs/en/teams/global-it-services" aria-label="Amazone - Info Era Software Services Pvt. Ltd.">
                           www.infosys.com
                         </a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:cs-reply@amazon.in">
+                        <a href="mailto:cs-reply@amazon.in" aria-label="Amazon Email Id - Info Era Software Services Pvt. Ltd.">
                           cs-reply@amazon.in
                         </a>
                       </p>
@@ -393,7 +394,7 @@ function Website_development_training_cerner_in_jehanabad() {
                       />
                     </div>
                     <div className="col-lg-10">
-                      <a href="https://www.hcltech.com/">
+                      <a href="https://www.hcltech.com/" aria-label="HCL - Info Era Software Services Pvt. Ltd.">
                         <h3>HCL TECH</h3>
                       </a>
                       <p>
@@ -404,11 +405,11 @@ function Website_development_training_cerner_in_jehanabad() {
                         objectives.
                       </p>
                       <p>
-                        <a href="https://www.hcltech.com/">www.hcltech.com</a>
+                        <a href="https://www.hcltech.com/" aria-label="HCL - Info Era Software Services Pvt. Ltd.">www.hcltech.com</a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:investors@hcl.com">investors@hcl.com</a>
+                        <a href="mailto:investors@hcl.com" aria-label="HCL Email Id - Info Era Software Services Pvt. Ltd.">investors@hcl.com</a>
                       </p>
                     </div>
                   </div>
@@ -429,7 +430,7 @@ function Website_development_training_cerner_in_jehanabad() {
                       />
                     </div>
                     <div className="col-lg-10">
-                      <a href="https://ficuslot.com/">
+                      <a href="https://ficuslot.com/" aria-label="Ficuslot - Info Era Software Services Pvt. Ltd.">
                         <h3>Ficuslot Innovation Pvt. Ltd</h3>
                       </a>
                       <p>
@@ -441,11 +442,11 @@ function Website_development_training_cerner_in_jehanabad() {
                         of this advancement.
                       </p>
                       <p>
-                        <a href="https://ficuslot.com/">www.ficuslot.com</a>
+                        <a href="https://ficuslot.com/" aria-label="Ficuslot - Info Era Software Services Pvt. Ltd.">www.ficuslot.com</a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="contact@ficuslot.com">contact@ficuslot.com</a>
+                        <a href="contact@ficuslot.com" aria-label="Ficuslot Email Id - Info Era Software Services Pvt. Ltd.">contact@ficuslot.com</a>
                       </p>
                     </div>
                   </div>
@@ -466,7 +467,7 @@ function Website_development_training_cerner_in_jehanabad() {
                       />
                     </div>
                     <div className="col-lg-10">
-                      <a href="https://www.techasoft.com/">
+                      <a href="https://www.techasoft.com/" aria-label="techasoft - Info Era Software Services Pvt. Ltd.">
                         <h3>Techasoft</h3>
                       </a>
                       <p>
@@ -479,11 +480,11 @@ function Website_development_training_cerner_in_jehanabad() {
                         companies in Patna, then Techasoft is for you.
                       </p>
                       <p>
-                        <a href="https://www.techasoft.com/">www.hcltech.com</a>
+                        <a href="https://www.techasoft.com/" aria-label="techasoft - Info Era Software Services Pvt. Ltd.">www.hcltech.com</a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:info@techasoft.com">
+                        <a href="mailto:info@techasoft.com" aria-label="techasoft Email Id - Info Era Software Services Pvt. Ltd.">
                           info@techasoft.com
                         </a>
                       </p>
@@ -506,7 +507,7 @@ function Website_development_training_cerner_in_jehanabad() {
                       />
                     </div>
                     <div className="col-lg-10">
-                      <a href="https://filliptechnologies.com/">
+                      <a href="https://filliptechnologies.com/" aria-label="filliptechnologies - Info Era Software Services Pvt. Ltd.">
                         <h3>Fillip Technologies</h3>
                       </a>
                       <p>
@@ -519,13 +520,13 @@ function Website_development_training_cerner_in_jehanabad() {
                         and charity trusts.
                       </p>
                       <p>
-                        <a href="https://filliptechnologies.com/">
+                        <a href="https://filliptechnologies.com/" aria-label="filliptechnologies - Info Era Software Services Pvt. Ltd.">
                           www.hcltech.com
                         </a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:infoerapvtltd@gmail.com">
+                        <a href="mailto:infoerapvtltd@gmail.com" aria-label="filliptechnologies Email Id - Info Era Software Services Pvt. Ltd.">
                           info@filliptechnologies.com
                         </a>
                       </p>
@@ -549,7 +550,7 @@ function Website_development_training_cerner_in_jehanabad() {
                       />
                     </div>
                     <div className="col-lg-10">
-                      <a href="https://filliptechnologies.com/">
+                      <a href="https://filliptechnologies.com/" aria-label="filliptechnologies - Info Era Software Services Pvt. Ltd.">
                         <h3>Fillip Software </h3>
                       </a>
                       <p>
@@ -561,13 +562,13 @@ function Website_development_training_cerner_in_jehanabad() {
                         environment.
                       </p>
                       <p>
-                        <a href="https://www.infoerasoftware.com/">
+                        <a href="https://www.infoerasoftware.com/"aria-label="Info Era - Info Era Software Services Pvt. Ltd.">
                           www.filliptechnologies.com
                         </a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:infoerapvtltd@gmail.com">
+                        <a href="mailto:infoerapvtltd@gmail.com" aria-label="Info Era Email Id - Info Era Software Services Pvt. Ltd.">
                           info@filliptechnologies.com
                         </a>
                       </p>

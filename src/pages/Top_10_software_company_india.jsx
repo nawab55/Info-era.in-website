@@ -9,10 +9,11 @@ function Top_10_software_company_india() {
             content="width=device-width, initial-scale=1.0"
             name="viewport"
           />
-          <meta
-            name="google-site-verification"
-            content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU"
-          />
+           {/* Google site Verification  Start */}
+        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* End */}
+
+
           <title>
             Top 10 Company in Bihar | Website Developer King of Bihar
           </title>
@@ -24,7 +25,7 @@ function Top_10_software_company_india() {
             name="keywords"
             content="top 10 company in bihar, top company in bihar patna, top Website development company in patna, website developer king of bihar,Website developer king of Bihar "
           />
-          <link rel="canonical" href="https://infoera.in/top_10_software_company_india" />
+          <link rel="canonical" href="https://infoera.in/top_10_software_company_india"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" /> 
@@ -106,7 +107,7 @@ function Top_10_software_company_india() {
                   <div className="feature-box d-flex align-items-center">
                     <i className="bi bi-check" />
                     <div>
-                      <a href="https://www.infoerasoftware.com/">
+                      <a href="https://www.infoerasoftware.com/" aria-label="URL - Info Era Software Services Pvt. Ltd.">
                         {" "}
                         <img
                           src="assets/img/infoera.png"
@@ -117,7 +118,7 @@ function Top_10_software_company_india() {
                       </a>
                     </div>
                     <div>
-                      <a href="https://www.infoerasoftware.com/">
+                      <a href="https://www.infoerasoftware.com/" aria-label="URL - Info Era Software Services Pvt. Ltd.">
                         {" "}
                         <h3>Info Era Software Services Pvt. Ltd.</h3>
                       </a>
@@ -130,13 +131,13 @@ function Top_10_software_company_india() {
                         Consulting, Industrial Training, Franchise.
                       </p>
                       <p>
-                        <a href="http://www.infoeraservices.com">
+                        <a href="http://www.infoeraservices.com" aria-label="URL - Info Era Software Services Pvt. Ltd.">
                           www.infoeraservices.com
                         </a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:contact@infoeraservices.com">
+                        <a href="mailto:contact@infoeraservices.com" aria-label="Email - Info Era Software Services Pvt. Ltd.">
                           contact@infoeraservices.com
                         </a>
                       </p>
@@ -157,7 +158,7 @@ function Top_10_software_company_india() {
                       title="Logo of Wipro"
                     />
                     <div>
-                      <a href="https://www.wipro.com/contact-wipro/">
+                      <a href="https://www.wipro.com/contact-wipro/" aria-label="Wipro - Info Era Software Services Pvt. Ltd.">
                         {" "}
                         <h3>Wipro</h3>
                       </a>
@@ -171,11 +172,11 @@ function Top_10_software_company_india() {
                         demands.
                       </p>
                       <p>
-                        <a href="http://www.wipro.com">www.wipro.com</a>
+                        <a href="http://www.wipro.com" aria-label="Wipro - Info Era Software Services Pvt. Ltd.">www.wipro.com</a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:info@wipro.com">info@wipro.com</a>
+                        <a href="mailto:info@wipro.com" aria-label="Wipro Email - Info Era Software Services Pvt. Ltd.">info@wipro.com</a>
                       </p>
                     </div>
                   </div>
@@ -194,7 +195,7 @@ function Top_10_software_company_india() {
                       title="Logo of TCS"
                     />
                     <div>
-                      <a href="https://www.tcs.com/home-page">
+                      <a href="https://www.tcs.com/home-page"  aria-label="TCS - Info Era Software Services Pvt. Ltd.">
                         {" "}
                         <h3>Tata Consultancy Services (TCS)</h3>
                       </a>
@@ -205,10 +206,10 @@ function Top_10_software_company_india() {
                         experience and whatever we mentioned in resume.
                       </p>
                       <p>
-                        <a href="http://www.tcs.com">www.tcs.com</a>
+                        <a href="http://www.tcs.com"  aria-label="TCS - Info Era Software Services Pvt. Ltd.">www.tcs.com</a>
                       </p>
                       <p>
-                        Email: <a href="mailto:info@tcs.com">info@tcs.com</a>
+                        Email: <a href="mailto:info@tcs.com"  aria-label="TCS Email - Info Era Software Services Pvt. Ltd.">info@tcs.com</a>
                       </p>
                     </div>
                   </div>
@@ -227,7 +228,7 @@ function Top_10_software_company_india() {
                       title="Logo of Infosys"
                     />
                     <div>
-                      <a href="https://www.cognizant.com/in/en">
+                      <a href="https://www.cognizant.com/in/en" aria-label="Cognizant - Info Era Software Services Pvt. Ltd.">
                         <h3>Cognizant Technology Solutions</h3>
                       </a>
                       <p>
@@ -238,11 +239,11 @@ function Top_10_software_company_india() {
                         Promotion
                       </p>
                       <p>
-                        <a href="http://www.infosys.com">www.infosys.com</a>
+                        <a href="http://www.infosys.com" aria-label="Infosys - Info Era Software Services Pvt. Ltd.">www.infosys.com</a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:contact@infosys.com">
+                        <a href="mailto:contact@infosys.com" aria-label="Infosys Email - Info Era Software Services Pvt. Ltd.">
                           contact@infosys.com
                         </a>
                       </p>
@@ -263,7 +264,7 @@ function Top_10_software_company_india() {
                       title="Logo of Amazon"
                     />
                     <div>
-                      <a href="https://www.amazon.jobs/en/teams/global-it-services">
+                      <a href="https://www.amazon.jobs/en/teams/global-it-services" aria-label="Amazon - Info Era Software Services Pvt. Ltd.">
                         <h3>Amazon</h3>
                       </a>
                       <p>
@@ -285,13 +286,13 @@ function Top_10_software_company_india() {
                         their attention on their jobs and their customers.
                       </p>
                       <p>
-                        <a href="https://www.amazon.jobs/en/teams/global-it-services">
+                        <a href="https://www.amazon.jobs/en/teams/global-it-services" aria-label="Amazon - Info Era Software Services Pvt. Ltd.">
                           www.infosys.com
                         </a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:cs-reply@amazon.in">
+                        <a href="mailto:cs-reply@amazon.in" aria-label="Amazon Email - Info Era Software Services Pvt. Ltd.">
                           cs-reply@amazon.in
                         </a>
                       </p>
@@ -312,7 +313,7 @@ function Top_10_software_company_india() {
                       title="Logo of HCL TECH"
                     />
                     <div>
-                      <a href="https://www.hcltech.com/">
+                      <a href="https://www.hcltech.com/" aria-label="HCL - Info Era Software Services Pvt. Ltd.">
                         <h3>HCL TECH</h3>
                       </a>
                       <p>
@@ -323,11 +324,11 @@ function Top_10_software_company_india() {
                         objectives.
                       </p>
                       <p>
-                        <a href="https://www.hcltech.com/">www.hcltech.com</a>
+                        <a href="https://www.hcltech.com/" aria-label="HCL - Info Era Software Services Pvt. Ltd.">www.hcltech.com</a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:investors@hcl.com">investors@hcl.com</a>
+                        <a href="mailto:investors@hcl.com" aria-label="HCL Email - Info Era Software Services Pvt. Ltd.">investors@hcl.com</a>
                       </p>
                     </div>
                   </div>
@@ -346,7 +347,7 @@ function Top_10_software_company_india() {
                       title="Logo of Ficuslot Innovation"
                     />
                     <div>
-                      <a href="https://ficuslot.com/">
+                      <a href="https://ficuslot.com/" aria-label="Ficuslot - Info Era Software Services Pvt. Ltd.">
                         <h3>Ficuslot Innovation Pvt. Ltd</h3>
                       </a>
                       <p>
@@ -358,11 +359,11 @@ function Top_10_software_company_india() {
                         of this advancement.
                       </p>
                       <p>
-                        <a href="https://ficuslot.com/">www.ficuslot.com</a>
+                        <a href="https://ficuslot.com/" aria-label="Ficuslot - Info Era Software Services Pvt. Ltd.">www.ficuslot.com</a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="contact@ficuslot.com">contact@ficuslot.com</a>
+                        <a href="contact@ficuslot.com" aria-label="Ficuslot Email - Info Era Software Services Pvt. Ltd.">contact@ficuslot.com</a>
                       </p>
                     </div>
                   </div>
@@ -381,7 +382,7 @@ function Top_10_software_company_india() {
                       title="Logo of HCL TECH"
                     />
                     <div>
-                      <a href="https://www.techasoft.com/">
+                      <a href="https://www.techasoft.com/" aria-label="TechSoft - Info Era Software Services Pvt. Ltd.">
                         <h3>Techasoft</h3>
                       </a>
                       <p>
@@ -394,11 +395,11 @@ function Top_10_software_company_india() {
                         companies in Patna, then Techasoft is for you.
                       </p>
                       <p>
-                        <a href="https://www.techasoft.com/">www.hcltech.com</a>
+                        <a href="https://www.techasoft.com/" aria-label="TechSoft - Info Era Software Services Pvt. Ltd.">www.hcltech.com</a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:info@techasoft.com">
+                        <a href="mailto:info@techasoft.com" aria-label="TechSoft Email - Info Era Software Services Pvt. Ltd.">
                           info@techasoft.com
                         </a>
                       </p>
@@ -419,7 +420,7 @@ function Top_10_software_company_india() {
                       title="Logo of Techasoft"
                     />
                     <div>
-                      <a href="https://filliptechnologies.com/">
+                      <a href="https://filliptechnologies.com/" aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd.">
                         <h3>Fillip Technologies</h3>
                       </a>
                       <p>
@@ -432,13 +433,13 @@ function Top_10_software_company_india() {
                         and charity trusts.
                       </p>
                       <p>
-                        <a href="https://filliptechnologies.com/">
+                        <a href="https://filliptechnologies.com/" aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd.">
                           www.hcltech.com
                         </a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:infoerapvtltd@gmail.com">
+                        <a href="mailto:infoerapvtltd@gmail.com" aria-label="Fillip Technologies Email - Info Era Software Services Pvt. Ltd.">
                           info@filliptechnologies.com
                         </a>
                       </p>
@@ -460,7 +461,7 @@ function Top_10_software_company_india() {
                       title="Logo of Techasoft"
                     />
                     <div>
-                      <a href="https://filliptechnologies.com/">
+                      <a href="https://filliptechnologies.com/" aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd.">
                         <h3>Fillip Software </h3>
                       </a>
                       <p>
@@ -472,13 +473,13 @@ function Top_10_software_company_india() {
                         environment.
                       </p>
                       <p>
-                        <a href="https://www.infoerasoftware.com/">
+                        <a href="https://www.infoerasoftware.com/" aria-label="URL - Info Era Software Services Pvt. Ltd.">
                           www.filliptechnologies.com
                         </a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:infoerapvtltd@gmail.com">
+                        <a href="mailto:infoerapvtltd@gmail.com"aria-label="Email - Info Era Software Services Pvt. Ltd.">
                           info@filliptechnologies.com
                         </a>
                       </p>

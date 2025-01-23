@@ -8,14 +8,14 @@ function Best_web_design_agency_canada() {
      <Helmet>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta name="google-site-verification" content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU" />
-
+        
+    <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
     <title> Leading Web and Digital Marketing in Canada - Info Era </title>
 
     <meta name="description" content="Info Era Software Services Pvt. Ltd is Canada's top web design, development, and digital marketing agency, offering exceptional services in Calgary, Toronto, and Ottawa." />
 
     <meta name="keywords" content="best web design agency canada, website design companies in calgary, software companies in toronto canada, mobile app development company in canada, website developers canada, website design companies in calgary, web design company in calgary alberta, best digital marketing agency in canada, top software company in canada, social media marketing companies in canada, digital marketing agency in ottawa" />
-    <link rel="canonical" href="https://infoera.in/best_web_design_agency_canada" />
+    <link rel="canonical" href="https://infoera.in/best_web_design_agency_canada"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
             <meta name="content-language" content="EN" />
             <meta name="search engines" content="ALL" />
             <meta name="Robots" content="INDEX,ALL" />

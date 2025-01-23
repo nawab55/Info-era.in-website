@@ -8,7 +8,7 @@ function Best_it_company_noida() {
     <Helmet>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta name="google-site-verification" content="1SjNSasowfU9-J-fvkMaSAPEzrU-x_REXb5QL51dAdU" />
+    <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
 
     <title>Leading IT and Digital Solutions in Noida - Info Era   </title>
 
@@ -16,7 +16,7 @@ function Best_it_company_noida() {
 
     <meta name="keywords" content="`best it company in noida, website development in noida, digital marketing company in noida sec 63, it internship in noida, software company in noida for fresher, website designing company in noida, web development company in noida, digital marketing company noida, bes digital marketing agency in noida, best marketing agency in noida, web development in noida, digital advertising agency noida, software development company noida" />
     <meta name="author" content="Info Era Software Servides Pvt Ltd" />
-    <link rel="canonical" href="https://infoera.in/best_it_company_noida" />
+    <link rel="canonical" href="https://infoera.in/best_it_company_noida"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
             <meta name="content-language" content="EN" />
             <meta name="search engines" content="ALL" />
             <meta name="Robots" content="INDEX,ALL" />
