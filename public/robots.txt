@@ -1,37 +1,88 @@
-User-agent: Googlebot
-Allow: 
-User-agent: googlebot-image
-Allow: 
-User-agent: googlebot-mobile
-Disallow: 
-User-agent: MSNBot
-Disallow: 
-User-agent: Slurp
-Disallow: 
-User-agent: Teoma
-Disallow: 
-User-agent: Gigabot
-Allow: 
-User-agent: Robozilla
-Disallow: 
-User-agent: Nutch
-Disallow: 
-User-agent: ia_archiver
-Disallow: 
-User-agent: baiduspider
-Disallow: 
-User-agent: naverbot
-Disallow: 
-User-agent: yeti
-Disallow: 
-User-agent: yahoo-mmcrawler
-Disallow: 
-User-agent: psbot
-Disallow: 
-User-agent: yahoo-blogs/v3.9
-Disallow: 
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-
+Disallow: /dist/assets/About-t4tZmCl6.js
+Disallow: /dist/assets/Activity-Mta7kPrs.js
+Disallow: /dist/assets/axios-upsvKRUO.js
+Disallow: /dist/assets/Bbc-C1b7RbZD.js
+Disallow: /dist/assets/Best_digital_marketing_agencys_egypt-ByOohwD-.js
+Disallow: /dist/assets/Best_it_company_noida-C3qqZpZj.js
+Disallow: /dist/assets/Best_web_design_agency_canada-C1lnDGyt.js
+Disallow: /dist/assets/Best_web_development_services_company_bangladesh-eYqQ210T.js
+Disallow: /dist/assets/Best_website_development_jehanabad-BePr0N0f.js
+Disallow: /dist/assets/Best_website_designing_hydrabad-eYqQ210T.js
+Disallow: /dist/assets/Best_website_development_jehanabad-BePr0N0f.js
+Disallow: /dist/assets/Biometric-Cw31WRL6.js
+Disallow: /dist/assets/BulkEmail-DNTW3tq6.js
+Disallow: /dist/assets/Cctv-DpRy9DA-.js
+Disallow: /dist/assets/BulkSms-Dro1LDqz.js
+Disallow: /dist/assets/Cctv-DpRy9DA-.js
+Disallow: /dist/assets/Certificate-BIwTbtw4.js
+Disallow: /dist/assets/ClientCrousel-CCGUEhCZ.js
+Disallow: /dist/assets/ClientQuery-CmfvAh7y.js
+Disallow: /dist/assets/CollegeManagementSystem-COoKF9gx.js
+Disallow: /dist/assets/Consulting-CzecDCrP.js
+Disallow: /dist/assets/Contact-BnILkxli.js
+Disallow: /dist/assets/DesktopApplication-B4jZQ9dF.js
+Disallow: /dist/assets/DigitalMarketing-Cj7TkMVV.js
+Disallow: /dist/assets/Helmet-D3TVygFG.js
+Disallow: /dist/assets/Home-CH9_6H1_.js
+Disallow: /dist/assets/HospitalManagementSystem-7PloPJT3.js
+Disallow: /dist/assets/HotelManagementSystem-A0SSGtU-.js
+Disallow: /dist/assets/Ibc-DNvRVAOa.js
+Disallow: /dist/assets/index-B23rCIUq.css
+Disallow: /dist/assets/index-BL7wLGHh.js
+Disallow: /dist/assets/index-CwSRrs7M.css
+Disallow: /dist/assets/index-XSgTdF9P.js
+Disallow: /dist/assets/It_companies_ranchi-BTr6mJbZ.js
+Disallow: /dist/assets/It_company_in_aurangabad-4aQoUrU5.js
+Disallow: /dist/assets/It_company_in_kaimur-R5gWBuUF.js
+Disallow: /dist/assets/It_company_in_purnia-BZH67J7L.js
+Disallow: /dist/assets/It_company_in_varanasi-863ZJYK1.js
+Disallow: /dist/assets/It_company_jamui-C0mwWr4Z.js
+Disallow: /dist/assets/It_company_khagaria-BFHvKci7.js
+Disallow: /dist/assets/It_company_mirzapur-DiLDEuAJ.js
+Disallow: /dist/assets/It_company_near_me-8F_CIaSM.js
+Disallow: /dist/assets/It_consulting_solution_perth--JVcP8xA.js
+Disallow: /dist/assets/Jobs-COKeJnwQ.js
+Disallow: /dist/assets/JobsViewDetails-k89IzjBK.js
+Disallow: /dist/assets/MainSection-BG7X76Io.js
+Disallow: /dist/assets/PortalEcommerce-C0IQohuW.js
+Disallow: /dist/assets/It_company_near_me-8F_CIaSM.js
+Disallow: /dist/assets/PortalInsurance-BBQJQP8e.js
+Disallow: /dist/assets/PortalMlm-BQ1j-uIT.js
+Disallow: /dist/assets/PortalNewsMagzine-D4T5n9vm.js
+Disallow: /dist/assets/PrivacyPolicy-QQYfRYrE.js
+Disallow: /dist/assets/RealEstateManaementSystem-WvSHC1V3.js
+Disallow: /dist/assets/ReturnPolicy-BZWT5q--.js
+Disallow: /dist/assets/RealEstateManaementSystem-WvSHC1V3.js
+Disallow: /dist/assets/SchoolManagementSystem-zTApgQ0t.js
+Disallow: /dist/assets/Seo-VzmH1Tfm.js
+Disallow: /dist/assets/SeoSearch-CUWDHWzX.js
+Disallow: /dist/assets/Shop-DvxYHVOe.js
+Disallow: /dist/assets/ShopManagementSystem-B_Frdp-j.js
+Disallow: /dist/assets/Software_company_chhapra-BkJjypDO.js
+Disallow: /dist/assets/Software_company_darbhanga-BKjsPl9f.js
+Disallow: /dist/assets/Software_company_east_champaran-Ccnk9BfR.js
+Disallow: /dist/assets/Software_company_in_begusarai-_1UQ1Kys.js
+Disallow: /dist/assets/Software_company_in_bhagalpur-YrOzpu5i.js
+Disallow: /dist/assets/Software_company_in_bhojpur-VMM4ki82.js
+Disallow: /dist/assets/Software_company_in_madhepura-D6NbC57p.js
+Disallow: /dist/assets/Software_company_in_madhubani-D7R5Cl8h.js
+Disallow: /dist/assets/Software_company_in_nalanda-C-yomWX4.js
+Disallow: /dist/assets/Software_company_in_sitamarhi-tPoZFpAc.js
+Disallow: /dist/icon
+Disallow: /dist/image
+Disallow: src/index.css
+Allow:    googlebot-mobile
+Disallow: Googlebot
+Disallow: Gigabot
+Disallow: dist/assets/WebDevelopment-rUM2ObXS.js
+Disallow: dist/assets/Website_design_development_services_landon-BUCIL858.js
+Disallow: dist/assets/Website_development_company_bhutan-CFEpIQMW.js
+Disallow: dist/assets/Website_development_company_gaya-D07d6qCa.js
+Disallow: dist/assets/Website_development_training_cerner_in_jehanabad-DZAeIAFG.js
+Disallow: /dist/assets/img
+Disallow: /dist/assets/images
+Disallow: /dist/assets/Website_design_and_development_agency_nepal-Cng13DwD.js 
 Sitemap: https://infoera.in/sitemap.xml

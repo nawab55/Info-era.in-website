@@ -378,7 +378,7 @@ function Jobs() {
                 )}
                 <br />
                 <label htmlFor="qualification">
-                  Heighest Qualification <span style={{ color: "red" }}>*</span>
+                  Highest Qualification <span style={{ color: "red" }}>*</span>
                 </label>
                 <input
                   name="qualification"

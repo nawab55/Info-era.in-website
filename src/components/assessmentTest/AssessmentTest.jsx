@@ -19,8 +19,8 @@ const AssessmentTest = () => {
 
   const navigate = useNavigate();
 
-   // Handle auto-submit when time expires
-   const handleAutoSubmit = () => {
+  // Handle auto-submit when time expires
+  const handleAutoSubmit = () => {
     if (!isSubmitted) {
       submitAnswers();
       toast.warning("Time is up! The assessment has been submitted automatically.");
@@ -48,7 +48,6 @@ const AssessmentTest = () => {
           { withCredentials: true }
         );
         const response = data?.data;
-        // console.log("Student Details:", response);
         setStudentDetails({ name: response?.name, mobile: response?.mobile });
         if (response?.course) {
           fetchCourseData(response?.course);
@@ -71,7 +70,6 @@ const AssessmentTest = () => {
           }/api/assessment/course/${courseName}`,
           { withCredentials: true }
         );
-        // console.log("Course Data:", data);
         const course = data?.course;
         if (course?.background) {
           fetchQuestions(course?.background);
@@ -92,16 +90,29 @@ const AssessmentTest = () => {
           }/api/assessment/question/background`,
           { params: { background }, withCredentials: true }
         );
-        console.log("Questions Data:", data.questionsByType);
-        setQuestionsByType(data.questionsByType);
+        // console.log("Questions Data:", data.questionsByType);
+        mergeQuestionsByType(data.questionsByType);
       } catch (error) {
         toast.error("Failed to fetch questions.");
         console.error(error);
       }
     };
 
-     // Save the deadline to localStorage if not already set
-     if (!localStorage.getItem("assessmentDeadline")) {
+    const mergeQuestionsByType = (questionsByType) => {
+      const mergedQuestions = questionsByType.reduce((acc, current) => {
+        const existing = acc.find(item => item.questionType === current.questionType);
+        if (existing) {
+          existing.questions = [...existing.questions, ...current.questions];
+        } else {
+          acc.push({ ...current });
+        }
+        return acc;
+      }, []);
+      setQuestionsByType(mergedQuestions);
+    };
+
+    // Save the deadline to localStorage if not already set
+    if (!localStorage.getItem("assessmentDeadline")) {
       const newDeadline = Date.now() + 60 * 60 * 1000; // 60 minutes
       localStorage.setItem("assessmentDeadline", newDeadline.toString());
       restart(new Date(newDeadline));
@@ -109,12 +120,13 @@ const AssessmentTest = () => {
 
     fetchStudentDetails();
     // fetchCourseData(courseData);
-    // fetchQuestions(backgroundData);
+     // fetchQuestions(backgroundData);
+
     // Disable right-click and text selection for the page
     const disableCopying = () => {
-      document.addEventListener("contextmenu", (e) => e.preventDefault()); // Disable right-click menu
-      document.addEventListener("copy", (e) => e.preventDefault()); // Disable copying
-      document.addEventListener("selectstart", (e) => e.preventDefault()); // Disable text selection
+      document.addEventListener("contextmenu", (e) => e.preventDefault());
+      document.addEventListener("copy", (e) => e.preventDefault());
+      document.addEventListener("selectstart", (e) => e.preventDefault());
     };
 
     disableCopying(); // Call the disable function on component mount
@@ -150,7 +162,7 @@ const AssessmentTest = () => {
     e.preventDefault();
     submitAnswers();
   };
-
+// console.log("state value of questionsType ",questionsByType)
   const submitAnswers = async () => {
     if (isSubmitted) return; // Prevent duplicate submissions
     const responses = questionsByType.flatMap((type) =>
@@ -164,13 +176,7 @@ const AssessmentTest = () => {
       studentDetails,
       responses, // Updated to include questionTypeId and questionId for each question
     };
-    // const payload = {
-    //   studentDetails,
-    //   questionTypeId: questionsByType[currentTypeIndex]?._id, // Question type ID
-    //   answers,
-    // };
     try {
-      console.log(payload);
       const response = await axios.post(
         `${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/assessment-test/submit-test`,
         payload,
@@ -230,10 +236,10 @@ const AssessmentTest = () => {
                 <h4 className="mb-4 text-secondary">
                   {questionsByType[currentTypeIndex]?.questionType} Questions
                 </h4>
-                {questionsByType[currentTypeIndex]?.questions.map((question) => (
+                {questionsByType[currentTypeIndex]?.questions.map((question, index) => (
                   <div key={question._id} className="card mb-3">
                     <div className="card-body">
-                      <h5>{question.question}</h5>
+                      <h5 style={{ whiteSpace: "pre-wrap" }}><span className="mr-2">{index + 1}.</span>{question.question}</h5>
                       <div>
                         {Object.entries(question.options).map(([key, value]) => (
                           <div
@@ -241,23 +247,22 @@ const AssessmentTest = () => {
                             className={`form-check d-flex ${
                               answers[question._id] === key ? "selected-answer" : ""
                             }`}
-                          > 
-                           <div className="mr-1"><span>{key}.</span></div>
-                           <div className="ml-4">
-
-                            <label htmlFor={`${question._id}-${key}`} className="form-check-label">
-                              <input
-                                type="radio"
-                                id={`${question._id}-${key}`}
-                                name={question._id}
-                                value={key}
-                                className="form-check-input"
-                                onChange={() => handleAnswerChange(question._id, key)}
-                                checked={answers[question._id] === key}
-                              />
+                          >
+                            <div className="mr-1"><span>{key}.</span></div>
+                            <div className="ml-4">
+                              <label htmlFor={`${question._id}-${key}`} className="form-check-label">
+                                <input
+                                  type="radio"
+                                  id={`${question._id}-${key}`}
+                                  name={question._id}
+                                  value={key}
+                                  className="form-check-input"
+                                  onChange={() => handleAnswerChange(question._id, key)}
+                                  checked={answers[question._id] === key}
+                                />
                                 {value}
-                            </label>
-                           </div>
+                              </label>
+                            </div>
                           </div>
                         ))}
                       </div>
@@ -286,7 +291,7 @@ const AssessmentTest = () => {
             </div>
             {currentTypeIndex === questionsByType.length - 1 && (
               <div className="text-center mt-4">
-                <button type="submit" className=" btn-submit">
+                <button type="submit" className="btn-submit">
                   Submit Assessment
                 </button>
               </div>
@@ -299,7 +304,6 @@ const AssessmentTest = () => {
 };
 
 export default AssessmentTest;
-
 
 
 
