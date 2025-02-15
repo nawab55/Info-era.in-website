@@ -25,7 +25,7 @@ const Home = () => {
            industrial training,  All types of Web Design, Complete Web Design Solution Patna, Satisfied Web Design Clients Patna, 
            E-commerce web solutions Patna, web consultants Patna, Design and Development Patna, Designers group Patna, Website Company Patna, Mobile Web Application Patna, Cheap Rate Website Designing Services Patna "
         />
-        <link rel="canonical" href="https://infoera.in/" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
+        {/* <link rel="canonical" href="https://infoera.in/" aria-label="Canonical - Info Era Software Services Pvt. Ltd." /> */}
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />

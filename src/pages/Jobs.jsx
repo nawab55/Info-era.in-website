@@ -249,7 +249,7 @@ function Jobs() {
               <h3 style={{ color: "#0c219a", fontWeight: 700, fontSize: 50 }}>
                 We&apos;re<span style={{ color: "orange" }}> Hiring</span>
               </h3>
-              <p>Info Era Software Services is hiring on various possitions.</p>
+              <p>Info Era Software Services is hiring on various positions.</p>
             </div>
             <div
               className="col-lg-6 hero-img aos-init aos-animate"
