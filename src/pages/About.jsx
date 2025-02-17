@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   const [tab, setTab] = useState(1);
@@ -15,12 +16,10 @@ const About = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
-        
         <title> About Info Era | Growing IT company that provides holistic IT solutions</title>
         <meta
           name="description"
           content="Info Era Software Services offers cutting-edge IT solutions, including web design, app development, digital marketing, IT consulting, and industrial training." />
-
         <meta
           name="keywords"
           content="info era vision, info era mission, info era aim, Next-Generation Software Services provider, IT Consulting "

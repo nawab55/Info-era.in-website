@@ -1,7 +1,8 @@
 import { useState } from "react";
 import Spinner from "../components/loader/Spinner";
 import toast from "react-hot-toast";
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const ClientQuery = () => {
   const [formData, setFormData] = useState({
