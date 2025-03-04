@@ -74,7 +74,7 @@ const WebsiteDesign = () => {
               className="col-lg-6 hero-img aos-init aos-animate"
               data-aos="zoom-out"
             >
-              <img src="assets/img/webimg.png" className="img-fluid" alt="Web Designing - Info Era" title="Web Designing - Info Era" />
+              <img src="/assets/img/webimg.png" className="img-fluid" alt="Web Designing - Info Era" title="Web Designing - Info Era" />
             </div>
           </div>
         </div>

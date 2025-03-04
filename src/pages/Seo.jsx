@@ -80,7 +80,7 @@ const Seo = () => {
                 className="col-lg-6 hero-img aos-init aos-animate"
                 data-aos="zoom-out"
               >
-                <img src="assets/img/seo.png" className="img-fluid" alt="SEO - Info Era" title="SEO - Info Era" />
+                <img src="/assets/img/seo.png" className="img-fluid" alt="SEO - Info Era" title="SEO - Info Era" />
               </div>
             </div>
           </div>

@@ -59,15 +59,22 @@ const Contact = () => {
   };
   return (
     <>
-    <Helmet>
+      <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
-        <title>  Info Era Patna, Top Software Development Company in Patna Biha </title>
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
+        <title>
+          {" "}
+          Info Era Patna, Top Software Development Company in Patna Biha{" "}
+        </title>
         <meta
           name="description"
           content="Main Office Address - Flat No. 604, 6th Floor
-Narain Plaza, Exhibition Road, Patna, (Bihar) 800001, Mobile – 7008411312, Email - infoerapvtltd@gmail.com, Website - www.infoera.in – Leading and Trustworthy Software Company in Patna Bihar" />
+Narain Plaza, Exhibition Road, Patna, (Bihar) 800001, Mobile – 7008411312, Email - infoerapvtltd@gmail.com, Website - www.infoera.in – Leading and Trustworthy Software Company in Patna Bihar"
+        />
 
         <meta
           name="keywords"
@@ -75,7 +82,11 @@ Narain Plaza, Exhibition Road, Patna, (Bihar) 800001, Mobile – 7008411312, Ema
           Mobile – 7008411312, Email - infoerapvtltd@gmail.com, Website - www.infoera.in – Leading and Trustworthy 
           Software Company in Darbhanga Bihar"
         />
-        <link rel="canonical" href="https://infoera.in/contact"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
+        <link
+          rel="canonical"
+          href="https://infoera.in/contact"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -87,15 +98,22 @@ Narain Plaza, Exhibition Road, Patna, (Bihar) 800001, Mobile – 7008411312, Ema
         <meta name="rating" content="General" />
         <meta name="Resource-type" content="document" />
         <meta name="Author" content="www.infoera.in" />
-        <meta name="document-classification" content="Software & Website development company" />
+        <meta
+          name="document-classification"
+          content="Software & Website development company"
+        />
         <meta name="Distribution" content="Global" />
-        <meta name="document-classification" content="Info Era Software Services Pvt. Ltd. Contact_Number-7008411312 Email-infoerapvtltd@gmail.com Website-www.infoera.in" />
-        
-        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta
+          name="document-classification"
+          content="Info Era Software Services Pvt. Ltd. Contact_Number-7008411312 Email-infoerapvtltd@gmail.com Website-www.infoera.in"
+        />
+
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
 
         <meta name="Publisher" content="www.infoera.in" />
-
-
       </Helmet>
       <div>
         <br />
@@ -151,59 +169,73 @@ Narain Plaza, Exhibition Road, Patna, (Bihar) 800001, Mobile – 7008411312, Ema
               <form onSubmit={submitHanlder} className="col-lg-6">
                 <div className="row gy-4">
                   <div className="col-md-6">
+                    <label htmlFor="name"></label>
                     <input
                       name="name"
                       type="text"
                       value={formData.name}
                       onChange={onInputChange}
-                      id="ContentPlaceHolder1_txtname"
+                      id="name"
                       className="form-control"
                       placeholder="Your Name"
+                      autoComplete="off"
                       required
                     />
                   </div>
                   <div className="col-md-6 ">
+                    <label htmlFor="email"></label>
                     <input
                       name="email"
                       type="text"
+                      id="email"
                       value={formData.email}
                       onChange={onInputChange}
                       className="form-control"
                       placeholder="Your Email"
+                      autoComplete="off"
                       required
                     />
                   </div>
                   <div className="col-md-6">
+                    <label htmlFor="subject"></label>
                     <input
                       name="subject"
                       type="text"
+                      id="subject"
                       value={formData.subject}
                       onChange={onInputChange}
                       className="form-control"
                       placeholder="Subject"
+                      autoComplete="off"
                       required
                     />
                   </div>
                   <div className="col-md-6">
+                    <label htmlFor="mobile"></label>
                     <input
                       name="mobile"
                       type="text"
+                      id="mobile"
                       value={formData.mobile}
                       onChange={onInputChange}
                       className="form-control"
                       placeholder="Mobile"
+                      autoComplete="off"
                       required
                     />
                   </div>
                   <div className="col-md-12">
+                    <label htmlFor="message"></label>
                     <textarea
                       name="message"
+                      id="message"
                       rows={6}
                       cols={20}
                       value={formData.message}
                       onChange={onInputChange}
                       className="form-control"
                       placeholder="Message"
+                      autoComplete="off"
                       required
                     />
                   </div>

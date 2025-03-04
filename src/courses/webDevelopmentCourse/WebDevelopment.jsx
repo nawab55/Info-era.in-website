@@ -189,7 +189,7 @@ const WebDevelopment = () => {
             </header>
             <div className="row">
               <div className="col-md-12">
-                <img src="image/training08.jpeg" alt="MERN Stack Training-Info Era Software Services" title="MERN Stack Training-Info Era Software Services" style={{ width: "100%" }} />
+                <img src="/image/training08.jpeg" alt="MERN Stack Training-Info Era Software Services" title="MERN Stack Training-Info Era Software Services" style={{ width: "100%" }} />
               </div>
             </div>
             <br />

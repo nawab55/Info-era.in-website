@@ -134,7 +134,7 @@ const Consulting = () => {
                 className="col-lg-6 hero-img aos-init aos-animate"
                 data-aos="zoom-out"
               >
-                <img src="assets/img/consul.png" className="img-fluid" alt="Consul - Info Era" />
+                <img src="/assets/img/consul.png" className="img-fluid" alt="Consul - Info Era" />
               </div>
             </div>
           </div>

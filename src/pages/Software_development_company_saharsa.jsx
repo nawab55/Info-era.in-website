@@ -79,7 +79,7 @@ function Software_development_company_saharsa() {
             {/*<div class="col-lg-4 d-flex flex-column justify-content-center py-5" data-aos="fade-up">
        
           
-              <img src="assets/images/placement .png" width="80%" height="100%" alt="Web Application"  />
+              <img src="/assets/images/placement .png" width="80%" height="100%" alt="Web Application"  />
          
 
         
@@ -193,7 +193,7 @@ function Software_development_company_saharsa() {
 </header> */}
           <div className="row">
             <div className="col-lg-6">
-              <img src="assets/img/webpic.png" className="img-fluid" alt="WebPic" title="Webpic - Info Era" />
+              <img src="/assets/img/webpic.png" className="img-fluid" alt="WebPic" title="Webpic - Info Era" />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">

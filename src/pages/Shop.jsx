@@ -55,7 +55,7 @@ function Shop() {
             {/* Example Portfolio Item */}
             <div className="portfolio-item">
               <div className="portfolio-wrap">
-                <img src="assets/shop/school1.png" alt="School 1" />
+                <img src="/assets/shop/school1.png" alt="School 1" />
                 <div className="portfolio-info">
                   <h4>Website 1</h4>
                   <div className="portfolio-links">
@@ -69,14 +69,14 @@ function Shop() {
                     >
                       View
                     </Link>
-                    <input type="submit" value="Buy Now" className="btn-buy" />
+                    <button type="submit" value="Buy Now" className="btn-buy" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="portfolio-item">
               <div className="portfolio-wrap">
-                <img src="assets/shop/school2.png" alt="School 5" title="School - Info Era" />
+                <img src="/assets/shop/school2.png" alt="School 5" title="School - Info Era" />
                 <div className="portfolio-info">
                   <h4>Website 2</h4>
                   <div className="portfolio-links">
@@ -90,14 +90,14 @@ function Shop() {
                     >
                       View
                     </Link>
-                    <input type="submit" value="Buy Now" className="btn-buy" />
+                    <button type="submit" value="Buy Now" className="btn-buy" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="portfolio-item">
               <div className="portfolio-wrap">
-                <img src="assets/shop/school3.png" alt="School 5" title="School - Info Era"/>
+                <img src="/assets/shop/school3.png" alt="School 5" title="School - Info Era"/>
                 <div className="portfolio-info">
                   <h4>Website 3</h4>
                   <div className="portfolio-links">
@@ -111,14 +111,14 @@ function Shop() {
                     >
                       View
                     </Link>
-                    <input type="submit" value="Buy Now" className="btn-buy" />
+                    <button type="submit" value="Buy Now" className="btn-buy" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="portfolio-item">
               <div className="portfolio-wrap">
-                <img src="assets/shop/school4.png" alt="School 5" title="School - Info Era" />
+                <img src="/assets/shop/school4.png" alt="School 5" title="School - Info Era" />
                 <div className="portfolio-info">
                   <h4>Website 4</h4>
                   <div className="portfolio-links">
@@ -132,14 +132,14 @@ function Shop() {
                     >
                       View
                     </Link>
-                    <input type="submit" value="Buy Now" className="btn-buy" />
+                    <button type="submit" value="Buy Now" className="btn-buy" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="portfolio-item">
               <div className="portfolio-wrap">
-                <img src="assets/shop/school5.png" alt="School 5" title="School - Info Era"/>
+                <img src="/assets/shop/school5.png" alt="School 5" title="School - Info Era"/>
                 <div className="portfolio-info">
                   <h4>Website 5</h4>
                   <div className="portfolio-links">
@@ -153,14 +153,14 @@ function Shop() {
                     >
                       View
                     </Link>
-                    <input type="submit" value="Buy Now" className="btn-buy" />
+                    <button type="submit" value="Buy Now" className="btn-buy" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="portfolio-item">
               <div className="portfolio-wrap">
-                <img src="assets/shop/school6.png" alt="School 5" />
+                <img src="/assets/shop/school6.png" alt="School 5" />
                 <div className="portfolio-info">
                   <h4>Website 6</h4>
                   <div className="portfolio-links">
@@ -174,14 +174,14 @@ function Shop() {
                     >
                       View
                     </Link>
-                    <input type="submit" value="Buy Now" className="btn-buy" />
+                    <button type="submit" value="Buy Now" className="btn-buy" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="portfolio-item">
               <div className="portfolio-wrap">
-                <img src="assets/shop/school7.png" alt="School 5" title="School-Info Era" />
+                <img src="/assets/shop/school7.png" alt="School 5" title="School-Info Era" />
                 <div className="portfolio-info">
                   <h4>Website 7</h4>
                   <div className="portfolio-links">
@@ -195,14 +195,14 @@ function Shop() {
                     >
                       View
                     </Link>
-                    <input type="submit" value="Buy Now" className="btn-buy" />
+                    <button type="submit" value="Buy Now" className="btn-buy" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="portfolio-item">
               <div className="portfolio-wrap">
-                <img src="assets/shop/school8.png" alt="School 5" />
+                <img src="/assets/shop/school8.png" alt="School 5" />
                 <div className="portfolio-info">
                   <h4>Website 8</h4>
                   <div className="portfolio-links">
@@ -216,14 +216,14 @@ function Shop() {
                     >
                       View
                     </Link>
-                    <input type="submit" value="Buy Now" className="btn-buy" />
+                    <button type="submit" value="Buy Now" className="btn-buy" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="portfolio-item">
               <div className="portfolio-wrap">
-                <img src="assets/shop/school9.png" alt="School 5" />
+                <img src="/assets/shop/school9.png" alt="School 5" />
                 <div className="portfolio-info">
                   <h4>Website 9</h4>
                   <div className="portfolio-links">
@@ -237,14 +237,14 @@ function Shop() {
                     >
                       View
                     </Link>
-                    <input type="submit" value="Buy Now" className="btn-buy" />
+                    <button type="submit" value="Buy Now" className="btn-buy" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="portfolio-item">
               <div className="portfolio-wrap">
-                <img src="assets/shop/ecommerce1.png" alt="School 5" title="School - Info Era"/>
+                <img src="/assets/shop/ecommerce1.png" alt="School 5" title="School - Info Era"/>
                 <div className="portfolio-info">
                   <h4>Ecommerce 1</h4>
                   <div className="portfolio-links">
@@ -258,14 +258,14 @@ function Shop() {
                     >
                       View
                     </Link>
-                    <input type="submit" value="Buy Now" className="btn-buy" />
+                    <button type="submit" value="Buy Now" className="btn-buy" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="portfolio-item">
               <div className="portfolio-wrap">
-                <img src="assets/shop/ecommerce2.png" alt="School 5" title="School - Info Era"/>
+                <img src="/assets/shop/ecommerce2.png" alt="School 5" title="School - Info Era"/>
                 <div className="portfolio-info">
                   <h4>Ecommerce 2</h4>
                   <div className="portfolio-links">
@@ -279,7 +279,7 @@ function Shop() {
                     >
                       View
                     </Link>
-                    <input type="submit" value="Buy Now" className="btn-buy" />
+                    <button type="submit" value="Buy Now" className="btn-buy" />
                   </div>
                 </div>
               </div>

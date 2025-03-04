@@ -37,7 +37,7 @@ function WebDesignBanner() {
     </Helmet>
         <div className="web-design-banner">
       {/* Image Section */}
-      <img src="assets/img/web-design-course.jpg" alt="Web Design Course" title="Web Design Course-Info Era Software Services" />
+      <img src="/assets/img/web-design-course.jpg" alt="Web Design Course" title="Web Design Course-Info Era Software Services" />
 
       {/* Content Section */}
       <div className="web-design-content">

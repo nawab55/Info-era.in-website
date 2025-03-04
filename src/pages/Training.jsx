@@ -201,7 +201,7 @@ function Training() {
               className="col-lg-6 hero-img aos-init aos-animate"
               data-aos="zoom-out"
             >
-              <img src="assets/img/training.png" className="img-fluid" alt="It Training - Info Era" title="It Training - Info Era" />
+              <img src="/assets/img/training.png" className="img-fluid" alt="It Training - Info Era" title="It Training - Info Era" />
             </div>
           </div>
         </div>
@@ -522,7 +522,7 @@ function Training() {
                   id="ContentPlaceHolder1_RequiredFieldValidator14"
                   style={{ color: "red", visibility: "hidden" }}
                 >
-                  Name is require
+                  Pincode is require
                 </span>
                 <br />
               </div>

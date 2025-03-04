@@ -51,7 +51,7 @@ function Navbar() {
           className="logo d-flex align-items-center"
         >
           <img
-            src="assets/img/infoera.png"
+            src="/assets/img/infoera.png"
             alt="Infoera Logo"
             title="Info Era Software Logo"
           />

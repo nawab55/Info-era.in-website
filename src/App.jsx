@@ -14,6 +14,8 @@ import axios from "axios";
 const WebDevelopment = lazy(() => import("./courses/webDevelopmentCourse/WebDevelopment"));
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
+const Blog = lazy(() => import("./pages/Blog"));
+const BlogDetails = lazy(() => import("./pages/BlogDetails"));
 const WebsiteDesign = lazy(() => import("./pages/WebsiteDesign"));
 const WhyChoose = lazy(() => import("./pages/WhyChoose"));
 const WebApplication = lazy(() => import("./pages/WebApplication"));
@@ -243,6 +245,8 @@ function App() {
   const routes = [
     "/",
     "/about",
+    "/blog",
+    "/blog-details/:slug",
     "/why-choose",
     "/website-design",
     "/web-application",
@@ -344,7 +348,7 @@ function App() {
     "/website_development_company_gaya",
     "/website_development_training_cerner_in_jehanabad",
     "/web-design-course",
-    "/mern-stack-workshop",
+    "/mern-stack-workshop"
     // "/exam",
   ];
   // Conditionally include "/exam" route based on assessmentStatus
@@ -393,6 +397,22 @@ function App() {
           element={
             <Suspense fallback={<SkeletonLoader />}>
               <About />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/blog"
+          element={
+            <Suspense fallback={<SkeletonLoader />}>
+              <Blog />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/blog-details/:slug"
+          element={
+            <Suspense fallback={<SkeletonLoader />}>
+              <BlogDetails />
             </Suspense>
           }
         />
@@ -1209,7 +1229,7 @@ function App() {
           path="/mern-stack-workshop"
           element={
             <Suspense fallback={<SkeletonLoader />}>
-              <WebDevelopment/>
+              <WebDevelopment />
             </Suspense>
           }
         />

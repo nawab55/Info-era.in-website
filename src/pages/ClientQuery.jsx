@@ -73,20 +73,28 @@ const ClientQuery = () => {
   };
   return (
     <>
-     <Helmet>
+      <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
-        <title> Client Query | Info Era  </title>
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
+        <title> Client Query | Info Era </title>
         <meta
           name="description"
-          content="Get in touch with Info Era Software Services for queries, support, or collaborations. Contact us today to join and grow with Info Era. We're here to assist you!" />
+          content="Get in touch with Info Era Software Services for queries, support, or collaborations. Contact us today to join and grow with Info Era. We're here to assist you!"
+        />
 
         <meta
           name="keywords"
           content="Contact with infoera, join with infoera, contect us , Info Era Contect Number, Info Era Query, Query with Info Era Software Services"
         />
-        <link rel="canonical" href="https://infoera.in/client-query"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
+        <link
+          rel="canonical"
+          href="https://infoera.in/client-query"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -98,14 +106,18 @@ const ClientQuery = () => {
         <meta name="rating" content="General" />
         <meta name="Resource-type" content="document" />
         <meta name="Author" content="www.infoera.in" />
-        <meta name="document-classification" content="Software & Website development company" />
+        <meta
+          name="document-classification"
+          content="Software & Website development company"
+        />
         <meta name="Distribution" content="Global" />
-       
-        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
 
         <meta name="Publisher" content="www.infoera.in" />
-
-
       </Helmet>
       <div>
         {/* ======= Hero Section ======= */}
@@ -119,7 +131,7 @@ const ClientQuery = () => {
                   fontSize: 13,
                   fontWeight: 700,
                   color: "#4154f1",
-                  textTransform: "none",
+                  textTransform: "none"
                 }}
               />
             </header>
@@ -148,7 +160,11 @@ const ClientQuery = () => {
                 className="col-lg-6 hero-img aos-init aos-animate"
                 data-aos="zoom-out"
               >
-                <img src="assets/img/client.png" className="img-fluid" alt="" />
+                <img
+                  src="/assets/img/client.png"
+                  className="img-fluid"
+                  alt=""
+                />
               </div>
             </div>
           </div>
@@ -167,18 +183,18 @@ const ClientQuery = () => {
                   style={{
                     color: "#0c219a",
                     fontWeight: 700,
-                    marginBottom: 35,
+                    marginBottom: 35
                   }}
                 >
                   <u>Your response is important to us</u>
                 </h3>
                 <div className="col-lg-4">
-                  <label htmlFor="lblname">Name</label>
+                  <label htmlFor="name">Name</label>
                   <input
                     name="name"
                     type="text"
                     value={formData.name}
-                    id="ContentPlaceHolder1_txtname"
+                    id="name"
                     className="form-control"
                     placeholder="Enter Name"
                     onChange={onChangeHanlder}
@@ -188,18 +204,18 @@ const ClientQuery = () => {
                     style={{
                       color: "red",
                       marginBottom: 8,
-                      visibility: "hidden",
+                      visibility: "hidden"
                     }}
                   >
                     Name is require
                   </span>
                   <br />
-                  <label htmlFor="lblfname">Business Type</label>
+                  <label htmlFor="businessType">Business Type</label>
                   <input
                     name="businessType"
                     type="text"
                     value={formData.businessType}
-                    id="ContentPlaceHolder1_txtbusiness"
+                    id="businessType"
                     className="form-control"
                     onChange={onChangeHanlder}
                     placeholder="Enter Business Type"
@@ -208,15 +224,15 @@ const ClientQuery = () => {
                     id="ContentPlaceHolder1_requirefield1"
                     style={{ color: "red", visibility: "hidden" }}
                   >
-                    Father&apos;s name is require
+                    Business Type is require
                   </span>
                   <br />
                   <div id="ContentPlaceHolder1_UpdatePanel1">
-                    <label htmlFor="ddlrequirement">Requirement For</label>
+                    <label htmlFor="requirementFor">Requirement For</label>
                     <select
                       name="requirementFor"
                       value={formData.requirementFor}
-                      id="ContentPlaceHolder1_ddlrequirement"
+                      id="requirementFor"
                       className="form-control"
                       onChange={onChangeHanlder}
                     >
@@ -238,7 +254,10 @@ const ClientQuery = () => {
                   <p style={{ color: "red", fontSize: 12 }} />
                   {formData.requirementFor === "Other" && (
                     <>
-                      <span id="ContentPlaceHolder1_Label1" htmlFor="lblmobile">
+                      <span
+                        id="ContentPlaceHolder1_Label1"
+                        htmlFor="requirementFor"
+                      >
                         Other
                         <span style={{ color: "red", fontSize: 12 }}>
                           (If your requirement is not present in the list then
@@ -246,12 +265,13 @@ const ClientQuery = () => {
                           blank)
                         </span>
                       </span>
+                      <label htmlFor="requirementFor"></label>
                       <input
                         name="requirementFor"
                         value={other}
                         type="text"
                         onChange={(e) => setOther(e.target.value)}
-                        id="ContentPlaceHolder1_txtother"
+                        id="requirementFor"
                         className="form-control"
                         placeholder="Other"
                       />
@@ -260,10 +280,10 @@ const ClientQuery = () => {
                   <br />
                 </div>
                 <div className="col-lg-4">
-                  <label htmlFor="lblgender">Gender</label>
+                  <label htmlFor="gender">Gender</label>
                   <select
                     name="gender"
-                    id="ContentPlaceHolder1_ddlgender"
+                    id="gender"
                     className="form-control"
                     value={formData.gender}
                     onChange={onChangeHanlder}
@@ -273,11 +293,11 @@ const ClientQuery = () => {
                     <option value="Female">Female</option>
                   </select>
                   <br />
-                  <label htmlFor="lblmobile">Mobile</label>
+                  <label htmlFor="mobile">Mobile</label>
                   <input
                     name="mobile"
                     type="text"
-                    id="ContentPlaceHolder1_txtmobile"
+                    id="mobile"
                     className="form-control"
                     placeholder="Enter Mobile"
                     value={formData.mobile}
@@ -290,11 +310,11 @@ const ClientQuery = () => {
                     Mobile is require
                   </span>
                   <br />
-                  <label htmlFor="lblemail">Email</label>
+                  <label htmlFor="email">Email</label>
                   <input
                     name="email"
                     type="text"
-                    id="ContentPlaceHolder1_txtemail"
+                    id="email"
                     className="form-control"
                     value={formData.email}
                     onChange={onChangeHanlder}
@@ -307,12 +327,12 @@ const ClientQuery = () => {
                     Email is require
                   </span>
                   <br />
-                  <label htmlFor="lbladdress">Address</label>
+                  <label htmlFor="address">Address</label>
                   <textarea
                     name="address"
                     rows={2}
                     cols={20}
-                    id="ContentPlaceHolder1_txtaddress"
+                    id="address"
                     className="form-control"
                     placeholder="Enter Address..."
                     style={{ height: 124 }}
@@ -328,11 +348,11 @@ const ClientQuery = () => {
                   <br />
                 </div>
                 <div className="col-lg-4">
-                  <label htmlFor="lblstate">Country</label>
+                  <label htmlFor="country">Country</label>
                   <input
                     name="country"
                     type="text"
-                    id="ContentPlaceHolder1_txtcountry"
+                    id="country"
                     value={formData.country}
                     onChange={onChangeHanlder}
                     className="form-control"
@@ -345,13 +365,13 @@ const ClientQuery = () => {
                     Country is require
                   </span>
                   <br />
-                  <label htmlFor="lblstate">State</label>
+                  <label htmlFor="state">State</label>
                   <input
                     name="state"
                     value={formData.state}
                     onChange={onChangeHanlder}
                     type="text"
-                    id="ContentPlaceHolder1_txtstate"
+                    id="state"
                     className="form-control"
                     placeholder="Enter State"
                   />
@@ -362,13 +382,13 @@ const ClientQuery = () => {
                     State is require
                   </span>
                   <br />
-                  <label htmlFor="lbldistrict">District</label>
+                  <label htmlFor="district">District</label>
                   <input
                     name="district"
                     value={formData.district}
                     onChange={onChangeHanlder}
                     type="text"
-                    id="ContentPlaceHolder1_txtdistrict"
+                    id="district"
                     className="form-control"
                     placeholder="Enter District"
                   />
@@ -379,13 +399,13 @@ const ClientQuery = () => {
                     District is require
                   </span>
                   <br />
-                  <label htmlFor="lblpin">PIN Code</label>
+                  <label htmlFor="pinCode">PIN Code</label>
                   <input
                     name="pinCode"
                     value={formData.pinCode}
                     onChange={onChangeHanlder}
                     type="text"
-                    id="ContentPlaceHolder1_txtpin"
+                    id="pinCode"
                     className="form-control"
                     placeholder="Enter PIN Code"
                   />

@@ -594,7 +594,7 @@ function It_company_in_purnia() {
         <div className="container aos-init" data-aos="fade-up">
           <div className="row">
             <div className="col-lg-6">
-              <img src="assets/img/webpic.png" className="img-fluid" alt="Web Pic - Info Era" title="Web Pic - Info Era" />
+              <img src="/assets/img/webpic.png" className="img-fluid" alt="Web Pic - Info Era" title="Web Pic - Info Era" />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">

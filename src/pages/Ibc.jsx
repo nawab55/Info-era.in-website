@@ -368,7 +368,7 @@ function Ibc() {
                 id="ContentPlaceHolder1_RequiredFieldValidator5"
                 style={{ color: "red", visibility: "hidden" }}
               >
-                Email is require
+                State is require
               </span>
               <br />
               <label htmlFor="district">District</label>

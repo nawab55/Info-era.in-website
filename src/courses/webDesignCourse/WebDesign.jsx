@@ -167,7 +167,7 @@ const WebDesign = () => {
             </header>
             <div className="row">
               <div className="col-md-12">
-                <img src="image/training08.jpeg" alt="Web Designing Training - Info Era Software services" title="Web Designing Training - Info Era Software services" style={{ width: "100%" }} />
+                <img src="/image/training08.jpeg" alt="Web Designing Training - Info Era Software services" title="Web Designing Training - Info Era Software services" style={{ width: "100%" }} />
               </div>
             </div>
             <br />

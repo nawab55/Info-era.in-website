@@ -255,7 +255,7 @@ function Jobs() {
               className="col-lg-6 hero-img aos-init aos-animate"
               data-aos="zoom-out"
             >
-              <img src="assets/img/hiring.png" className="img-fluid" alt="Hiring -Info Era" title="Hiring - Info Era" />
+              <img src="/assets/img/hiring.png" className="img-fluid" alt="Hiring -Info Era" title="Hiring - Info Era" />
             </div>
           </div>
         </div>

@@ -36,13 +36,13 @@ function HeroCrousel() {
         />
       </SwiperSlide>
       <SwiperSlide className="item">
-        <img src="image/slider-3.jpg" alt="Info Era Software Services" />
+        <img src="/image/slider-3.jpg" alt="Info Era Software Services" />
       </SwiperSlide>
       <SwiperSlide className="item">
-        <img src="image/slider-4.jpg" alt="Info Era Software Services" />
+        <img src="/image/slider-4.jpg" alt="Info Era Software Services" />
       </SwiperSlide>
       <SwiperSlide className="item">
-        <img src="image/slider-5.jpg" alt="Info Era Software Services" />
+        <img src="/image/slider-5.jpg" alt="Info Era Software Services" />
       </SwiperSlide>
     </Swiper>
   );

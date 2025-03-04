@@ -5,7 +5,7 @@ const WebApplication = () => {
   return (
     <>
     <Helmet>
-        <>
+        
           <meta charSet="utf-8" />
           <meta
             content="width=device-width, initial-scale=1.0"
@@ -54,7 +54,7 @@ const WebApplication = () => {
             name="Publisher"
             content="Info Era Software Services Pvt. Ltd"
           />
-        </>
+        
       </Helmet>
       {/* ======= Hero Section ======= */}
       <section id="hero" className="hero d-flex align-items-center">
@@ -376,7 +376,7 @@ const WebApplication = () => {
   </header> */}
             <div className="row">
               <div className="col-lg-6">
-                <img src="assets/img/webpic.png" className="img-fluid" alt="" />
+                <img src="/assets/img/webpic.png" className="img-fluid" alt="" />
               </div>
               <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
                 <div className="row align-self-center gy-4">

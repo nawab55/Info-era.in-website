@@ -180,7 +180,7 @@ const PrivacyPolicy = () => {
                   </ul>
                 </div>
                 {/* <div class="col-lg-6">
-      <img src="assets/img/features-2.png" class="img-fluid" alt="">
+      <img src="/assets/img/features-2.png" class="img-fluid" alt="">
     </div> */}
               </div>
               {/* End Feature Tabs */}

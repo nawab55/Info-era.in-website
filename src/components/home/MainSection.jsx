@@ -507,7 +507,7 @@ function MainSection() {
           </header>
           <div className="row">
             <div className="col-md-12">
-              <img src="image/training08.jpeg" title="Training " alt="Training" style={{ width: "100%" }} />
+              <img src="/image/training08.jpeg" title="Training " alt="Training" style={{ width: "100%" }} />
             </div>
           </div>
           <br />

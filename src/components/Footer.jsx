@@ -10,7 +10,7 @@ function Footer() {
               <div className="col-lg-5 col-md-12 footer-info">
                 <Link to="/" className="logo d-flex align-items-center">
                   <img
-                    src="assets/img/infoera.png"
+                    src="/assets/img/infoera.png"
                     alt="Info Era Software Services Logo"
                     title="Logo - Info Era Software Services Pvt.Ltd "
                   />
@@ -88,6 +88,12 @@ function Footer() {
                     <i className="bi bi-chevron-right" />{" "}
                     <Link to="activity" title="Activity Page" aria-label="activity">
                       Activity
+                    </Link>
+                  </li>
+                  <li>
+                    <i className="bi bi-chevron-right" />{" "}
+                    <Link to="blog" title="Blog Page" aria-label="blog">
+                      Blog
                     </Link>
                   </li>
                   <li>
