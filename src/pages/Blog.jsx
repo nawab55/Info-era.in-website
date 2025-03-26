@@ -50,6 +50,10 @@ function Blog() {
     );
   }
 
+  if(!blogs){
+    return <h2>No blogs found.</h2>
+  }
+
   return (
     <section className="blog-section">
       <Helmet >
@@ -85,7 +89,7 @@ function Blog() {
         </div>
 
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-          {blogs.map((blog) => (
+          {blogs?.map((blog) => (
             <div className="col" key={blog._id}>
               <div className="blog-card">
                 <div className="blog-card-image-container">

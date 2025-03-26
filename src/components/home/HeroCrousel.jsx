@@ -23,14 +23,14 @@ function HeroCrousel() {
     >
       <SwiperSlide className="item">
         <img
-          src="image/slider-1.jpg"
+          src="/image/slider-1.jpg"
           alt="Web Application"
           title="Web Application - Info Era Software Services"
         />
       </SwiperSlide>
       <SwiperSlide className="item">
         <img
-          src="image/slider-2.jpg"
+          src="/image/slider-2.jpg"
           alt="Website Designing and Development-Info Era Software Services"
           title="Website Designing and Development-Info Era Software Services"
         />

@@ -32,6 +32,7 @@ const Contact = lazy(() => import("./pages/Contact"));
 const ClientQuery = lazy(() => import("./pages/ClientQuery"));
 const Activity = lazy(() => import("./pages/Activity"));
 const Team = lazy(() => import("./pages/Team"));
+const TeamNew = lazy(() => import("./pages/TeamNew"));
 const Jobs = lazy(() => import("./pages/Jobs"));
 const JobsViewDetails = lazy(() => import("./pages/JobsViewDetails")) ;
 const Training = lazy(() => import("./pages/Training"));
@@ -263,6 +264,7 @@ function App() {
     "/client-query",
     "/activity",
     "/team",
+    "/team-new",
     "/jobs",
     "/view-details",
     "/training",
@@ -541,6 +543,14 @@ function App() {
           element={
             <Suspense fallback={<SkeletonLoader />}>
               <Team />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/team-new"
+          element={
+            <Suspense fallback={<SkeletonLoader />}>
+              <TeamNew />
             </Suspense>
           }
         />

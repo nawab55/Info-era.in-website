@@ -97,12 +97,13 @@ function Activity() {
           style={{ borderRadius: 20, background: "#f3f6fc", paddingTop: 20 }}
         >
           {activities.map((activity) => (
-            <>
+            
               <div
                 className="col-lg-4 mb-4 aos-init aos-animate"
                 data-aos="fade-up"
                 data-aos-duration={1200}
                 data-aos-once="true"
+                key={activity._id}
               >
                 <div className="single-academics-card">
                   <div className="card" style={{ borderRadius: 20 }}>
@@ -134,7 +135,7 @@ function Activity() {
                   </div>
                 </div>
               </div>
-            </>
+            
           ))}
         </div>
       </div>

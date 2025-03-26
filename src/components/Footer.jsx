@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import RazorpayPaymentButton from "./RazorpayPayment/RazorpayPaymentButton";
 
 function Footer() {
   return (
@@ -62,7 +63,7 @@ function Footer() {
                 </div>
                 <div className="paynow" style={{ marginTop: 20 }}>
                   <div className="pm-button">
-                    <Link
+                    {/* <Link
                       to="https://www.payumoney.com/paybypayumoney/#/6DB40DF7CFCA4EEC115857CA73883749" aria-label="Payment" title="Pay Now"
                       target="_blank"
                     >
@@ -71,7 +72,8 @@ function Footer() {
                         alt="Pay Now"
                         title="Pay Now - Info Era Software"
                       />
-                    </Link>
+                    </Link> */}
+                    <RazorpayPaymentButton />
                   </div>
                 </div>
               </div>

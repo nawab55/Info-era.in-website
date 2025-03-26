@@ -1527,7 +1527,7 @@ h3 {
   bottom: 0;
   height: 100%;
   width: 100%;
-  background: url(../img/team-shape.svg) no-repeat center bottom;
+  background: url(/public/assets/img/team-shape.svg) no-repeat center bottom;
   background-size: contain;
   z-index: 1;
 }
@@ -2593,6 +2593,28 @@ a {
 .item {
   border-radius: 2rem;
   overflow: hidden;
+}
+
+/*--------------------------------------------------------------
+# payment button
+--------------------------------------------------------------*/
+.pay-button {
+  background: #3399cc;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.pay-button:hover {
+  background: #2678a1;
+}
+
+.pay-button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
 }
 
 /* shop */

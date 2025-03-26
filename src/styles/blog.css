@@ -268,7 +268,8 @@ a:hover {
 /* Blog Details Page */
 .blog-details-page {
   background-color: #fafafa;
-  padding: 100px 0;
+  /* padding: 100px 0; */
+  margin: 100px 0;
 }
 
 .blog-hero {
