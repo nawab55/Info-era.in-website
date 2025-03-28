@@ -26,9 +26,8 @@ body {
   justify-content: center;
   overflow: hidden;
   transition: background-color 0.5s ease;
-  margin: 100px 0;
+  margin: 100px 0 0 0;
   background-color: rgba(0, 0, 0, 0.8);
-
 }
 
 .hero-banner-content {
@@ -89,10 +88,88 @@ body {
   }
 }
 
+/* Events Section */
+.events-section {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.events-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #012970;
+  margin-bottom: 20px;
+}
+
+.events-text {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.event-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.event-image-wrapper:hover {
+  transform: scale(1.05);
+}
+
+.event-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+@media (max-width: 992px) {
+  .events-section {
+    padding: 60px 0;
+  }
+
+  .event-image {
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .events-title {
+    font-size: 2rem;
+  }
+
+  .events-text {
+    font-size: 1rem;
+  }
+
+  .event-image {
+    height: 180px;
+  }
+}
+
+@media (max-width: 500px) {
+  .events-title {
+    font-size: 1.8rem;
+  }
+
+  .events-text {
+    font-size: 0.9rem;
+  }
+
+  .event-image {
+    height: 150px;
+  }
+}
+
 /* Our Team Section */
 .our-team-section {
   padding: 60px 0;
   background-color: #f9f9f9;
+  position: relative;
 }
 
 .team-container {
@@ -102,7 +179,7 @@ body {
 }
 
 .team-head-text {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 900;
   text-align: center;
   line-height: 50px;
@@ -110,18 +187,17 @@ body {
   color: #012970;
 }
 
-.team-responsive-container {
-  min-height: 75px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+.team-slider-container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
 
 .team-card-container {
   min-height: 75px;
   width: 280px;
-  margin: 0 10px 25px;
+  margin: 0 auto;
 }
 
 .team-card {
@@ -195,6 +271,198 @@ body {
   transform: scale(1.2);
 }
 
+/* Swiper Navigation Buttons */
+.team-swiper-button-prev,
+.team-swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  z-index: 10;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.team-swiper-button-prev:hover,
+.team-swiper-button-next:hover {
+  background: #012970;
+  transform: translateY(-50%) scale(1.05);
+}
+
+.team-swiper-button-prev:hover svg,
+.team-swiper-button-next:hover svg  {
+  stroke: #fff;
+}
+
+.team-swiper-button-prev {
+  left: -50px;
+}
+
+.team-swiper-button-next {
+  right: -50px;
+}
+
+@media (max-width: 1200px) {
+  .team-swiper-button-prev {
+    left: -40px;
+  }
+
+  .team-swiper-button-next {
+    right: -40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .team-swiper-button-prev {
+    left: -30px;
+  }
+
+  .team-swiper-button-next {
+    right: -30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-swiper-button-prev {
+    left: 10px;
+  }
+
+  .team-swiper-button-next {
+    right: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .team-card-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .team-swiper-button-prev,
+  .team-swiper-button-next {
+    width: 30px;
+    height: 30px;
+  }
+
+  .team-swiper-button-prev svg,
+  .team-swiper-button-next svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Expertise Section */
+.expertise-section {
+  padding: 60px 0;
+  background-color: rgb(244, 252, 255);
+}
+
+.expertise-outer-container {
+  padding: 10px 50px;
+}
+
+.expertise-inner-container {
+  max-width: 1320px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.expertise-title {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgb(0, 135, 177);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.expertise-subtitle {
+  font-size: 25px;
+  color: rgb(153, 153, 153);
+  line-height: 35px;
+  max-width: 470px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.expertise-grid {
+  min-height: 75px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.expert-card-container {
+  width: 280px;
+  margin: 0 10px 40px;
+}
+
+.expert-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.expert-image-wrapper {
+  width: 100%;
+  /* height: 260px; */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.expert-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.expert-text {
+  line-height: 25px;
+  margin: 0;
+}
+
+.expert-name {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(102, 102, 102);
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.expert-position {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(0, 135, 177);
+  margin-bottom: 20px;
+}
+
+.expert-social-links {
+  width: 125px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.expert-social-links img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.expert-social-links img:hover {
+  transform: scale(1.2);
+}
+
 /* Responsive Grid System */
 .wk-desk-3 { width: 25%; }
 .wk-ipadp-3 { width: 25%; }
@@ -207,13 +475,47 @@ body {
 
 @media (max-width: 768px) {
   .wk-tab-6 { width: 50%; }
+  .expertise-outer-container {
+    padding: 10px 30px;
+  }
+  .team-head-text {
+    font-size: 30px;
+  }
+  .expertise-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .expertise-subtitle {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  /* .expert-image-wrapper {
+    height: 180px;
+  } */
 }
 
 @media (max-width: 500px) {
-  .team-card-container {
+  .team-card-container,
+  .expert-card-container {
     width: 100%;
     margin: 0 0 25px;
   }
-
+  .team-head-text {
+    font-size: 30px;
+  }
   .wk-mobile-12 { width: 100%; }
+  .expertise-outer-container {
+    padding: 10px 20px;
+  }
+  .expertise-title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .expertise-subtitle {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  /* .expert-image-wrapper {
+    height: 150px;
+  } */
 }
