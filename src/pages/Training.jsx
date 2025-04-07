@@ -1,15 +1,28 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useRazorpay } from "react-razorpay";
 import toast from "react-hot-toast";
 import uploadFile from "../lib/uploadFile";
 import Spinner from "../components/loader/Spinner";
 import WebDevelopmentBanner from "../courses/webDevelopmentCourse/WebDevelopmentBanner";
 import { Helmet } from "react-helmet";
+import axios from "axios";
 
 function Training() {
+  const { Razorpay } = useRazorpay();
+  const [courses, setCourses] = useState([]);
+  const [selectedCourse, setSelectedCourse] = useState(null);
+  const [tempFile, setTempFile] = useState({
+    file: null,
+    fileType: null,
+    fileName: null
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [trainingFormData, setTrainingFormData] = useState({
     name: "",
     email: "",
     mobile: "",
+    courseType: "",
+    feeAmount: 0,
     gender: "", // Can be "male" or "female"
     fatherName: "",
     perCountry: "",
@@ -29,7 +42,7 @@ function Training() {
     collegeRollNo: "",
     streamName: "",
     universityRegNo: "",
-    interestedFor: "",
+    // interestedFor: "",
     profilePhoto: {
       src: null, // File path or URL
       fileType: "", // e.g., "image/jpeg"
@@ -37,13 +50,39 @@ function Training() {
     }
   });
 
-  const [tempFile, setTempFile] = useState({
-    file: null,
-    fileType: null,
-    fileName: null
-  });
+  // Add useEffect to fetch courses
+  useEffect(() => {
+    const fetchCourses = async () => {
+      try {
+        const response = await axios.get(
+          `${
+            import.meta.env.VITE_REACT_APP_BACKEND_BASEURL
+          }/api/training-category/training-fees`
+        );
+        if (response.data.success) {
+          setCourses(response.data.data);
+        }
+      } catch (error) {
+        toast.error("Failed to load courses");
+        console.error(error);
+      }
+    };
+    fetchCourses();
+  }, []);
 
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  // Update handleInputChange for course selection
+  const handleCourseChange = (e) => {
+    const courseId = e.target.value;
+    const course = courses.find((c) => c._id === courseId);
+    if (course) {
+      setSelectedCourse(course);
+      setTrainingFormData((prev) => ({
+        ...prev,
+        courseType: course._id,
+        feeAmount: course.feeAmount
+      }));
+    }
+  };
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -57,13 +96,15 @@ function Training() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+     if (!selectedCourse) {
+       toast.error("Please select a course");
+       return;
+     }
 
     try {
-      // handle more erros
-      if (!tempFile.file) return;
-
       setIsSubmitting(true);
 
+      // Upload file and submit form
       const { success, fileId } = await uploadFile(
         tempFile.file,
         tempFile.fileType
@@ -83,83 +124,136 @@ function Training() {
         }
       };
 
-      const response = await fetch(
+      // Submit form data
+      const response = await axios.post(
         `${
           import.meta.env.VITE_REACT_APP_BACKEND_BASEURL
         }/api/training/student-training`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify(data)
-        }
+        data
       );
 
-      const resData = await response.json();
+       if (response.data.success) {
+         // Initiate payment after successful form submission
+         const orderResponse = await axios.post(
+           `${
+             import.meta.env.VITE_REACT_APP_BACKEND_BASEURL
+           }/api/payments/create-order`,
+           {
+             amount: selectedCourse.feeAmount,
+             courseId: selectedCourse._id // Send course ID for verification
+           }
+         );
 
-      if (resData.success) {
-        toast.success(resData.message);
-        setTrainingFormData({
-          name: "",
-          email: "",
-          mobile: "",
-          gender: "", // Can be "male" or "female"
-          fatherName: "",
-          perCountry: "",
-          perState: "",
-          perDistrict: "",
-          perPinCode: "",
-          perAddress: "",
-          corCountry: "",
-          corState: "",
-          corDistrict: "",
-          corPinCode: "",
-          corAddress: "",
-          qualification: "",
-          collegeName: "",
-          passingYear: "",
-          universityName: "",
-          collegeRollNo: "",
-          streamName: "",
-          universityRegNo: "",
-          interestedFor: "",
-          profilePhoto: {
-            src: null, // File path or URL
-            fileType: "", // e.g., "image/jpeg"
-            fileName: "" // e.g., "photo.jpg"
-          }
-        });
-      } else {
-        toast.error(resData.message);
-      }
+         const options = {
+           key: import.meta.env.VITE_REACT_APP_RAZORPAY_KEY_ID,
+           amount: orderResponse.data.order.amount,
+           currency: "INR",
+           name: "Info Era Software Services",
+           description: `Payment for ${selectedCourse.categoryName}`,
+           order_id: orderResponse.data.order.id,
+           handler: async (paymentResponse) => {
+             try {
+               await axios.post(
+                 `${
+                   import.meta.env.VITE_REACT_APP_BACKEND_BASEURL
+                 }/api/payments/verify-payment`,
+                 {
+                   order_id: paymentResponse.razorpay_order_id,
+                   payment_id: paymentResponse.razorpay_payment_id,
+                   signature: paymentResponse.razorpay_signature,
+                   courseId: selectedCourse._id // Include course ID in verification
+                 }
+               );
+               toast.success("Payment Successful!");
+               // Reset form
+              //  setTrainingFormData(/* initial state */);
+              setTrainingFormData({
+                name: "",
+                email: "",
+                mobile: "",
+                courseType: "",
+                feeAmount: 0,
+                gender: "", // Can be "male" or "female"
+                fatherName: "",
+                perCountry: "",
+                perState: "",
+                perDistrict: "",
+                perPinCode: "",
+                perAddress: "",
+                corCountry: "",
+                corState: "",
+                corDistrict: "",
+                corPinCode: "",
+                corAddress: "",
+                qualification: "",
+                collegeName: "",
+                passingYear: "",
+                universityName: "",
+                collegeRollNo: "",
+                streamName: "",
+                universityRegNo: "",
+                profilePhoto: {
+                  src: null, // File path or URL
+                  fileType: "", // e.g., "image/jpeg"
+                  fileName: "" // e.g., "photo.jpg"
+                }
+              });
+             } catch (error) {
+               toast.error("Payment verification failed");
+               console.error(error);
+             }
+           },
+           prefill: {
+             name: trainingFormData.name,
+             email: trainingFormData.email,
+             contact: trainingFormData.mobile
+           },
+           theme: { color: "#3399cc" }
+         };
+
+         const rzp = new Razorpay(options);
+         rzp.open();
+       }
     } catch (error) {
+      toast.error(error.response?.data?.message || "Submission failed");
       console.log(error);
     } finally {
       setIsSubmitting(false);
     }
-  };
+  }; 
 
   return (
     <>
-    <Helmet>
+      <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
 
-         {/* Google site Verification  Start */}
-         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* Google site Verification  Start */}
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
         {/* End */}
-        
-        <title>  IT Training Institute in Patna, IT Training Internship Company in Patna Bihar - Info Era Software Services</title>
+
+        <title>
+          {" "}
+          IT Training Institute in Patna, IT Training Internship Company in
+          Patna Bihar - Info Era Software Services
+        </title>
         <meta
           name="description"
-          content="New Student Training Program in Patna, Php Oracle Training for BSc BE BTech BSC-IT BCA MCA BBA MBA Engineering Freshmen, Second, Third, and Final Year Students in Patna in MySQL C C++ C# Java JSP ASP Dot Net Python MVC Android SQL MySQL" />
+          content="New Student Training Program in Patna, Php Oracle Training for BSc BE BTech BSC-IT BCA MCA BBA MBA Engineering Freshmen, Second, Third, and Final Year Students in Patna in MySQL C C++ C# Java JSP ASP Dot Net Python MVC Android SQL MySQL"
+        />
 
         <meta
           name="keywords"
           content="Two, three, four, six, nine, and ten weeks of training on real projects for new students in Patna, Training Program Providing Companies in Patna Bihar, Training Program for Second Third Final Year Students in Patna"
         />
-        <link rel="canonical" href="http://infoera.in/training" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
+        <link
+          rel="canonical"
+          href="http://infoera.in/training"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -171,15 +265,25 @@ function Training() {
         <meta name="rating" content="General" />
         <meta name="Resource-type" content="document" />
         <meta name="Author" content="www.infoera.in" />
-        <meta name="document-classification" content="E-Learning Solutions Service provider in Patna" />
+        <meta
+          name="document-classification"
+          content="E-Learning Solutions Service provider in Patna"
+        />
         <meta name="Distribution" content="Global" />
-        <meta name="document-classification" content="Info Era Software Services Pvt. Ltd. Contact_Number-7008411312 Email-infoerapvtltd@gmail.com Website-www.infoera.in" />
-        <meta name="Keyphrase" content ="Best Treaning Center in Patna Bihar, IT Treaning Center in Patna, Top IT Treaning Center in Bihar India, Website Designing Treaning Center in Patna Bihar, Top Treaning Institute in Patna "/>
-        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta
+          name="document-classification"
+          content="Info Era Software Services Pvt. Ltd. Contact_Number-7008411312 Email-infoerapvtltd@gmail.com Website-www.infoera.in"
+        />
+        <meta
+          name="Keyphrase"
+          content="Best Treaning Center in Patna Bihar, IT Treaning Center in Patna, Top IT Treaning Center in Bihar India, Website Designing Treaning Center in Patna Bihar, Top Treaning Institute in Patna "
+        />
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
 
         <meta name="Publisher" content="www.infoera.in" />
-
-
       </Helmet>
       {/* ======= Hero Section ======= */}
       <section id="hero" className="hero d-flex align-items-center">
@@ -201,7 +305,12 @@ function Training() {
               className="col-lg-6 hero-img aos-init aos-animate"
               data-aos="zoom-out"
             >
-              <img src="/assets/img/training.png" className="img-fluid" alt="It Training - Info Era" title="It Training - Info Era" />
+              <img
+                src="/assets/img/training.png"
+                className="img-fluid"
+                alt="It Training - Info Era"
+                title="It Training - Info Era"
+              />
             </div>
           </div>
         </div>
@@ -212,9 +321,11 @@ function Training() {
       <section id="courses" className="courses">
         <div className="container aos-init aos-animate" data-aos="fade-up">
           {/* <WebDesignBanner /> */}
-          <h3 style={{ color: "#0c219a", fontWeight: 700, marginBottom: "1rem" }}>
-           Our Upcoming Training Session.
-          </h3>
+          <h1
+            style={{ color: "#0c219a", fontWeight: 700, marginBottom: "1rem" }}
+          >
+            Our Upcoming Training Session.
+          </h1>
           <WebDevelopmentBanner />
         </div>
       </section>
@@ -239,43 +350,167 @@ function Training() {
                 Personal Details:<span style={{ color: "red" }}> *</span>
               </h5>
               <hr style={{ color: "red", marginBottom: 40 }} />
-              <div className="col-lg-4 col-md-6">
-                <label htmlFor="name">Name</label>
-                <input
-                  name="name"
-                  type="text"
-                  id="name"
-                  value={trainingFormData.name}
-                  onChange={handleInputChange}
+
+              {/* Add Course Selection in Personal Details */}
+              {/* <div className="col-lg-4 col-md-6">
+                <label htmlFor="courseType">Course Type</label>
+                <select
+                  name="courseType"
+                  id="courseType"
                   className="form-control"
-                  placeholder="Enter Name"
-                />
-                <span
-                  id="ContentPlaceHolder1_RequiredFieldValidator1"
-                  style={{ color: "red", visibility: "hidden" }}
+                  value={trainingFormData.courseType}
+                  onChange={handleCourseChange}
+                  required
                 >
-                  Name is require
-                </span>
-                <br />
-                <label htmlFor="fatherName">Father&apos;s Name</label>
-                <input
-                  name="fatherName"
-                  type="text"
-                  id="fatherName"
-                  className="form-control"
-                  value={trainingFormData.fatherName}
-                  onChange={handleInputChange}
-                  placeholder="Enter Father's Name"
-                />
-                <span
-                  id="ContentPlaceHolder1_RequiredFieldValidator2"
-                  style={{ color: "red", visibility: "hidden" }}
-                >
-                  Father&apos;s Name is require
-                </span>
-                <br />
+                  <option value="">Select Course</option>
+                  {courses.map((course) => (
+                    <option key={course._id} value={course._id}>
+                      {course.categoryName}
+                    </option>
+                  ))}
+                </select>
               </div>
               <div className="col-lg-4 col-md-6">
+                <label htmlFor="feeAmount">Course Fee (₹)</label>
+                <input
+                  type="number"
+                  id="feeAmount"
+                  className="form-control"
+                  value={trainingFormData.feeAmount}
+                  readOnly
+                  disabled
+                  style={{ cursor: "not-allowed", backgroundColor: "#e9ecef" }}
+                  onKeyDown={(e) => e.preventDefault()}
+                  onMouseDown={(e) => e.preventDefault()}
+                />
+              </div> */}
+              {/* First Row */}
+              <div className="row">
+                <div className="col-lg-4 col-md-6 mb-3">
+                  <label htmlFor="courseType">Course Type</label>
+                  <select
+                    name="courseType"
+                    id="courseType"
+                    className="form-control"
+                    value={trainingFormData.courseType}
+                    onChange={handleCourseChange}
+                    required
+                  >
+                    <option value="">Select Course</option>
+                    {courses.map((course) => (
+                      <option key={course._id} value={course._id}>
+                        {course.categoryName}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                <div className="col-lg-4 col-md-6 mb-3">
+                  <label htmlFor="feeAmount">Course Fee (₹)</label>
+                  <input
+                    type="number"
+                    id="feeAmount"
+                    className="form-control"
+                    value={trainingFormData.feeAmount}
+                    readOnly
+                    disabled
+                    style={{
+                      cursor: "not-allowed",
+                      backgroundColor: "#e9ecef"
+                    }}
+                  />
+                </div>
+
+                <div className="col-lg-4 col-md-6 mb-3">
+                  <label htmlFor="name">Full Name</label>
+                  <input
+                    name="name"
+                    type="text"
+                    id="name"
+                    value={trainingFormData.name}
+                    onChange={handleInputChange}
+                    className="form-control"
+                    placeholder="Enter Full Name"
+                    required
+                  />
+                </div>
+              </div>
+
+              {/* Second Row */}
+              <div className="row">
+                <div className="col-lg-4 col-md-6 mb-3">
+                  <label htmlFor="fatherName">Father&apos;s Name</label>
+                  <input
+                    name="fatherName"
+                    type="text"
+                    id="fatherName"
+                    className="form-control"
+                    value={trainingFormData.fatherName}
+                    onChange={handleInputChange}
+                    placeholder="Enter Father's Name"
+                    required
+                  />
+                </div>
+                <div className="col-lg-4 col-md-6 mb-3">
+                  <label htmlFor="gender">Gender</label>
+                  <select
+                    name="gender"
+                    id="gender"
+                    className="form-control"
+                    value={trainingFormData.gender}
+                    onChange={handleInputChange}
+                    required
+                  >
+                    <option value="">-- Select Gender --</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </div>
+
+                <div className="col-lg-4 col-md-6 mb-3">
+                  <label htmlFor="mobile">Mobile Number</label>
+                  <input
+                    name="mobile"
+                    type="tel"
+                    id="mobile"
+                    value={trainingFormData.mobile}
+                    onChange={handleInputChange}
+                    className="form-control"
+                    placeholder="Enter Mobile Number"
+                    required
+                  />
+                </div>
+              </div>
+              {/* Third Row */}
+              <div className="row">
+                <div className="col-lg-4 col-md-6 mb-3">
+                  <label htmlFor="email">Email Address</label>
+                  <input
+                    name="email"
+                    type="email"
+                    id="email"
+                    value={trainingFormData.email}
+                    onChange={handleInputChange}
+                    className="form-control"
+                    placeholder="Enter Email Address"
+                    required
+                  />
+                </div>
+
+                <div className="col-lg-4 col-md-6 mb-3">
+                  <label htmlFor="profilePhoto">Upload Photo</label>
+                  <input
+                    type="file"
+                    name="profilePhoto"
+                    id="profilePhoto"
+                    accept="image/*"
+                    className="form-control"
+                    onChange={handleFileUpload}
+                    required
+                  />
+                </div>
+              </div>
+              {/* <div className="col-lg-4 col-md-6">
                 <label htmlFor="gender">Gender</label>
                 <select
                   name="gender"
@@ -306,8 +541,8 @@ function Training() {
                   Email is require
                 </span>
                 <br />
-              </div>
-              <div className="col-lg-4 col-md-6">
+              </div> */}
+              {/* <div className="col-lg-4 col-md-6">
                 <label htmlFor="mobile">Mobile</label>
                 <input
                   name="mobile"
@@ -325,7 +560,20 @@ function Training() {
                   Mobile is require
                 </span>
                 <br />
-              </div>
+              </div> */}
+              {/* Move Profile Photo to Personal Details */}
+              {/* <div className="col-lg-4 col-md-6">
+                <label htmlFor="profilePhoto">Upload Photo</label>
+                <input
+                  type="file"
+                  name="profilePhoto"
+                  id="profilePhoto"
+                  accept="image/*"
+                  className="form-control"
+                  onChange={handleFileUpload}
+                  required
+                />
+              </div> */}
               <h5
                 style={{ paddingTop: 25, fontWeight: "bold", color: "#0d6efd" }}
               >
@@ -601,7 +849,7 @@ function Training() {
                   />
                   <br />
 
-                  <label htmlFor="interestedFor">Interested for</label>
+                  {/* <label htmlFor="interestedFor">Interested for</label>
                   <input
                     name="interestedFor"
                     type="text"
@@ -611,7 +859,7 @@ function Training() {
                     value={trainingFormData.interestedFor}
                     onChange={handleInputChange}
                   />
-                  <br />
+                  <br /> */}
                 </div>
 
                 <div className="col-lg-4 col-md-6">
@@ -639,7 +887,7 @@ function Training() {
                   />
                   <br />
 
-                  <label htmlFor="profilePhoto">Upload Photo</label>
+                  {/* <label htmlFor="profilePhoto">Upload Photo</label>
                   <input
                     type="file"
                     name="profilePhoto"
@@ -647,8 +895,8 @@ function Training() {
                     accept="image/*"
                     className="form-control"
                     onChange={handleFileUpload}
-                  />
-                  <br />
+                  /> */}
+                  {/* <br /> */}
                   <br />
 
                   <button

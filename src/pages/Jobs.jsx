@@ -116,18 +116,6 @@ function Jobs() {
         },
       };
 
-      // const response = await fetch(
-      //   `${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/jobform/post-jobForm`,
-      //   {
-      //     method: "POST",
-      //     headers: { "Content-Type": "application/json" },
-      //     body: JSON.stringify(data),
-      //   }
-      // );
-      // const resData = await response.json();
-
-      // console.log(data)
-
       const response = await axios.post(
         `${
           import.meta.env.VITE_REACT_APP_BACKEND_BASEURL

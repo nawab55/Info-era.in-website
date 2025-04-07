@@ -63,21 +63,9 @@ TeamMemberCard.propTypes = {
 };
 
 // Reusable Expert Card Component
-const ExpertCard = ({
-  imageSrc,
-  name,
-  position,
-  twitterLink,
-  facebookLink,
-  instagramLink,
-  emailLink
-}) => {
+const ExpertCard = ({ imageSrc, name, position, description, experience }) => {
   return (
-    <div
-      className="expert-card-container"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-    >
+    <div className="expert-card-container">
       <div className="expert-card">
         <div className="expert-image-wrapper">
           <img
@@ -88,32 +76,8 @@ const ExpertCard = ({
         </div>
         <p className="expert-text expert-name">{name}</p>
         <p className="expert-text expert-position">{position}</p>
-        <div className="expert-social-links">
-          <a href={twitterLink} target="_blank" rel="noopener noreferrer">
-            <img
-              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"
-              alt="Twitter"
-            />
-          </a>
-          <a href={facebookLink} target="_blank" rel="noopener noreferrer">
-            <img
-              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"
-              alt="Facebook"
-            />
-          </a>
-          <a href={instagramLink} target="_blank" rel="noopener noreferrer">
-            <img
-              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"
-              alt="Instagram"
-            />
-          </a>
-          <a href={emailLink} target="_blank" rel="noopener noreferrer">
-            <img
-              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"
-              alt="Email"
-            />
-          </a>
-        </div>
+        <p className="expert-text expert-description">{description}</p>
+        <p className="expert-text expert-experience">{experience}</p>
       </div>
     </div>
   );
@@ -123,10 +87,8 @@ ExpertCard.propTypes = {
   imageSrc: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   position: PropTypes.string.isRequired,
-  twitterLink: PropTypes.string.isRequired,
-  facebookLink: PropTypes.string.isRequired,
-  instagramLink: PropTypes.string.isRequired,
-  emailLink: PropTypes.string.isRequired
+  description: PropTypes.string.isRequired,
+  experience: PropTypes.string.isRequired
 };
 
 function Team() {
@@ -136,46 +98,74 @@ function Team() {
 
   const teamMembers = [
     {
-      imageSrc:
-        "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-      name: "Davis George",
-      position: "CEO",
+      imageSrc: "assets/teamSlider/shubham.png",
+      name: "Shubham Raj",
+      position: "CMO",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       twitterLink: "https://www.twitter.com",
       facebookLink: "https://www.facebook.com"
     },
     {
-      imageSrc:
-        "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png",
-      name: "Davis George",
-      position: "CEO",
+      imageSrc: "assets/teamSlider/HR-InfoEra.png",
+      name: "Anjali Kumari",
+      position: "HR Manager",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       twitterLink: "https://www.twitter.com",
       facebookLink: "https://www.facebook.com"
     },
     {
-      imageSrc:
-        "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.14.png",
-      name: "Davis George",
-      position: "CEO",
+      imageSrc: "assets/teamSlider/images/aman.png",
+      name: "Aman Soben",
+      position: "Software Developer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       twitterLink: "https://www.twitter.com",
       facebookLink: "https://www.facebook.com"
     },
     {
-      imageSrc:
-        "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.15.png",
-      name: "Davis George",
-      position: "CEO",
+      imageSrc: "assets/teamSlider/images/rohitkumar.png",
+      name: "Rohit Kumar",
+      position: "Digital Marketing Executive",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      twitterLink: "https://www.twitter.com",
+      facebookLink: "https://www.facebook.com"
+    },
+
+    {
+      imageSrc: "assets/teamSlider/images/kunal.png",
+      name: "Kishan Kunal",
+      position: "Software Engineer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       twitterLink: "https://www.twitter.com",
       facebookLink: "https://www.facebook.com"
     },
     {
-      imageSrc:
-        "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png",
-      name: "Davis George",
-      position: "CEO",
+      imageSrc: "assets/teamSlider/images/himanshu.jpg",
+      name: "Himanshu Shekhar",
+      position: "Software Engineer",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      twitterLink: "https://www.twitter.com",
+      facebookLink: "https://www.facebook.com"
+    },
+    {
+      imageSrc: "assets/teamSlider/images/gauravverma.png",
+      name: "Gaurav Verma",
+      position: "Software Engineer",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      twitterLink: "https://www.twitter.com",
+      facebookLink: "https://www.facebook.com"
+    },
+    {
+      imageSrc: "assets/teamSlider/images/samir.png",
+      name: "Samir Ansari",
+      position: "Software Developer",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      twitterLink: "https://www.twitter.com",
+      facebookLink: "https://www.facebook.com"
+    },
+    {
+      imageSrc: "assets/teamSlider/images/Md_Nawab.png",
+      name: "Md Nawab",
+      position: "Software Engineer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       twitterLink: "https://www.twitter.com",
       facebookLink: "https://www.facebook.com"
@@ -183,54 +173,49 @@ function Team() {
   ];
 
   const eventImages = [
-    "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
-    "https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=1470&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
-    "https://images.unsplash.com/photo-1561489396-888724a1543d?w=500&auto=format&fit=crop&q=60",
-    "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
-    "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80"
+    "/assets/teamSlider/events/pic ok4.png",
+    "/assets/teamSlider/events/IMG_9846.JPG",
+    "/assets/teamSlider/events/rrr (1).png",
+    "/assets/teamSlider/events/IMG_9821.JPG",
+    "/assets/teamSlider/events/IMG_9859 (1).JPG",
+    "/assets/teamSlider/events/R_6P0843 (2).JPG"
   ];
 
   const experts = [
     {
-      imageSrc:
-        "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-      name: "Maxwell Doe",
-      position: "Instructor",
-      twitterLink: "http://www.twitter.com/",
-      facebookLink: "http://www.facebook.com/",
-      instagramLink: "http://www.instagram.com/",
-      emailLink: "mailto:maxwell@example.com"
+      imageSrc: "/assets/teamSlider/expert/Niraj_sir.png",
+      name: "Niraj Vinod Sinha",
+      position: "Mentor",
+      description: "MBA, IT (IIM Calcutta)",
+      experience: "More than 15+ years of Experience in IT Domain"
     },
     {
-      imageSrc:
-        "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png",
-      name: "Maxwell Doe",
-      position: "Instructor",
-      twitterLink: "http://www.twitter.com/",
-      facebookLink: "http://www.facebook.com/",
-      instagramLink: "http://www.instagram.com/",
-      emailLink: "mailto:maxwell@example.com"
+      imageSrc: "/assets/teamSlider/expert/Pkrao.png",
+      name: "Mr. P. K. Rao",
+      position: "Training & Placement Expert",
+      description: "DSTTE-BIHAR",
+      experience: "More than 15+ years of Experience"
     },
     {
-      imageSrc:
-        "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png",
-      name: "Maxwell Doe",
-      position: "Instructor",
-      twitterLink: "http://www.twitter.com/",
-      facebookLink: "http://www.facebook.com/",
-      instagramLink: "http://www.instagram.com/",
-      emailLink: "mailto:maxwell@example.com"
+      imageSrc: "assets/teamSlider/expert/Ambar_kumar.png",
+      name: "Ambar Kumar",
+      position: "Manager HR & IR",
+      description: "MBA from BHU",
+      experience: "More than 17+ years of Experience in Core Domain"
     },
     {
-      imageSrc:
-        "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png",
-      name: "Maxwell Doe",
-      position: "Instructor",
-      twitterLink: "http://www.twitter.com/",
-      facebookLink: "http://www.facebook.com/",
-      instagramLink: "http://www.instagram.com/",
-      emailLink: "mailto:maxwell@example.com"
+      imageSrc: "assets/teamSlider/expert/Ayush_dev.png",
+      name: "Ayush Dev",
+      position: "AI Engineer and Consultant",
+      description: "BSc Artificial Intelligence & Physics, Virginia Tech USA",
+      experience: "More than 5+ years of Experience"
+    },
+    {
+      imageSrc: "assets/teamSlider/expert/Ridhima-madam.png",
+      name: "Ridhima Srivastava",
+      position: "Senior Advisor",
+      description: "MBA- HR & IT",
+      experience: "More than 15+ years of Experience in IT Domain"
     }
   ];
 
@@ -368,10 +353,10 @@ function Team() {
                 slidesPerView={4}
                 loop={true}
                 autoplay={{
-                  delay: 3000, // 3 seconds delay between slides
+                  delay: 3000,
                   disableOnInteraction: false
                 }}
-                speed={800} // Smooth sliding speed
+                speed={800}
                 navigation={{
                   nextEl: ".team-swiper-button-next",
                   prevEl: ".team-swiper-button-prev"
@@ -389,7 +374,7 @@ function Team() {
                       imageSrc={member.imageSrc}
                       name={member.name}
                       position={member.position}
-                      description={member.description}
+                      // description={member.description}
                       twitterLink={member.twitterLink}
                       facebookLink={member.facebookLink}
                     />
@@ -415,35 +400,60 @@ function Team() {
           data-aos-duration="1000"
         >
           <div className="expertise-outer-container">
-            <div className="expertise-inner-container">
-              <p
-                className="expertise-title"
-                data-aos="fade-down"
-                data-aos-duration="1000"
+            <p
+              className="expertise-title"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              Meet Our Expert Instructors
+            </p>
+            <p
+              className="expertise-subtitle"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <div className="expertise-slider-container">
+              <Swiper
+                modules={[Navigation, Autoplay]}
+                spaceBetween={20}
+                slidesPerView={4}
+                loop={true}
+                autoplay={{
+                  delay: 3000,
+                  disableOnInteraction: false
+                }}
+                speed={800}
+                navigation={{
+                  nextEl: ".expert-swiper-button-next",
+                  prevEl: ".expert-swiper-button-prev"
+                }}
+                breakpoints={{
+                  320: { slidesPerView: 1 },
+                  768: { slidesPerView: 2 },
+                  992: { slidesPerView: 3 },
+                  1200: { slidesPerView: 4 }
+                }}
               >
-                Meet Our Expert Instructors
-              </p>
-              <p
-                className="expertise-subtitle"
-                data-aos="fade-up"
-                data-aos-delay="200"
-                data-aos-duration="1000"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-              <div className="expertise-grid">
                 {experts.map((expert, index) => (
-                  <ExpertCard
-                    key={index}
-                    imageSrc={expert.imageSrc}
-                    name={expert.name}
-                    position={expert.position}
-                    twitterLink={expert.twitterLink}
-                    facebookLink={expert.facebookLink}
-                    instagramLink={expert.instagramLink}
-                    emailLink={expert.emailLink}
-                  />
+                  <SwiperSlide key={index}>
+                    <ExpertCard
+                      imageSrc={expert.imageSrc}
+                      name={expert.name}
+                      position={expert.position}
+                      description={expert.description}
+                      experience={expert.experience}
+                    />
+                  </SwiperSlide>
                 ))}
+              </Swiper>
+              <div className="expert-swiper-button-prev">
+                <ChevronLeft size={24} color="#012970" />
+              </div>
+              <div className="expert-swiper-button-next">
+                <ChevronRight size={24} color="#012970" />
               </div>
             </div>
           </div>

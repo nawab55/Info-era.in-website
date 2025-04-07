@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import "../styles/Blog.css";
+import "../styles/blog.css";
 import ReactPaginate from "react-paginate";
 import { Clock, ArrowRight } from "lucide-react";
 import { Helmet } from "react-helmet-async";

@@ -186,7 +186,7 @@ const WebApplication = () => {
                   Hospital Management System.
                 </p>
                 <Link
-                  to="http://hospital.infoerasoftware.com/login.aspx"
+                  to="#"
                   target="_blank"
                   type="button"
                   className="btn btn-outline-primary"
@@ -212,7 +212,7 @@ const WebApplication = () => {
                   <br />
                 </p>
                 <Link
-                  to="http://hotel.infoerasoftware.com"
+                  to="#"
                   type="button"
                   className="btn btn-outline-primary"
                   style={{ marginTop: 24 }}
@@ -243,7 +243,7 @@ const WebApplication = () => {
                   clients and financial transactions.
                 </p>
                 <Link
-                  to="about"
+                  to="#"
                   type="button"
                   className="btn btn-outline-primary"
                 >
@@ -272,7 +272,7 @@ const WebApplication = () => {
                   the client and is not an off-the-shelf solution.
                 </p>
                 <Link
-                  to="about"
+                  to="#"
                   type="button"
                   className="btn btn-outline-primary"
                   style={{ marginTop: 48 }}
