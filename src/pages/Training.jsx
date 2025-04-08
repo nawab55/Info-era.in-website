@@ -121,7 +121,8 @@ function Training() {
           src: fileId,
           fileType: tempFile.fileType,
           fileName: tempFile.fileName
-        }
+        },
+        status: "pending" // Add initial status
       };
 
       // Submit form data
@@ -133,6 +134,9 @@ function Training() {
       );
 
        if (response.data.success) {
+         // Store the created ID for later update
+         const tempRecordId = response.data.data._id;
+
          // Initiate payment after successful form submission
          const orderResponse = await axios.post(
            `${
@@ -153,6 +157,7 @@ function Training() {
            order_id: orderResponse.data.order.id,
            handler: async (paymentResponse) => {
              try {
+               // Verify payment
                await axios.post(
                  `${
                    import.meta.env.VITE_REACT_APP_BACKEND_BASEURL
@@ -161,43 +166,51 @@ function Training() {
                    order_id: paymentResponse.razorpay_order_id,
                    payment_id: paymentResponse.razorpay_payment_id,
                    signature: paymentResponse.razorpay_signature,
-                   courseId: selectedCourse._id // Include course ID in verification
+                   courseId: selectedCourse._id, // Include course ID in verification
+                   recordId: tempRecordId // Pass the temporary record ID
                  }
+               );
+               // Update record status to completed
+               await axios.patch(
+                 `${
+                   import.meta.env.VITE_REACT_APP_BACKEND_BASEURL
+                 }/api/training/update/${tempRecordId}`,
+                 { status: "completed" }
                );
                toast.success("Payment Successful!");
                // Reset form
-              //  setTrainingFormData(/* initial state */);
-              setTrainingFormData({
-                name: "",
-                email: "",
-                mobile: "",
-                courseType: "",
-                feeAmount: 0,
-                gender: "", // Can be "male" or "female"
-                fatherName: "",
-                perCountry: "",
-                perState: "",
-                perDistrict: "",
-                perPinCode: "",
-                perAddress: "",
-                corCountry: "",
-                corState: "",
-                corDistrict: "",
-                corPinCode: "",
-                corAddress: "",
-                qualification: "",
-                collegeName: "",
-                passingYear: "",
-                universityName: "",
-                collegeRollNo: "",
-                streamName: "",
-                universityRegNo: "",
-                profilePhoto: {
-                  src: null, // File path or URL
-                  fileType: "", // e.g., "image/jpeg"
-                  fileName: "" // e.g., "photo.jpg"
-                }
-              });
+               //  setTrainingFormData(/* initial state */);
+               setTrainingFormData({
+                 name: "",
+                 email: "",
+                 mobile: "",
+                 courseType: "",
+                 feeAmount: 0,
+                 gender: "", // Can be "male" or "female"
+                 fatherName: "",
+                 perCountry: "",
+                 perState: "",
+                 perDistrict: "",
+                 perPinCode: "",
+                 perAddress: "",
+                 corCountry: "",
+                 corState: "",
+                 corDistrict: "",
+                 corPinCode: "",
+                 corAddress: "",
+                 qualification: "",
+                 collegeName: "",
+                 passingYear: "",
+                 universityName: "",
+                 collegeRollNo: "",
+                 streamName: "",
+                 universityRegNo: "",
+                 profilePhoto: {
+                   src: null, // File path or URL
+                   fileType: "", // e.g., "image/jpeg"
+                   fileName: "" // e.g., "photo.jpg"
+                 }
+               });
              } catch (error) {
                toast.error("Payment verification failed");
                console.error(error);
@@ -352,38 +365,6 @@ function Training() {
               <hr style={{ color: "red", marginBottom: 40 }} />
 
               {/* Add Course Selection in Personal Details */}
-              {/* <div className="col-lg-4 col-md-6">
-                <label htmlFor="courseType">Course Type</label>
-                <select
-                  name="courseType"
-                  id="courseType"
-                  className="form-control"
-                  value={trainingFormData.courseType}
-                  onChange={handleCourseChange}
-                  required
-                >
-                  <option value="">Select Course</option>
-                  {courses.map((course) => (
-                    <option key={course._id} value={course._id}>
-                      {course.categoryName}
-                    </option>
-                  ))}
-                </select>
-              </div>
-              <div className="col-lg-4 col-md-6">
-                <label htmlFor="feeAmount">Course Fee (₹)</label>
-                <input
-                  type="number"
-                  id="feeAmount"
-                  className="form-control"
-                  value={trainingFormData.feeAmount}
-                  readOnly
-                  disabled
-                  style={{ cursor: "not-allowed", backgroundColor: "#e9ecef" }}
-                  onKeyDown={(e) => e.preventDefault()}
-                  onMouseDown={(e) => e.preventDefault()}
-                />
-              </div> */}
               {/* First Row */}
               <div className="row">
                 <div className="col-lg-4 col-md-6 mb-3">
@@ -510,70 +491,6 @@ function Training() {
                   />
                 </div>
               </div>
-              {/* <div className="col-lg-4 col-md-6">
-                <label htmlFor="gender">Gender</label>
-                <select
-                  name="gender"
-                  id="gender"
-                  className="form-control"
-                  value={trainingFormData.gender}
-                  onChange={handleInputChange}
-                >
-                  <option value="">--Select--</option>
-                  <option value="male">Male</option>
-                  <option value="female">Female</option>
-                </select>
-                <br />
-                <label htmlFor="email">Email</label>
-                <input
-                  name="email"
-                  type="text"
-                  id="email"
-                  value={trainingFormData.email}
-                  onChange={handleInputChange}
-                  className="form-control"
-                  placeholder="Enter Email"
-                />
-                <span
-                  id="ContentPlaceHolder1_RequiredFieldValidator3"
-                  style={{ color: "red", visibility: "hidden" }}
-                >
-                  Email is require
-                </span>
-                <br />
-              </div> */}
-              {/* <div className="col-lg-4 col-md-6">
-                <label htmlFor="mobile">Mobile</label>
-                <input
-                  name="mobile"
-                  type="text"
-                  id="mobile"
-                  value={trainingFormData.mobile}
-                  onChange={handleInputChange}
-                  className="form-control"
-                  placeholder="Enter Mobile"
-                />
-                <span
-                  id="ContentPlaceHolder1_RequiredFieldValidator4"
-                  style={{ color: "red", visibility: "hidden" }}
-                >
-                  Mobile is require
-                </span>
-                <br />
-              </div> */}
-              {/* Move Profile Photo to Personal Details */}
-              {/* <div className="col-lg-4 col-md-6">
-                <label htmlFor="profilePhoto">Upload Photo</label>
-                <input
-                  type="file"
-                  name="profilePhoto"
-                  id="profilePhoto"
-                  accept="image/*"
-                  className="form-control"
-                  onChange={handleFileUpload}
-                  required
-                />
-              </div> */}
               <h5
                 style={{ paddingTop: 25, fontWeight: "bold", color: "#0d6efd" }}
               >
@@ -848,18 +765,6 @@ function Training() {
                     onChange={handleInputChange}
                   />
                   <br />
-
-                  {/* <label htmlFor="interestedFor">Interested for</label>
-                  <input
-                    name="interestedFor"
-                    type="text"
-                    id="interestedFor"
-                    className="form-control"
-                    placeholder="Interested for"
-                    value={trainingFormData.interestedFor}
-                    onChange={handleInputChange}
-                  />
-                  <br /> */}
                 </div>
 
                 <div className="col-lg-4 col-md-6">
@@ -886,19 +791,7 @@ function Training() {
                     onChange={handleInputChange}
                   />
                   <br />
-
-                  {/* <label htmlFor="profilePhoto">Upload Photo</label>
-                  <input
-                    type="file"
-                    name="profilePhoto"
-                    id="profilePhoto"
-                    accept="image/*"
-                    className="form-control"
-                    onChange={handleFileUpload}
-                  /> */}
-                  {/* <br /> */}
                   <br />
-
                   <button
                     type="submit"
                     disabled={isSubmitting}
