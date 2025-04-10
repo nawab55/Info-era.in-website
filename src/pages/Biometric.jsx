@@ -2,20 +2,28 @@ import { Helmet } from "react-helmet";
 const Biometric = () => {
   return (
     <>
-     <Helmet>
+      <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
-        <title> Advanced Biometric System Installation | Info Era  </title>
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
+        <title> Advanced Biometric System Installation | Info Era </title>
         <meta
           name="description"
-          content="Info Era offers scalable, secure biometric systems with advanced data processing, management, and integration for efficient biometric workflows." />
+          content="Info Era offers scalable, secure biometric systems with advanced data processing, management, and integration for efficient biometric workflows."
+        />
 
         <meta
           name="keywords"
-          content="Top Biometric installation company in Patna, Best Biometric Company in Patna, Biometric Service Provider near me, Best Biometric Service Provider near me, Biometric installation, advanced biometric system, secure biometric platform, biometric data processing, biometric management "
+          content="biometric service provider in bihar, biometric website development company in patna bihar, top biometric installation company in patna, best biometric company in patna, biometric service provider near me, best biometric service provider near me, biometric installation, advanced biometric system, secure biometric platform, biometric data processing, biometric management "
         />
-        <link rel="canonical" href="https://infoera.in/biometric"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
+        <link
+          rel="canonical"
+          href="https://infoera.in/biometric"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -27,14 +35,21 @@ const Biometric = () => {
         <meta name="rating" content="General" />
         <meta name="Resource-type" content="document" />
         <meta name="Author" content="www.infoera.in" />
-        <meta name="document-classification" content="Software & Website development company" />
+        <meta
+          name="document-classification"
+          content="Software & Website development company"
+        />
         <meta name="Distribution" content="Global" />
-        <meta name="keyphrases" content="scalable biometric solutions, Info Era biometrics, distributed biometric system, biometric workflow management, biometric integration, large-scale biometrics, biometric services."/>
-        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta
+          name="keyphrases"
+          content="scalable biometric solutions, Info Era biometrics, distributed biometric system, biometric workflow management, biometric integration, large-scale biometrics, biometric services."
+        />
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
 
         <meta name="Publisher" content="www.infoera.in" />
-
-
       </Helmet>
       <div>
         <main id="main">
@@ -52,7 +67,7 @@ const Biometric = () => {
                       style={{
                         color: "#012970",
                         fontWeight: 700,
-                        fontSize: 32,
+                        fontSize: 32
                       }}
                     >
                       Biometric Installation

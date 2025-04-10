@@ -4,20 +4,28 @@ import { Helmet } from "react-helmet";
 function CollegeManagementSystem() {
   return (
     <>
-    <Helmet>
+      <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
-        <title> Efficient School Management System | Info Era  </title>
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
+        <title> Efficient School Management System | Info Era </title>
         <meta
           name="description"
-          content="Simplify school operations with Info Era's web-based school management system. Manage admissions, fees, timetables, attendance, and staff evaluations seamlessly." />
+          content="Simplify school operations with Info Era's web-based school management system. Manage admissions, fees, timetables, attendance, and staff evaluations seamlessly."
+        />
 
         <meta
           name="keywords"
-          content="School management system, Info Era school software, school administration, web-based school software, student management "
+          content="best School management system in patna, best school management system in darbhanga, best school management system in gaya, top college management system in darbhanga, top college management system in patna, it company in patna, it company in darbhanga, it company in ranchi, it company in gaya, cms development company in patna, best cms development company in darbhanga, best school management system development company in ranchi, best website development company for cms in patna, best wesite development company for cms in darbhanga, best cms designing company in patna, top cms designing and development company in patna, top cms website designing and development company in darbhanga, Info Era school software, school administration, web-based school software, student management "
         />
-        <link rel="canonical" href="https://infoera.in/school-management-system"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
+        <link
+          rel="canonical"
+          href="https://infoera.in/school-management-system"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -29,14 +37,21 @@ function CollegeManagementSystem() {
         <meta name="rating" content="General" />
         <meta name="Resource-type" content="document" />
         <meta name="Author" content="www.infoera.in" />
-        <meta name="document-classification" content="Software & Website development company" />
+        <meta
+          name="document-classification"
+          content="Software & Website development company"
+        />
         <meta name="Distribution" content="Global" />
-        <meta name="keyphrases" content=" fee management system, timetable management, attendance tracking, staff evaluation, efficient school operations, university management system, educational software"/>
-        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta
+          name="keyphrases"
+          content=" fee management system, timetable management, attendance tracking, staff evaluation, efficient school operations, university management system, educational software"
+        />
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
 
         <meta name="Publisher" content="www.infoera.in" />
-
-
       </Helmet>
       <section id="hero" className="hero d-flex align-items-center">
         <div data-aos="fade-up" className="container">
@@ -46,7 +61,7 @@ function CollegeManagementSystem() {
                 fontSize: 13,
                 fontWeight: 700,
                 color: "#4154f1",
-                textTransform: "none",
+                textTransform: "none"
               }}
             />
           </header>

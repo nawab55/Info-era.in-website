@@ -7,7 +7,10 @@ function It_company_in_varanasi() {
       <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
         <title>IT Company in Varanasi | Software Development Company</title>
         <meta
           name="description"
@@ -15,36 +18,58 @@ function It_company_in_varanasi() {
         />
         <meta
           name="keywords"
-          content="it company in varanasi, software development company in varanasi, website company in varanasi, web design company in varanasi, web development company in varanasi,software development company in varanasi, website development in varanasi"
+          content="it company in varanasi, best it company in varanasi, top it company in varanasi, best software developer in varanasi, best software development company in varanasi, top software development in varanasi software development company in varanasi, website company in varanasi, web design company in varanasi, web development company in varanasi,software development company in varanasi, website maker in varanasi, website design company in varanasi, website development in varanasi"
         />
-         <link rel="canonical" href="https://infoera.in/it_company_in_varanasi" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
-            <meta name="content-language" content="EN" />
-            <meta name="search engines" content="ALL" />
-            <meta name="Robots" content="INDEX,ALL" />
-            <meta name="YahooSeeker" content="INDEX, FOLLOW" />
-            <meta name="msnbot" content="INDEX, FOLLOW" />
-            <meta name="googlebot" content="INDEX, FOLLOW" />
-            <meta name="language" content="en-us" />
-            <meta name="Expires" content="never" />
-            <meta name="rating" content="General" />
-            <meta name="Resource-type" content="document" />
-            <meta name="Author" content="www.infoera.in" />
-            <meta name="document-classification" content="Software & Website development company" />
-            <meta name="Distribution" content="Global" />
-            <meta name="Product" content="Software Development, Web Development, SEO, GST Billing Software, Web Hosting, Graphic Designing, Mobile App, E-Learning, CRM, ERP, Bulk SMS, Internship, Jobs " />
-            <meta name="abstract" content="Software Development company in Varanasi, Website Development Company in Varanasi, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Varanasi Bihar India" />
+        <link
+          rel="canonical"
+          href="https://infoera.in/it_company_in_varanasi"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta
+          name="document-classification"
+          content="Software & Website development company"
+        />
+        <meta name="Distribution" content="Global" />
+        <meta
+          name="Product"
+          content="Software Development, Web Development, SEO, GST Billing Software, Web Hosting, Graphic Designing, Mobile App, E-Learning, CRM, ERP, Bulk SMS, Internship, Jobs "
+        />
+        <meta
+          name="abstract"
+          content="Software Development company in Varanasi, Website Development Company in Varanasi, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Varanasi Bihar India"
+        />
 
-            <meta name="keyphrases" content="Software development in Varanasi, Web Design and Development Company in Varanasi, SEO, Bulk SMS, Customized GST Billing Software developer in Varanasi, Top IT Company"/>
-            <meta name="contactorganization" content="Info Era Software Services Pvt. Ltd."/>
-            <meta name="contactzipcode" content="212011"/>
-            <meta name="contactcity" content="Varanasi"/>
-            <meta name="contactcountry" content="india"/>
-            <meta name="Geography" content="Varanasi, Uttar Pradesh, India"/>
-            <meta name="country" content="INDIA"/>
-            <meta name="contactmobilenumber" content="+91-7008411312"/>
-            <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta
+          name="keyphrases"
+          content="Software development in Varanasi, Web Design and Development Company in Varanasi, SEO, Bulk SMS, Customized GST Billing Software developer in Varanasi, Top IT Company"
+        />
+        <meta
+          name="contactorganization"
+          content="Info Era Software Services Pvt. Ltd."
+        />
+        <meta name="contactzipcode" content="212011" />
+        <meta name="contactcity" content="Varanasi" />
+        <meta name="contactcountry" content="india" />
+        <meta name="Geography" content="Varanasi, Uttar Pradesh, India" />
+        <meta name="country" content="INDIA" />
+        <meta name="contactmobilenumber" content="+91-7008411312" />
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
 
-            <meta name="Publisher" content="www.infoera.in" />
+        <meta name="Publisher" content="www.infoera.in" />
       </Helmet>
       {/* ======= Hero Section ======= */}
       <section
@@ -197,7 +222,8 @@ function It_company_in_varanasi() {
                   Hospital Management System.
                 </p>
                 <a
-                  href="http://hospital.infoerasoftware.com/login.aspx" aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
+                  href="http://hospital.infoerasoftware.com/login.aspx"
+                  aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                   target="_blank"
                   type="button"
                   className="btn btn-outline-primary"
@@ -227,7 +253,8 @@ function It_company_in_varanasi() {
                   <br />
                 </p>
                 <a
-                  href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
+                  href="http://hotel.infoerasoftware.com"
+                  aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                   type="button"
                   className="btn btn-outline-primary"
                   style={{ marginTop: 24 }}
@@ -289,7 +316,8 @@ function It_company_in_varanasi() {
                   the client and is not an off-the-shelf solution.
                 </p>
                 <a
-                  href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
+                  href="about.aspx"
+                  aria-label="About - Info Era Software Services Pvt. Ltd."
                   type="button"
                   className="btn btn-outline-primary"
                   style={{ marginTop: 48 }}

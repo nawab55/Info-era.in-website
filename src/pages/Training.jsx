@@ -7,6 +7,8 @@ import WebDevelopmentBanner from "../courses/webDevelopmentCourse/WebDevelopment
 import { Helmet } from "react-helmet";
 import axios from "axios";
 
+export const email = "register-user"; 
+// Replace with your email address
 function Training() {
   const { Razorpay } = useRazorpay();
   const [courses, setCourses] = useState([]);
@@ -17,6 +19,7 @@ function Training() {
     fileName: null
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSameAddress, setIsSameAddress] = useState(false);
   const [trainingFormData, setTrainingFormData] = useState({
     name: "",
     email: "",
@@ -70,6 +73,37 @@ function Training() {
     fetchCourses();
   }, []);
 
+  // Add this useEffect to handle address copy
+  useEffect(() => {
+    if (isSameAddress) {
+      setTrainingFormData((prev) => ({
+        ...prev,
+        corAddress: prev.perAddress,
+        corCountry: prev.perCountry,
+        corState: prev.perState,
+        corDistrict: prev.perDistrict,
+        corPinCode: prev.perPinCode
+      }));
+    } else { 
+      setTrainingFormData((prev) => ({
+        ...prev,
+        corAddress: "",
+        corCountry: "",
+        corState: "",
+        corDistrict: "",
+        corPinCode: ""
+      }));
+    }
+
+  }, [
+    isSameAddress,
+    trainingFormData.perAddress,
+    trainingFormData.perCountry,
+    trainingFormData.perState,
+    trainingFormData.perDistrict,
+    trainingFormData.perPinCode
+  ]);
+
   // Update handleInputChange for course selection
   const handleCourseChange = (e) => {
     const courseId = e.target.value;
@@ -96,10 +130,10 @@ function Training() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-     if (!selectedCourse) {
-       toast.error("Please select a course");
-       return;
-     }
+    if (!selectedCourse) {
+      toast.error("Please select a course");
+      return;
+    }
 
     try {
       setIsSubmitting(true);
@@ -133,107 +167,108 @@ function Training() {
         data
       );
 
-       if (response.data.success) {
-         // Store the created ID for later update
-         const tempRecordId = response.data.data._id;
+      if (response.data.success) {
+        // Store the created ID for later update
+        const tempRecordId = response.data.data._id;
 
-         // Initiate payment after successful form submission
-         const orderResponse = await axios.post(
-           `${
-             import.meta.env.VITE_REACT_APP_BACKEND_BASEURL
-           }/api/payments/create-order`,
-           {
-             amount: selectedCourse.feeAmount,
-             courseId: selectedCourse._id // Send course ID for verification
-           }
-         );
+        // Initiate payment after successful form submission
+        const orderResponse = await axios.post(
+          `${
+            import.meta.env.VITE_REACT_APP_BACKEND_BASEURL
+          }/api/payments/create-order`,
+          {
+            amount: selectedCourse.feeAmount,
+            courseId: selectedCourse._id // Send course ID for verification
+          }
+        );
 
-         const options = {
-           key: import.meta.env.VITE_REACT_APP_RAZORPAY_KEY_ID,
-           amount: orderResponse.data.order.amount,
-           currency: "INR",
-           name: "Info Era Software Services",
-           description: `Payment for ${selectedCourse.categoryName}`,
-           order_id: orderResponse.data.order.id,
-           handler: async (paymentResponse) => {
-             try {
-               // Verify payment
-               await axios.post(
-                 `${
-                   import.meta.env.VITE_REACT_APP_BACKEND_BASEURL
-                 }/api/payments/verify-payment`,
-                 {
-                   order_id: paymentResponse.razorpay_order_id,
-                   payment_id: paymentResponse.razorpay_payment_id,
-                   signature: paymentResponse.razorpay_signature,
-                   courseId: selectedCourse._id, // Include course ID in verification
-                   recordId: tempRecordId // Pass the temporary record ID
-                 }
-               );
-               // Update record status to completed
-               await axios.patch(
-                 `${
-                   import.meta.env.VITE_REACT_APP_BACKEND_BASEURL
-                 }/api/training/update/${tempRecordId}`,
-                 { status: "completed" }
-               );
-               toast.success("Payment Successful!");
-               // Reset form
-               //  setTrainingFormData(/* initial state */);
-               setTrainingFormData({
-                 name: "",
-                 email: "",
-                 mobile: "",
-                 courseType: "",
-                 feeAmount: 0,
-                 gender: "", // Can be "male" or "female"
-                 fatherName: "",
-                 perCountry: "",
-                 perState: "",
-                 perDistrict: "",
-                 perPinCode: "",
-                 perAddress: "",
-                 corCountry: "",
-                 corState: "",
-                 corDistrict: "",
-                 corPinCode: "",
-                 corAddress: "",
-                 qualification: "",
-                 collegeName: "",
-                 passingYear: "",
-                 universityName: "",
-                 collegeRollNo: "",
-                 streamName: "",
-                 universityRegNo: "",
-                 profilePhoto: {
-                   src: null, // File path or URL
-                   fileType: "", // e.g., "image/jpeg"
-                   fileName: "" // e.g., "photo.jpg"
-                 }
-               });
-             } catch (error) {
-               toast.error("Payment verification failed");
-               console.error(error);
-             }
-           },
-           prefill: {
-             name: trainingFormData.name,
-             email: trainingFormData.email,
-             contact: trainingFormData.mobile
-           },
-           theme: { color: "#3399cc" }
-         };
+        const options = {
+          key: import.meta.env.VITE_REACT_APP_RAZORPAY_KEY_ID,
+          amount: orderResponse.data.order.amount,
+          currency: "INR",
+          name: "Info Era Software Services",
+          description: `Payment for ${selectedCourse.categoryName}`,
+          order_id: orderResponse.data.order.id,
+          handler: async (paymentResponse) => {
+            try {
+              // Verify payment
+              await axios.post(
+                `${
+                  import.meta.env.VITE_REACT_APP_BACKEND_BASEURL
+                }/api/payments/verify-payment`,
+                {
+                  order_id: paymentResponse.razorpay_order_id,
+                  payment_id: paymentResponse.razorpay_payment_id,
+                  signature: paymentResponse.razorpay_signature,
+                  courseId: selectedCourse._id, // Include course ID in verification
+                  recordId: tempRecordId // Pass the temporary record ID
+                }
+              );
+              // Update record status to completed
+              await axios.patch(
+                `${
+                  import.meta.env.VITE_REACT_APP_BACKEND_BASEURL
+                }/api/training/update/${tempRecordId}`,
+                { status: "completed" }
+              );
+              toast.success("Payment Successful!");
+              // Reset form
+              //  setTrainingFormData(/* initial state */);
+              setTrainingFormData({
+                name: "",
+                email: "",
+                mobile: "",
+                courseType: "",
+                feeAmount: 0,
+                gender: "", // Can be "male" or "female"
+                fatherName: "",
+                perCountry: "",
+                perState: "",
+                perDistrict: "",
+                perPinCode: "",
+                perAddress: "",
+                corCountry: "",
+                corState: "",
+                corDistrict: "",
+                corPinCode: "",
+                corAddress: "",
+                qualification: "",
+                collegeName: "",
+                passingYear: "",
+                universityName: "",
+                collegeRollNo: "",
+                streamName: "",
+                universityRegNo: "",
+                profilePhoto: {
+                  src: null, // File path or URL
+                  fileType: "", // e.g., "image/jpeg"
+                  fileName: "" // e.g., "photo.jpg"
+                }
+              });
+            } catch (error) {
+              toast.error("Payment verification failed");
+              console.error(error);
+            }
+          },
+          prefill: {
+            name: trainingFormData.name,
+            email: trainingFormData.email,
+            contact: trainingFormData.mobile
+          },
+          theme: { color: "#3399cc" }
+        };
 
-         const rzp = new Razorpay(options);
-         rzp.open();
-       }
+        const rzp = new Razorpay(options);
+        rzp.open();
+      }
     } catch (error) {
       toast.error(error.response?.data?.message || "Submission failed");
       console.log(error);
     } finally {
       setIsSubmitting(false);
+      setIsSameAddress(false); // Reset the checkbox state
     }
-  }; 
+  };
 
   return (
     <>
@@ -509,7 +544,6 @@ function Training() {
                   className="form-control"
                   placeholder="Enter Full Address..."
                   style={{ height: 125 }}
-                  defaultValue={""}
                 />
                 <span
                   id="ContentPlaceHolder1_RequiredFieldValidator5"
@@ -595,6 +629,18 @@ function Training() {
                 style={{ paddingTop: 25, fontWeight: "bold", color: "#0d6efd" }}
               >
                 Corospondance Address:<span style={{ color: "red" }}> *</span>
+                <div className="form-check mt-2">
+                  <input
+                    type="checkbox"
+                    className="form-check-input"
+                    id="sameAsPermanent"
+                    checked={isSameAddress}
+                    onChange={(e) => setIsSameAddress(e.target.checked)}
+                  />
+                  <label className="form-check-label" htmlFor="sameAsPermanent">
+                    Same as Permanent Address
+                  </label>
+                </div>
               </h5>
               <hr style={{ color: "red", marginBottom: 40 }} />
               <div className="col-lg-4 col-md-6">
@@ -610,6 +656,7 @@ function Training() {
                   placeholder="Enter Full Address..."
                   style={{ height: 125 }}
                   defaultValue={""}
+                  disabled={isSameAddress}
                 />
                 <span
                   id="ContentPlaceHolder1_RequiredFieldValidator10"
@@ -629,6 +676,7 @@ function Training() {
                   onChange={handleInputChange}
                   className="form-control"
                   placeholder="Enter Country"
+                  disabled={isSameAddress}
                 />
                 <span
                   id="ContentPlaceHolder1_RequiredFieldValidator11"
@@ -646,6 +694,7 @@ function Training() {
                   onChange={handleInputChange}
                   className="form-control"
                   placeholder="Enter State"
+                  disabled={isSameAddress}
                 />
                 <span
                   id="ContentPlaceHolder1_RequiredFieldValidator12"
@@ -665,6 +714,7 @@ function Training() {
                   onChange={handleInputChange}
                   className="form-control"
                   placeholder="Enter District"
+                  disabled={isSameAddress}
                 />
                 <span
                   id="ContentPlaceHolder1_RequiredFieldValidator13"
@@ -682,6 +732,7 @@ function Training() {
                   onChange={handleInputChange}
                   className="form-control"
                   placeholder="Enter PIN Code"
+                  disabled={isSameAddress}
                 />
                 <span
                   id="ContentPlaceHolder1_RequiredFieldValidator14"

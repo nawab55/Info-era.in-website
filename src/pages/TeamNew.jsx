@@ -16,7 +16,7 @@ const TeamMemberCard = ({
   name,
   position,
   description,
-  twitterLink,
+  linkedInLink, // Change twitterLink to linkedInLink
   facebookLink
 }) => {
   return (
@@ -33,11 +33,11 @@ const TeamMemberCard = ({
         <p className="team-text position">{position}</p>
         <p className="team-text description">{description}</p>
         <div className="team-social-icons">
-          <a href={twitterLink} target="_blank" rel="noopener noreferrer">
+          <a href={linkedInLink} target="_blank" rel="noopener noreferrer">
             <img
-              className="twitter-icon"
-              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg"
-              alt="Twitter"
+              className="linkedin-icon"
+              src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+              alt="LinkedIn"
             />
           </a>
           <a href={facebookLink} target="_blank" rel="noopener noreferrer">
@@ -58,7 +58,7 @@ TeamMemberCard.propTypes = {
   name: PropTypes.string.isRequired,
   position: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  twitterLink: PropTypes.string.isRequired,
+  linkedInLink: PropTypes.string.isRequired, 
   facebookLink: PropTypes.string.isRequired
 };
 
@@ -98,19 +98,19 @@ function Team() {
 
   const teamMembers = [
     {
-      imageSrc: "assets/teamSlider/shubham.png",
+      imageSrc: "assets/teamSlider/shubhamSir.png",
       name: "Shubham Raj",
-      position: "CMO",
+      position: "CMO of Info Era Software",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      twitterLink: "https://www.twitter.com",
+      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
       facebookLink: "https://www.facebook.com"
     },
     {
-      imageSrc: "assets/teamSlider/HR-InfoEra.png",
+      imageSrc: "assets/teamSlider/anjaliKumariImg.png",
       name: "Anjali Kumari",
       position: "HR Manager",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      twitterLink: "https://www.twitter.com",
+      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
       facebookLink: "https://www.facebook.com"
     },
     {
@@ -118,40 +118,41 @@ function Team() {
       name: "Aman Soben",
       position: "Software Developer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      twitterLink: "https://www.twitter.com",
+      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
       facebookLink: "https://www.facebook.com"
     },
     {
-      imageSrc: "assets/teamSlider/images/rohitkumar.png",
+      imageSrc: "assets/teamSlider/images/rohitImg.jpg",
       name: "Rohit Kumar",
       position: "Digital Marketing Executive",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      twitterLink: "https://www.twitter.com",
+      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
       facebookLink: "https://www.facebook.com"
     },
 
     {
-      imageSrc: "assets/teamSlider/images/kunal.png",
+      imageSrc: "assets/teamSlider/images/kunalImg.jpeg",
       name: "Kishan Kunal",
       position: "Software Engineer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      twitterLink: "https://www.twitter.com",
+      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
       facebookLink: "https://www.facebook.com"
     },
     {
-      imageSrc: "assets/teamSlider/images/himanshu.jpg",
+      imageSrc: "assets/teamSlider/images/HimanshuImg.jpg",
       name: "Himanshu Shekhar",
       position: "Software Engineer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      twitterLink: "https://www.twitter.com",
+      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
       facebookLink: "https://www.facebook.com"
     },
     {
       imageSrc: "assets/teamSlider/images/gauravverma.png",
-      name: "Gaurav Verma",
+      // imageSrc: "assets/teamSlider/images/gaurav.jpg",
+      name: "Gaurav kumar",
       position: "Software Engineer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      twitterLink: "https://www.twitter.com",
+      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
       facebookLink: "https://www.facebook.com"
     },
     {
@@ -159,15 +160,32 @@ function Team() {
       name: "Samir Ansari",
       position: "Software Developer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      twitterLink: "https://www.twitter.com",
+      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
       facebookLink: "https://www.facebook.com"
     },
     {
-      imageSrc: "assets/teamSlider/images/Md_Nawab.png",
+      // imageSrc: "assets/teamSlider/images/Md_Nawab.png",
+      imageSrc: "assets/teamSlider/images/nawab-img.png",
       name: "Md Nawab",
       position: "Software Engineer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      twitterLink: "https://www.twitter.com",
+      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
+      facebookLink: "https://www.facebook.com"
+    },
+    {
+      imageSrc: "assets/teamSlider/images/ashish chandra.jpeg",
+      name: "Ashish Chandra",
+      position: "Software Developer",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
+      facebookLink: "https://www.facebook.com"
+    },
+    {
+      imageSrc: "assets/teamSlider/images/ved prakash.jpeg",
+      name: "Ved Prakash Pandey",
+      position: "Software Developer",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
       facebookLink: "https://www.facebook.com"
     }
   ];
@@ -175,10 +193,10 @@ function Team() {
   const eventImages = [
     "/assets/teamSlider/events/pic ok4.png",
     "/assets/teamSlider/events/IMG_9846.JPG",
-    "/assets/teamSlider/events/rrr (1).png",
+    "/assets/teamSlider/events/R_6P0843 (2).JPG",
     "/assets/teamSlider/events/IMG_9821.JPG",
+    "/assets/teamSlider/events/rrr (1).png",
     "/assets/teamSlider/events/IMG_9859 (1).JPG",
-    "/assets/teamSlider/events/R_6P0843 (2).JPG"
   ];
 
   const experts = [
@@ -406,14 +424,6 @@ function Team() {
               data-aos-duration="1000"
             >
               Meet Our Expert Instructors
-            </p>
-            <p
-              className="expertise-subtitle"
-              data-aos="fade-up"
-              data-aos-delay="200"
-              data-aos-duration="1000"
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <div className="expertise-slider-container">
               <Swiper

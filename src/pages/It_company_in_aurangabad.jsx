@@ -6,38 +6,69 @@ const It_company_in_aurangabad = () => {
     <>
       <Helmet>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
         <title>IT Company in Aurangabad | Software development Company</title>
-              <meta name=" description" content="Software Development Company in Aurangabad, GST Billing Software in Aurangabad, IT Solutions Providers in Aurangabad Bihar, Website Development Company in Aurangabad, SEO Company in Aurangabad, Android App Development Company in Aurangabad, Bulk SMS Service provider in Aurangabad Bihar "/>
-              <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Aurangabad, IT Service Provider Company in Aurangabad Bihar, SEO Service provider Company in Aurangabad, Website Promotion service provider in Aurangabad, SEO , SEM, PPC, SMM Services in Aurangabad Bihar " />
-              <meta name="keyphrases" content="Website development in Aurangabad, Web Designing in Aurangabad Bihar, Web Hosting Service in Aurangabad, E-Commerce Website Development in Aurangabad, Responsive website designing SEO in Aurangabad Bihar "/>
-            <link rel="canonical" href="https://www.infoera.in/it_company_in_aurangabad" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
-            <meta name="content-language" content="EN" />
-            <meta name="search engines" content="ALL" />
-            <meta name="Robots" content="INDEX,ALL" />
-            <meta name="YahooSeeker" content="INDEX, FOLLOW" />
-            <meta name="msnbot" content="INDEX, FOLLOW" />
-            <meta name="googlebot" content="INDEX, FOLLOW" />
-            <meta name="language" content="en-us" />
-            <meta name="Expires" content="never" />
-            <meta name="rating" content="General" />
-            <meta name="Resource-type" content="document" />
-            <meta name="Author" content="www.infoera.in" />
-            <meta name="document-classification" content="Software & Website development company" />
-            <meta name="Distribution" content="Global" />
-            <meta name="Product" content="Website Designing and Development in Aurangabad, Software Development in Aurangabad, Mobile App Development in Aurangabad, Responsive Website Development in Aurangabad, Web Hosting in Aurangabad, E-Commerce in Aurangabad, Search Engine Optimization SEO Services in Aurangabad, Website Promotion in Aurangabad, Bulk SMS and Voice Call Service in Aurangabad, Graphic Designing in Aurangabad, IT Company in Aurangabad"/>
-            <meta name="abstract" content="Software Development company in Aurangabad, Website Development Company in Aurangabad, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Aurangabad Bihar India" />
+        <meta
+          name=" description"
+          content="Software Development Company in Aurangabad, GST Billing Software in Aurangabad, IT Solutions Providers in Aurangabad Bihar, Website Development Company in Aurangabad, SEO Company in Aurangabad, Android App Development Company in Aurangabad, Bulk SMS Service provider in Aurangabad Bihar "
+        />
+        <meta
+          name=" keywords"
+          content="it company in aurangabad, top it company in aurangabad, best it company in aurangabad, top 2025 it company in aurangabad,  customized software development company in aurangabad, best it company in aurangabad, best aurangabad  it company in 2025, it service provider company in aurangabad bihar, seo service provider company in aurangabad, website promotion service provider in aurangabad, SEO , SEM, PPC, SMM Services in Aurangabad Bihar "
+        />
+        <meta
+          name="keyphrases"
+          content="Website development in Aurangabad, Web Designing in Aurangabad Bihar, Web Hosting Service in Aurangabad, E-Commerce Website Development in Aurangabad, Responsive website designing SEO in Aurangabad Bihar "
+        />
+        <link
+          rel="canonical"
+          href="https://www.infoera.in/it_company_in_aurangabad"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta
+          name="document-classification"
+          content="Software & Website development company"
+        />
+        <meta name="Distribution" content="Global" />
+        <meta
+          name="Product"
+          content="Website Designing and Development in Aurangabad, Software Development in Aurangabad, Mobile App Development in Aurangabad, Responsive Website Development in Aurangabad, Web Hosting in Aurangabad, E-Commerce in Aurangabad, Search Engine Optimization SEO Services in Aurangabad, Website Promotion in Aurangabad, Bulk SMS and Voice Call Service in Aurangabad, Graphic Designing in Aurangabad, IT Company in Aurangabad"
+        />
+        <meta
+          name="abstract"
+          content="Software Development company in Aurangabad, Website Development Company in Aurangabad, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Aurangabad Bihar India"
+        />
 
-            <meta name="contactorganization" content="Info Era Software Services Pvt. Ltd."/>
-            <meta name="contactzipcode" content="824101"/>
-            <meta name="contactcity" content="Aurangabad"/>
-            <meta name="contactcountry" content="india"/>
-            <meta name="Geography" content="Aurangabad, Bihar, India"/>
-            <meta name="country" content="INDIA"/>
-            <meta name="contactmobilenumber" content="+91-7008411312"/>
-            <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta
+          name="contactorganization"
+          content="Info Era Software Services Pvt. Ltd."
+        />
+        <meta name="contactzipcode" content="824101" />
+        <meta name="contactcity" content="Aurangabad" />
+        <meta name="contactcountry" content="india" />
+        <meta name="Geography" content="Aurangabad, Bihar, India" />
+        <meta name="country" content="INDIA" />
+        <meta name="contactmobilenumber" content="+91-7008411312" />
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
 
-            <meta name="Publisher" content="www.infoera.in" />
+        <meta name="Publisher" content="www.infoera.in" />
       </Helmet>
       <div>
         <section
@@ -191,7 +222,8 @@ const It_company_in_aurangabad = () => {
                     Hospital Management System.
                   </p>
                   <a
-                    href="http://hospital.infoerasoftware.com/login.aspx" aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
+                    href="http://hospital.infoerasoftware.com/login.aspx"
+                    aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                     target="_blank"
                     type="button"
                     className="btn btn-outline-primary"
@@ -224,7 +256,8 @@ const It_company_in_aurangabad = () => {
                     <br />
                   </p>
                   <a
-                    href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System  - Info Era Software Services Pvt. Ltd."
+                    href="http://hotel.infoerasoftware.com"
+                    aria-label="Hotel Management System  - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 24 }}
@@ -256,7 +289,8 @@ const It_company_in_aurangabad = () => {
                     agencies, agents, clients and financial transactions.
                   </p>
                   <a
-                    href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
+                    href="about.aspx"
+                    aria-label="About - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                   >
@@ -286,7 +320,8 @@ const It_company_in_aurangabad = () => {
                     the client and is not an off-the-shelf solution.
                   </p>
                   <a
-                    href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
+                    href="about.aspx"
+                    aria-label="About - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 48 }}
@@ -396,7 +431,7 @@ const It_company_in_aurangabad = () => {
                 <header className="section-header">
                   <p>Leading IT Companies in Aurangabad</p>
                 </header>
-                <h4 >1. Tech Innovators Pvt. Ltd.</h4>
+                <h4>1. Tech Innovators Pvt. Ltd.</h4>
                 <p>
                   Tech Innovators Pvt. Ltd. stands out as one of the premier IT
                   companies in Aurangabad. Known for its innovative solutions
@@ -405,7 +440,7 @@ const It_company_in_aurangabad = () => {
                   solutions, and IT consulting. Their expertise ensures that
                   businesses receive customized and efficient digital solutions.
                 </p>
-                <h4 >2. Aurangabad Digital Solutions</h4>
+                <h4>2. Aurangabad Digital Solutions</h4>
                 <p>
                   Aurangabad Digital Solutions is a key player in the IT sector
                   of Aurangabad, Maharashtra. They provide comprehensive IT
@@ -422,7 +457,7 @@ const It_company_in_aurangabad = () => {
                   operations. Here are the top software development companies in
                   Aurangabad:
                 </p>
-                <h4 >1. CodeCrafters Pvt. Ltd.</h4>
+                <h4>1. CodeCrafters Pvt. Ltd.</h4>
                 <p>
                   CodeCrafters Pvt. Ltd. is renowned for its bespoke software
                   development services. They specialize in creating scalable and
@@ -431,7 +466,7 @@ const It_company_in_aurangabad = () => {
                   latest technologies to deliver high-quality software that
                   enhances operational efficiency.
                 </p>
-                <h4 >2. DevTech Solutions</h4>
+                <h4>2. DevTech Solutions</h4>
                 <p>
                   DevTech Solutions offers innovative software development
                   services designed to help businesses stay ahead of the
@@ -447,7 +482,7 @@ const It_company_in_aurangabad = () => {
                   having a professional website is the first step. Here are the
                   top website development companies in Aurangabad:
                 </p>
-                <h4 >1. WebPros Technologies</h4>
+                <h4>1. WebPros Technologies</h4>
                 <p>
                   WebPros Technologies excels in creating high-quality,
                   responsive websites that drive engagement and conversions.
@@ -455,7 +490,7 @@ const It_company_in_aurangabad = () => {
                   not only visually appealing but also optimized for performance
                   and security.
                 </p>
-                <h4 >2. DigitalWeb Creators</h4>
+                <h4>2. DigitalWeb Creators</h4>
                 <p>
                   DigitalWeb Creators is a leading name in website development
                   in Aurangabad. They offer end-to-end web development services,
@@ -470,14 +505,14 @@ const It_company_in_aurangabad = () => {
                   user experience and engagement. Here are the top web design
                   companies in Aurangabad:
                 </p>
-                <h4 >1. DesignXperts</h4>
+                <h4>1. DesignXperts</h4>
                 <p>
                   DesignXperts is a top web design company in Aurangabad known
                   for creating visually stunning and user-friendly websites.
                   Their designs are customized to reflect the brand’s identity
                   and resonate with the target audience.
                 </p>
-                <h4 >2. CreativeWeb Studio</h4>
+                <h4>2. CreativeWeb Studio</h4>
                 <p>
                   CreativeWeb Studio specializes in innovative web design
                   solutions that captivate and convert visitors. They focus on
@@ -503,7 +538,10 @@ const It_company_in_aurangabad = () => {
                         <div className="feature-box d-flex align-items-center">
                           <i className="bi bi-check" />
                           <div className="col-lg-2">
-                            <a href="https://www.infoerasoftware.com/ " aria-label="URL - Info Era Software Services Pvt. Ltd.">
+                            <a
+                              href="https://www.infoerasoftware.com/ "
+                              aria-label="URL - Info Era Software Services Pvt. Ltd."
+                            >
                               {" "}
                               <img
                                 src="assets/img/infoera.png"
@@ -514,7 +552,10 @@ const It_company_in_aurangabad = () => {
                             </a>
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://www.infoerasoftware.com/" aria-label="URL - Info Era Software Services Pvt. Ltd.">
+                            <a
+                              href="https://www.infoerasoftware.com/"
+                              aria-label="URL - Info Era Software Services Pvt. Ltd."
+                            >
                               {" "}
                               <h3>Info Era Software Services Pvt. Ltd.</h3>
                             </a>
@@ -536,13 +577,19 @@ const It_company_in_aurangabad = () => {
                               digital services under one roof.
                             </p>
                             <p>
-                              <a href="http://www.infoeraservices.com" aria-label="URL - Info Era Software Services Pvt. Ltd.">
+                              <a
+                                href="http://www.infoeraservices.com"
+                                aria-label="URL - Info Era Software Services Pvt. Ltd."
+                              >
                                 www.infoeraservices.com
                               </a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="mailto:contact@infoeraservices.com" aria-label="Email- Info Era Software Services Pvt. Ltd.">
+                              <a
+                                href="mailto:contact@infoeraservices.com"
+                                aria-label="Email- Info Era Software Services Pvt. Ltd."
+                              >
                                 contact@infoeraservices.com
                               </a>
                             </p>
@@ -565,7 +612,10 @@ const It_company_in_aurangabad = () => {
                             />
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://www.wipro.com/contact-wipro/" aria-label="Wipro - Info Era Software Services Pvt. Ltd.">
+                            <a
+                              href="https://www.wipro.com/contact-wipro/"
+                              aria-label="Wipro - Info Era Software Services Pvt. Ltd."
+                            >
                               {" "}
                               <h3>Wipro</h3>
                             </a>
@@ -579,11 +629,21 @@ const It_company_in_aurangabad = () => {
                               based on client demands.
                             </p>
                             <p>
-                              <a href="http://www.wipro.com" aria-label="Wipro - Info Era Software Services Pvt. Ltd.">www.wipro.com</a>
+                              <a
+                                href="http://www.wipro.com"
+                                aria-label="Wipro - Info Era Software Services Pvt. Ltd."
+                              >
+                                www.wipro.com
+                              </a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="mailto:info@wipro.com" aria-label="Wipro Email - Info Era Software Services Pvt. Ltd.">info@wipro.com</a>
+                              <a
+                                href="mailto:info@wipro.com"
+                                aria-label="Wipro Email - Info Era Software Services Pvt. Ltd."
+                              >
+                                info@wipro.com
+                              </a>
                             </p>
                           </div>
                         </div>
@@ -604,7 +664,10 @@ const It_company_in_aurangabad = () => {
                             />
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://www.tcs.com/home-page" aria-label="TCS - Info Era Software Services Pvt. Ltd.">
+                            <a
+                              href="https://www.tcs.com/home-page"
+                              aria-label="TCS - Info Era Software Services Pvt. Ltd."
+                            >
                               {" "}
                               <h3>Tata Consultancy Services (TCS)</h3>
                             </a>
@@ -616,11 +679,21 @@ const It_company_in_aurangabad = () => {
                               in resume.
                             </p>
                             <p>
-                              <a href="http://www.tcs.com"  aria-label="TCS - Info Era Software Services Pvt. Ltd.">www.tcs.com</a>
+                              <a
+                                href="http://www.tcs.com"
+                                aria-label="TCS - Info Era Software Services Pvt. Ltd."
+                              >
+                                www.tcs.com
+                              </a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="mailto:info@tcs.com"  aria-label="TCS Email - Info Era Software Services Pvt. Ltd.">info@tcs.com</a>
+                              <a
+                                href="mailto:info@tcs.com"
+                                aria-label="TCS Email - Info Era Software Services Pvt. Ltd."
+                              >
+                                info@tcs.com
+                              </a>
                             </p>
                           </div>
                         </div>
@@ -641,7 +714,10 @@ const It_company_in_aurangabad = () => {
                             />
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://www.cognizant.com/in/en" aria-label="Cognizant - Info Era Software Services Pvt. Ltd.">
+                            <a
+                              href="https://www.cognizant.com/in/en"
+                              aria-label="Cognizant - Info Era Software Services Pvt. Ltd."
+                            >
                               <h3>Cognizant Technology Solutions</h3>
                             </a>
                             <p>
@@ -652,13 +728,19 @@ const It_company_in_aurangabad = () => {
                               Night Shift Promotion
                             </p>
                             <p>
-                              <a href="http://www.infosys.com" aria-label="Cognizant - Info Era Software Services Pvt. Ltd.">
+                              <a
+                                href="http://www.infosys.com"
+                                aria-label="Cognizant - Info Era Software Services Pvt. Ltd."
+                              >
                                 www.infosys.com
                               </a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="mailto:contact@infosys.com" aria-label="Cognizant Email - Info Era Software Services Pvt. Ltd.">
+                              <a
+                                href="mailto:contact@infosys.com"
+                                aria-label="Cognizant Email - Info Era Software Services Pvt. Ltd."
+                              >
                                 contact@infosys.com
                               </a>
                             </p>
@@ -681,7 +763,10 @@ const It_company_in_aurangabad = () => {
                             />
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://www.amazon.jobs/en/teams/global-it-services" aria-label="Amazon - Info Era Software Services Pvt. Ltd.">
+                            <a
+                              href="https://www.amazon.jobs/en/teams/global-it-services"
+                              aria-label="Amazon - Info Era Software Services Pvt. Ltd."
+                            >
                               <h3>Amazon</h3>
                             </a>
                             <p>
@@ -705,13 +790,19 @@ const It_company_in_aurangabad = () => {
                               customers.
                             </p>
                             <p>
-                              <a href="https://www.amazon.jobs/en/teams/global-it-services" aria-label="Amazon - Info Era Software Services Pvt. Ltd.">
+                              <a
+                                href="https://www.amazon.jobs/en/teams/global-it-services"
+                                aria-label="Amazon - Info Era Software Services Pvt. Ltd."
+                              >
                                 www.infosys.com
                               </a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="mailto:cs-reply@amazon.in" aria-label="Amazon Email - Info Era Software Services Pvt. Ltd.">
+                              <a
+                                href="mailto:cs-reply@amazon.in"
+                                aria-label="Amazon Email - Info Era Software Services Pvt. Ltd."
+                              >
                                 cs-reply@amazon.in
                               </a>
                             </p>
@@ -734,7 +825,10 @@ const It_company_in_aurangabad = () => {
                             />
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://www.hcltech.com/" aria-label="HCL - Info Era Software Services Pvt. Ltd.">
+                            <a
+                              href="https://www.hcltech.com/"
+                              aria-label="HCL - Info Era Software Services Pvt. Ltd."
+                            >
                               <h3>HCL TECH</h3>
                             </a>
                             <p>
@@ -745,13 +839,19 @@ const It_company_in_aurangabad = () => {
                               on five strategic objectives.
                             </p>
                             <p>
-                              <a href="https://www.hcltech.com/" aria-label="HCL - Info Era Software Services Pvt. Ltd.">
+                              <a
+                                href="https://www.hcltech.com/"
+                                aria-label="HCL - Info Era Software Services Pvt. Ltd."
+                              >
                                 www.hcltech.com
                               </a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="mailto:investors@hcl.com"aria-label="HCL Email - Info Era Software Services Pvt. Ltd.">
+                              <a
+                                href="mailto:investors@hcl.com"
+                                aria-label="HCL Email - Info Era Software Services Pvt. Ltd."
+                              >
                                 investors@hcl.com
                               </a>
                             </p>
@@ -774,7 +874,10 @@ const It_company_in_aurangabad = () => {
                             />
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://ficuslot.com/" aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd.">
+                            <a
+                              href="https://ficuslot.com/"
+                              aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd."
+                            >
                               <h3>Ficuslot Innovation Pvt. Ltd</h3>
                             </a>
                             <p>
@@ -786,13 +889,19 @@ const It_company_in_aurangabad = () => {
                               Ficuslot is at the forefront of this advancement.
                             </p>
                             <p>
-                              <a href="https://ficuslot.com/" aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd.">
+                              <a
+                                href="https://ficuslot.com/"
+                                aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd."
+                              >
                                 www.ficuslot.com
                               </a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="contact@ficuslot.com" aria-label="Fillip Technologies Email - Info Era Software Services Pvt. Ltd.">
+                              <a
+                                href="contact@ficuslot.com"
+                                aria-label="Fillip Technologies Email - Info Era Software Services Pvt. Ltd."
+                              >
                                 contact@ficuslot.com
                               </a>
                             </p>
@@ -815,7 +924,10 @@ const It_company_in_aurangabad = () => {
                             />
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://www.techasoft.com/" aria-label="TechSoft - Info Era Software Services Pvt. Ltd.">
+                            <a
+                              href="https://www.techasoft.com/"
+                              aria-label="TechSoft - Info Era Software Services Pvt. Ltd."
+                            >
                               <h3>Techasoft</h3>
                             </a>
                             <p>
@@ -829,13 +941,19 @@ const It_company_in_aurangabad = () => {
                               Patna, then Techasoft is for you.
                             </p>
                             <p>
-                              <a href="https://www.techasoft.com/" aria-label="TechSoft - Info Era Software Services Pvt. Ltd.">
+                              <a
+                                href="https://www.techasoft.com/"
+                                aria-label="TechSoft - Info Era Software Services Pvt. Ltd."
+                              >
                                 www.hcltech.com
                               </a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="mailto:info@techasoft.com" aria-label="TechSoft - Info Era Software Services Pvt. Ltd.">
+                              <a
+                                href="mailto:info@techasoft.com"
+                                aria-label="TechSoft - Info Era Software Services Pvt. Ltd."
+                              >
                                 info@techasoft.com
                               </a>
                             </p>
@@ -858,7 +976,10 @@ const It_company_in_aurangabad = () => {
                             />
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://filliptechnologies.com/" aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd.">
+                            <a
+                              href="https://filliptechnologies.com/"
+                              aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd."
+                            >
                               <h3>Fillip Technologies</h3>
                             </a>
                             <p>
@@ -872,13 +993,19 @@ const It_company_in_aurangabad = () => {
                               trusts.
                             </p>
                             <p>
-                              <a href="https://filliptechnologies.com/" aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd.">
+                              <a
+                                href="https://filliptechnologies.com/"
+                                aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd."
+                              >
                                 www.hcltech.com
                               </a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="mailto:infoerapvtltd@gmail.com" aria-label="Fillip Technologies Email - Info Era Software Services Pvt. Ltd.">
+                              <a
+                                href="mailto:infoerapvtltd@gmail.com"
+                                aria-label="Fillip Technologies Email - Info Era Software Services Pvt. Ltd."
+                              >
                                 info@filliptechnologies.com
                               </a>
                             </p>
@@ -902,7 +1029,10 @@ const It_company_in_aurangabad = () => {
                             />
                           </div>
                           <div className="col-lg-10">
-                            <a href="https://filliptechnologies.com/" aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd.">
+                            <a
+                              href="https://filliptechnologies.com/"
+                              aria-label="Fillip Technologies - Info Era Software Services Pvt. Ltd."
+                            >
                               <h3>Fillip Software </h3>
                             </a>
                             <p>
@@ -915,13 +1045,19 @@ const It_company_in_aurangabad = () => {
                               environment.
                             </p>
                             <p>
-                              <a href="https://www.infoerasoftware.com/"aria-label="URL - Info Era Software Services Pvt. Ltd.">
+                              <a
+                                href="https://www.infoerasoftware.com/"
+                                aria-label="URL - Info Era Software Services Pvt. Ltd."
+                              >
                                 www.filliptechnologies.com
                               </a>
                             </p>
                             <p>
                               Email:{" "}
-                              <a href="mailto:infoerapvtltd@gmail.com" aria-label="Email - Info Era Software Services Pvt. Ltd.">
+                              <a
+                                href="mailto:infoerapvtltd@gmail.com"
+                                aria-label="Email - Info Era Software Services Pvt. Ltd."
+                              >
                                 info@filliptechnologies.com
                               </a>
                             </p>
@@ -940,13 +1076,13 @@ const It_company_in_aurangabad = () => {
                   presence, Aurangabad offers some of the best website design
                   and development services:
                 </p>
-                <h4 >1. Premium Web Designs</h4>
+                <h4>1. Premium Web Designs</h4>
                 <p>
                   Premium Web Designs provides top-notch website design services
                   in Aurangabad. They create visually appealing and functional
                   websites that engage users and drive business growth.
                 </p>
-                <h4 >2. NextGen Web Developers</h4>
+                <h4>2. NextGen Web Developers</h4>
                 <p>
                   NextGen Web Developers are known for their comprehensive
                   website development services. They ensure that websites are
@@ -962,7 +1098,7 @@ const It_company_in_aurangabad = () => {
             <div className="row">
               <div className="col-lg-12 mt-5 mt-lg-0 d-flex">
                 <div className="row align-self-center gy-4">
-                  <h4 >Leading Website Development Company in Aurangabad</h4>
+                  <h4>Leading Website Development Company in Aurangabad</h4>
                   <p>
                     Businesses nowadays must have a strong online presence, and
                     Info Era Software Services Pvt. Ltd. shines as
@@ -972,7 +1108,7 @@ const It_company_in_aurangabad = () => {
                     security, and speed optimized to assist businesses more
                     efficiently reach their target audience.
                   </p>
-                  <h4 >Best IT Company in Aurangabad</h4>
+                  <h4>Best IT Company in Aurangabad</h4>
                   <p>
                     The reason we are the greatest IT firm in Aurangabad is
                     because we are dedicated to quality and innovation. From
@@ -1021,7 +1157,7 @@ const It_company_in_aurangabad = () => {
                     </div>
                   </div>{" "}
                   {/* / row */}
-                  <h4 >1. Comprehensive Web Development Services</h4>
+                  <h4>1. Comprehensive Web Development Services</h4>
                   <p>
                     Our business specializes in providing tailored software
                     solutions that address the particular needs of diverse
@@ -1029,7 +1165,7 @@ const It_company_in_aurangabad = () => {
                     apps, or business software, our skilled developers can
                     manage projects of any size and complexity.
                   </p>
-                  <h4 >2. Expert Team of Developers</h4>
+                  <h4>2. Expert Team of Developers</h4>
                   <p>
                     Our team of experienced developers is proficient in the
                     latest technologies and trends in web development. We are
@@ -1043,7 +1179,7 @@ const It_company_in_aurangabad = () => {
                     <li>Angular, React, and Vue.js</li>
                     <li>WordPress, Joomla, and Drupal</li>
                   </ul>
-                  <h4 >3. Customized Solutions</h4>
+                  <h4>3. Customized Solutions</h4>
                   <p>
                     Every business is different, and so are their web
                     development requirements, as we are aware of. For this
@@ -1053,7 +1189,7 @@ const It_company_in_aurangabad = () => {
                     with you to develop a solution that supports your
                     company&apos;s aims and objectives.
                   </p>
-                  <h4 >4. Focus on User Experience</h4>
+                  <h4>4. Focus on User Experience</h4>
                   <p>
                     Our approach to web development is centered on user
                     experience, or UX. We create visually striking websites that
@@ -1062,7 +1198,7 @@ const It_company_in_aurangabad = () => {
                     UX first priority, which can increase engagement and
                     conversion rates.
                   </p>
-                  <h4 >5. SEO-Friendly Development</h4>
+                  <h4>5. SEO-Friendly Development</h4>
                   <p>
                     If a stunning website doesn&apos;t draw in visitors, it
                     isn&apos;t really useful. For this reason, search engine
@@ -1075,7 +1211,7 @@ const It_company_in_aurangabad = () => {
                   <header className="section-header">
                     <p>IT Training Center in Aurangabad</p>
                   </header>
-                  <h4 > Comprehensive Training Programs</h4>
+                  <h4> Comprehensive Training Programs</h4>
                   <p>
                     Info Era Software Services Pvt. Ltd. offers web development
                     services, but we&apos;re also one of Mirzapru&apos;s top
@@ -1101,7 +1237,7 @@ const It_company_in_aurangabad = () => {
                   <header className="section-header">
                     <p>Future-Proof Your Business</p>
                   </header>
-                  <h4 > Innovative Solutions</h4>
+                  <h4> Innovative Solutions</h4>
                   <p>
                     It&apos;s critical to be ahead of the curve in the rapidly
                     changing digital landscape. Offering our clients
@@ -1111,7 +1247,7 @@ const It_company_in_aurangabad = () => {
                     relevant for years to come because to our focus on cutting
                     edge technologies and trends.
                   </p>
-                  <h4 > Commitment to Excellence</h4>
+                  <h4> Commitment to Excellence</h4>
                   <p>
                     Info Era Software Services Pvt. Ltd. upholds quality as a
                     benchmark for each project it undertakes. It transcends
@@ -1125,7 +1261,7 @@ const It_company_in_aurangabad = () => {
                   <header className="section-header">
                     <p>Get Started with Info Era Today</p>
                   </header>
-                  <h4 > Contact Us</h4>
+                  <h4> Contact Us</h4>
                   <p>
                     Info Era Software Services Pvt. Ltd. may assist you with
                     creating a new website, redesigning an old one, or improving
@@ -1156,15 +1292,15 @@ const It_company_in_aurangabad = () => {
           </div>
         </section>
         {/* Clients Section  */}
-      <section id="clients" className="clients">
-        <div className="container" data-aos="fade-up">
-          <header className="section-header">
-            <h2>Our Clients</h2>
-            <p>Some of our valuable Clients/Associates</p>
-          </header>
-          <ClientCrousel />
-        </div>
-      </section>
+        <section id="clients" className="clients">
+          <div className="container" data-aos="fade-up">
+            <header className="section-header">
+              <h2>Our Clients</h2>
+              <p>Some of our valuable Clients/Associates</p>
+            </header>
+            <ClientCrousel />
+          </div>
+        </section>
       </div>{" "}
       {/* / row */}
       {/* End Article Section */}
@@ -1176,7 +1312,11 @@ const It_company_in_aurangabad = () => {
 </header> */}
           <div className="row">
             <div className="col-lg-6">
-              <img src="/assets/img/webpic.png" className="img-fluid" alt="Web Pic - Info Era" />
+              <img
+                src="/assets/img/webpic.png"
+                className="img-fluid"
+                alt="Web Pic - Info Era"
+              />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">

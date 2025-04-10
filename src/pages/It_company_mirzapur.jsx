@@ -7,9 +7,12 @@ function It_company_mirzapur() {
       <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        
-      {/* Google site Verification  Start */}
-        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+
+        {/* Google site Verification  Start */}
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
         {/* End */}
 
         <title>IT Company in Mirzapru | Software Company in Mirzapur</title>
@@ -19,36 +22,58 @@ function It_company_mirzapur() {
         />
         <meta
           name="keywords"
-          content="it company in mirzapur, software company in mirzapur, web development company in mirzapur, website development company in mirzapur, software development company in mirzapur, best website design and development company in mirzapur"
+          content="it company in mirzapur, top it company in mirzapur, best it company in mirzapur, best software company in mirzapur, top software company in mirzapur, software company in mirzapur, web development company in mirzapur, best web development company in mirzapur, top web development company in mirzapur, top 10 it company in mirzapur, cheap and best software development company in mirzapur, website development company in mirzapur, software development company in mirzapur, best website design and development company in mirzapur"
         />
-         <link rel="canonical" href="https://infoera.in/it_company_mirzapur" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
-            <meta name="content-language" content="EN" />
-            <meta name="search engines" content="ALL" />
-            <meta name="Robots" content="INDEX,ALL" />
-            <meta name="YahooSeeker" content="INDEX, FOLLOW" />
-            <meta name="msnbot" content="INDEX, FOLLOW" />
-            <meta name="googlebot" content="INDEX, FOLLOW" />
-            <meta name="language" content="en-us" />
-            <meta name="Expires" content="never" />
-            <meta name="rating" content="General" />
-            <meta name="Resource-type" content="document" />
-            <meta name="Author" content="www.infoera.in" />
-            <meta name="document-classification" content="Software & Website development company" />
-            <meta name="Distribution" content="Global" />
-            <meta name="Product" content="Software Development, Web Development, SEO, GST Billing Software, Web Hosting, Graphic Designing, Mobile App, E-Learning, CRM, ERP, Bulk SMS, Internship, Jobs " />
-            <meta name="abstract" content="Software Development company in Varanasi, Website Development Company in Varanasi, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Varanasi Bihar India" />
+        <link
+          rel="canonical"
+          href="https://infoera.in/it_company_mirzapur"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta
+          name="document-classification"
+          content="Software & Website development company"
+        />
+        <meta name="Distribution" content="Global" />
+        <meta
+          name="Product"
+          content="Software Development, Web Development, SEO, GST Billing Software, Web Hosting, Graphic Designing, Mobile App, E-Learning, CRM, ERP, Bulk SMS, Internship, Jobs "
+        />
+        <meta
+          name="abstract"
+          content="Software Development company in Varanasi, Website Development Company in Varanasi, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Varanasi Bihar India"
+        />
 
-            <meta name="keyphrases" content="Software development in Mirzapur, Web Design and Development Company in Mirzapur, SEO, Bulk SMS, Customized GST Billing Software developer in Mirzapur, Top IT Company"/>
-            <meta name="contactorganization" content="Info Era Software Services Pvt. Ltd."/>
-            <meta name="contactzipcode" content="231001"/>
-            <meta name="contactcity" content="Mirzapur"/>
-            <meta name="contactcountry" content="india"/>
-            <meta name="Geography" content="Mirzapur, Uttar Pradesh, India"/>
-            <meta name="country" content="INDIA"/>
-            <meta name="contactmobilenumber" content="+91-7008411312"/>
-            <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta
+          name="keyphrases"
+          content="Software development in Mirzapur, Web Design and Development Company in Mirzapur, SEO, Bulk SMS, Customized GST Billing Software developer in Mirzapur, Top IT Company"
+        />
+        <meta
+          name="contactorganization"
+          content="Info Era Software Services Pvt. Ltd."
+        />
+        <meta name="contactzipcode" content="231001" />
+        <meta name="contactcity" content="Mirzapur" />
+        <meta name="contactcountry" content="india" />
+        <meta name="Geography" content="Mirzapur, Uttar Pradesh, India" />
+        <meta name="country" content="INDIA" />
+        <meta name="contactmobilenumber" content="+91-7008411312" />
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
 
-            <meta name="Publisher" content="www.infoera.in" />
+        <meta name="Publisher" content="www.infoera.in" />
       </Helmet>
       <div>
         {/* ======= Hero Section ======= */}
@@ -73,11 +98,11 @@ function It_company_mirzapur() {
                 >
                   IT and software development is expanding in Mirzapur, a city
                   renowned for its rich cultural heritage and historical
-                  significance. Being Mirzapur&apos;s top IT firm is something we at
-                  Info Era Software Services Pvt. Ltd. are proud of. Digital
-                  marketing, software development, and site development are just
-                  a few of the IT services in which we specialize. Our team
-                  comprises proficient individuals committed to providing
+                  significance. Being Mirzapur&apos;s top IT firm is something
+                  we at Info Era Software Services Pvt. Ltd. are proud of.
+                  Digital marketing, software development, and site development
+                  are just a few of the IT services in which we specialize. Our
+                  team comprises proficient individuals committed to providing
                   cutting-edge solutions that enable organizations to prosper in
                   the era of digitalization.
                 </p>
@@ -205,7 +230,8 @@ function It_company_mirzapur() {
                     Hospital Management System.
                   </p>
                   <a
-                    href="http://hospital.infoerasoftware.com/login.aspx" aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
+                    href="http://hospital.infoerasoftware.com/login.aspx"
+                    aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                     target="_blank"
                     type="button"
                     className="btn btn-outline-primary"
@@ -238,7 +264,8 @@ function It_company_mirzapur() {
                     <br />
                   </p>
                   <a
-                    href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
+                    href="http://hotel.infoerasoftware.com"
+                    aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 24 }}
@@ -270,7 +297,8 @@ function It_company_mirzapur() {
                     agencies, agents, clients and financial transactions.
                   </p>
                   <a
-                    href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
+                    href="about.aspx"
+                    aria-label="About - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                   >
@@ -300,7 +328,8 @@ function It_company_mirzapur() {
                     the client and is not an off-the-shelf solution.
                   </p>
                   <a
-                    href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
+                    href="about.aspx"
+                    aria-label="About - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 48 }}
@@ -412,12 +441,12 @@ function It_company_mirzapur() {
                   <h4>Leading Website Development Company in Mirzapur</h4>
                   <p>
                     Businesses nowadays must have a strong online presence, and
-                    Info Era Software Services Pvt. Ltd. shines as Mirzapur&apos;s
-                    top web development company. We build responsive,
-                    high-quality websites that look amazing and function
-                    incredibly well. Our websites are search engine, security,
-                    and speed optimized to assist businesses more efficiently
-                    reach their target audience.
+                    Info Era Software Services Pvt. Ltd. shines as
+                    Mirzapur&apos;s top web development company. We build
+                    responsive, high-quality websites that look amazing and
+                    function incredibly well. Our websites are search engine,
+                    security, and speed optimized to assist businesses more
+                    efficiently reach their target audience.
                   </p>
                   <h4>Best IT Company in Mirzapru</h4>
                   <p>
@@ -498,8 +527,8 @@ function It_company_mirzapur() {
                     reason, we provide specialized solutions made to match your
                     unique needs. Whether you require an intricate e-commerce
                     platform or a basic brochure website, we collaborate closely
-                    with you to develop a solution that supports your company&apos;s
-                    aims and objectives.
+                    with you to develop a solution that supports your
+                    company&apos;s aims and objectives.
                   </p>
                   <h4>4. Focus on User Experience</h4>
                   <p>
@@ -512,12 +541,13 @@ function It_company_mirzapur() {
                   </p>
                   <h4>5. SEO-Friendly Development</h4>
                   <p>
-                    If a stunning website doesn&apos;t draw in visitors, it isn&apos;t
-                    really useful. For this reason, search engine optimization
-                    (SEO) is a consideration when we create websites. By
-                    enhancing your website&apos;s exposure in search engine results,
-                    our SEO-friendly development techniques increase the amount
-                    of natural traffic that comes to your website.
+                    If a stunning website doesn&apos;t draw in visitors, it
+                    isn&apos;t really useful. For this reason, search engine
+                    optimization (SEO) is a consideration when we create
+                    websites. By enhancing your website&apos;s exposure in
+                    search engine results, our SEO-friendly development
+                    techniques increase the amount of natural traffic that comes
+                    to your website.
                   </p>
                   <header className="section-header">
                     <p>IT Training Center in Mirzapur</p>
@@ -525,10 +555,11 @@ function It_company_mirzapur() {
                   <h4> Comprehensive Training Programs</h4>
                   <p>
                     Info Era Software Services Pvt. Ltd. offers web development
-                    services, but we&apos;re also one of Mirzapru&apos;s top providers of
-                    IT training. We provide a range of courses that are intended
-                    to provide people the abilities required to be successful in
-                    the tech sector. Among our training courses are:
+                    services, but we&apos;re also one of Mirzapru&apos;s top
+                    providers of IT training. We provide a range of courses that
+                    are intended to provide people the abilities required to be
+                    successful in the tech sector. Among our training courses
+                    are:
                   </p>
                   <ul>
                     <li>Web Development</li>

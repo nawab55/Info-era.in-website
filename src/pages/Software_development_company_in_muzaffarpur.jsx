@@ -4,46 +4,72 @@ import ClientCrousel from "../components/home/ClientCrousel";
 function Software_development_company_in_muzaffarpur() {
   return (
     <>
-     <Helmet>
+      <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-         {/* Google site Verification  Start */}
-         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* Google site Verification  Start */}
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
         {/* End */}
         <title>
-          Software Company in Muzaffarpur | Website Development in Muzaffarpur Bihar | IT Company in Muzaffarpur Bihar
+          Software Company in Muzaffarpur | Website Development in Muzaffarpur
+          Bihar | IT Company in Muzaffarpur Bihar
         </title>
         <meta
           name="description"
-          content="Website Development Company in Muzaffarpur, SEO Company in Muzaffarpur, Android App Development Company in Muzaffarpur, GST Billing Software in Muzaffarpur, IT Solutions Providers in Muzaffarpur, Bihar, and Bulk SMS Service Provider in Muzaffarpur."
+          content="Top Website, SEO, App Development, GST Billing Software & IT Solutions Company in Muzaffarpur, Bihar. Also offering Bulk SMS services."
         />
-        <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Muzaffarpur, IT Service Provider Company in Muzaffarpur Bihar, SEO Service provider Company in Muzaffarpur, Website Promotion service provider in Muzaffarpur, SEO , SEM, PPC, SMM Services in Muzaffarpur Bihar " />
-        <meta name="keyphrases" content="Website development in Muzaffarpur, Web Designing in Muzaffarpur Bihar, Web Hosting Service in Muzaffarpur, E-Commerce Website Development in Muzaffarpur, Responsive website designing SEO in Muzaffarpur Bihar "/>
-        <link rel="canonical" href="https://infoera.in/software_development_company_in_muzaffarpur"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
+        <meta
+          name=" keywords"
+          content="website development company in muzaffarpur, it company in muzaffarpur, software company in muzaffarpur, website designing company in muzaffarpur, top it company in muzaffarpur, best it company in muzaffarpur, best software service provider in muzaffarpur Customized Software Development Company in Muzaffarpur, IT Service Provider Company in Muzaffarpur Bihar, SEO Service provider Company in Muzaffarpur, Website Promotion service provider in Muzaffarpur, SEO , SEM, PPC, SMM Services in Muzaffarpur Bihar "
+        />
+        <meta
+          name="keyphrases"
+          content="Website development in Muzaffarpur, Web Designing in Muzaffarpur Bihar, Web Hosting Service in Muzaffarpur, E-Commerce Website Development in Muzaffarpur, Responsive website designing SEO in Muzaffarpur Bihar "
+        />
+        <link
+          rel="canonical"
+          href="https://infoera.in/software_development_company_in_muzaffarpur"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
-        <meta name="Robots" content="INDEX,ALL" /> 
-        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
-        <meta name="msnbot" content="INDEX, FOLLOW" /> 
-        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
         <meta name="language" content="en-us" />
         <meta name="Expires" content="never" />
         <meta name="rating" content="General" />
         <meta name="Resource-type" content="document" />
         <meta name="Author" content="www.infoera.in" />
-        <meta name="document-classification" content="Website Designing and Development Company in Muzaffarpur" />
+        <meta
+          name="document-classification"
+          content="Website Designing and Development Company in Muzaffarpur"
+        />
         <meta name="Distribution" content="Global" />
-        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
-        <meta name="contactstreetaddress" content="Muzaffarpur"/>
-        <meta name="contactzipcode" content="800011"/>
-        <meta name="contactcity" content="Muzaffarpur"/>
-        <meta name="contactcountry" content="India"/>
-        <meta name="Geography" content="Muzaffarpur, Bihar, India"/>
-        <meta name="country" content="INDIA"/>
-        <meta name="contactmobilenumber" content="+91 -7008411312"/>
-        <meta name="Publisher" content="www.infoera.in"/>
-        <meta name="Product" content="Website Designing and Development in Muzaffarpur, Software Development in Muzaffarpur, Mobile App Development in Muzaffarpur, Responsive Website Development in Muzaffarpur, Web Hosting in Muzaffarpur, E-Commerce in Muzaffarpur, Search Engine Optimization SEO Services in Muzaffarpur, Website Promotion in Muzaffarpur, Bulk SMS and Voice Call Service in Muzaffarpur, Graphic Designing in Muzaffarpur, IT Company in Muzaffarpur"/>
-        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."></meta>
+        <meta
+          name="contactorganization"
+          content="Info Era Software Services Private Limited"
+        />
+        <meta name="contactstreetaddress" content="Muzaffarpur" />
+        <meta name="contactzipcode" content="800011" />
+        <meta name="contactcity" content="Muzaffarpur" />
+        <meta name="contactcountry" content="India" />
+        <meta name="Geography" content="Muzaffarpur, Bihar, India" />
+        <meta name="country" content="INDIA" />
+        <meta name="contactmobilenumber" content="+91 -7008411312" />
+        <meta name="Publisher" content="www.infoera.in" />
+        <meta
+          name="Product"
+          content="Website Designing and Development in Muzaffarpur, Software Development in Muzaffarpur, Mobile App Development in Muzaffarpur, Responsive Website Development in Muzaffarpur, Web Hosting in Muzaffarpur, E-Commerce in Muzaffarpur, Search Engine Optimization SEO Services in Muzaffarpur, Website Promotion in Muzaffarpur, Bulk SMS and Voice Call Service in Muzaffarpur, Graphic Designing in Muzaffarpur, IT Company in Muzaffarpur"
+        />
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        ></meta>
       </Helmet>
 
       {/* ======= Hero Section ======= */}
@@ -177,7 +203,8 @@ function Software_development_company_in_muzaffarpur() {
                   Hospital Management System.
                 </p>
                 <a
-                  href="http://hospital.infoerasoftware.com/login.aspx"  aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
+                  href="http://hospital.infoerasoftware.com/login.aspx"
+                  aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                   target="_blank"
                   type="button"
                   className="btn btn-outline-primary"
@@ -208,7 +235,8 @@ function Software_development_company_in_muzaffarpur() {
                   <br />
                 </p>
                 <a
-                  href="http://hotel.infoerasoftware.com"  aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
+                  href="http://hotel.infoerasoftware.com"
+                  aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                   type="button"
                   className="btn btn-outline-primary"
                   style={{ marginTop: 24 }}
@@ -240,7 +268,8 @@ function Software_development_company_in_muzaffarpur() {
                   clients and financial transactions.
                 </p>
                 <a
-                  href="about.aspx"  aria-label="About Page - Info Era Software Services Pvt. Ltd."
+                  href="about.aspx"
+                  aria-label="About Page - Info Era Software Services Pvt. Ltd."
                   type="button"
                   className="btn btn-outline-primary"
                 >
@@ -270,7 +299,8 @@ function Software_development_company_in_muzaffarpur() {
                   the client and is not an off-the-shelf solution.
                 </p>
                 <a
-                  href="about.aspx" aria-label="About Page - Info Era Software Services Pvt. Ltd."
+                  href="about.aspx"
+                  aria-label="About Page - Info Era Software Services Pvt. Ltd."
                   type="button"
                   className="btn btn-outline-primary"
                   style={{ marginTop: 48 }}
@@ -438,9 +468,9 @@ function Software_development_company_in_muzaffarpur() {
                     </p>
                     <h4>6. Dedicated Support and Maintenance</h4>
                     <p>
-                      We think it&apos;s important to establish enduring bonds with
-                      our customers. Your websites and software will always be
-                      up to date and functional thanks to our support and
+                      We think it&apos;s important to establish enduring bonds
+                      with our customers. Your websites and software will always
+                      be up to date and functional thanks to our support and
                       maintenance services. We provide dependable and timely
                       assistance to resolve any problems that may occur.
                     </p>
@@ -472,7 +502,12 @@ function Software_development_company_in_muzaffarpur() {
 </header> */}
           <div className="row">
             <div className="col-lg-6">
-              <img src="/assets/img/webpic.png" className="img-fluid" alt="Web Pic - Info Era" title="Web Pic" />
+              <img
+                src="/assets/img/webpic.png"
+                className="img-fluid"
+                alt="Web Pic - Info Era"
+                title="Web Pic"
+              />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">

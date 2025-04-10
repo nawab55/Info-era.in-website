@@ -4,21 +4,29 @@ import { Helmet } from "react-helmet";
 const HospitalManagementSystem = () => {
   return (
     <>
-    <Helmet>
+      <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
 
         <title> Efficient Hospital Management System | Info Era</title>
         <meta
           name="description"
-          content="Streamline hospital operations with a web-based system to manage admissions, staff, schedules, billing, patient records, and improve overall efficiency." />
+          content="Streamline hospital operations with a web-based system to manage admissions, staff, schedules, billing, patient records, and improve overall efficiency."
+        />
 
         <meta
           name="keywords"
-          content="hospital management system, healthcare administration, patient records management "
+          content="hospital management system, best hospital management system in patna, top hospital management system provider in patna, top it service provider in patna, best hospital management system provider in darbhanga, top software development company in patna, best it company in patna bihar, top software development company in darbhanga, top it company in darbhanga, best it company in darbhanga, best it service provider in darbhanga, cheap and best hospital management website development company in patna, best application development company for hospital management system in patna, top application development company for hospital management system in patna  healthcare administration, patient records management "
         />
-        <link rel="canonical" href="https://infoera.in/hospital-management-system"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
+        <link
+          rel="canonical"
+          href="https://infoera.in/hospital-management-system"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -30,17 +38,29 @@ const HospitalManagementSystem = () => {
         <meta name="rating" content="General" />
         <meta name="Resource-type" content="document" />
         <meta name="Author" content="www.infoera.in" />
-        <meta name="document-classification" content="Efficient Hospital Management System" />
+        <meta
+          name="document-classification"
+          content="Efficient Hospital Management System"
+        />
         <meta name="Distribution" content="Global" />
-        <meta name="keyphrases" content="hospital software, staff management, hospital billing system, efficient healthcare"/>
-        <meta name="contactorganization" content="Info Era Software Services Pvt. Ltd."/>
-        <meta name="contactzipcode" content="800001"/>
-        <meta name="contactcity" content="Patna"/>
-        <meta name="contactcountry" content="india"/>
-        <meta name="Geography" content="Patna, Bihar, India"/>
-        <meta name="country" content="INDIA"/>
-        <meta name="contactmobilenumber" content="+91-7008411312"/>
-        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta
+          name="keyphrases"
+          content="hospital software, staff management, hospital billing system, efficient healthcare"
+        />
+        <meta
+          name="contactorganization"
+          content="Info Era Software Services Pvt. Ltd."
+        />
+        <meta name="contactzipcode" content="800001" />
+        <meta name="contactcity" content="Patna" />
+        <meta name="contactcountry" content="india" />
+        <meta name="Geography" content="Patna, Bihar, India" />
+        <meta name="country" content="INDIA" />
+        <meta name="contactmobilenumber" content="+91-7008411312" />
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
 
         <meta name="Publisher" content="www.infoera.in" />
       </Helmet>
@@ -53,7 +73,7 @@ const HospitalManagementSystem = () => {
                 fontSize: 13,
                 fontWeight: 700,
                 color: "#4154f1",
-                textTransform: "none",
+                textTransform: "none"
               }}
             />
           </header>

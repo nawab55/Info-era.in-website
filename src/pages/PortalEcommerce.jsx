@@ -4,22 +4,30 @@ import { Helmet } from "react-helmet";
 function PortalEcommerce() {
   return (
     <>
-    <Helmet>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <Helmet>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-         {/* Google site Verification  Start */}
-         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* Google site Verification  Start */}
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
         {/* End */}
-        <title>Top eCommerce Web Services for Your Business  </title>
+        <title>Top eCommerce Web Services for Your Business </title>
         <meta
           name="description"
-          content="Expert eCommerce web design, development, and store services. We deliver scalable solutions in India & USA to grow your online business effortlessly." />
+          content="Expert eCommerce web design, development, and store services. We deliver scalable solutions in India & USA to grow your online business effortlessly."
+        />
 
         <meta
           name="keywords"
-          content="eCommerce web services, ecommerce website design, ecommerce web development, eCommerce development company, eCommerce store development services, india, usa"
+          content="eCommerce web services, ecommerce website development company in patna, ecommerce website development company in darbhanga, e-commerce website development company in patna, shoping website development company in patna, best ecommerce website designing company in patna, top ecommerce website designing company in darbhanga, cheap and best ecommerce website development company in patna, shopify designing company in patna, low cost website designing company in patna, ecommerce business startups company, ecommerce website design, ecommerce web development, eCommerce development company, eCommerce store development services, india, usa"
         />
-        <link rel="canonical" href="https://www.infoera.in/portal-ecommerce" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
+        <link
+          rel="canonical"
+          href="https://www.infoera.in/portal-ecommerce"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -31,14 +39,22 @@ function PortalEcommerce() {
         <meta name="rating" content="General" />
         <meta name="Resource-type" content="document" />
         <meta name="Author" content="www.infoera.in" />
-        <meta name="document-classification" content="E-commerce Web Service Provider" />
+        <meta
+          name="document-classification"
+          content="E-commerce Web Service Provider"
+        />
         <meta name="Distribution" content="Global" />
-        
-        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
-        <meta name="abstract" content="E-commerce Web Designing Company in Patna, Website Development Company in Patna, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Patna Bihar India" />
-        <meta name="Publisher" content="www.infoera.in" />
 
-    </Helmet>
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
+        <meta
+          name="abstract"
+          content="E-commerce Web Designing Company in Patna, Website Development Company in Patna, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Patna Bihar India"
+        />
+        <meta name="Publisher" content="www.infoera.in" />
+      </Helmet>
       <section
         id="hero"
         className="hero d-flex align-items-center"
@@ -51,7 +67,7 @@ function PortalEcommerce() {
                 fontSize: 13,
                 fontWeight: 700,
                 color: "#4154f1",
-                textTransform: "none",
+                textTransform: "none"
               }}
             />
           </header>

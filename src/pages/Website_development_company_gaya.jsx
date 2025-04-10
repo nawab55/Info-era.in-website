@@ -1,48 +1,81 @@
 import { Helmet } from "react-helmet";
 import ClientCrousel from "../components/home/ClientCrousel";
+import { Link } from "react-router-dom";
+import {style } from "../pages/Website_designing_company_nawada";
+// import "../assets/css/style.css";
 
 function Website_development_company_gaya() {
+  const gaya = style;
   return (
     <>
-     <Helmet>
+      <Helmet>
         <meta charSet="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-         {/* Google site Verification  Start */}
-         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* Google site Verification  Start */}
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
         {/* End */}
-        
+
         <title>
-        Management System Software Development Company in Gaya, Application Software in Gaya Bihar
+          Management System Software Development Company in Gaya, Application
+          Software in Gaya Bihar
         </title>
-        <meta name="description" content="GST Billing & Invoicing System Software in Gaya Bihar, Application Software Development Company in Gaya, Super Market Billing System Software Company in Gaya Bihar, Inventory Management Application Software in Gaya Bihar"/>
-        <meta name="keywords" content="GST Billing & Invoicing System Software Company in Gaya - Info Era Software Services, Inventory Management System Software in Gaya Bihar, Retailing and POS Software in Gaya, Customized Management System Software Development Company in Gaya" />
-        <meta name="keyphrases" content="Software Development in Gaya, GST Billing Software in Gaya Bihar, Super Market Billing System in Gaya Bihar, Customized Application Software Development in Gaya"/>
+        <meta
+          name="description"
+          content="GST Billing & Invoicing System Software in Gaya Bihar, Application Software Development Company in Gaya, Super Market Billing System Software Company in Gaya Bihar, Inventory Management Application Software in Gaya Bihar"
+        />
+        <meta
+          name="keywords"
+          content="GST Billing & Invoicing System Software Company in Gaya - Info Era Software Services, Inventory Management System Software in Gaya Bihar, Retailing and POS Software in Gaya, Customized Management System Software Development Company in Gaya"
+        />
+        <meta
+          name="keyphrases"
+          content="Software Development in Gaya, GST Billing Software in Gaya Bihar, Super Market Billing System in Gaya Bihar, Customized Application Software Development in Gaya"
+        />
         <meta name="Publisher" content="www.infoera.in " />
-        <link rel="canonical" href="https://infoera.in/website_development_company_gaya" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
+        <link
+          rel="canonical"
+          href="https://infoera.in/website_development_company_gaya"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
-        <meta name="Robots" content="INDEX,ALL" /> 
-        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
-        <meta name="msnbot" content="INDEX, FOLLOW" /> 
-        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
         <meta name="language" content="en-us" />
         <meta name="Expires" content="never" />
         <meta name="rating" content="General" />
         <meta name="Resource-type" content="document" />
         <meta name="Author" content="www.infoera.in" />
-        <meta name="document-classification" content="Software Development Company in Gaya" />
+        <meta
+          name="document-classification"
+          content="Software Development Company in Gaya"
+        />
         <meta name="Distribution" content="Global" />
-        <meta name="contactorganization" content="Info Era Software Services Private Limited"/>
-        <meta name="contactstreetaddress" content="Gaya"/>
-        <meta name="contactzipcode" content="800011"/>
-        <meta name="contactcity" content="Gaya"/>
-        <meta name="contactcountry" content="India"/>
-        <meta name="Geography" content="Gaya, Bihar, India"/>
-        <meta name="country" content="INDIA"/>
-        <meta name="contactmobilenumber" content="+91 -7008411312"/>
-        <meta name="Product" content="Inventory Management Software in Gaya, Billing & Invoicing Software in Gaya, Counter Billing Software in Gaya, GST Billing Software in Gaya, Retailing and POS Software in Gaya, Super Market Billing Software in Gaya, Customized Billing Software in Gaya, IT Software Solutions in Gaya Bihar"/>
-        <meta name="copyright" content="Copyright (c) 2014 Info Era Software Services Pvt. Ltd."/>
+        <meta
+          name="contactorganization"
+          content="Info Era Software Services Private Limited"
+        />
+        <meta name="contactstreetaddress" content="Gaya" />
+        <meta name="contactzipcode" content="800011" />
+        <meta name="contactcity" content="Gaya" />
+        <meta name="contactcountry" content="India" />
+        <meta name="Geography" content="Gaya, Bihar, India" />
+        <meta name="country" content="INDIA" />
+        <meta name="contactmobilenumber" content="+91 -7008411312" />
+        <meta
+          name="Product"
+          content="Inventory Management Software in Gaya, Billing & Invoicing Software in Gaya, Counter Billing Software in Gaya, GST Billing Software in Gaya, Retailing and POS Software in Gaya, Super Market Billing Software in Gaya, Customized Billing Software in Gaya, IT Software Solutions in Gaya Bihar"
+        />
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 Info Era Software Services Pvt. Ltd."
+        />
       </Helmet>
       {/* ======= Hero Section ======= */}
       <div>
@@ -178,7 +211,8 @@ function Website_development_company_gaya() {
                     Hospital Management System.
                   </p>
                   <a
-                    href="http://hospital.infoerasoftware.com/login.aspx" aria-label="Login Page - Info Era Software Services Pvt. Ltd."
+                    href="http://hospital.infoerasoftware.com/login.aspx"
+                    aria-label="Login Page - Info Era Software Services Pvt. Ltd."
                     target="_blank"
                     type="button"
                     className="btn btn-outline-primary"
@@ -211,7 +245,8 @@ function Website_development_company_gaya() {
                     <br />
                   </p>
                   <a
-                    href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
+                    href="http://hotel.infoerasoftware.com"
+                    aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 24 }}
@@ -486,7 +521,21 @@ function Website_development_company_gaya() {
                     our clients.
                   </p>
                   <header className="section-header">
-                    <p>Get Started with Info Era Today</p>
+                    <p>Get Started with Info Era Today</p>{" "}
+                    <Link
+                      // to={`http://localhost:3030/${gaya}`}
+                      to={`https://dashboard.infoera.in/${gaya}`}
+                      aria-label="Contact Us - Info Era Software Services Pvt. Ltd."
+                      // className="btn btn-primary"
+                      style={{
+                        // backgroundColor: "#012970",
+                        color: "white",
+                        textDecoration: "none",
+                        cursor: "default"
+                      }}
+                    >
+                      Contact Us
+                    </Link>{" "}
                   </header>
                   <h4> Contact Us</h4>
                   <p>
@@ -497,6 +546,7 @@ function Website_development_company_gaya() {
                     satisfies your requirements and advances your company.
                   </p>
                   <p></p>
+
                   <p>
                     Are you prepared to advance your web presence? Get in touch
                     with Info Era Software Services Pvt. Ltd. right now to find
@@ -540,7 +590,11 @@ function Website_development_company_gaya() {
 </header> */}
           <div className="row">
             <div className="col-lg-6">
-              <img src="/assets/img/webpic.png" className="img-fluid" alt="Webpic - Info Era" />
+              <img
+                src="/assets/img/webpic.png"
+                className="img-fluid"
+                alt="Webpic - Info Era"
+              />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">

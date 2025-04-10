@@ -2,20 +2,28 @@ import { Helmet } from "react-helmet";
 const DesktopApplication = () => {
   return (
     <>
-    <Helmet>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <Helmet>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
-        <title> Expert Web Development Consulting Services | Info Era  </title>
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
+        <title> Expert Web Development Consulting Services | Info Era </title>
         <meta
           name="description"
-          content="CRM System Development, ERP Software Development, CRM Application Developer, GST Billing Software company, Inventory Software Development company in Patna" />
+          content="Info Era is the best Software Development Company in Patna Bihar India. We develop affordable GST billing software, CRM, ERP software, Inventory software"
+        />
 
         <meta
           name="keywords"
-          content="Info Era is the best Software Development Company in Patna Bihar India. We develop affordable GST billing software, CRM, ERP software, Inventory software"
+          content="desktop application development company in patna, best crm system development in patna, top crm system development company in patna, cmr development company in patna, crm development company in darbhanga, top crm development company in darbhanga, best crm development company in darbhanga, best desktop application development in darbhanga, top desktop application development in darbhanga,best desktop application developer in patna, CRM System Development, ERP Software Development, CRM Application Developer, GST Billing Software company, Inventory Software Development company in Patna"
         />
-        <link rel="canonical" href="https://infoera.in/desktop-application"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
+        <link
+          rel="canonical"
+          href="https://infoera.in/desktop-application"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -27,14 +35,22 @@ const DesktopApplication = () => {
         <meta name="rating" content="General" />
         <meta name="Resource-type" content="document" />
         <meta name="Author" content="www.infoera.in" />
-        <meta name="document-classification" content="Software Development in Patna" />
+        <meta
+          name="document-classification"
+          content="Software Development in Patna"
+        />
         <meta name="Distribution" content="Global" />
-        
-        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
-        <meta name="abstract" content="Software Development company in Patna, Website Development Company in Patna, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Patna Bihar India" />
-        <meta name="Publisher" content="www.infoera.in" />
 
-    </Helmet>
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
+        <meta
+          name="abstract"
+          content="Software Development company in Patna, Website Development Company in Patna, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Patna Bihar India"
+        />
+        <meta name="Publisher" content="www.infoera.in" />
+      </Helmet>
       <div>
         {/* ======= Hero Section ======= */}
         <section id="hero" className="hero d-flex align-items-center">
@@ -111,7 +127,7 @@ const DesktopApplication = () => {
                       style={{
                         color: "#012970",
                         fontWeight: 700,
-                        fontSize: 32,
+                        fontSize: 32
                       }}
                     >
                       Next-Generation Software Services platform providing

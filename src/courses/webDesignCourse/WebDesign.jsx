@@ -1,6 +1,7 @@
 import "./temp.css";
 import { Link } from "react-router-dom";
 
+export const email = "register-user"; // Replace with your email address
 const WebDesign = () => {
   return (
     <>

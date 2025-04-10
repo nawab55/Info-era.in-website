@@ -7,7 +7,10 @@ function It_company_in_purnia() {
       <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
         <title>IT Company in Purnia | Top IT Company, Call: 7008411312</title>
         <meta
           name="description"
@@ -15,36 +18,58 @@ function It_company_in_purnia() {
         />
         <meta
           name="keywords"
-          content="it company in purnia, software development company in purnia, website company in purnia, web design company in purnia, web development company in purnia,software development company in purnia, website development in purnia"
+          content="it company in purnia, best it company in purnia, top it company in purnia, software company in purnia, best software company in purnia, top software company in purnia, best software development company in purnia, software development company in purnia, website development company in purnia, web design company in purnia, web development company in purnia, best web development company in purnia, software development company in purnia, best website developer in purnia, website developer in purnia"
         />
-         <link rel="canonical" href="https://infoera.in/it_company_in_purnia" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
-            <meta name="content-language" content="EN" />
-            <meta name="search engines" content="ALL" />
-            <meta name="Robots" content="INDEX,ALL" />
-            <meta name="YahooSeeker" content="INDEX, FOLLOW" />
-            <meta name="msnbot" content="INDEX, FOLLOW" />
-            <meta name="googlebot" content="INDEX, FOLLOW" />
-            <meta name="language" content="en-us" />
-            <meta name="Expires" content="never" />
-            <meta name="rating" content="General" />
-            <meta name="Resource-type" content="document" />
-            <meta name="Author" content="www.infoera.in" />
-            <meta name="document-classification" content="Software & Website development company" />
-            <meta name="Distribution" content="Global" />
-            <meta name="Product" content="Software Development, Web Development, SEO, GST Billing Software, Web Hosting, Graphic Designing, Mobile App, E-Learning, CRM, ERP, Bulk SMS, Internship, Jobs " />
-            <meta name="abstract" content="Software Development company in Purnia, Website Development Company in Purnia, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Purnia Bihar India" />
+        <link
+          rel="canonical"
+          href="https://infoera.in/it_company_in_purnia"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta
+          name="document-classification"
+          content="Software & Website development company"
+        />
+        <meta name="Distribution" content="Global" />
+        <meta
+          name="Product"
+          content="Software Development, Web Development, SEO, GST Billing Software, Web Hosting, Graphic Designing, Mobile App, E-Learning, CRM, ERP, Bulk SMS, Internship, Jobs "
+        />
+        <meta
+          name="abstract"
+          content="Software Development company in Purnia, Website Development Company in Purnia, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Purnia Bihar India"
+        />
 
-            <meta name="keyphrases" content="Software development in Purnia, Web Design and Development Company in Purnia, SEO, Bulk SMS, Customized GST Billing Software developer in Purnia, Top IT Company"/>
-            <meta name="contactorganization" content="Info Era Software Services Pvt. Ltd."/>
-            <meta name="contactzipcode" content="854108"/>
-            <meta name="contactcity" content="Purnia"/>
-            <meta name="contactcountry" content="india"/>
-            <meta name="Geography" content="Purnia, Bihar, India"/>
-            <meta name="country" content="INDIA"/>
-            <meta name="contactmobilenumber" content="+91-7008411312"/>
-            <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta
+          name="keyphrases"
+          content="Software development in Purnia, Web Design and Development Company in Purnia, SEO, Bulk SMS, Customized GST Billing Software developer in Purnia, Top IT Company"
+        />
+        <meta
+          name="contactorganization"
+          content="Info Era Software Services Pvt. Ltd."
+        />
+        <meta name="contactzipcode" content="854108" />
+        <meta name="contactcity" content="Purnia" />
+        <meta name="contactcountry" content="india" />
+        <meta name="Geography" content="Purnia, Bihar, India" />
+        <meta name="country" content="INDIA" />
+        <meta name="contactmobilenumber" content="+91-7008411312" />
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
 
-            <meta name="Publisher" content="www.infoera.in" />
+        <meta name="Publisher" content="www.infoera.in" />
       </Helmet>
       <div>
         {/* ======= Header ======= */}
@@ -192,7 +217,8 @@ function It_company_in_purnia() {
                     Hospital Management System.
                   </p>
                   <a
-                    href="http://hospital.infoerasoftware.com/login.aspx" aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
+                    href="http://hospital.infoerasoftware.com/login.aspx"
+                    aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                     target="_blank"
                     type="button"
                     className="btn btn-outline-primary"
@@ -225,7 +251,8 @@ function It_company_in_purnia() {
                     <br />
                   </p>
                   <a
-                    href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
+                    href="http://hotel.infoerasoftware.com"
+                    aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 24 }}
@@ -257,7 +284,8 @@ function It_company_in_purnia() {
                     agencies, agents, clients and financial transactions.
                   </p>
                   <a
-                    href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
+                    href="about.aspx"
+                    aria-label="About - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                   >
@@ -287,7 +315,8 @@ function It_company_in_purnia() {
                     the client and is not an off-the-shelf solution.
                   </p>
                   <a
-                    href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
+                    href="about.aspx"
+                    aria-label="About - Info Era Software Services Pvt. Ltd."
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 48 }}
@@ -594,7 +623,12 @@ function It_company_in_purnia() {
         <div className="container aos-init" data-aos="fade-up">
           <div className="row">
             <div className="col-lg-6">
-              <img src="/assets/img/webpic.png" className="img-fluid" alt="Web Pic - Info Era" title="Web Pic - Info Era" />
+              <img
+                src="/assets/img/webpic.png"
+                className="img-fluid"
+                alt="Web Pic - Info Era"
+                title="Web Pic - Info Era"
+              />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">

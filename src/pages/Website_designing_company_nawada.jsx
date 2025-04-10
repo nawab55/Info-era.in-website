@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import ClientCrousel from "../components/home/ClientCrousel";
 
+export const style = "register-user";
 function Website_designing_company_nawada() {
   return (
     <>

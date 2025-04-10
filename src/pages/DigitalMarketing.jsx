@@ -2,20 +2,36 @@ import { Helmet } from "react-helmet";
 const DigitalMarketing = () => {
   return (
     <>
-    <Helmet>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <Helmet>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
-        <title> SEO Services in Patna, SEO SEM PPC SMM Company Patna Bihar - Info Era Patna  </title>
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
+        <title>
+          {" "}
+          SEO Services in Patna, SEO SEM PPC SMM Company Patna Bihar - Info Era
+          Patna{" "}
+        </title>
         <meta
           name="description"
-          content="Patna's top search engine marketing company, pay-per-click (PPC) marketing firm, search engine optimization (SEO) firm, social media marketing agency, search engine marketing services (SEM), and advertising firm" />
+          content="Patna's top search engine marketing company, pay-per-click (PPC) marketing firm, search engine optimization (SEO) firm, social media marketing agency, search engine marketing services (SEM), and advertising firm"
+        />
 
         <meta
           name="keywords"
+          content="best digital marketing services in patna, social media marketing services in patna, social media marketing services in darbhanga, social media marketing services in ranchi, social media marketing services in gaya, social media marketing services provider in darbhanga, social media marketing service provider in patna , top digital marketing services in darbhanga, top digital marketing services in patna , top digital marketing services in gaya, best seo service providing company in darbhanga, best seo service providing patna, best seo service providing agency in darbhanga, best seo service providing agency in patna, top seo specialistic in patna, best digital marketing agency provider in darbhanga, best digital marketing agency provider in patna, best digital marketing agency provider in gaya, seo agency in patna, seo agency in darbhanga, seo agency in ranchi, seo agency in gaya, seo agency in bihar"
+        />
+        <meta
+          name="facebook-discription"
           content="Info Era is the best Search Engine Optimization SEO Services provider in Patna Bihar India. We provide affordable On Page, Off Page SEO Services for websites"
         />
-        <link rel="canonical" href="https://infoera.in/digital-marketing"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
+        <link
+          rel="canonical"
+          href="https://infoera.in/digital-marketing"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -29,12 +45,20 @@ const DigitalMarketing = () => {
         <meta name="Author" content="www.infoera.in" />
         <meta name="document-classification" content="SEO Company in Patna" />
         <meta name="Distribution" content="Global" />
-        <meta name="keyphrases" content="Software development in Patna, Web Design and Development Company in Patna, SEO, Bulk SMS, Customized GST Billing Software developer in Patna, Best IT Company"/>
-        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
-        <meta name="abstract" content="Software Development company in Patna, Website Development Company in Patna, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Patna Bihar India" />
+        <meta
+          name="keyphrases"
+          content="Software development in Patna, seo provider in india, seo provider in bihar, seo service providing company in patna, digital marketing agency in india, digital marketing company in patna, Web Design and Development Company in Patna, SEO, Bulk SMS, Customized GST Billing Software developer in Patna, Best IT Company"
+        />
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
+        <meta
+          name="abstract"
+          content="Software Development company in Patna, Website Development Company in Patna, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Patna Bihar India"
+        />
         <meta name="Publisher" content="www.infoera.in" />
-
-    </Helmet>
+      </Helmet>
       <div>
         {/* ======= Hero Section ======= */}
         <section id="hero" className="hero d-flex align-items-center">

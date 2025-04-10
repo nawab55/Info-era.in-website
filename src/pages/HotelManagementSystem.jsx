@@ -7,18 +7,26 @@ const HotelManagementSystem = () => {
       <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
 
         <title> Efficient Hotel Management System | Info Era</title>
         <meta
           name="description"
-          content="Streamline hotel operations with a web-based system to manage guest check-ins and check-outs, staff schedules, room bookings, billing, guest records, and improve overall efficiency." />
+          content="Streamline hotel operations with a web-based system to manage guest check-ins and check-outs, staff schedules, room bookings, billing, guest records, and improve overall efficiency."
+        />
 
         <meta
           name="keywords"
-          content="hotel management system, Web-based Hotel System, Guest Check-in and Check-out Management,Staff Scheduling System, Billing and Invoice Management "
+          content="best hotel management system provider in patna, top hms service provider in patna, best hms service provider in patna, add development company in patna, app development company in ranchi, app development company in gaya, app development company in bhubaneswar, software development company for hms in patna, software development company for hms in darbhanga, Web-based Hotel System, Guest Check-in and Check-out Management,Staff Scheduling System, Billing and Invoice Management "
         />
-        <link rel="canonical" href="https://infoera.in/hotel-management-system"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
+        <link
+          rel="canonical"
+          href="https://infoera.in/hotel-management-system"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -30,17 +38,29 @@ const HotelManagementSystem = () => {
         <meta name="rating" content="General" />
         <meta name="Resource-type" content="document" />
         <meta name="Author" content="www.infoera.in" />
-        <meta name="document-classification" content="Efficient Hotel Management System" />
+        <meta
+          name="document-classification"
+          content="Efficient Hotel Management System"
+        />
         <meta name="Distribution" content="Global" />
-        <meta name="keyphrases" content="hotel software, staff management, hotel billing system, Room Availability Tracker, Hotel Workflow Optimization"/>
-        <meta name="contactorganization" content="Info Era Software Services Pvt. Ltd."/>
-        <meta name="contactzipcode" content="800001"/>
-        <meta name="contactcity" content="Patna"/>
-        <meta name="contactcountry" content="india"/>
-        <meta name="Geography" content="Patna, Bihar, India"/>
-        <meta name="country" content="INDIA"/>
-        <meta name="contactmobilenumber" content="+91-7008411312"/>
-        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta
+          name="keyphrases"
+          content="hotel software, staff management, hotel billing system, Room Availability Tracker, Hotel Workflow Optimization"
+        />
+        <meta
+          name="contactorganization"
+          content="Info Era Software Services Pvt. Ltd."
+        />
+        <meta name="contactzipcode" content="800001" />
+        <meta name="contactcity" content="Patna" />
+        <meta name="contactcountry" content="india" />
+        <meta name="Geography" content="Patna, Bihar, India" />
+        <meta name="country" content="INDIA" />
+        <meta name="contactmobilenumber" content="+91-7008411312" />
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
 
         <meta name="Publisher" content="www.infoera.in" />
       </Helmet>
@@ -52,7 +72,7 @@ const HotelManagementSystem = () => {
                 fontSize: 13,
                 fontWeight: 700,
                 color: "#4154f1",
-                textTransform: "none",
+                textTransform: "none"
               }}
             />
           </header>
@@ -64,7 +84,7 @@ const HotelManagementSystem = () => {
                     style={{
                       color: "#0c219a",
                       fontWeight: 700,
-                      fontSize: 32,
+                      fontSize: 32
                     }}
                   >
                     Hotel Management System

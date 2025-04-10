@@ -6,39 +6,73 @@ const It_company_in_kaimur = () => {
     <>
       <Helmet>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
-        <title>Top Software Development Company in Kaimur | Info Era Software</title>
-        <meta name=" description" content="Software Development Company in Kaimur, GST Billing Software in Kaimur, IT Solutions Providers in Kaimur Bihar, Website Development Company in Kaimur, SEO Company in Kaimur, Android App Development Company in Kaimur, Bulk SMS Service provider in Kaimur Bihar "/>
-        <meta name=" keywords" content="Info Era Software Services, Customized Software Development Company in Kaimur, IT Service Provider Company in Kaimur Bihar, SEO Service provider Company in Kaimur, Website Promotion service provider in Kaimur, SEO , SEM, PPC, SMM Services in Kaimur Bihar " />
-        <meta name="keyphrases" content="Website development in Kaimur, Web Designing in Kaimur Bihar, Web Hosting Service in Kaimur, E-Commerce Website Development in Kaimur, Responsive website designing SEO in Kaimur Bihar "/>
-         <link rel="canonical" href="https://infoera.in/it_company_in_kaimur" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
-            <meta name="content-language" content="EN" />
-            <meta name="search engines" content="ALL" />
-            <meta name="Robots" content="INDEX,ALL" />
-            <meta name="YahooSeeker" content="INDEX, FOLLOW" />
-            <meta name="msnbot" content="INDEX, FOLLOW" />
-            <meta name="googlebot" content="INDEX, FOLLOW" />
-            <meta name="language" content="en-us" />
-            <meta name="Expires" content="never" />
-            <meta name="rating" content="General" />
-            <meta name="Resource-type" content="document" />
-            <meta name="Author" content="www.infoera.in" />
-            <meta name="document-classification" content="Software & Website development company" />
-            <meta name="Distribution" content="Global" />
-            <meta name="Product" content="Website Designing and Development in Kaimur, Software Development in Kaimur, Mobile App Development in Kaimur, Responsive Website Development in Kaimur, Web Hosting in Kaimur, E-Commerce in Kaimur, Search Engine Optimization SEO Services in Kaimur, Website Promotion in Kaimur, Bulk SMS and Voice Call Service in Kaimur, Graphic Designing in Kaimur, IT Company in Kaimur"/>
-            <meta name="abstract" content="Software Development company in Kaimur, Website Development Company in Kaimur, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Kaimur Bihar India" />
-            <meta name="contactorganization" content="Info Era Software Services Pvt. Ltd."/>
-            <meta name="contactzipcode" content="811310"/>
-            <meta name="contactcity" content="Kaimur"/>
-            <meta name="contactcountry" content="india"/>
-            <meta name="Geography" content="Kaimur, Bihar, India"/>
-            <meta name="country" content="INDIA"/>
-            <meta name="contactmobilenumber" content="+91-7008411312"/>
-            <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
+        <title>
+          Top Software Development Company in Kaimur | Info Era Software
+        </title>
+        <meta
+          name=" description"
+          content="Software Development Company in Kaimur, GST Billing Software in Kaimur, IT Solutions Providers in Kaimur Bihar, Website Development Company in Kaimur, SEO Company in Kaimur, Android App Development Company in Kaimur, Bulk SMS Service provider in Kaimur Bihar "
+        />
 
-            <meta name="Publisher" content="www.infoera.in" />
+        <meta
+          name=" keywords"
+          content="it company in kaimur, best it company in kaimur, top it company in kaimur, software development company in kaimur, web designing company in kaimur, Customized Software Development Company in Kaimur, IT Service Provider Company in Kaimur Bihar, SEO Service provider Company in Kaimur, Website Promotion service provider in Kaimur, SEO , SEM, PPC, SMM Services in Kaimur Bihar "
+        />
+        <meta
+          name="keyphrases"
+          content="Website development in Kaimur, Web Designing in Kaimur Bihar, Web Hosting Service in Kaimur, E-Commerce Website Development in Kaimur, Responsive website designing SEO in Kaimur Bihar "
+        />
+        <link
+          rel="canonical"
+          href="https://infoera.in/it_company_in_kaimur"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta
+          name="document-classification"
+          content="Software & Website development company"
+        />
+        <meta name="Distribution" content="Global" />
+        <meta
+          name="Product"
+          content="Website Designing and Development in Kaimur, Software Development in Kaimur, Mobile App Development in Kaimur, Responsive Website Development in Kaimur, Web Hosting in Kaimur, E-Commerce in Kaimur, Search Engine Optimization SEO Services in Kaimur, Website Promotion in Kaimur, Bulk SMS and Voice Call Service in Kaimur, Graphic Designing in Kaimur, IT Company in Kaimur"
+        />
+        <meta
+          name="abstract"
+          content="Software Development company in Kaimur, Website Development Company in Kaimur, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Kaimur Bihar India"
+        />
+        <meta
+          name="contactorganization"
+          content="Info Era Software Services Pvt. Ltd."
+        />
+        <meta name="contactzipcode" content="811310" />
+        <meta name="contactcity" content="Kaimur" />
+        <meta name="contactcountry" content="india" />
+        <meta name="Geography" content="Kaimur, Bihar, India" />
+        <meta name="country" content="INDIA" />
+        <meta name="contactmobilenumber" content="+91-7008411312" />
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
+
+        <meta name="Publisher" content="www.infoera.in" />
       </Helmet>
-      <div >
+      <div>
         {/* ======= Hero Section ======= */}
         <section
           id="hero"
@@ -252,7 +286,8 @@ const It_company_in_kaimur = () => {
                         System.
                       </p>
                       <a
-                        href="http://hospital.infoerasoftware.com/login.aspx" aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
+                        href="http://hospital.infoerasoftware.com/login.aspx"
+                        aria-label="Hospital Management System - Info Era Software Services Pvt. Ltd."
                         target="_blank"
                         type="button"
                         className="btn btn-outline-primary"
@@ -285,7 +320,8 @@ const It_company_in_kaimur = () => {
                         <br />
                       </p>
                       <a
-                        href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
+                        href="http://hotel.infoerasoftware.com"
+                        aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                         type="button"
                         className="btn btn-outline-primary"
                         style={{ marginTop: 24 }}
@@ -349,7 +385,8 @@ const It_company_in_kaimur = () => {
                         solution.
                       </p>
                       <a
-                        href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
+                        href="about.aspx"
+                        aria-label="About - Info Era Software Services Pvt. Ltd."
                         type="button"
                         className="btn btn-outline-primary"
                         style={{ marginTop: 48 }}
@@ -679,7 +716,7 @@ const It_company_in_kaimur = () => {
               <h2>Our Clients</h2>
               <p>Some of our valuable Clients/Associates</p>
             </header>
-            <ClientCrousel/>
+            <ClientCrousel />
           </div>
         </section>
         {/* End Clients Section */}
@@ -691,7 +728,11 @@ const It_company_in_kaimur = () => {
 </header> */}
             <div className="row">
               <div className="col-lg-6">
-                <img src="/assets/img/webpic.png" className="img-fluid" alt="" />
+                <img
+                  src="/assets/img/webpic.png"
+                  className="img-fluid"
+                  alt=""
+                />
               </div>
               <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
                 <div className="row align-self-center gy-4">

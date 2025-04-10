@@ -2,39 +2,54 @@ import { Helmet } from "react-helmet";
 const ComputerSupply = () => {
   return (
     <>
-    <Helmet>
+      <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
         <title> Computer Supply: Expert Sales & Service Solutions </title>
         <meta
           name="description"
-          content="Reliable computer sales, repair, and IT services by certified technicians. Trusted for quality and excellence in all your PC needs." />
+          content="Reliable computer sales, repair, and IT services by certified technicians. Trusted for quality and excellence in all your PC needs."
+        />
 
         <meta
           name="keywords"
-          content="computer supply, PC sales, computer service, IT support"
+          content="computer supply, best website designing company for shop, top ecommerce development company in patna, best e-commerce website designing and development in patna, top ecommerce app development company in patna, top mobile application development company in patna, best e-commerce mobile application development company in patna, top e-commerce mobile application development company in darbhanga, top e-commerce website and app development company in patna, website designing and best computer supply service provider in patna,  PC sales, computer service, IT support"
         />
-        <link rel="canonical" href="https://infoera.in/computer-supply"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
+        <link
+          rel="canonical"
+          href="https://infoera.in/computer-supply"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
-        <meta name="YahooSeeker" content="NoINDEX, FOLLOW" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
         <meta name="msnbot" content="INDEX, FOLLOW" />
-        <meta name="googlebot" content="NOINDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
         <meta name="language" content="en-us" />
         <meta name="Expires" content="never" />
         <meta name="rating" content="General" />
         <meta name="Resource-type" content="document" />
         <meta name="Author" content="www.infoera.in" />
-        <meta name="document-classification" content="Best It Company in India" />
+        <meta
+          name="document-classification"
+          content="Best It Company in India"
+        />
         <meta name="Distribution" content="Global" />
-        <meta name="keyphrases" content=" computer sales and service, certified technicians, computer repair experts, IT solutions"/>
-        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta
+          name="keyphrases"
+          content=" computer sales and service, certified technicians, computer repair experts, IT solutions"
+        />
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
 
         <meta name="Publisher" content="www.infoera.in" />
-
-
       </Helmet>
       <div>
         <main id="main">
@@ -52,7 +67,7 @@ const ComputerSupply = () => {
                       style={{
                         color: "#012970",
                         fontWeight: 700,
-                        fontSize: 32,
+                        fontSize: 32
                       }}
                     >
                       Computer Supply

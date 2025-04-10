@@ -2,22 +2,30 @@ import { Helmet } from "react-helmet";
 const Cctv = () => {
   return (
     <>
-    <Helmet>
+      <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        
-        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
 
-        <title> Reliable CCTV Installation Services | Info Era  </title>
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
+
+        <title> Reliable CCTV Installation Services | Info Era </title>
         <meta
           name="description"
-          content="Secure your business with Info Era's expert CCTV installation. Monitor productivity, prevent losses, and ensure 24/7 surveillance with proven solutions." />
+          content="Secure your business with Info Era's expert CCTV installation. Monitor productivity, prevent losses, and ensure 24/7 surveillance with proven solutions."
+        />
 
         <meta
           name="keywords"
-          content="CCTV installation, Info Era CCTV services, Best CCTV Service Provider in Patna, Bihar, Top CCTV Services, CCTV Service Provider near me, Best CCTV Service Provicer Near Me, Cheap and Best CCTV Service Provider in Patna, Reating, Patna Service Provider company, Best Service Provider in Patna, surveillance systems, security solutions, business monitoring, employee productivity"
+          content="cctv installation, best cctv website creation company in patna, cctv website creation company in patna , cctv service provider in bihar, top cctv software development company in patna, info era cctv services, best cctv service provider in patna, cctv bihar, top cctv Services, cctv Service provider near me, best cctv service provicer near me, cheap and best cctv service provider in patna, reating, patna service provider company, best service provider in patna, surveillance systems, security solutions, business monitoring, employee productivity"
         />
-        <link rel="canonical" href="https://infoera.in/cctv"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
+        <link
+          rel="canonical"
+          href="https://infoera.in/cctv"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -29,14 +37,21 @@ const Cctv = () => {
         <meta name="rating" content="General" />
         <meta name="Resource-type" content="document" />
         <meta name="Author" content="www.infoera.in" />
-        <meta name="document-classification" content="Software & Website development company" />
+        <meta
+          name="document-classification"
+          content="Software & Website development company"
+        />
         <meta name="Distribution" content="Global" />
-        <meta name="keyphrases" content=" loss prevention, 24/7 CCTV monitoring, reliable CCTV setup, security camera installation, professional CCTV services, advanced surveillance"/>
-        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
-        
+        <meta
+          name="keyphrases"
+          content=" loss prevention, 24/7 CCTV monitoring, reliable CCTV setup, security camera installation, professional CCTV services, advanced surveillance"
+        />
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
+
         <meta name="Publisher" content="www.infoera.in" />
-
-
       </Helmet>
       <div>
         <main id="main">
@@ -54,7 +69,7 @@ const Cctv = () => {
                       style={{
                         color: "#012970",
                         fontWeight: 700,
-                        fontSize: 32,
+                        fontSize: 32
                       }}
                     >
                       CCTV Installation

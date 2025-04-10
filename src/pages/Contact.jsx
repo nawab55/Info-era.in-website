@@ -10,7 +10,7 @@ const Contact = () => {
     email: "",
     mobile: "",
     subject: "",
-    message: "",
+    message: ""
   });
 
   const onInputChange = (e) => {
@@ -30,9 +30,9 @@ const Contact = () => {
         {
           method: "POST",
           headers: {
-            "Content-Type": "application/json",
+            "Content-Type": "application/json"
           },
-          body: JSON.stringify(formData),
+          body: JSON.stringify(formData)
         }
       );
 
@@ -45,7 +45,7 @@ const Contact = () => {
           email: "",
           mobile: "",
           subject: "",
-          message: "",
+          message: ""
         });
       } else {
         toast.error(data.message);
@@ -78,7 +78,7 @@ Narain Plaza, Exhibition Road, Patna, (Bihar) 800001, Mobile – 7008411312, Ema
 
         <meta
           name="keywords"
-          content="Branch Office Address - VIP Road, Balbhadrapur, Laheriasarai, Darbhanga, (Bihar) 846001., 
+          content="best it company in darbhanga, software company in ranchi, it company in patna, it company in bihar, top it company in patna,Branch Office Address - VIP Road, Balbhadrapur, Laheriasarai, Darbhanga, (Bihar) 846001., 
           Mobile – 7008411312, Email - infoerapvtltd@gmail.com, Website - www.infoera.in – Leading and Trustworthy 
           Software Company in Darbhanga Bihar"
         />
@@ -301,3 +301,4 @@ Narain Plaza, Exhibition Road, Patna, (Bihar) 800001, Mobile – 7008411312, Ema
 };
 
 export default Contact;
+// Compare this snippet from src/pages/Contact.jsx:

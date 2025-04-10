@@ -16,7 +16,7 @@ const ClientQuery = () => {
     email: "",
     district: "",
     address: "",
-    pinCode: "",
+    pinCode: ""
   });
 
   const [other, setOther] = useState("");
@@ -40,9 +40,9 @@ const ClientQuery = () => {
         {
           method: "POST",
           headers: {
-            "Content-Type": "application/json",
+            "Content-Type": "application/json"
           },
-          body: JSON.stringify(formData),
+          body: JSON.stringify(formData)
         }
       );
 
@@ -60,7 +60,7 @@ const ClientQuery = () => {
           email: "",
           district: "",
           address: "",
-          pinCode: "",
+          pinCode: ""
         });
       } else {
         toast.error(data.message);
@@ -88,7 +88,7 @@ const ClientQuery = () => {
 
         <meta
           name="keywords"
-          content="Contact with infoera, join with infoera, contect us , Info Era Contect Number, Info Era Query, Query with Info Era Software Services"
+          content="contact with infoera, join with infoera, contect us , Info Era Contect Number, Info Era Query, Query with Info Era Software Services"
         />
         <link
           rel="canonical"

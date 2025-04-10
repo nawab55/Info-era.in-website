@@ -1,5 +1,5 @@
 import { lazy, Suspense, useEffect, useState } from "react";
-import { Routes, Route, useLocation, matchPath, } from "react-router-dom";
+import { Routes, Route, useLocation, matchPath } from "react-router-dom";
 import RestoreScroll from "./hooks/RestoreScroll";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -11,7 +11,9 @@ import AssessmentTest from "./components/assessmentTest/AssessmentTest";
 import axios from "axios";
 
 // const WebDesign = lazy(() => import("./courses/webDesignCourse/WebDesign"));
-const WebDevelopment = lazy(() => import("./courses/webDevelopmentCourse/WebDevelopment"));
+const WebDevelopment = lazy(() =>
+  import("./courses/webDevelopmentCourse/WebDevelopment")
+);
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
 const Blog = lazy(() => import("./pages/Blog"));
@@ -34,7 +36,7 @@ const Activity = lazy(() => import("./pages/Activity"));
 const Team = lazy(() => import("./pages/Team"));
 const TeamNew = lazy(() => import("./pages/TeamNew"));
 const Jobs = lazy(() => import("./pages/Jobs"));
-const JobsViewDetails = lazy(() => import("./pages/JobsViewDetails")) ;
+const JobsViewDetails = lazy(() => import("./pages/JobsViewDetails"));
 const Training = lazy(() => import("./pages/Training"));
 const Certificate = lazy(() => import("./pages/Certificate"));
 const Shop = lazy(() => import("./pages/Shop"));
@@ -43,6 +45,7 @@ const Bbc = lazy(() => import("./pages/Bbc"));
 const ReturnPolicy = lazy(() => import("./pages/ReturnPolicy"));
 const TermConditions = lazy(() => import("./pages/TermConditions"));
 const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy"));
+const Ro_water_purifier = lazy(() => import("./pages/Ro_water_purifier"));
 const SchoolManagementSystem = lazy(() =>
   import("./pages/SchoolManagementSystem")
 );
@@ -87,6 +90,7 @@ const It_company_in_aurangabad = lazy(() =>
   import("./pages/It_company_in_aurangabad")
 );
 const It_company_in_kaimur = lazy(() => import("./pages/It_company_in_kaimur"));
+const It_company_in_patna = lazy(() => import("./pages/It_company_in_patna"));
 const It_consulting_solution_perth = lazy(() =>
   import("./pages/It_consulting_solution_perth")
 );
@@ -217,7 +221,6 @@ const Website_development_training_cerner_in_jehanabad = lazy(() =>
   import("./pages/Website_development_training_cerner_in_jehanabad")
 );
 
-
 function App() {
   const { pathname } = useLocation();
   // console.log(pathname);
@@ -228,12 +231,16 @@ function App() {
     const fetchAssessmentStatus = async () => {
       try {
         const response = await axios.get(
-          `${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/assessment-status/get-status`
+          `${
+            import.meta.env.VITE_REACT_APP_BACKEND_BASEURL
+          }/api/assessment-status/get-status`
         );
         if (response.status === 200 && response.data.success) {
           setAssessmentStatus(response.data.data.status || "Inactive");
         } else {
-          console.warn("Failed to fetch assessment status. Defaulting to Inactive.");
+          console.warn(
+            "Failed to fetch assessment status. Defaulting to Inactive."
+          );
         }
       } catch (error) {
         console.error("Error fetching assessment status:", error);
@@ -273,6 +280,7 @@ function App() {
     "/ibc",
     "/bbc",
     "/return-policy",
+    "/ro_water_purifier",
     "/terms-conditions",
     "/privacy-policy",
     "/school-management-system",
@@ -301,6 +309,7 @@ function App() {
     "/it_companies_ranchi",
     "/it_company_in_aurangabad",
     "/it_company_in_kaimur",
+    "/it_company_in_patna",
     "/it_company_in_purnia",
     "/it_company_in_varanasi",
     "/it_company_jamui",
@@ -361,7 +370,7 @@ function App() {
   // console.log(hidden)
 
   const hidden = !routes.some((route) => matchPath(route, pathname));
-// console.log(hidden);
+  // console.log(hidden);
 
   return (
     <>
@@ -542,7 +551,8 @@ function App() {
           path="/team"
           element={
             <Suspense fallback={<SkeletonLoader />}>
-              <Team />
+              {/* <Team /> */}
+              <TeamNew />
             </Suspense>
           }
         />
@@ -550,7 +560,8 @@ function App() {
           path="/team-new"
           element={
             <Suspense fallback={<SkeletonLoader />}>
-              <TeamNew />
+              {/* <TeamNew /> */}
+              <Team />
             </Suspense>
           }
         />
@@ -615,6 +626,14 @@ function App() {
           element={
             <Suspense fallback={<SkeletonLoader />}>
               <ReturnPolicy />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/ro_water_purifier"
+          element={
+            <Suspense fallback={<SkeletonLoader />}>
+              <Ro_water_purifier />
             </Suspense>
           }
         />
@@ -727,7 +746,10 @@ function App() {
           path="/best_it_company_in_lakhisarai"
           element={
             <Suspense fallback={<SkeletonLoader />}>
-              <SeoSearch city={"Lakhisarai"} />
+              <SeoSearch
+                city={"Lakhisarai"}
+                route={"best_it_company_in_lakhisarai"}
+              />
             </Suspense>
           }
         />
@@ -735,7 +757,10 @@ function App() {
           path="/best_it_company_in_darbhanga"
           element={
             <Suspense fallback={<SkeletonLoader />}>
-              <SeoSearch city={"Darbhanga"} />
+              <SeoSearch
+                city={"Darbhanga"}
+                route={"best_it_company_in_darbhanga"}
+              />
             </Suspense>
           }
         />
@@ -743,7 +768,10 @@ function App() {
           path="/best_software_company_darbhanga"
           element={
             <Suspense fallback={<SkeletonLoader />}>
-              <SeoSearch city={"Darbhanga"} />
+              <SeoSearch
+                city={"Darbhanga"}
+                route={"best_software_company_darbhanga"}
+              />
             </Suspense>
           }
         />
@@ -751,7 +779,7 @@ function App() {
           path="/best_it_company_in_rohtas"
           element={
             <Suspense fallback={<SkeletonLoader />}>
-              <SeoSearch city={"Rohtas"} />
+              <SeoSearch city={"Rohtas"} route={"best_it_company_in_rohtas"} />
             </Suspense>
           }
         />
@@ -759,7 +787,10 @@ function App() {
           path="/best_it_company_samastipur"
           element={
             <Suspense fallback={<SkeletonLoader />}>
-              <SeoSearch city={"Samastipur"} />
+              <SeoSearch
+                city={"Samastipur"}
+                route={"best_it_company_samastipur"}
+              />
             </Suspense>
           }
         />
@@ -840,6 +871,14 @@ function App() {
           element={
             <Suspense fallback={<SkeletonLoader />}>
               <It_company_in_kaimur />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/it_company_in_patna"
+          element={
+            <Suspense fallback={<SkeletonLoader />}>
+              <It_company_in_patna />
             </Suspense>
           }
         />

@@ -193,30 +193,51 @@ function Jobs() {
 
   return (
     <>
-    <Helmet>
-      <meta charSet="utf-8"/>
-      <title>IT Jobs in Patna bihar | Software Development Jobs in Patna Bihar </title>
-       {/* Google site Verification  Start */}
-       <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          IT Jobs in Patna bihar | Software Development Jobs in Patna Bihar{" "}
+        </title>
+        {/* Google site Verification  Start */}
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
         {/* End */}
-      <meta name="discription" content="Join the best IT training center in Bihar offering internships, IT jobs, website designing, graphic designing, and software jobs in Patna. Build your career with us!"/>
-      <meta name="Keywords" content="it treaning center, it jobs, best it company in bihar, best it company treaning , Internship, Jobs, naukari, it jobs, website designing jobs in bihar, software jobs in patna bihar, best it company jobs in patna bihar, graphic designing jobs in patna bihar"/>
-      <link rel="canonical" href="https://infoera.in/jobs" aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
-      <meta name="content-language" content="EN" />
+        <meta
+          name="discription"
+          content="Join the best IT training center in Bihar offering internships, IT jobs, website designing, graphic designing, and software jobs in Patna. Build your career with us!"
+        />
+        <meta
+          name="Keywords"
+          content="it treaning center, it company in patna, it company in darbhanga, naukri.com, it jobs in patna, best it company in patna, ranchi, darbhanga, it jobs, best it company in bihar, best it company treaning , Internship, Jobs, naukari, it jobs, website designing jobs in bihar, software jobs in patna bihar, best it company jobs in patna bihar, graphic designing jobs in patna bihar"
+        />
+        <link
+          rel="canonical"
+          href="https://infoera.in/jobs"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
+        <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
-        <meta name="Robots" content="INDEX,ALL" /> 
-        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
-        <meta name="msnbot" content="INDEX, FOLLOW" /> 
-        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
         <meta name="language" content="en-us" />
         <meta name="Expires" content="never" />
         <meta name="rating" content="General" />
         <meta name="Resource-type" content="document" />
         <meta name="Author" content="www.infoera.in" />
-        <meta name="document-classification" content="Website Designing and Development Company Perth" />
+        <meta
+          name="document-classification"
+          content="Website Designing and Development Company Perth"
+        />
         <meta name="Distribution" content="Global" />
-        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."/>
-    </Helmet>
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
+      </Helmet>
       {/* ======= Hero Section ======= */}
       <section id="hero" className="hero d-flex align-items-center">
         <br />
@@ -243,7 +264,12 @@ function Jobs() {
               className="col-lg-6 hero-img aos-init aos-animate"
               data-aos="zoom-out"
             >
-              <img src="/assets/img/hiring.png" className="img-fluid" alt="Hiring -Info Era" title="Hiring - Info Era" />
+              <img
+                src="/assets/img/hiring.png"
+                className="img-fluid"
+                alt="Hiring -Info Era"
+                title="Hiring - Info Era"
+              />
             </div>
           </div>
         </div>

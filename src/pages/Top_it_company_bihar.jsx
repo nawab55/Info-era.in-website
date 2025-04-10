@@ -4,52 +4,73 @@ function Top_it_company_bihar() {
   return (
     <>
       <Helmet>
-          <meta charSet="utf-8" />
-          <meta
-            content="width=device-width, initial-scale=1.0"
-            name="viewport"
-          />
-           {/* Google site Verification  Start */}
-        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        <meta charSet="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        {/* Google site Verification  Start */}
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
         {/* End */}
-          <title>Top IT Company in Bihar | Software Company in India</title>
-          <meta
-            name="description"
-            content="Patna software company, Patna Bihar IT service provider, Patna Bihar Website Development Company, Patna IT Company, Patna SEO Services, and Patna IT Solutions."
-          />
-          <meta
-            name="keywords"
-            content="Info Era Software Services is a leading IT company in Patna, Bihar which focuses on Software, Website, Mobile App, GST Billing Software, CRM Development along with SEO Services "
-          />
-          <link rel="canonical" href="https://infoera.in/top_it_company_bihar"  aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
-    <meta name="content-language" content="EN" />
-    <meta name="search engines" content="ALL" />
-    <meta name="Robots" content="INDEX,ALL" />
-    <meta name="YahooSeeker" content="INDEX, FOLLOW" />
-    <meta name="msnbot" content="INDEX, FOLLOW" />
-    <meta name="googlebot" content="INDEX, FOLLOW" />
-    <meta name="language" content="en-us" />
-    <meta name="Expires" content="never" />
-    <meta name="rating" content="General" />
-    <meta name="Resource-type" content="document" />
-    <meta name="Author" content="www.infoera.in" />
-    <meta name="document-classification" content="Software & Website development company" />
-    <meta name="Distribution" content="Global" />
-    <meta name="Product" content="Software Development, Web Development, SEO, GST Billing Software, Web Hosting, Graphic Designing, Mobile App, E-Learning, CRM, ERP, Bulk SMS, Internship, Jobs " />
-    <meta name="keywords" httpEquiv="www.infoera.in" content="Software Development, Web Development, Web Designing, Graphic Designing, Application Development, SEO, Logo Design, Bulk SMS, Voice Call, Internship company in Patna Bihar" />
-    <meta name="abstract" content="Software Development company in Patna, Website Development Company in Patna, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Patna Bihar India" />
+        <title>Top IT Company in Bihar | Software Company in India</title>
+        <meta
+          name="description"
+          content="Info Era Software Services is a leading IT company in Patna, Bihar which focuses on Software, Website, Mobile App, GST Billing Software, CRM Development along with SEO Services"
+        />
+        <meta
+          name="keywords"
+          content="top it company in bihar, best it company in bihar, it company in patna , website designing company in patna bihar,best it company in patna, Patna software company, Patna Bihar IT service provider, Patna Bihar Website Development Company, Patna IT Company, Patna SEO Services, and Patna IT Solutions, Graphic Designing, Application Development, SEO, Logo Design, Bulk SMS, Voice Call, Internship company in Patna Bihar "
+        />
+        <link
+          rel="canonical"
+          href="https://infoera.in/top_it_company_bihar"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
+        <meta name="content-language" content="EN" />
+        <meta name="search engines" content="ALL" />
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
+        <meta name="language" content="en-us" />
+        <meta name="Expires" content="never" />
+        <meta name="rating" content="General" />
+        <meta name="Resource-type" content="document" />
+        <meta name="Author" content="www.infoera.in" />
+        <meta
+          name="document-classification"
+          content="Software & Website development company"
+        />
+        <meta name="Distribution" content="Global" />
+        <meta
+          name="Product"
+          content="Software Development, Web Development, SEO, GST Billing Software, Web Hosting, Graphic Designing, Mobile App, E-Learning, CRM, ERP, Bulk SMS, Internship, Jobs "
+        />
 
-        <meta name="keyphrases" content="Software development in Patna, Web Design and Development Company in Patna, SEO, Bulk SMS, Customized GST Billing Software developer in Patna, Best IT Company"/>
-        <meta name="contactorganization" content="Info Era Software Services Pvt. Ltd."/>
-        <meta name="contactzipcode" content="800001"/>
-        <meta name="contactcity" content="Patna"/>
-        <meta name="contactcountry" content="india"/>
-        <meta name="Geography" content="Patna, Bihar, India"/>
-        <meta name="country" content="INDIA"/>
-        <meta name="contactmobilenumber" content="+91-7008411312"/>
-   		<meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta
+          name="abstract"
+          content="Software Development company in Patna, Website Development Company in Patna, Bihar, GST Billing Software, Internship, E-Commerce Development, IT Company, Bulk SMS and Voice Call, Graphic Designing, Web Hosting, SEO services provider in Patna Bihar India"
+        />
+
+        <meta
+          name="keyphrases"
+          content="Software development in Patna, Web Design and Development Company in Patna, SEO, Bulk SMS, Customized GST Billing Software developer in Patna, Best IT Company"
+        />
+        <meta
+          name="contactorganization"
+          content="Info Era Software Services Pvt. Ltd."
+        />
+        <meta name="contactzipcode" content="800001" />
+        <meta name="contactcity" content="Patna" />
+        <meta name="contactcountry" content="india" />
+        <meta name="Geography" content="Patna, Bihar, India" />
+        <meta name="country" content="INDIA" />
+        <meta name="contactmobilenumber" content="+91-7008411312" />
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
       </Helmet>
-
 
       {/* ======= Hero Section ======= */}
       <section id="hero" className="hero d-flex align-items-center">
@@ -58,6 +79,7 @@ function Top_it_company_bihar() {
             <h1 data-aos="fade-up" className="aos-init aos-animate">
               Top IT Company in Bihar
             </h1>
+
             <p
               style={{ textAlign: "justify", marginTop: 35 }}
               data-aos="fade-up"
@@ -68,8 +90,8 @@ function Top_it_company_bihar() {
               making significant strides in the sector. Among the leading names,
               three companies stand out: Wipro, Accenture, and Info Era Software
               Services Pvt. Ltd. Each of these companies brings unique strengths
-              and capabilities to the table, contributing to the state&apos;s growing
-              reputation as an IT hub.
+              and capabilities to the table, contributing to the state&apos;s
+              growing reputation as an IT hub.
             </p>
             <br />
             <p
@@ -108,7 +130,10 @@ function Top_it_company_bihar() {
                   <div className="feature-box d-flex align-items-center">
                     <i className="bi bi-check" />
                     <div className="col-lg-2">
-                      <a href="https://www.infoerasoftware.com/" aria-label="URL - Info Era Software Services Pvt. Ltd.">
+                      <a
+                        href="https://www.infoerasoftware.com/"
+                        aria-label="URL - Info Era Software Services Pvt. Ltd."
+                      >
                         {" "}
                         <img
                           src="assets/img/infoera.png"
@@ -119,7 +144,10 @@ function Top_it_company_bihar() {
                       </a>
                     </div>
                     <div className="col-lg-10">
-                      <a href="https://www.infoerasoftware.com/" aria-label="URL - Info Era Software Services Pvt. Ltd.">
+                      <a
+                        href="https://www.infoerasoftware.com/"
+                        aria-label="URL - Info Era Software Services Pvt. Ltd."
+                      >
                         {" "}
                         <h3>Info Era Software Services Pvt. Ltd.</h3>
                       </a>
@@ -133,57 +161,44 @@ function Top_it_company_bihar() {
                           Marketing, IT Consulting, Industrial Training,
                           Franchise.
                         </p>
+                        <h3>Info Era Software Services best services</h3>
+                        <ul>
+                          <li>Website Designing and Development</li>
+                          <li>Application Development</li>
+                          <li>Mobile App Development</li>
+                          <li>Digital Marketing</li>
+                          <li>IT Consulting</li>
+                          <li>Industrial Training</li>
+                          <li>Web Hosting</li>
+                          <li>E-commerce Website</li>
+                          <li>GST Billing Software Development</li>
+                          <li>Bulk SMS and Voice Call</li>
+                          <li>Graphic Designing</li>
+                          <li>UI/UX Design</li>
+                          <li>Software Development</li>
+                          <li>Logo Design</li>
+                          <li>Brochure Design</li>
+                          <li>Graphic Design</li>
+                        </ul>
+                        <br></br>
                         <p>
-                          <a href="http://www.infoeraservices.com" aria-label="URL - Info Era Software Services Pvt. Ltd.">
+                          <a
+                            href="http://www.infoeraservices.com"
+                            aria-label="URL - Info Era Software Services Pvt. Ltd."
+                          >
                             www.infoeraservices.com
                           </a>
                         </p>
                         <p>
                           Email:{" "}
-                          <a href="mailto:contact@infoeraservices.com" aria-label="Email - Info Era Software Services Pvt. Ltd.">
+                          <a
+                            href="mailto:contact@infoeraservices.com"
+                            aria-label="Email - Info Era Software Services Pvt. Ltd."
+                          >
                             contact@infoeraservices.com
                           </a>
                         </p>
                       </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-md-12 aos-init"
-                  data-aos="zoom-out"
-                  data-aos-delay={300}
-                >
-                  <div className="feature-box d-flex align-items-center">
-                    <i className="bi bi-check" />
-                    <div className="col-lg-2">
-                      <img
-                        src="https://www.wipro.com/content/dam/nexus/staticsites/homepage/header/Wipro_Primary%20Logo_Color_RGB.svg"
-                        alt="Logo - Wipro"
-                        width="90px"
-                        title="Logo of Wipro"
-                      />
-                    </div>
-                    <div className="col-lg-10">
-                      <a href="https://www.wipro.com/contact-wipro/" aria-label="Wipro - Info Era Software Services Pvt. Ltd.">
-                        {" "}
-                        <h3>Wipro</h3>
-                      </a>
-                      <p>
-                        {" "}
-                        Depending on your role and projects, you may experience
-                        a heavy workload at times. This can impact your
-                        work-life balance if not managed properly. Client
-                        Dependency: Working with clients means that your
-                        workload and priorities may shift based on client
-                        demands.
-                      </p>
-                      <p>
-                        <a href="http://www.wipro.com" aria-label="Wipro - Info Era Software Services Pvt. Ltd.">www.wipro.com</a>
-                      </p>
-                      <p>
-                        Email:{" "}
-                        <a href="mailto:info@wipro.com" aria-label="Wipro Email - Info Era Software Services Pvt. Ltd.">info@wipro.com</a>
-                      </p>
                     </div>
                   </div>
                 </div>
@@ -203,7 +218,10 @@ function Top_it_company_bihar() {
                       />
                     </div>
                     <div>
-                      <a href="https://www.tcs.com/home-page" aria-label="TCS - Info Era Software Services Pvt. Ltd.">
+                      <a
+                        href="https://www.tcs.com/home-page"
+                        aria-label="TCS - Info Era Software Services Pvt. Ltd."
+                      >
                         {" "}
                         <h3>Tata Consultancy Services (TCS)</h3>
                       </a>
@@ -214,14 +232,78 @@ function Top_it_company_bihar() {
                         experience and whatever we mentioned in resume.
                       </p>
                       <p>
-                        <a href="http://www.tcs.com"  aria-label="TCS - Info Era Software Services Pvt. Ltd.">www.tcs.com</a>
+                        <a
+                          href="http://www.tcs.com"
+                          aria-label="TCS - Info Era Software Services Pvt. Ltd."
+                        >
+                          www.tcs.com
+                        </a>
                       </p>
                       <p>
-                        Email: <a href="mailto:info@tcs.com"  aria-label="TCS Email - Info Era Software Services Pvt. Ltd.">info@tcs.com</a>
+                        Email:{" "}
+                        <a
+                          href="mailto:info@tcs.com"
+                          aria-label="TCS Email - Info Era Software Services Pvt. Ltd."
+                        >
+                          info@tcs.com
+                        </a>
                       </p>
                     </div>
                   </div>
                 </div>
+                <div
+                  className="col-md-12 aos-init"
+                  data-aos="zoom-out"
+                  data-aos-delay={300}
+                >
+                  <div className="feature-box d-flex align-items-center">
+                    <i className="bi bi-check" />
+                    <div className="col-lg-2">
+                      <img
+                        src="https://www.wipro.com/content/dam/nexus/staticsites/homepage/header/Wipro_Primary%20Logo_Color_RGB.svg"
+                        alt="Logo - Wipro"
+                        width="90px"
+                        title="Logo of Wipro"
+                      />
+                    </div>
+                    <div className="col-lg-10">
+                      <a
+                        href="https://www.wipro.com/contact-wipro/"
+                        aria-label="Wipro - Info Era Software Services Pvt. Ltd."
+                      >
+                        {" "}
+                        <h3>Wipro</h3>
+                      </a>
+                      <p>
+                        {" "}
+                        Depending on your role and projects, you may experience
+                        a heavy workload at times. This can impact your
+                        work-life balance if not managed properly. Client
+                        Dependency: Working with clients means that your
+                        workload and priorities may shift based on client
+                        demands.
+                      </p>
+                      <p>
+                        <a
+                          href="http://www.wipro.com"
+                          aria-label="Wipro - Info Era Software Services Pvt. Ltd."
+                        >
+                          www.wipro.com
+                        </a>
+                      </p>
+                      <p>
+                        Email:{" "}
+                        <a
+                          href="mailto:info@wipro.com"
+                          aria-label="Wipro Email - Info Era Software Services Pvt. Ltd."
+                        >
+                          info@wipro.com
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
                 <div
                   className="col-md-12 aos-init"
                   data-aos="zoom-out"
@@ -238,7 +320,10 @@ function Top_it_company_bihar() {
                       />
                     </div>
                     <div className="col-lg-10">
-                      <a href="https://www.cognizant.com/in/en" aria-label="Cognizant - Info Era Software Services Pvt. Ltd.">
+                      <a
+                        href="https://www.cognizant.com/in/en"
+                        aria-label="Cognizant - Info Era Software Services Pvt. Ltd."
+                      >
                         <h3>Cognizant Technology Solutions</h3>
                       </a>
                       <p>
@@ -249,11 +334,19 @@ function Top_it_company_bihar() {
                         Promotion
                       </p>
                       <p>
-                        <a href="http://www.infosys.com" aria-label="Infosys - Info Era Software Services Pvt. Ltd.">www.infosys.com</a>
+                        <a
+                          href="http://www.infosys.com"
+                          aria-label="Infosys - Info Era Software Services Pvt. Ltd."
+                        >
+                          www.infosys.com
+                        </a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:contact@infosys.com" aria-label="Infosys Email - Info Era Software Services Pvt. Ltd.">
+                        <a
+                          href="mailto:contact@infosys.com"
+                          aria-label="Infosys Email - Info Era Software Services Pvt. Ltd."
+                        >
                           contact@infosys.com
                         </a>
                       </p>
@@ -276,7 +369,10 @@ function Top_it_company_bihar() {
                       />
                     </div>
                     <div className="col-lg-10">
-                      <a href="https://www.amazon.jobs/en/teams/global-it-services" aria-label="Amazon - Info Era Software Services Pvt. Ltd.">
+                      <a
+                        href="https://www.amazon.jobs/en/teams/global-it-services"
+                        aria-label="Amazon - Info Era Software Services Pvt. Ltd."
+                      >
                         <h3>Amazon</h3>
                       </a>
                       <p>
@@ -298,13 +394,19 @@ function Top_it_company_bihar() {
                         their attention on their jobs and their customers.
                       </p>
                       <p>
-                        <a href="https://www.amazon.jobs/en/teams/global-it-services" aria-label="Amazon - Info Era Software Services Pvt. Ltd.">
+                        <a
+                          href="https://www.amazon.jobs/en/teams/global-it-services"
+                          aria-label="Amazon - Info Era Software Services Pvt. Ltd."
+                        >
                           www.infosys.com
                         </a>
                       </p>
                       <p>
                         Email:{" "}
-                        <a href="mailto:cs-reply@amazon.in" aria-label="Amazon Email - Info Era Software Services Pvt. Ltd.">
+                        <a
+                          href="mailto:cs-reply@amazon.in"
+                          aria-label="Amazon Email - Info Era Software Services Pvt. Ltd."
+                        >
                           cs-reply@amazon.in
                         </a>
                       </p>

@@ -4,14 +4,18 @@ import ClientCrousel from "../components/home/ClientCrousel";
 function It_company_near_me() {
   return (
     <>
-     <Helmet>
+      <Helmet>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-         {/* Google site Verification  Start */}
-         <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
+        {/* Google site Verification  Start */}
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
         {/* End */}
         <title>
-          Finding the Best Managed IT Services Provider Near You | IT Consultancies
+          Finding the Best Managed IT Services Provider Near You | IT
+          Consultancies
         </title>
         <meta
           name="description"
@@ -19,34 +23,46 @@ function It_company_near_me() {
         />
         <meta
           name="keywords"
-          content="managed it services provider near me, near by it company, it company near me, it companies in near me, it companies around me, it consultancies near me, best it company near me"
+          content="it company near me, best it company near me in patna, patna it company near me, top it company near me, best it service provider near me, it company near patna, it company near darbhanga, it company near gaya, it company near ranchi, near by me it company in patna bihar, near by me it company in patna, near by me it company in ranchi, it services provider near me, near by it company, top it company near me, it companies in near me, it companies around me, it consultancies near me, best it company near me"
         />
-        
-        <link rel="canonical" href="https://www.infoera.in/it_company_near_me" aria-label="Canonical - Info Era Software Services Pvt. Ltd." />
-	      <meta name="content-language" content="EN" />
+
+        <link
+          rel="canonical"
+          href="https://www.infoera.in/it_company_near_me"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
+        <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
-        <meta name="Robots" content="INDEX,ALL" /> 
-        <meta name="YahooSeeker" content="INDEX, FOLLOW" /> 
-        <meta name="msnbot" content="INDEX, FOLLOW" /> 
-        <meta name="googlebot" content="INDEX, FOLLOW" /> 
+        <meta name="Robots" content="INDEX,ALL" />
+        <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+        <meta name="msnbot" content="INDEX, FOLLOW" />
+        <meta name="googlebot" content="INDEX, FOLLOW" />
         <meta name="language" content="en-us" />
         <meta name="Expires" content="never" />
         <meta name="rating" content="General" />
         <meta name="Resource-type" content="document" />
         <meta name="Author" content="www.infoera.in" />
-        <meta name="document-classification" content="Website Designing and Development Company Near me" />
+        <meta
+          name="document-classification"
+          content="Website Designing and Development Company Near me"
+        />
         <meta name="Distribution" content="Global" />
-        <meta name="contactorganization" content="It Company Near Me."/>
-        <meta name="contactstreetaddress" content="Patna"/>
-        <meta name="contactzipcode" content="800001"/>
-        <meta name="contactcity" content="Patna"/>
-        <meta name="contactcountry" content="India"/>
-        <meta name="Geography" content="Patna, Bihar, India"/>
-        <meta name="country" content="INDIA"/>
-        <meta name="contactmobilenumber" content="+91 7008411312"/>
-        <meta name="Product" content="Website Designing and Development in Jamui, Software Development in Jamui, Mobile App Development in Jamui, Responsive Website Development in Jamui, Web Hosting in Jamui, E-Commerce in Jamui, Search Engine Optimization SEO Services in Jamui, Website Promotion in Jamui, Bulk SMS and Voice Call Service in Jamui, Graphic Designing in Jamui, IT Company in Jamui"/>
-        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."/>
-
+        <meta name="contactorganization" content="It Company Near Me." />
+        <meta name="contactstreetaddress" content="Patna" />
+        <meta name="contactzipcode" content="800001" />
+        <meta name="contactcity" content="Patna" />
+        <meta name="contactcountry" content="India" />
+        <meta name="Geography" content="Patna, Bihar, India" />
+        <meta name="country" content="INDIA" />
+        <meta name="contactmobilenumber" content="+91 7008411312" />
+        <meta
+          name="Product"
+          content="Website Designing and Development in Jamui, Software Development in Jamui, Mobile App Development in Jamui, Responsive Website Development in Jamui, Web Hosting in Jamui, E-Commerce in Jamui, Search Engine Optimization SEO Services in Jamui, Website Promotion in Jamui, Bulk SMS and Voice Call Service in Jamui, Graphic Designing in Jamui, IT Company in Jamui"
+        />
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
       </Helmet>
       {/* ======= Hero Section =======  */}
       <section
@@ -234,7 +250,8 @@ function It_company_near_me() {
                   <br />
                 </p>
                 <a
-                  href="http://hotel.infoerasoftware.com" aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
+                  href="http://hotel.infoerasoftware.com"
+                  aria-label="Hotel Management System - Info Era Software Services Pvt. Ltd."
                   type="button"
                   className="btn btn-outline-primary"
                   style={{ marginTop: 24 }}
@@ -266,7 +283,8 @@ function It_company_near_me() {
                   clients and financial transactions.
                 </p>
                 <a
-                  href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
+                  href="about.aspx"
+                  aria-label="About - Info Era Software Services Pvt. Ltd."
                   type="button"
                   className="btn btn-outline-primary"
                 >
@@ -296,7 +314,8 @@ function It_company_near_me() {
                   the client and is not an off-the-shelf solution.
                 </p>
                 <a
-                  href="about.aspx" aria-label="About - Info Era Software Services Pvt. Ltd."
+                  href="about.aspx"
+                  aria-label="About - Info Era Software Services Pvt. Ltd."
                   type="button"
                   className="btn btn-outline-primary"
                   style={{ marginTop: 48 }}
@@ -616,7 +635,12 @@ function It_company_near_me() {
 </header> */}
           <div className="row">
             <div className="col-lg-6">
-              <img src="/assets/img/webpic.png" className="img-fluid" alt="Web Pic - Info Era" title="Web Pic -Info Era" />
+              <img
+                src="/assets/img/webpic.png"
+                className="img-fluid"
+                alt="Web Pic - Info Era"
+                title="Web Pic -Info Era"
+              />
             </div>
             <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div className="row align-self-center gy-4">

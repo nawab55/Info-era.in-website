@@ -2,20 +2,28 @@ import { Helmet } from "react-helmet";
 const BulkEmail = () => {
   return (
     <>
-     <Helmet>
+      <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="google-site-verification" content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg" />
-        <title>Effective Email Marketing Services | Info Era  </title>
+        <meta
+          name="google-site-verification"
+          content="KrFf109xrwKNRJTWVipUzNV7ZMCJn5vGEdhwxAWcuSg"
+        />
+        <title>Effective Email Marketing Services | Info Era </title>
         <meta
           name="description"
-          content="Boost sales with Info Era’s email marketing services. Reach maximum customers, announce new products, and track engagement with professional designs and analytics." />
+          content="Boost sales with Info Era’s email marketing services. Reach maximum customers, announce new products, and track engagement with professional designs and analytics."
+        />
 
         <meta
           name="keywords"
-          content="Email marketing, Best Email Service Provider in Patna, India, Info Era email services, professional email campaigns, customer engagement, email tracking, product announcement emails, direct marketing "
+          content="bulk email service provider in patna, email marketing, best email service provider in patna, info era email services, professional email campaigns, customer engagement, email tracking, product announcement emails, direct marketing "
         />
-        <link rel="canonical" href="https://infoera.in/bulk-email"  aria-label="Canonical - Info Era Software Services Pvt. Ltd."/>
+        <link
+          rel="canonical"
+          href="https://infoera.in/bulk-email"
+          aria-label="Canonical - Info Era Software Services Pvt. Ltd."
+        />
         <meta name="content-language" content="EN" />
         <meta name="search engines" content="ALL" />
         <meta name="Robots" content="INDEX,ALL" />
@@ -27,14 +35,21 @@ const BulkEmail = () => {
         <meta name="rating" content="General" />
         <meta name="Resource-type" content="document" />
         <meta name="Author" content="www.infoera.in" />
-        <meta name="document-classification" content="Software & Website development company" />
+        <meta
+          name="document-classification"
+          content="Software & Website development company"
+        />
         <meta name="Distribution" content="Global" />
-        <meta name="keyphrases" content="email design, Top Email Marketing Service Provider in Patna, Cheap and Best Email Marketing Provider in Bihar, Popular Email Marketing Company in India, Bihar, Patna, email analytics, sales generation, targeted email campaigns, business email solutions"/>
-        <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd." />
+        <meta
+          name="keyphrases"
+          content="email design, Top Email Marketing Service Provider in Patna, Cheap and Best Email Marketing Provider in Bihar, Popular Email Marketing Company in India, Bihar, Patna, email analytics, sales generation, targeted email campaigns, business email solutions"
+        />
+        <meta
+          name="copyright"
+          content="Copyright (c) 2014 by Info Era Software Services Pvt. Ltd."
+        />
 
         <meta name="Publisher" content="www.infoera.in" />
-
-
       </Helmet>
       <div>
         {/* ======= Hero Section ======= */}
