@@ -9,12 +9,13 @@ import NotFound from "./pages/NotFound";
 import StudentDetails from "./components/assessmentTest/StudentDetails";
 import AssessmentTest from "./components/assessmentTest/AssessmentTest";
 import axios from "axios";
+// import Ceo from "./pages/Ceo";
 
-// const WebDesign = lazy(() => import("./courses/webDesignCourse/WebDesign"));
 const WebDevelopment = lazy(() =>
   import("./courses/webDevelopmentCourse/WebDevelopment")
 );
 const Home = lazy(() => import("./pages/Home"));
+const Ceo = lazy(() => import("./pages/Ceo"));
 const About = lazy(() => import("./pages/About"));
 const Blog = lazy(() => import("./pages/Blog"));
 const BlogDetails = lazy(() => import("./pages/BlogDetails"));
@@ -261,6 +262,7 @@ function App() {
     "/desktop-application",
     "/digital-marketing",
     "/seo",
+    "/ceo",
     "/bulk-sms",
     "/bulk-email",
     "/cctv",
@@ -544,6 +546,7 @@ function App() {
           element={
             <Suspense fallback={<SkeletonLoader />}>
               <Activity />
+           
             </Suspense>
           }
         />
@@ -1266,19 +1269,19 @@ function App() {
             </Suspense>
           }
         />
-        {/* <Route
-          path="/web-design-course"
-          element={
-            <Suspense fallback={<SkeletonLoader />}>
-              <WebDesign />
-            </Suspense>
-          }
-        /> */}
         <Route
           path="/mern-stack-workshop"
           element={
             <Suspense fallback={<SkeletonLoader />}>
               <WebDevelopment />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/ceo"
+          element={
+            <Suspense fallback={<SkeletonLoader />}>
+              <Ceo />
             </Suspense>
           }
         />

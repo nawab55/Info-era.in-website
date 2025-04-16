@@ -56,7 +56,7 @@ function It_company_in_patna() {
     <div className="col-12 ">
             <div
               className="page-title-bar text-center pt-60 pb-60 "
-              style={{ backgroundImage: "url(public/assets/newblogImage/user/bg/page-itle.jpg)", marginTop: "50px", paddingTop: "60px"}}
+              style={{ backgroundImage: "url(/assets/newblogImage/user/bg/page-title.jpg)", marginTop: "50px", paddingTop: "60px"}}
             >
               <h1 style={{ color: "white", textAlign:"center" }}>Software Designing and Development Company in Patna</h1>
             </div>
@@ -66,7 +66,7 @@ function It_company_in_patna() {
         <div className="postbox mb-40">
           <div className="postbox__thumb mb-25 ">
             <a href="#">
-              <img src="public/assets/newblogImage/It_company_services.gif "  alt="it company in patna bihar, top it company in bihar, software company in patna, best it company in patna, website designing company in patna" /> 
+              <img src="/assets/newblogImage/It_company_services.gif "  alt="it company in patna bihar, top it company in bihar, software company in patna, best it company in patna, website designing company in patna" /> 
             </a>
           </div>
           <div className="postbox__text">
@@ -108,7 +108,7 @@ function It_company_in_patna() {
         <div className="postbox mb-40">
           <div className="postbox__thumb mb-25">
             <a href="#">
-              <img src="public/assets/newblogImage/Digital-marketing.png" alt="website designing and development company in patna, SEO Service Provider in patna, top custom software development companies, website design in patna" />
+              <img src="/assets/newblogImage/Digital-marketing.png" alt="website designing and development company in patna, SEO Service Provider in patna, top custom software development companies, website design in patna" />
             </a>
           </div>
           <div className="postbox__text">
@@ -157,7 +157,7 @@ function It_company_in_patna() {
             </div>
             <div className="postbox__thumb mb-25">
               <a href="#">
-                <img src="public/assets/newblogImage/android development.gif" alt="hero image" />
+                <img src="/assets/newblogImage/android development.gif" alt="hero image" />
               </a>
             </div>
             <div className="postbox__text">
@@ -293,7 +293,7 @@ function It_company_in_patna() {
       <div className="col-xl-4 col-lg-4 col-md-12">
         <div className="widget mb-40">
           <a href="#">
-            <img src="public/assets/newblogImage/user/add/add-sidebar.jpg" alt ="top it company in patna bihar, top software company in patna"/>
+            <img src="/assets/newblogImage/user/add/add-sidebar.jpg" alt ="top it company in patna bihar, top software company in patna"/>
           </a>
         </div>
         <div className="widget widget-border mb-40">
@@ -309,7 +309,7 @@ function It_company_in_patna() {
           <div className="postbox">
             <div className="postbox__thumb">
               <a href="#">
-                <img src="public/assets/newblogImage/sidebar-post.jpg" alt="It company in Patna Bihar" />
+                <img src="/assets/newblogImage/sidebar-post.jpg" alt="It company in Patna Bihar" />
               </a>
             </div>
             <div className="postbox__text pt-15">

@@ -96,10 +96,10 @@ function Team() {
     AOS.init();
   }, []);
 
-  const teamMembers = [
-    {
+  const coreTeamMembers = [
+    { 
       imageSrc: "assets/teamSlider/shubhamSir.png",
-      name: "Shubham Raj",
+      name: "Shubham Raj",  
       position: "CMO of Info Era Software",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
@@ -114,26 +114,88 @@ function Team() {
       facebookLink: "https://www.facebook.com"
     },
     {
-      imageSrc: "assets/teamSlider/images/aman.png",
+      imageSrc: "assets/teamSlider/images/Aman-Ji-Photo.png",
       name: "Aman Soben",
-      position: "Software Developer",
+      position: "Project Manager",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
       facebookLink: "https://www.facebook.com"
     },
     {
-      imageSrc: "assets/teamSlider/images/rohitImg.jpg",
-      name: "Rohit Kumar",
-      position: "Digital Marketing Executive",
+
+      imageSrc: "assets/teamSlider/images/sneha raj.png",
+      name: "Sneha Raj",  
+
+      position: "Business Dev Associate",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
+      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link 
+
       facebookLink: "https://www.facebook.com"
     },
+  ];
+  
 
+  const teamMembers = [
+    // {
+    //   imageSrc: "assets/teamSlider/shubhamSir.png",
+    //   name: "Shubham Raj",
+    //   position: "CMO of Info Era Software",
+    //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    //   linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
+    //   facebookLink: "https://www.facebook.com"
+    // },
+    // {
+    //   imageSrc: "assets/teamSlider/anjaliKumariImg.png",
+    //   name: "Anjali Kumari",
+    //   position: "HR Manager",
+    //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    //   linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
+    //   facebookLink: "https://www.facebook.com"
+    // },
+    // {
+    //   imageSrc: "assets/teamSlider/images/Aman-Ji-Photo.png",
+    //   name: "Aman Soben",
+    //   position: "Software Developer",
+    //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    //   linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
+    //   facebookLink: "https://www.facebook.com"
+    // },
+    // {
+    //   imageSrc: "assets/teamSlider/images/sneha raj.png",
+    //   name: "Sneha Raj",
+    //   position: "Business Dev Associate",
+    //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    //   linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
+    //   facebookLink: "https://www.facebook.com"
+    // },
     {
       imageSrc: "assets/teamSlider/images/kunalImg.jpeg",
       name: "Kishan Kunal",
       position: "Software Engineer",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
+      facebookLink: "https://www.facebook.com"
+    },
+    {
+      imageSrc: "assets/teamSlider/images/nawab-img.png",
+      name: "Md Nawab",
+      position: "Software Engineer",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
+      facebookLink: "https://www.facebook.com"
+    },
+    {
+      imageSrc: "assets/teamSlider/images/Sristi Sinha.png",
+      name: "Sristi Sinha",
+      position: "Business Dev Executive",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
+      facebookLink: "https://www.facebook.com"
+    },
+    {
+      imageSrc: "assets/teamSlider/images/Aditya photo.JPG",
+      name: "Aditya Chandra",
+      position: "Marketing Associate",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
       facebookLink: "https://www.facebook.com"
@@ -148,7 +210,6 @@ function Team() {
     },
     {
       imageSrc: "assets/teamSlider/images/gauravverma.png",
-      // imageSrc: "assets/teamSlider/images/gaurav.jpg",
       name: "Gaurav kumar",
       position: "Software Engineer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -164,9 +225,16 @@ function Team() {
       facebookLink: "https://www.facebook.com"
     },
     {
-      // imageSrc: "assets/teamSlider/images/Md_Nawab.png",
-      imageSrc: "assets/teamSlider/images/nawab-img.png",
-      name: "Md Nawab",
+      imageSrc: "assets/teamSlider/images/rohitImg.jpg",
+      name: "Rohit Kumar",
+      position: "Digital Marketing Executive",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
+      facebookLink: "https://www.facebook.com"
+    },
+    {
+      imageSrc: "assets/teamSlider/images/shadAlam.jpeg",
+      name: "Shad Alam",
       position: "Software Engineer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
@@ -181,7 +249,15 @@ function Team() {
       facebookLink: "https://www.facebook.com"
     },
     {
-      imageSrc: "assets/teamSlider/images/ved prakash.jpeg",
+      imageSrc: "assets/teamSlider/images/shubham-kumar-kunwar.jpeg",
+      name: "Shubham Kumar Kunwar",
+      position: "Digital Marketing Intern",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
+      facebookLink: "https://www.facebook.com"
+    },
+    {
+      imageSrc: "assets/teamSlider/images/vedPrakash.jpeg",
       name: "Ved Prakash Pandey",
       position: "Software Developer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -364,6 +440,49 @@ function Team() {
         >
           <div className="team-container">
             <p className="team-head-text">Our Team</p>
+            <div className="team-slider-container">
+              <Swiper
+                modules={[Navigation, Autoplay]}
+                spaceBetween={20}
+                slidesPerView={4}
+                loop={true}
+                autoplay={{
+                  delay: 3000,
+                  disableOnInteraction: false
+                }}
+                speed={800}
+                navigation={{
+                  nextEl: ".team-swiper-button-next",
+                  prevEl: ".team-swiper-button-prev"
+                }}
+                breakpoints={{
+                  320: { slidesPerView: 1 },
+                  768: { slidesPerView: 2 },
+                  992: { slidesPerView: 3 },
+                  1200: { slidesPerView: 4 }
+                }}
+              >
+                {coreTeamMembers.map((member, index) => (
+                  <SwiperSlide key={index}>
+                    <TeamMemberCard
+                      imageSrc={member.imageSrc}
+                      name={member.name}
+                      position={member.position}
+                      // description={member.description}
+                      twitterLink={member.twitterLink}
+                      facebookLink={member.facebookLink}
+                    />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+              {/* <div className="team-swiper-button-prev">
+                <ChevronLeft size={24} color="#012970" />
+              </div>
+              <div className="team-swiper-button-next">
+                <ChevronRight size={24} color="#012970" />
+              </div> */}
+            </div>
+            <div className="mt-5"></div>
             <div className="team-slider-container">
               <Swiper
                 modules={[Navigation, Autoplay]}
