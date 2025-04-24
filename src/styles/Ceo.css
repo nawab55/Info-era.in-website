@@ -1,40 +1,620 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+html,
+body,
+#root {
+  scroll-behavior: auto !important;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #444444;
+}
 .ceo-page {
-  padding: 2rem 0;
-  margin-top: 100px;
+  padding: 4rem 0;
+  min-height: 100vh;
+  background-color: #f8f9fa;
 }
 
 .ceo-header {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .ceo-header h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #333;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #013289;
+  margin-bottom: 1rem;
 }
 
 .ceo-header p {
   font-size: 1.2rem;
-  color: #666;
+  color: #7f8c8d;
 }
 
-.ceo-content img {
-  max-width: 100%;
+.ceo-profile {
+  margin-bottom: 4rem;
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ceo-image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ceo-image {
+  width: 100%;
   height: auto;
-  max-height: 300px; /* Set a maximum height to make the image less tall */
-  border: 2px solid #ddd;
-  margin-bottom: 10px; /* Reduce the gap between the image and the name part */
+  object-fit: cover;
+  transition: transform 0.6s ease;
 }
 
-.ceo-content h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #333;
-  margin-top: 1rem;
+.ceo-image-container:hover .ceo-image {
+  transform: scale(1.05);
 }
 
-.ceo-content p {
+.social-icon-links {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.social-icon-link {
+  background: white;
+  padding: 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.social-icon-link:hover {
+  transform: translateY(-2px);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  color: #2c3e50;
+}
+
+.ceo-info {
+  padding: 2rem;
+}
+
+.ceo-info h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #012970;
+  margin-bottom: 0.5rem;
+}
+
+.ceo-title {
+  font-size: 1.3rem;
+  color: #09539c;
+  margin-bottom: 1.5rem;
+}
+
+.ceo-bio {
+  color: #7f8c8d;
+  font-size: .8rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.ceo-quote {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 4rem;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quote-icon {
+  position: absolute;
+  top: -1.5rem;
+  left: -1.5rem;
+  color: #e1e8ed;
+}
+
+.quote-text {
+  font-size: 1.25rem;
+  font-style: italic;
+  color: #2c3e50;
+  line-height: 1.8;
+  padding-left: 1rem;
+}
+
+.achievements {
+  margin-bottom: 4rem;
+}
+
+.achievements h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.achievement-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.achievement-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.achievement-icon {
+  margin-bottom: 1rem;
+}
+
+.achievement-card h3 {
+  font-size: 1.25rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.achievement-card p {
+  color: #7f8c8d;
   font-size: 1rem;
-  color: #555;
-  line-height: 1.6;
+}
+
+.vision {
+  background: linear-gradient(135deg, #2980b9, #2c3e50);
+  border-radius: 1rem;
+  padding: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.vision h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.vision p {
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+@media (max-width: 992px) {
+  .ceo-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .ceo-info h2 {
+    font-size: 2.5rem;
+  }
+
+  .ceo-title {
+    font-size: 1.5rem;
+  }
+
+  .ceo-bio {
+    font-size: 1rem;
+  }
+
+  .ceo-image-container {
+    height: 400px;
+  }
+
+  .ceo-image {
+    height: auto;
+    object-fit: cover;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .ceo-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .ceo-image {
+    height: 400px;
+    object-fit: contain;
+  }
+
+  .ceo-info {
+    padding: 2rem 1rem;
+  }
+
+  .ceo-info h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+
+  .vision {
+    padding: 2rem;
+  }
+
+  .vision h2 {
+    font-size: 2rem;
+  }
+
+  .vision p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .ceo-header h1 {
+    font-size: 2rem;
+  }
+
+  .ceo-image {
+    height: 300px;
+  }
+
+  .ceo-quote {
+    padding: 1.5rem;
+  }
+
+  .quote-text {
+    font-size: 1.1rem;
+  }
+
+  .achievement-card {
+    padding: 1rem;
+  }
+} 
+  */
+
+
+
+  @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+html,
+body,
+#root {
+  scroll-behavior: auto !important;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #444444;
+}
+
+.ceo-page {
+  padding: 4rem 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.ceo-header {
+  margin-bottom: 4rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 1.5rem;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); */
+}
+
+.ceo-header h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #013289;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.ceo-header p {
+  font-size: 1.3rem;
+  color: #7f8c8d;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.ceo-profile {
+  margin-bottom: 4rem;
+  background: #ffffff;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  /* box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05); */
+}
+
+.ceo-image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+
+}
+
+.ceo-image {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+  transition: transform 0.6s ease;
+}
+
+.ceo-image-container:hover .ceo-image {
+  transform: scale(1.05);
+}
+
+.ceo-info {
+  padding: 2rem 0;
+}
+
+.ceo-info h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #012970;
+  margin-bottom: 0.5rem;
+}
+
+.ceo-title {
+  font-size: 1.5rem;
+  color: #09539c;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.ceo-bio {
+  color: #7f8c8d;
+  font-size: .99rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.ceo-quote {
+  background: #ffffff;
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+  margin-bottom: 4rem;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.quote-icon {
+  position: absolute;
+  top: -2rem;
+  left: -2rem;
+  color: #a9adb1;
+  opacity: 0.8;
+}
+.quote-icon-close {
+  position: absolute;
+  bottom: -2rem;
+  right: -2rem;
+  color: #a9adb1;
+  opacity: 0.8;
+}
+
+.quote-text {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #2c3e50;
+  line-height: 1.8;
+  padding-left: 2rem;
+}
+
+.achievements {
+  margin-bottom: 4rem;
+}
+
+.achievements h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+.achievement-card {
+  background: #ffffff;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+
+.achievement-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.achievement-icon {
+  margin-bottom: 1rem;
+}
+
+.achievement-card h3 {
+  font-size: 1.3rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.achievement-card p {
+  color: #7f8c8d;
+  font-size: 1rem;
+}
+
+.vision {
+  background: linear-gradient(135deg, #2980b9, #2c3e50);
+  border-radius: 1.5rem;
+  padding: 3rem;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.vision h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.vision p {
+  font-size: 1.3rem;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+@media (max-width: 576px) {
+  .ceo-header h1 {
+    font-size: 2rem;
+  }
+  .ceo-header p {
+    font-size: 1rem;
+  }
+  .ceo-info h2 {
+    font-size: 2rem;
+  }
+  .ceo-title {
+    font-size: 1.2rem;
+  }
+  .ceo-bio {
+    font-size: 0.9rem;
+  }
+  .ceo-image {
+    max-height: 250px;
+  }
+  .ceo-quote {
+    padding: 1.5rem;
+  }
+  .quote-text {
+    font-size: 1.1rem;
+  }
+  .achievements h2 {
+    font-size: 2rem;
+  }
+  .achievement-card {
+    padding: 1rem;
+  }
+  .achievement-card h3 {
+    font-size: 1.1rem;
+  }
+  .achievement-card p {
+    font-size: 0.9rem;
+  }
+  .vision h2 {
+    font-size: 2rem;
+  }
+  .vision p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .ceo-header h1 {
+    font-size: 2.5rem;
+  }
+  .ceo-header p {
+    font-size: 1.1rem;
+  }
+  .ceo-info h2 {
+    font-size: 2.2rem;
+  }
+  .ceo-title {
+    font-size: 1.3rem;
+  }
+  .ceo-bio {
+    font-size: 1rem;
+  }
+  .ceo-image {
+    max-height: 300px;
+  }
+  .achievements h2 {
+    font-size: 2.2rem;
+  }
+  .achievement-card h3 {
+    font-size: 1.2rem;
+  }
+  .vision h2 {
+    font-size: 2.2rem;
+  }
+  .vision p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .ceo-header h1 {
+    font-size: 3rem;
+  }
+  .ceo-info h2 {
+    font-size: 2.5rem;
+  }
+  .ceo-title {
+    font-size: 1.4rem;
+  }
+  .ceo-bio {
+    font-size: 1.1rem;
+  }
+  .ceo-image {
+    max-height: 350px;
+  }
+  .achievements h2 {
+    font-size: 2.5rem;
+  }
+  .vision h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .ceo-header h1 {
+    font-size: 3.2rem;
+  }
+  .ceo-info h2 {
+    font-size: 2.7rem;
+  }
+  .ceo-image {
+    max-height: 400px;
+  }
+  .achievements h2 {
+    font-size: 2.7rem;
+  }
+  .vision h2 {
+    font-size: 2.7rem;
+  }
+}
+
+@media (min-width: 1201px) {
+  .ceo-header h1 {
+    font-size: 3.5rem;
+  }
+  .ceo-info h2 {
+    font-size: 2.8rem;
+  }
+  .ceo-image {
+    max-height: 500px;
+  }
+  .achievements h2 {
+    font-size: 2.8rem;
+  }
+  .vision h2 {
+    font-size: 2.8rem;
+  }
 }

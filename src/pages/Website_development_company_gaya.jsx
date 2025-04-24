@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 import ClientCrousel from "../components/home/ClientCrousel";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import {style } from "../pages/Website_designing_company_nawada";
 // import "../assets/css/style.css";
 
@@ -397,7 +397,7 @@ function Website_development_company_gaya() {
                     networks and member compensations in MLM business models.
                   </p>
                   <a
-                    href="#"
+                    href={`https://dashboard.infoera.in/${gaya}`}
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 24 }}
@@ -522,20 +522,13 @@ function Website_development_company_gaya() {
                   </p>
                   <header className="section-header">
                     <p>Get Started with Info Era Today</p>{" "}
-                    <Link
-                      // to={`http://localhost:3030/${gaya}`}
+                    {/* <Link
                       to={`https://dashboard.infoera.in/${gaya}`}
                       aria-label="Contact Us - Info Era Software Services Pvt. Ltd."
-                      // className="btn btn-primary"
-                      style={{
-                        // backgroundColor: "#012970",
-                        color: "white",
-                        textDecoration: "none",
-                        cursor: "default"
-                      }}
+                      className="btn btn-primary"               
                     >
                       Contact Us
-                    </Link>{" "}
+                    </Link> */}
                   </header>
                   <h4> Contact Us</h4>
                   <p>

@@ -16,8 +16,6 @@ const TeamMemberCard = ({
   name,
   position,
   description,
-  linkedInLink, // Change twitterLink to linkedInLink
-  facebookLink
 }) => {
   return (
     <div className="team-card-container">
@@ -33,14 +31,24 @@ const TeamMemberCard = ({
         <p className="team-text position">{position}</p>
         <p className="team-text description">{description}</p>
         <div className="team-social-icons">
-          <a href={linkedInLink} target="_blank" rel="noopener noreferrer">
+          <a
+            href={
+              "https://www.linkedin.com/company/info-era-software-services-pvt-ltd/?viewAsMember=true"
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               className="linkedin-icon"
               src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
               alt="LinkedIn"
             />
           </a>
-          <a href={facebookLink} target="_blank" rel="noopener noreferrer">
+          <a
+            href={"https://www.facebook.com/infoerasoftware/"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               className="facebook-icon"
               src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg"
@@ -58,8 +66,6 @@ TeamMemberCard.propTypes = {
   name: PropTypes.string.isRequired,
   position: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  linkedInLink: PropTypes.string.isRequired, 
-  facebookLink: PropTypes.string.isRequired
 };
 
 // Reusable Expert Card Component
@@ -102,167 +108,101 @@ function Team() {
       name: "Shubham Raj",  
       position: "CMO of Info Era Software",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
-      facebookLink: "https://www.facebook.com"
     },
     {
       imageSrc: "assets/teamSlider/anjaliKumariImg.png",
       name: "Anjali Kumari",
       position: "HR Manager",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
-      facebookLink: "https://www.facebook.com"
     },
     {
       imageSrc: "assets/teamSlider/images/Aman-Ji-Photo.png",
       name: "Aman Soben",
       position: "Project Manager",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
-      facebookLink: "https://www.facebook.com"
     },
     {
 
       imageSrc: "assets/teamSlider/images/sneha raj.png",
       name: "Sneha Raj",  
-
       position: "Business Dev Associate",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link 
-
-      facebookLink: "https://www.facebook.com"
     },
   ];
   
 
   const teamMembers = [
-    // {
-    //   imageSrc: "assets/teamSlider/shubhamSir.png",
-    //   name: "Shubham Raj",
-    //   position: "CMO of Info Era Software",
-    //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    //   linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
-    //   facebookLink: "https://www.facebook.com"
-    // },
-    // {
-    //   imageSrc: "assets/teamSlider/anjaliKumariImg.png",
-    //   name: "Anjali Kumari",
-    //   position: "HR Manager",
-    //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    //   linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
-    //   facebookLink: "https://www.facebook.com"
-    // },
-    // {
-    //   imageSrc: "assets/teamSlider/images/Aman-Ji-Photo.png",
-    //   name: "Aman Soben",
-    //   position: "Software Developer",
-    //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    //   linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
-    //   facebookLink: "https://www.facebook.com"
-    // },
-    // {
-    //   imageSrc: "assets/teamSlider/images/sneha raj.png",
-    //   name: "Sneha Raj",
-    //   position: "Business Dev Associate",
-    //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    //   linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
-    //   facebookLink: "https://www.facebook.com"
-    // },
     {
       imageSrc: "assets/teamSlider/images/kunalImg.jpeg",
       name: "Kishan Kunal",
       position: "Software Engineer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
-      facebookLink: "https://www.facebook.com"
     },
     {
       imageSrc: "assets/teamSlider/images/nawab-img.png",
       name: "Md Nawab",
       position: "Software Engineer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
-      facebookLink: "https://www.facebook.com"
     },
     {
       imageSrc: "assets/teamSlider/images/Sristi Sinha.png",
       name: "Sristi Sinha",
       position: "Business Dev Executive",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
-      facebookLink: "https://www.facebook.com"
     },
     {
       imageSrc: "assets/teamSlider/images/Aditya photo.JPG",
       name: "Aditya Chandra",
       position: "Marketing Associate",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
-      facebookLink: "https://www.facebook.com"
     },
     {
       imageSrc: "assets/teamSlider/images/HimanshuImg.jpg",
       name: "Himanshu Shekhar",
       position: "Software Engineer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
-      facebookLink: "https://www.facebook.com"
     },
     {
       imageSrc: "assets/teamSlider/images/gauravverma.png",
       name: "Gaurav kumar",
       position: "Software Engineer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
-      facebookLink: "https://www.facebook.com"
     },
     {
       imageSrc: "assets/teamSlider/images/samir.png",
       name: "Samir Ansari",
       position: "Software Developer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
-      facebookLink: "https://www.facebook.com"
     },
     {
       imageSrc: "assets/teamSlider/images/rohitImg.jpg",
       name: "Rohit Kumar",
       position: "Digital Marketing Executive",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
-      facebookLink: "https://www.facebook.com"
     },
     {
       imageSrc: "assets/teamSlider/images/shadAlam.jpeg",
       name: "Shad Alam",
       position: "Software Engineer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
-      facebookLink: "https://www.facebook.com"
     },
     {
       imageSrc: "assets/teamSlider/images/ashish chandra.jpeg",
       name: "Ashish Chandra",
       position: "Software Developer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
-      facebookLink: "https://www.facebook.com"
     },
     {
       imageSrc: "assets/teamSlider/images/shubham-kumar-kunwar.jpeg",
       name: "Shubham Kumar Kunwar",
       position: "Digital Marketing Intern",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
-      facebookLink: "https://www.facebook.com"
     },
     {
       imageSrc: "assets/teamSlider/images/vedPrakash.jpeg",
       name: "Ved Prakash Pandey",
       position: "Software Developer",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      linkedInLink: "https://www.linkedin.com", // Updated to LinkedIn link
-      facebookLink: "https://www.facebook.com"
     }
   ];
 

@@ -94,6 +94,11 @@ function Navbar() {
                     Team
                   </Link>
                 </li>
+                <li>  
+                  <Link to="ceo" title="Team - Info Era">
+                    About CEO
+                  </Link>
+                </li>
                 <li>
                   <Link to="why-choose" title="Why Choose - Info Era">
                     Why Choose Us
