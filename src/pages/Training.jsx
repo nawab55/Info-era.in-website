@@ -1,9 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useRazorpay } from "react-razorpay";
 import toast from "react-hot-toast";
 import uploadFile from "../lib/uploadFile";
 import Spinner from "../components/loader/Spinner";
-import WebDevelopmentBanner from "../courses/webDevelopmentCourse/WebDevelopmentBanner";
+// import WebDevelopmentBanner from "../courses/webDevelopmentCourse/WebDevelopmentBanner";
+import SummerInternshipTraining from "../courses/webDevelopmentCourse/SummerInternshipTraining";
 import { Helmet } from "react-helmet";
 import axios from "axios";
 
@@ -53,6 +54,12 @@ function Training() {
     }
   });
 
+  const mainRef = useRef(null);
+  // In Training component
+  const handleScrollToForm = () => {
+    mainRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   // Add useEffect to fetch courses
   useEffect(() => {
     const fetchCourses = async () => {
@@ -84,7 +91,7 @@ function Training() {
         corDistrict: prev.perDistrict,
         corPinCode: prev.perPinCode
       }));
-    } else { 
+    } else {
       setTrainingFormData((prev) => ({
         ...prev,
         corAddress: "",
@@ -94,7 +101,6 @@ function Training() {
         corPinCode: ""
       }));
     }
-
   }, [
     isSameAddress,
     trainingFormData.perAddress,
@@ -370,16 +376,17 @@ function Training() {
         <div className="container aos-init aos-animate" data-aos="fade-up">
           {/* <WebDesignBanner /> */}
           <h1
-            style={{ color: "#0c219a", fontWeight: 700, marginBottom: "1rem" }}
+            style={{ color: "#0c219a", fontWeight: 700, marginBottom: "1rem", fontStyle: "italic" }}
           >
-            Our Upcoming Training Session.
+            Summer Internship Program 2025.
           </h1>
-          <WebDevelopmentBanner />
+          {/* <WebDevelopmentBanner /> */}
+          <SummerInternshipTraining onRegisterNow={handleScrollToForm} />
         </div>
       </section>
       {/* End Courses Section */}
 
-      <main id="main">
+      <main id="main" ref={mainRef}>
         {/* ======= Features Section ======= */}
         <form
           onSubmit={handleSubmit}
@@ -637,7 +644,10 @@ function Training() {
                     checked={isSameAddress}
                     onChange={(e) => setIsSameAddress(e.target.checked)}
                   />
-                  <label className="form-check-label" htmlFor="sameAsPermanent">
+                  <label
+                    className="form-check-label fs-6"
+                    htmlFor="sameAsPermanent"
+                  >
                     Same as Permanent Address
                   </label>
                 </div>
