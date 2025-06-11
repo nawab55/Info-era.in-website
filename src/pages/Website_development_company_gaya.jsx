@@ -1,11 +1,9 @@
 import { Helmet } from "react-helmet";
 import ClientCrousel from "../components/home/ClientCrousel";
 // import { Link } from "react-router-dom";
-import {style } from "../pages/Website_designing_company_nawada";
 // import "../assets/css/style.css";
 
 function Website_development_company_gaya() {
-  const gaya = style;
   return (
     <>
       <Helmet>
@@ -397,7 +395,7 @@ function Website_development_company_gaya() {
                     networks and member compensations in MLM business models.
                   </p>
                   <a
-                    href={`https://dashboard.infoera.in/${gaya}`}
+                    href={"#"}
                     type="button"
                     className="btn btn-outline-primary"
                     style={{ marginTop: 24 }}

@@ -62,7 +62,7 @@ function SummerInternshipTraining({ onRegisterNow }) {
           {/* Image Section */}
           <div className="col-lg-6 col-md-12 text-center mb-4 mb-lg-0 banner-img-section">
             <img
-              src="assets/img/course/SummerInternship-training.jpeg"
+              src="assets/img/course/SummerInternship-program.jpeg"
               alt="Summer Internship Training"
               title="Summer Internship Training - Info Era Software Services"
               className="img-fluid"
@@ -86,8 +86,8 @@ function SummerInternshipTraining({ onRegisterNow }) {
             </p>
             <h3>📅 Date & Time:</h3>
             <p>
-              🗓️ Start Date: 5 May 2025 <br /> ⏰ Daily Time: 2 Hours Live
-              Sessions + Practical Assignments
+              🗓️ Start Date: Onwards <br /> ⏰ Daily Time: 2 Hours Live Sessions
+              + Practical Assignments
             </p>
             <h3>👩‍💻 What You&apos;ll Learn:</h3>
             <ul>

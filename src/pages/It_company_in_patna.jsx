@@ -40,7 +40,7 @@ function It_company_in_patna() {
         Patna, Web Hosting in Patna, E-Commerce in Patna, Search Engine Optimization SEO Services in Patna, Website Promotion in Patna, Bulk SMS and Voice Call Service in Patna,
         Graphic Designing in Patna, IT Company in Patna"/>
         <meta name="copyright" content="Copyright (c) 2014 by Info Era Software Service Pvt. Ltd."/>
-		    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png"/>
+		    {/* <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png"/> */}
 
       </Helmet>
 

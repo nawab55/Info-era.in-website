@@ -1,0 +1,217 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+/* Certificate Container */
+.certificate-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Certificate Inner */
+.certificate-inner {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  min-height: 500px;
+}
+
+/* Serial Number */
+.serial-number {
+  top: 2rem;
+  right: 5.3125rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #000;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* Certificate Type */
+.certificate-type {
+  top: 14.375rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.certificate-type-bg {
+  padding: 1rem 2rem;
+  background-color: #022755;
+}
+
+.certificate-type-text {
+  font-size: 1.875rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* Student Name */
+.student-name {
+  top: 21.875rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: #022755;
+  border-bottom: 4px solid #022755;
+  font-family: 'Dancing Script', cursive;
+  padding-bottom: 0.5rem;
+}
+
+/* Description */
+.description {
+  top: 25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #0c219a;
+  line-height: 1.75;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* QR Code */
+.qr-code {
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.qr-code-img {
+  width: 6rem;
+  height: 6rem;
+  border: 4px solid #000;
+  border-radius: 0.5rem;
+}
+
+.qr-code-footer {
+  padding: 0.25rem;
+}
+
+.qr-code-text {
+  font-size: 0.375rem;
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* Signature */
+.signature {
+  bottom: 5rem;
+  left: 5rem;
+  font-size: 1rem;
+  color: #0c219a;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.signature-text {
+  width: 8rem;
+}
+
+/* Print Styles */
+@media print {
+  .certificate-container {
+    width: 297mm !important;
+    height: 210mm !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .certificate-inner {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  @page {
+    size: A4 landscape;
+    margin: 0;
+  }
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .certificate-inner {
+    min-height: 300px !important;
+  }
+  .serial-number {
+    font-size: 0.875rem !important;
+    top: 2% !important;
+    right: 5% !important;
+  }
+  .certificate-type {
+    top: 25% !important;
+  }
+  .certificate-type-bg {
+    padding: 0.5rem 1.5rem !important;
+  }
+  .certificate-type-text {
+    font-size: 1.25rem !important;
+  }
+  .student-name {
+    top: 45% !important;
+    font-size: 1.5rem !important;
+  }
+  .description {
+    top: 55% !important;
+    width: 90% !important;
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+  .qr-code-img {
+    width: 5rem !important;
+    height: 5rem !important;
+  }
+  .qr-code-text {
+    font-size: 0.5rem !important;
+  }
+  .signature {
+    bottom: 5% !important;
+    left: 5% !important;
+    font-size: 0.875rem !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .certificate-inner {
+    min-height: 200px !important;
+  }
+  .serial-number {
+    font-size: 0.75rem !important;
+    top: 1% !important;
+    right: 3% !important;
+  }
+  .certificate-type {
+    top: 20% !important;
+  }
+  .certificate-type-bg {
+    padding: 0.3rem 1rem !important;
+  }
+  .certificate-type-text {
+    font-size: 1rem !important;
+  }
+  .student-name {
+    top: 40% !important;
+    font-size: 1.25rem !important;
+  }
+  .description {
+    top: 50% !important;
+    width: 95% !important;
+    font-size: 0.75rem !important;
+    line-height: 1rem !important;
+  }
+  .qr-code-img {
+    width: 3.75rem !important;
+    height: 3.75rem !important;
+  }
+  .qr-code-text {
+    font-size: 0.4rem !important;
+  }
+  .signature {
+    bottom: 3% !important;
+    left: 3% !important;
+    font-size: 0.75rem !important;
+  }
+}
