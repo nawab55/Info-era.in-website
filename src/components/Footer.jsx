@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import RazorpayPaymentButton from "./RazorpayPayment/RazorpayPaymentButton";
+// import RazorpayPaymentButton from "./RazorpayPayment/RazorpayPaymentButton";
 
 function Footer() {
   return (
@@ -73,7 +73,7 @@ function Footer() {
                         title="Pay Now - Info Era Software"
                       />
                     </Link> */}
-                    <RazorpayPaymentButton />
+                    {/* <RazorpayPaymentButton /> */}
                   </div>
                 </div>
               </div>
